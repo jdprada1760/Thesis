@@ -1,0 +1,19 @@
+\contentsline {chapter}{Declaration of Authorship}{i}{dummy.1}
+\vspace {1em}
+\contentsline {chapter}{Abstract}{iii}{dummy.2}
+\vspace {1em}
+\contentsline {chapter}{Acknowledgements}{iv}{dummy.3}
+\vspace {1em}
+\contentsline {chapter}{List of Figures}{vi}{dummy.5}
+\contentsline {chapter}{List of Tables}{vii}{dummy.7}
+\contentsline {chapter}{Abbreviations}{viii}{dummy.9}
+\contentsline {chapter}{Physical Constants}{ix}{dummy.12}
+\contentsline {chapter}{Symbols}{x}{dummy.15}
+\vspace {2em}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.18}
+\contentsline {section}{\numberline {1.1}The three body problem in the plane}{1}{section.19}
+\contentsline {subsection}{\numberline {1.1.1}Integrability of the system}{2}{subsection.22}
+\contentsline {section}{\numberline {1.2}Another Section}{2}{section.25}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}An Appendix}{4}{appendix.26}
+\vspace {2em}
