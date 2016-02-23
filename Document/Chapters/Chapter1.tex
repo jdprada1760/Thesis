@@ -4,12 +4,12 @@ In this chapter a classic approach of a somehow general case of the three body p
 
 \section{The three body problem in the plane}
 
-The three body problem presented here is that of three particles of electrical charge $-e$ and mass $m$ confined to a plane, under the influence of a strong magnetic field perpendicular to it, and forces whose potentials satisfy translational and rotational symmetries in the plane.\\
+The three body problem presented here is that of three particles of electrical charge $e$ and mass $m$ confined to a plane, under the influence of a strong magnetic field perpendicular to it, and forces whose potentials satisfy translational and rotational symmetries in the plane.\\
 
 Given this information, the Hamitonian associated with this system has the form:
 
 \begin{equation}
-H = \sum_{i=1}^{3} \frac{1}{2m_i} \norm{ \vec{p_i} + 
+H = \sum_{i=1}^{3} \frac{1}{2m_i} \norm{ \vec{p_i} - 
 e\vec{ A } \left( \vec{q_i} \right)}^2
 + V \roundP{ \vec{q_1},\vec{q_2},\vec{q_3} }
 +\frac{\omega_c^2}{2}\sum_{i=1}^{3} \norm{\vec{q_i}}^2
@@ -33,20 +33,35 @@ For the proof of integrability for this system, and for further analysis of the 
 This transformation is defined by the following two equations:
 
 \begin{equation}
-\vec{\pi_i} = \vec{p_i} + e\vec{A}\roundP{\vec{q_i}}
+\vec{\pi_i} = \vec{p_i} - e\vec{A}\roundP{\vec{q_i}}
 \label{eq:ct2d1}
 \end{equation}
 
 \begin{equation}
-\vec{R_i} = \vec{q_i} + \frac{\hat{k}\times\vec{\pi_i}}{eB}
+\vec{R_i} = \vec{q_i} - \frac{\hat{k}\times\vec{\pi_i}}{eB}
 \label{eq:ct2d2}
 \end{equation}
 
-The equation \ref{eq:ct2d1} passes from the canonical momenta $\vec{p_i}$ to the linear momenta $\vec{\pi_i}$, which is much more intuitive and understandable; while the equation \ref{eq:ct2d2} passes the general position  $\vec{q_i}$ to the position of the instantaneous guiding centre $\vec{R_i}$.\\
+The equation \ref{eq:ct2d1} passes from the canonical momentum $\vec{p_i}$ to the linear momentum $\vec{\pi_i}$, which is much more intuitive and understandable; while the equation \ref{eq:ct2d2} transforms the general position  $\vec{q_i}$ to the position of the instantaneous guiding centre $\vec{R_i}$.\\
 % Sera carreta?
 
-In a system without the interaction potentials, the electrically charged particles are known to perform circular motion (cyclotron) with radius depending on the initial linear momentum. In this case, the guiding centres would be constant in time as would be the linear momenta. However, with the introduction of an interacting potential, the momenta of each particle may vary, making the guiding centres change too, making it necessary the interpretation of the guiding centres as the centres of the cyclotron that the particles would describe given no interactions, and the instantaneous linear momenta.\\
+In a system without the interaction potentials, the electrically charged particles are known to perform the circular motion of the cyclotron with radii that depends on the initial linear momenta. In this case, the guiding centres would be constant in time as would be the linear momenta. However, with the introduction of an interacting potential, the momentum of each particle may vary making the guiding centre change too, which is why the instantaneous interpretation of the guiding centres is necessary.\\
 
+Now, let us calculate the Poisson brackets for this new set of coordinates in a specific particle.
+
+
+\begin{align*}
+\poisson{\pi_1}{\pi_2} &= \frac{\partial \pi_1}{\partial q_{\alpha}}\frac{\partial \pi_2}{\partial p_{\alpha}} - \frac{\partial \pi_2}{\partial q_{\alpha}}\frac{\partial \pi_1}{\partial p_{\alpha}}\\
+&= -e\delta_{\alpha 2}\frac{\partial A_1}{\partial q_{\alpha}} +e\delta_{\alpha 1}\frac{\partial A_2}{\partial q_{\alpha}}\\
+&= -e\frac{\partial A_1}{\partial q_{2}}  + e\frac{\partial A_2}{\partial q_{1}}\\
+&= e(\nabla \times \vec{A})_3 = eB
+\end{align*}
+
+\begin{align*}
+\poisson{R_1}{R_2} &= \poisson{q_1}{q_2} + \poisson{q_1}{-\frac{\pi_1}{eB}} +\poisson{\frac{\pi_2}{eB}}{q_2} + \poisson{\frac{\pi_2}{eB}}{-\frac{\pi_1}{eB}}\\
+&= \frac{1}{eB}\roundP{\cancelto{-1}{\poisson{p_1}{q_1}}- \cancelto{0}{e\poisson{A_1}{q_1}}+\cancelto{-1}{\poisson{p_2}{q_2}} \cancelto{0}{e\poisson{A_2}{q_2}}} +\frac{eB}{(eB)^2}\\
+&= \frac{-2}{eB}+ \frac{1}{eB} = -(eB)^{-1}
+\end{align*}
 
 
 \section{Another Section}

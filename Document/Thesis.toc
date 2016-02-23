@@ -13,7 +13,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.18}
 \contentsline {section}{\numberline {1.1}The three body problem in the plane}{1}{section.19}
 \contentsline {subsection}{\numberline {1.1.1}Integrability of the system}{2}{subsection.22}
-\contentsline {section}{\numberline {1.2}Another Section}{2}{section.25}
+\contentsline {section}{\numberline {1.2}Another Section}{3}{section.25}
 \vspace {2em}
 \contentsline {chapter}{\numberline {A}An Appendix}{4}{appendix.26}
 \vspace {2em}
