@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  23 FEB 2016 15:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  24 FEB 2016 12:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -713,14 +713,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[2]) (./Appendices/AppendixA.tex [3]
+[2]
+
+LaTeX Warning: Reference `eq:pb1,eq:pb2,eq:pb3' on page 3 undefined on input li
+ne 86.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+) (./Appendices/AppendixA.tex [4]
 Appendix A.
 ------------------------------------------------------------------------------
  A An Appendix
 ------------------------------------------------------------------------------
-[4
+[5
 
-]) [5]
+]) [6]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -731,14 +751,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 44CF89DA584244AA18382EEBD4F83B48;1827.
+(rerunfilecheck)             Checksum: DDCFB8C4D82E1E75B8E5B31DCDE12B42;1956.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
  ) 
 Here is how much of TeX's memory you used:
- 12893 strings out of 494985
- 181590 string characters out of 6180356
- 255203 words of memory out of 5000000
- 15889 multiletter control sequences out of 15000+600000
+ 12901 strings out of 494985
+ 181676 string characters out of 6180356
+ 256485 words of memory out of 5000000
+ 15893 multiletter control sequences out of 15000+600000
  13007 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,19n,45p,916b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -757,10 +781,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (17 pages, 191247 bytes).
+Output written on Thesis.pdf (18 pages, 196141 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
- 44 named destinations out of 1000 (max. 500000)
+ 252 PDF objects out of 1000 (max. 8388607)
+ 213 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 

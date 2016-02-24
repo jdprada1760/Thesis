@@ -26,9 +26,9 @@ V \roundP{ R\vec{q_1}+\vec{a},R\vec{q_2}+\vec{a},R\vec{q_3}+\vec{a}  }= V \round
 
 For any rotation $R$ and translation $\vec{a}$ in the plane.\\
 
-\subsection{Integrability of the system}
+\subsection{The canonical transformation of the guiding centres}
 
-For the proof of integrability for this system, and for further analysis of the trajectories of the particles, let us perform the well known canonical transformation of the guiding centres.\\
+For the proof of integrability for this system, and for further analysis of the trajectories of the particles, let us perform the well known transformation of the guiding centres.\\
 
 This transformation is defined by the following two equations:
 
@@ -49,19 +49,45 @@ In a system without the interaction potentials, the electrically charged particl
 
 Now, let us calculate the Poisson brackets for this new set of coordinates in a specific particle.
 
-
 \begin{align*}
 \poisson{\pi_1}{\pi_2} &= \frac{\partial \pi_1}{\partial q_{\alpha}}\frac{\partial \pi_2}{\partial p_{\alpha}} - \frac{\partial \pi_2}{\partial q_{\alpha}}\frac{\partial \pi_1}{\partial p_{\alpha}}\\
 &= -e\delta_{\alpha 2}\frac{\partial A_1}{\partial q_{\alpha}} +e\delta_{\alpha 1}\frac{\partial A_2}{\partial q_{\alpha}}\\
 &= -e\frac{\partial A_1}{\partial q_{2}}  + e\frac{\partial A_2}{\partial q_{1}}\\
 &= e(\nabla \times \vec{A})_3 = eB
 \end{align*}
-
 \begin{align*}
 \poisson{R_1}{R_2} &= \poisson{q_1}{q_2} + \poisson{q_1}{-\frac{\pi_1}{eB}} +\poisson{\frac{\pi_2}{eB}}{q_2} + \poisson{\frac{\pi_2}{eB}}{-\frac{\pi_1}{eB}}\\
 &= \frac{1}{eB}\roundP{\cancelto{-1}{\poisson{p_1}{q_1}}- \cancelto{0}{e\poisson{A_1}{q_1}}+\cancelto{-1}{\poisson{p_2}{q_2}} \cancelto{0}{e\poisson{A_2}{q_2}}} +\frac{eB}{(eB)^2}\\
 &= \frac{-2}{eB}+ \frac{1}{eB} = -(eB)^{-1}
 \end{align*}
+\begin{align*}
+\poisson{R_{1}}{\pi_{2}} &= \poisson{q_1}{\pi_2}+\cancelto{0}{\poisson{\frac{\pi_2}{eB}}{\pi_2}}\\
+&= \cancelto{0}{\poisson{q_1}{p_2}}-e\cancelto{0}{\poisson{q_1}{A_2}}\\
+&= \poisson{R_2}{\pi_1} = 0
+\end{align*}
+
+This Poisson brackets can be generalised to the transformation for the three particles. Taking $i,j = \poisson{1,2}{3}$ and $\alpha,\beta=\poisson{1}{2}$:
+
+\begin{equation}
+\poisson{\pi_{i,\alpha}}{\pi_{j,\beta}}=\roundP{eB}\delta_{ij}\epsilon_{\alpha \beta}  
+\label{eq:pb1}
+\end{equation}
+
+\begin{equation}
+\poisson{R_{i,\alpha}}{R_{j,\beta}}= -\roundP{eB}^{-1} \delta_{ij}\epsilon_{\alpha \beta}  
+\label{eq:pb2}
+\end{equation}
+
+\begin{equation}
+\poisson{R_{i,\alpha}}{\pi_{j,\beta}}=0 
+\label{eq:pb3} 
+\end{equation}
+
+Equations \ref{eq:pb1,eq:pb2,eq:pb3} allow us to identify the proposed transformation as canonical. However, this is not the usual canonical transformation where the position coordinates and the momentum coordinates are canonical conjugates. In this special case, one component of the momentum is canonical conjugate with the other momentum coordinate, and equally for the position coordinates.\\
+
+Now, with a huge magnetic field, if the potential of the interaction forces does not vary abruptly in space, we can use the approximation $\vec{R}_i \approx \vec{q}_i$ to average the potentials over the guiding centres, that is, we can replace $\vec{q}_i$ for $\vec{R}_i$ in  $V \roundP{ \vec{q_1},\vec{q_2},\vec{q_3} }$.\\
+
+We can interpret the last approximation as follows: In the cyclotron problem, the radius of the circular motion described is proportional to the linear momentum and inversely proportional to the magnetic field. Then, in the presence of a big $B$, the radius of the cyclotron would shrink to a very small size. In the case we are working, the radia of the instantaneous cyclotron motion would be proportional to $\norm{(\hat{k}\times \vec{\pi_i})(eB)^{-1}}$, then, in a presence of a huge magnetic field, the instantaneous radii of the particles would be small enough that the potential would not sense the instantaneous circular motion and would sense the particle as if it where always in the position of its guiding centre.\\
 
 
 \section{Another Section}
