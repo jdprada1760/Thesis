@@ -13,7 +13,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.18}
 \contentsline {section}{\numberline {1.1}The three body problem in the plane}{1}{section.19}
 \contentsline {subsection}{\numberline {1.1.1}The canonical transformation of the guiding centres}{2}{subsection.22}
-\contentsline {section}{\numberline {1.2}Another Section}{4}{section.28}
+\contentsline {section}{\numberline {1.2}Integrability of the system}{5}{section.29}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}An Appendix}{5}{appendix.29}
+\contentsline {chapter}{\numberline {A}An Appendix}{6}{appendix.32}
 \vspace {2em}

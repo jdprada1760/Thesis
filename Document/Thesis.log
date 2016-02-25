@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  24 FEB 2016 12:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  24 FEB 2016 19:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -694,53 +694,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 [2]
 
 LaTeX Warning: Reference `eq:pb1,eq:pb2,eq:pb3' on page 3 undefined on input li
-ne 86.
+ne 87.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
-) (./Appendices/AppendixA.tex [4]
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+[4]) (./Appendices/AppendixA.tex [5]
 Appendix A.
 ------------------------------------------------------------------------------
  A An Appendix
 ------------------------------------------------------------------------------
-[5
+[6
 
-]) [6]
+]) [7]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -751,7 +761,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DDCFB8C4D82E1E75B8E5B31DCDE12B42;1956.
+(rerunfilecheck)             Checksum: 087A0EE1629F0D38A67C568244617EC5;2022.
 
 
 LaTeX Warning: There were undefined references.
@@ -759,10 +769,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
  ) 
 Here is how much of TeX's memory you used:
- 12901 strings out of 494985
- 181676 string characters out of 6180356
- 256485 words of memory out of 5000000
- 15893 multiletter control sequences out of 15000+600000
+ 12909 strings out of 494985
+ 181754 string characters out of 6180356
+ 256734 words of memory out of 5000000
+ 15897 multiletter control sequences out of 15000+600000
  13007 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,19n,45p,916b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -781,10 +791,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (18 pages, 196141 bytes).
+Output written on Thesis.pdf (19 pages, 199796 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 263 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 

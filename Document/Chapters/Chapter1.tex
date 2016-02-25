@@ -9,10 +9,10 @@ The three body problem presented here is that of three particles of electrical c
 Given this information, the Hamitonian associated with this system has the form:
 
 \begin{equation}
-H = \sum_{i=1}^{3} \frac{1}{2m_i} \norm{ \vec{p_i} - 
+H = \sum_{i=1}^{3} \frac{1}{2m} \norm{ \vec{p_i} - 
 e\vec{ A } \left( \vec{q_i} \right)}^2
 + V \roundP{ \vec{q_1},\vec{q_2},\vec{q_3} }
-+\frac{\omega_c^2}{2}\sum_{i=1}^{3} \norm{\vec{q_i}}^2
++\frac{\omega_c^2}{2m}\sum_{i=1}^{3} \norm{\vec{q_i}}^2
 \label{eq:ham2d}
 \end{equation}
 
@@ -22,6 +22,7 @@ Besides, the potential $V \roundP{ \vec{q_1},\vec{q_2},\vec{q_3} }$ satisfies th
 
 \begin{equation}
 V \roundP{ R\vec{q_1}+\vec{a},R\vec{q_2}+\vec{a},R\vec{q_3}+\vec{a}  }= V \roundP{ \vec{q_1},\vec{q_2},\vec{q_3} }
+\label{eq:vsym}
 \end{equation}
 
 For any rotation $R$ and translation $\vec{a}$ in the plane.\\
@@ -87,11 +88,59 @@ Equations \ref{eq:pb1,eq:pb2,eq:pb3} allow us to identify the proposed transform
 
 Now, with a huge magnetic field, if the potential of the interaction forces does not vary abruptly in space, we can use the approximation $\vec{R}_i \approx \vec{q}_i$ to average the potentials over the guiding centres, that is, we can replace $\vec{q}_i$ for $\vec{R}_i$ in  $V \roundP{ \vec{q_1},\vec{q_2},\vec{q_3} }$.\\
 
-We can interpret the last approximation as follows: In the cyclotron problem, the radius of the circular motion described is proportional to the linear momentum and inversely proportional to the magnetic field. Then, in the presence of a big $B$, the radius of the cyclotron would shrink to a very small size. In the case we are working, the radia of the instantaneous cyclotron motion would be proportional to $\norm{(\hat{k}\times \vec{\pi_i})(eB)^{-1}}$, then, in a presence of a huge magnetic field, the instantaneous radii of the particles would be small enough that the potential would not sense the instantaneous circular motion and would sense the particle as if it where always in the position of its guiding centre.\\
+We can interpret the last approximation as follows: In the cyclotron problem, the radius of the circular motion described is proportional to the linear momentum and inversely proportional to the magnetic field. Then, in the presence of a big $B$, the radius of the cyclotron would shrink to a very small size. In the case we are working, the radia of the instantaneous cyclotron motion would be proportional to $\norm{(\hat{k} \times \vec{\pi_i})(eB)^{-1}}$, then, in a presence of a huge magnetic field, the instantaneous radii of the particles would be small enough that the potential would not sense the instantaneous circular motion and would sense the particle as if it where always in the position of its guiding centre.\\
+
+Before replacing the new set of coordinates in the Hamiltonian, it is necessary to do a scale transformation to obtain the proper Poisson brackets for the formal definition of canonical transformation, that is:
+
+\begin{align*}
+\vec{\pi}_i & \rightarrow (eB)^{-1/2} \vec{ \pi}_i\\
+\vec{R}_i & \rightarrow \sqrt{eB} \vec{R}_i
+\end{align*}
+
+With this consideration, the Hamiltonian of the system in the new set of rescaled coordinates is given by:
+
+\begin{equation}
+H = \sum_{i=1}^{3} \frac{eB}{2m} \norm{ \vec{\pi}_i}^2
++ V\roundP{ (eB)^{-1/2}\vec{R_1},(eB)^{-1/2}\vec{R_2}, (eB)^{-1/2}\vec{R_3} }
++\frac{\omega_c^2}{2meB}\sum_{i=1}^{3} \norm{\vec{R}_i}^2
+\label{eq:newham}
+\end{equation}
+
+This Hamiltonian, given equation \ref{eq:pb3} can be decomposed in a Hamiltonian that describes the movement of the guiding centres, and other that describes de movement of the linear momenta. In one hand, the Hamiltonian for the linear momenta is easily identified with the harmonic oscillator, whereas the one that characterises the movement of the guiding centres needs a deeper analysis.\\
+
+\section{Integrability of the system}
+As the Hamiltonian describing the trajectories of the linear momenta of the particles is that of an harmonic oscillator, this part of the problem is integrable and its solutions are widely known. The guiding centre Hamiltonian, in turn, needs to be analysed more deeply. For this purpose, take the following convention:\\
 
 
-\section{Another Section}
+\begin{equation}
+H_{gc} = \frac{{\omega_c^*}^2}{2m} \sum_{i=1}^{3} \norm{\bar{x}^2} + \norm{\bar{y}^2}
++ V^*\roundP{\bar{x},\bar{y}}
+\label{eq:hamgc}
+\end{equation}
 
-Phasellus nisi quam, volutpat non ullamcorper eget, congue fringilla leo. Cras et erat et nibh placerat commodo id ornare est. Nulla facilisi. Aenean pulvinar scelerisque eros eget interdum. Nunc pulvinar magna ut felis varius in hendrerit dolor accumsan. Nunc pellentesque magna quis magna bibendum non laoreet erat tincidunt. Nulla facilisi.
+Where $\bar{x} = \roundP{x_1,x_2,x_3}$ and $\bar{y} = \roundP{y_1,y_2,y_3}$, being $x_i,y_i$ the rescaled coordinates of the guiding centres of the particles. Besides, the potential $V$ and the constant $\omega_c$ have been rescaled to take into account this rescale and maintain the original form of the Hamiltonian:
 
-Duis eget massa sem, gravida interdum ipsum. Nulla nunc nisl, hendrerit sit amet commodo vel, varius id tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac dolor est. Suspendisse ultrices tincidunt metus eget accumsan. Nullam facilisis, justo vitae convallis sollicitudin, eros augue malesuada metus, nec sagittis diam nibh ut sapien. Duis blandit lectus vitae lorem aliquam nec euismod nisi volutpat. Vestibulum ornare dictum tortor, at faucibus justo tempor non. Nulla facilisi. Cras non massa nunc, eget euismod purus. Nunc metus ipsum, euismod a consectetur vel, hendrerit nec nunc.
+\begin{align*}
+&\omega^* = \frac{\omega}{\sqrt{eB}}\\
+&V^*\roundP{\bar{x},\bar{y}} = V\roundP{eB\bar{x},eB\bar{y}}
+\end{align*}
+
+Clearly, the new potential $V^*$ still has the symmetries expressed in the equation \ref{eq:vsym}. Furthermore, in the new order for the scaled guiding centres coordinates the Poisson brackets take the form:
+
+\begin{equation}
+\poisson{y_i}{x_j} = \delta_{ij}
+\label{lastpb}
+\end{equation}
+
+
+
+
+
+
+
+
+
+
+
+
+
