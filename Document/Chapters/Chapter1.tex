@@ -1,8 +1,8 @@
-\chapter{Introduction}
+\chapter{The three body problem in the plane}
 
 In this chapter a classic approach of a somehow general case of the three body problem in 2 dimensions is going to be presented. This will give some necessary intuition to develop the analogous problem in the spherical geometry. To begin with, the problem is going to be described in great detail; then its integrability is going to be proven; and finally, a formalism to describe the movement of the particles is going to be presented.\\
 
-\section{The three body problem in the plane}
+\section{The definition of the problem}
 
 The three body problem presented here is that of three particles of electrical charge $e$ and mass $m$ confined to a plane, under the influence of a strong magnetic field perpendicular to it, and forces whose potentials satisfy translational and rotational symmetries in the plane.\\
 
@@ -27,7 +27,7 @@ V \roundP{ R\vec{q_1}+\vec{a},R\vec{q_2}+\vec{a},R\vec{q_3}+\vec{a}  }= V \round
 
 For any rotation $R$ and translation $\vec{a}$ in the plane.\\
 
-\subsection{The canonical transformation of the guiding centres}
+\section{The canonical transformation of the guiding centres}
 
 For the proof of integrability for this system, and for further analysis of the trajectories of the particles, let us perform the well known transformation of the guiding centres.\\
 
@@ -43,7 +43,7 @@ This transformation is defined by the following two equations:
 \label{eq:ct2d2}
 \end{equation}
 
-The equation \ref{eq:ct2d1} passes from the canonical momentum $\vec{p_i}$ to the linear momentum $\vec{\pi_i}$, which is much more intuitive and understandable; while the equation \ref{eq:ct2d2} transforms the general position  $\vec{q_i}$ to the position of the instantaneous guiding centre $\vec{R_i}$.\\
+The equation \eqref{eq:ct2d1} passes from the canonical momentum $\vec{p_i}$ to the linear momentum $\vec{\pi_i}$, which is much more intuitive and understandable; while the equation \eqref{eq:ct2d2} transforms the general position  $\vec{q_i}$ to the position of the instantaneous guiding centre $\vec{R_i}$.\\
 % Sera carreta?
 
 In a system without the interaction potentials, the electrically charged particles are known to perform the circular motion of the cyclotron with radii that depends on the initial linear momenta. In this case, the guiding centres would be constant in time as would be the linear momenta. However, with the introduction of an interacting potential, the momentum of each particle may vary making the guiding centre change too, which is why the instantaneous interpretation of the guiding centres is necessary.\\
@@ -84,11 +84,11 @@ This Poisson brackets can be generalised to the transformation for the three par
 \label{eq:pb3} 
 \end{equation}
 
-Equations \ref{eq:pb1,eq:pb2,eq:pb3} allow us to identify the proposed transformation as canonical. However, this is not the usual canonical transformation where the position coordinates and the momentum coordinates are canonical conjugates. In this special case, one component of the momentum is canonical conjugate with the other momentum coordinate, and equally for the position coordinates.\\
+Equations \eqref{eq:pb1}-\eqref{eq:pb2} allow us to identify the proposed transformation as canonical. However, this is not the usual canonical transformation where the position coordinates and the momentum coordinates are canonical conjugates. In this special case, one component of the momentum is canonical conjugate with the other momentum coordinate, as equally happens for the position coordinates.\\
 
 Now, with a huge magnetic field, if the potential of the interaction forces does not vary abruptly in space, we can use the approximation $\vec{R}_i \approx \vec{q}_i$ to average the potentials over the guiding centres, that is, we can replace $\vec{q}_i$ for $\vec{R}_i$ in  $V \roundP{ \vec{q_1},\vec{q_2},\vec{q_3} }$.\\
 
-We can interpret the last approximation as follows: In the cyclotron problem, the radius of the circular motion described is proportional to the linear momentum and inversely proportional to the magnetic field. Then, in the presence of a big $B$, the radius of the cyclotron would shrink to a very small size. In the case we are working, the radia of the instantaneous cyclotron motion would be proportional to $\norm{(\hat{k} \times \vec{\pi_i})(eB)^{-1}}$, then, in a presence of a huge magnetic field, the instantaneous radii of the particles would be small enough that the potential would not sense the instantaneous circular motion and would sense the particle as if it where always in the position of its guiding centre.\\
+We can support the last approximation as follows: In the cyclotron problem, the radius of the circular motion described is proportional to the linear momentum and inversely proportional to the magnetic field. Then, in the presence of a big $B$, the radius of the cyclotron would shrink to a very small size. Regarding the case we are working with, the radii of the instantaneous cyclotron motion would be proportional to $\norm{(\hat{k} \times \vec{\pi_i})(eB)^{-1}}$ and its frequency to $\sqrt{B}$. As the potential $V$ does not vary abruptly in the radii scale, the averaging of this motion over the guiding centres means that this potential does not sense that circular motion. Moreover, given the big frequency of the cyclotrons and the scale of variance of the potential, the scale of time of the local circular motions is far smaller than that of the motion of the guiding centres. Therefore, we can ignore the instantaneous quality of the circular motion, and take it as constant in a scale of time small enough for the motion of the guiding centres. In this sense we say that the coordinates for the guiding centres decouple from that of the linear momenta of the particles.\\
 
 Before replacing the new set of coordinates in the Hamiltonian, it is necessary to do a scale transformation to obtain the proper Poisson brackets for the formal definition of canonical transformation, that is:
 
@@ -106,10 +106,10 @@ H = \sum_{i=1}^{3} \frac{eB}{2m} \norm{ \vec{\pi}_i}^2
 \label{eq:newham}
 \end{equation}
 
-This Hamiltonian, given equation \ref{eq:pb3} can be decomposed in a Hamiltonian that describes the movement of the guiding centres, and other that describes de movement of the linear momenta. In one hand, the Hamiltonian for the linear momenta is easily identified with the harmonic oscillator, whereas the one that characterises the movement of the guiding centres needs a deeper analysis.\\
+This Hamiltonian, given equation \eqref{eq:pb3} can be decomposed in a Hamiltonian that describes the movement of the guiding centres, and other that describes de movement of the linear momenta. In one hand, the Hamiltonian for the linear momenta is easily identified with the harmonic oscillator, whereas the one that characterises the movement of the guiding centres needs a deeper analysis.\\
 
 \section{Integrability of the system}
-As the Hamiltonian describing the trajectories of the linear momenta of the particles is that of an harmonic oscillator, this part of the problem is integrable and its solutions are widely known. The guiding centre Hamiltonian, in turn, needs to be analysed more deeply. For this purpose, take the following convention:\\
+As the Hamiltonian describing the trajectories of the linear momenta of the particles is that of an harmonic oscillator, this part of the problem is integrable and its solutions are widely known. The guiding centre Hamiltonian, in turn, needs to be analysed more deeply. For this purpose, let us take the following convention:\\
 
 
 \begin{equation}
@@ -118,22 +118,75 @@ H_{gc} = \frac{{\omega_c^*}^2}{2m} \sum_{i=1}^{3} \norm{\bar{x}^2} + \norm{\bar{
 \label{eq:hamgc}
 \end{equation}
 
-Where $\bar{x} = \roundP{x_1,x_2,x_3}$ and $\bar{y} = \roundP{y_1,y_2,y_3}$, being $x_i,y_i$ the rescaled coordinates of the guiding centres of the particles. Besides, the potential $V$ and the constant $\omega_c$ have been rescaled to take into account this rescale and maintain the original form of the Hamiltonian:
+Where $\bar{x} = \roundP{x_1,x_2,x_3}$ and $\bar{y} = \roundP{y_1,y_2,y_3}$, being $x_i,y_i$ the rescaled coordinates of the guiding centres of the particles. For simplicity, the potential $V$ and the constant $\omega_c$ have been rescaled to take into account the scale transform of the coordinates and maintain the original form of the Hamiltonian:
 
 \begin{align*}
 &\omega^* = \frac{\omega}{\sqrt{eB}}\\
-&V^*\roundP{\bar{x},\bar{y}} = V\roundP{eB\bar{x},eB\bar{y}}
+&V^*\roundP{\bar{x},\bar{y}} = V\roundP{\frac{\bar{x}}{\sqrt{eB}},\frac{\bar{y}}{\sqrt{eB}}}
 \end{align*}
 
-Clearly, the new potential $V^*$ still has the symmetries expressed in the equation \ref{eq:vsym}. Furthermore, in the new order for the scaled guiding centres coordinates the Poisson brackets take the form:
+Clearly, the new potential $V^*$ still has the symmetries expressed in the equation \eqref{eq:vsym}. Furthermore, in the new order for the scaled guiding centres coordinates, the Poisson brackets take the form:
 
 \begin{equation}
 \poisson{y_i}{x_j} = \delta_{ij}
 \label{lastpb}
 \end{equation}
 
+Now that the guiding centres Hamiltonian has been expressed in terms of the proper canonical set of coordinates, the fastest way to prove the integrability of the system is via the Liouville-Arnol'd theorem \cite[Sect. 49]{arnold}. For this theorem, it is only necessary to find 2 more independent integrals in involution (besides the Hamiltonian).\\
+
+To get this 2 integrals, let us exploit the symmetries of the guiding centres Hamiltonian. We then define the generators of translations and rotation in the plane, which are symmetries of the potential:
+
+\begin{align*}
+T_x &= \sum_{i=1}^{3} x_i \\
+T_y &= \sum_{i=1}^{3} y_i 
+\end{align*}
 
 
+\begin{equation}
+R_z = \frac{1}{2} \sum_{i=1}^{3} \roundP{x_i^2 + y_i^2}
+\label{eq:genrotation}
+\end{equation}
+
+It is easily verifiable that these are indeed the symmetries generators. To see that, take the first order infinitesimal transformations of translation and rotation:
+
+\begin{align*}
+x_i  &\rightarrow x_i + \epsilon \\
+y_i &\rightarrow y_i + \epsilon \\
+\roundP{x_i,y_i} &\rightarrow \roundP{x_i +\epsilon y_i, y_i - \epsilon x_i}
+\end{align*}
+
+Now note that for the infinitesimal translations, the potential of the primed coordinates is related to the potential of the normal coordinates by a directional derivative, which can be identified with the Poisson bracket of the potential $V^*$ and each generator:
+
+\begin{align*}
+0={V^*\roundP{\bar{x}+\epsilon,\bar{y}} - V^*\roundP{\bar{x},\bar{y}}} &= \epsilon \sum_{i = 1}^3 \frac{\partial V^*\roundP{\bar{x},\bar{y}}}{\partial x_i}  = \epsilon \poisson{V^*}{T_x} = 0\\
+0={V^*\roundP{\bar{x},\bar{y}+\epsilon} - V^*\roundP{\bar{x},\bar{y}}} &= \epsilon \sum_{i = 1}^3 \frac{\partial V^*\roundP{\bar{x},\bar{y}}}{\partial y_i} = \epsilon \poisson{T_y}{V^*} = 0
+\end{align*}
+
+For the infinitesimal rotation, the relation is analogous:
+
+\begin{equation*}
+0={V^*\roundP{\bar{x} +\epsilon \bar{y}, \bar{y} - \epsilon \bar{y}}-V^*\roundP{\bar{x},\bar{y}}}
+= \frac{\partial V^*\roundP{\bar{x},\bar{y}}}{\partial x_i} \roundP{\epsilon y_i} -                                \frac{\partial V^*\roundP{\bar{x},\bar{y}}}{\partial y_i} \roundP{\epsilon x_i}                                        = \epsilon \poisson{V^*}{R_z}
+\end{equation*}
+
+Therefore, we conclude that the generators of translations and rotations in the plane commute with the potential $V^*$ due to its symmetries. Besides, the generator of rotations is multiple of the harmonic-like part of the guiding centres Hamiltonian which validates that $R_z$ is other integral in involution. The generators of translations are not integrals in involution, for they do not commute with the harmonic potential, however, we can calculate a quantity in terms of these generators, which already commute with the potential $V^*$, to make it commute with the remaining part of $H_{gc}$: 
+
+\begin{equation}
+L = T_x^2 + T_y^2
+\end{equation}
+
+This new quantity $L$ clearly commutes with the potential $V^*$ because the Poisson bracket is  a linear differential operator in one component and it obeys the Leibniz rule. Moreover, it also commutes with the rotation generator $R_z$:
+
+\begin{align*}
+\poisson{T_x^2+ T_y^2}{ R_z} &= \sum_{i,j,k} \poisson{x_ix_j + y_iy_j}{x_k^2 + y_k^2}\\
+&= \sum_{i,j,k}  \poisson{x_ix_j}{y_k^2} + \poisson{y_iy_j}{x_k^2} = \sum_{i,j,k} y_k \poisson{x_ix_j}{y_k} + x_k \poisson{y_iy_j}{x_k}\\
+&= \sum_{i,j,k} y_kx_i\delta_{jk}+y_kx_j\delta_{ik} - x_ky_i\delta_{jk}- x_ky_j\delta_{ik}\\
+&= \sum_{i,j} y_jx_i + y_ix_j - x_jy_i - x_iy_j = 0
+\end{align*}
+
+As we found $L$ as the last integral in involution, we conclude, by the Liouville-Arnol'd theorem, that the subsystem of guiding centres is integrable by quadratures.\\
+
+\section{Analysis of the motion}
 
 
 
