@@ -145,34 +145,35 @@
 \newcommand*{\FACULTY}[1]{\def\FACNAME{#1}}
 \newcommand*{\subject}[1]{\def\subjectname{#1}}
 \newcommand*{\keywords}[1]{\def\keywordnames{#1}}
-\supervisor  {}
-\examiner    {}
-\degree      {}
-\authors     {}
-\university  {\texorpdfstring{\href{University Web Site URL Here (include http://)}
-                {University Name}}
-                {University Name}}
-\UNIVERSITY  {\texorpdfstring{\href{University Web Site URL Here (include http://)}
-                {UNIVERSITY NAME (IN BLOCK CAPITALS)}}
-                {UNIVERSITY NAME (IN BLOCK CAPITALS)}}
-\department  {\texorpdfstring{\href{Department or School Web Site URL Here (include http://)}
-                {Department or School Name}}
-                {Department or School Name}}
-\DEPARTMENT  {\texorpdfstring{\href{Department or School Web Site URL Here (include http://)}
-                {DEPARTMENT OR SCHOOL NAME (IN BLOCK CAPITALS)}}
-                {DEPARTMENT OR SCHOOL NAME (IN BLOCK CAPITALS)}}
+\supervisor  {PhD Alonso Botero}
+\examiner    {}\mainmatter	  % Begin normal, numeric (1,2,3...) page numbering
+
+\degree      {Bachelor in Physics}
+\authors     {Jesus Prada}
+\university  {\texorpdfstring{\href{http://http://www.uniandes.edu.co/}
+                {Universidad de los Andes}}
+                {Universidad de los Andes}}
+\UNIVERSITY  {\texorpdfstring{\href{http://http://www.uniandes.edu.co/}
+                {UNIVERSIDAD DE LOS ANDES}}
+                {UNIVERSIDAD DE LOS ANDES}}
+\department  {\texorpdfstring{\href{http://fisica.uniandes.edu.co/en/}
+                {Department of Physics}}
+                {Department of Physics}}
+\DEPARTMENT  {\texorpdfstring{\href{Department or School Web Site URL Here (include http://fisica.uniandes.edu.co/en/)}
+                {DEPARTMENT OF PHYSICS}}
+                {DEPARTMENT OF PHYSICS}}
 \group       {\texorpdfstring{\href{Research Group Web Site URL Here (include http://)}
                 {Research Group Name}}
                 {Research Group Name}}
 \GROUP       {\texorpdfstring{\href{Research Group Web Site URL Here (include http://)}
                 {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}}
                 {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}}
-\faculty     {\texorpdfstring{\href{Faculty Web Site URL Here (include http://)}
-                {Faculty Name}}
-                {Faculty Name}}
-\FACULTY     {\texorpdfstring{\href{Faculty Web Site URL Here (include http://)}
-                {FACULTY NAME (IN BLOCK CAPITALS)}}
-                {FACULTY NAME (IN BLOCK CAPITALS)}}
+\faculty     {\texorpdfstring{\href{http://ciencias.uniandes.edu.co/}
+                {Faculty of Sciences}}
+                {Faculty of Sciences}}
+\FACULTY     {\texorpdfstring{\href{http://ciencias.uniandes.edu.co/}
+                {FACULTY OF SCIENCES}}
+                {FACULTY OF SCIENCES}}
 \addresses   {}
 \subject     {}
 \keywords    {}
@@ -201,7 +202,7 @@
       {\LARGE \authornames \par}
       \vfill
       {\large A thesis submitted in partial fulfillment for the \par}
-      {\large degree of Doctor of Philosophy \par}
+      {\large degree of Bachelor in Physics \par}
       \bigskip
       \bigskip
       {\large in the \par}
@@ -244,7 +245,7 @@
     {\normalsize \facname \par}
     {\normalsize \deptname \par}
     \bigskip
-    {\normalsize Doctor of Philosophy\par}
+    {\normalsize Bachelor in Physics\par}
     \bigskip
     {\normalsize\bf \@title \par}
     \medskip

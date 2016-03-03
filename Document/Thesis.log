@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  2 MAR 2016 20:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  2 MAR 2016 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -573,6 +573,7 @@ LaTeX Info: Redefining \nameref on input line 26.
 
 
 
+
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 ------------------------------------------------------------------------------
  Declaration of Authorship
@@ -779,7 +780,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
 Here is how much of TeX's memory you used:
  12916 strings out of 494985
  181808 string characters out of 6180356
- 256777 words of memory out of 5000000
+ 256708 words of memory out of 5000000
  15899 multiletter control sequences out of 15000+600000
  13007 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -799,7 +800,7 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (21 pages, 208004 bytes).
+Output written on Thesis.pdf (21 pages, 206000 bytes).
 PDF statistics:
  281 PDF objects out of 1000 (max. 8388607)
  239 compressed objects within 3 object streams
