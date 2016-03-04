@@ -1,0 +1,67 @@
+\chapter{The problem of a charged particle in the magnetic field of a monopole}
+
+With the objective to obtain some intuition about the N-body problem restricted to a spherical geometry, we study in this chapter the symmetries and trajectories of a charged particle under the influence of the magnetic field of a monopole. To achieve this we present the deduction, via the Lagrangian formalism, of the so called Poincar\'e cone \cite{poincare} that characterises the trajectory of a particle in this situation. We then extrapolate the important symmetries used in the Lagrangian formalism to the Hamiltonian formalism to retrieve some important aspects of the classical counterparts of the known Haldane formalism \cite{haldane}.\\
+
+\section{The Poincar\'e cone}
+Let $L$ be the Lagrangian of a charged particle of charge $-e$ and mass $m$ under the influence of a magnetic monopole of magnitude $g$. Then $L$ takes the form:
+
+\begin{equation}
+L\roundP{\vec{x},\dot{\vec{x}}} = \frac{m}{2}\norm{\dot{\vec{x}}}^2 - e\vec{A}_{\hat{u}}(\vec{x})\cdot\dot{\vec{x}}
+\label{eq:lagrangian}
+\end{equation}
+
+Where $\vec{A}(\vec{x})$ is the vector potential of the magnetic monopole with singularity along the direction defined by the unit vector $\hat{u}$. This potential takes the form \cite{poincare}:
+
+\begin{equation}
+\vec{A}_{\hat{u}}(\vec{x}) = \frac{g}{r}\frac{\hat{u}\times\hat{r}}{1+\hat{u}\cdot\hat{r}}
+\label{eq:monopolepotential}
+\end{equation}
+
+The first thing to note in this Lagrangian is its time independence, which yields to the conservation of the Jacobi integral:
+
+\begin{equation*}
+ \frac{\partial L}{\partial\dot{\vec{x}}}\cdot\dot{\vec{x}} - L = m\norm{\dot{\vec{x}}}^2                    =m\norm{\dot{\vec{x_0}}}^2 
+\end{equation*}
+
+With $\dot{\vec{x_0}}$ the initial velocity of the particle. Here the Jacobi integral clearly represents the kinetic energy of the particle, which is constant in time because of the linear dependence of the term associated with the magnetic interaction that basically means that the magnetic fields do no work.\\
+
+For the following symmetry of the system, let us take the action integral:
+
+\begin{equation}
+S = \int_{t_1}^{t_2}L\roundP{\vec{x},\dot{\vec{x}}}dt = \int_{t_1}^{t_2}\roundP{\frac{m}{2}\norm{\dot{\vec{x}}}^2 - e\vec{A}_{\hat{u}}(\vec{x})\cdot\dot{\vec{x}}}dt 
+\label{eq:action}
+\end{equation}
+
+We note that this action is invariant under the following scale transformation:
+
+\begin{align*}
+\vec{x}' &= \exp^{s}\vec{x}\\
+t'&= \exp^{2s}t
+\end{align*}
+
+Which, by the Noether's theorem must imply a conserved quantity. To calculate it we prefer the method stated in \cite[Thm (dontforget)]{scheck}, however, to apply it, the Lagrangian must be reparametrised to include the time as a generalised coordinate. To achieve this, note that:
+
+\begin{align*}
+\dot{\vec{x}} = \frac{d\vec{x}}{dt} = \frac{\frac{d\vec{x}}{d\tau}}{\frac{dt}{d\tau}} \coloneqq \frac{\mathring{\vec{x}}}{\mathring{t}}
+\end{align*}
+
+Then the action can be written in terms of the new parameter $\tau$:
+
+\begin{equation*}
+S = \int_{t_1}^{t_2}L\roundP{\vec{x},\dot{\vec{x}}}dt = \int_{\tau_1}^{\tau_2}\mathring{t}L\roundP{\vec{x},\mathring{\vec{x}}{\mathring{t}}^{-1}}d\tau                                                                    = \int_{\tau_1}^{\tau_2}L'\roundP{\vec{x},\mathring{\vec{x}},\mathring{t}}d\tau
+\label{eq:action}
+\end{equation*}
+
+This gives us the new parametrised Lagrangian $L'$:
+
+\begin{equation*}
+L'\roundP{\vec{x},\mathring{\vec{x}},\mathring{t}} = \mathring{t}L\roundP{\vec{x},\mathring{\vec{x}}{\mathring{t}}^{-1}}
+\end{equation*}
+
+
+
+
+
+
+
+
