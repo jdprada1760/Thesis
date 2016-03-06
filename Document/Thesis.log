@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  3 MAR 2016 21:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  5 MAR 2016 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -777,7 +777,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
  []
 
 [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
@@ -806,20 +806,40 @@ Package natbib Warning: Citation `poincare' on page 9 undefined on input line 1
 [9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 
-Package natbib Warning: Citation `scheck' on page 10 undefined on input line 42
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Package natbib Warning: Citation `scheck' on page 10 undefined on input line 45
 .
 
-[10]) (./Appendices/AppendixA.tex [11]
+[10]
+
+Package natbib Warning: Citation `scheck' on page 11 undefined on input line 64
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+[11] [12]) (./Appendices/AppendixA.tex [13]
 Appendix A.
 ------------------------------------------------------------------------------
  A An Appendix
 ------------------------------------------------------------------------------
-) [12
+) [14
 
 ]
 ------------------------------------------------------------------------------
@@ -835,7 +855,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C9F0203FDD05CB958A28D08AAAB3F7BD;3327.
+(rerunfilecheck)             Checksum: 38EB4DF3095E24318E163A0B2C5FB40F;3690.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -843,10 +863,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
- 13407 strings out of 494985
- 190362 string characters out of 6180356
- 267368 words of memory out of 5000000
- 16366 multiletter control sequences out of 15000+600000
+ 13421 strings out of 494985
+ 190525 string characters out of 6180356
+ 267752 words of memory out of 5000000
+ 16372 multiletter control sequences out of 15000+600000
  13007 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,19n,45p,1244b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -865,11 +885,12 @@ amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (24 pages, 220973 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Thesis.pdf (26 pages, 231717 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 281 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 361 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

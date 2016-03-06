@@ -136,10 +136,13 @@ Now that the guiding centres Hamiltonian has been expressed in terms of the prop
 
 To get this 2 integrals, let us exploit the symmetries of the guiding centres Hamiltonian. We then define the generators of translations and rotation in the plane, which are symmetries of the potential:
 
-\begin{align*}
+\begin{equation}
+\begin{aligned}
 T_x &= \sum_{i=1}^{3} x_i \\
 T_y &= \sum_{i=1}^{3} y_i 
-\end{align*}
+\end{aligned}
+\label{eq:gentranslation}
+\end{equation}
 
 
 \begin{equation}
@@ -149,11 +152,17 @@ R_z = \frac{1}{2} \sum_{i=1}^{3} \roundP{x_i^2 + y_i^2}
 
 It is easily verifiable that these are indeed the symmetries generators. To see that, take the first order infinitesimal transformations of translation and rotation:
 
-\begin{align*}
-x_i  &\rightarrow x_i + \epsilon \\
-y_i &\rightarrow y_i + \epsilon \\
-\roundP{x_i,y_i} &\rightarrow \roundP{x_i +\epsilon y_i, y_i - \epsilon x_i}
-\end{align*}
+\begin{equation*}
+x_i  \rightarrow x_i + \epsilon 
+\end{equation*}
+
+\begin{equation*}
+y_i \rightarrow y_i + \epsilon 
+\end{equation*}
+
+\begin{equation*}
+\roundP{x_i,y_i} \rightarrow \roundP{x_i +\epsilon y_i, y_i - \epsilon x_i}
+\end{equation*}
 
 Now note that for the infinitesimal translations, the potential of the primed coordinates is related to the potential of the normal coordinates by a directional derivative, which can be identified with the Poisson bracket of the potential $V^*$ and each generator:
 

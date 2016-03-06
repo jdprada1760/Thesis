@@ -2,7 +2,7 @@
 
 With the objective to obtain some intuition about the N-body problem restricted to a spherical geometry, we study in this chapter the symmetries and trajectories of a charged particle under the influence of the magnetic field of a monopole. To achieve this we present the deduction, via the Lagrangian formalism, of the so called Poincar\'e cone \cite{poincare} that characterises the trajectory of a particle in this situation. We then extrapolate the important symmetries used in the Lagrangian formalism to the Hamiltonian formalism to retrieve some important aspects of the classical counterparts of the known Haldane formalism \cite{haldane}.\\
 
-\section{The Poincar\'e cone}
+\section{Definition of the Lagrangian}
 Let $L$ be the Lagrangian of a charged particle of charge $-e$ and mass $m$ under the influence of a magnetic monopole of magnitude $g$. Then $L$ takes the form:
 
 \begin{equation}
@@ -10,36 +10,39 @@ L\roundP{\vec{x},\dot{\vec{x}}} = \frac{m}{2}\norm{\dot{\vec{x}}}^2 - e\vec{A}_{
 \label{eq:lagrangian}
 \end{equation}
 
-Where $\vec{A}(\vec{x})$ is the vector potential of the magnetic monopole with singularity along the direction defined by the unit vector $\hat{u}$. This potential takes the form \cite{poincare}:
+Where $\vec{A}(\vec{x})$ is the vector potential of the magnetic monopole with singularity along the direction defined by the unit vector $\hat{u}$. It is know that there is no vector potential that is finite in $\mathbb{R}^3$ which reproduces the magnetic field of a monopole; in addition, the different vector potentials identified by different unit vectors $\hat{u}$ are related by a gauge transformation which leaves the trajectories invariant. This family of vector potentials are given by \cite{poincare}:
 
 \begin{equation}
 \vec{A}_{\hat{u}}(\vec{x}) = \frac{g}{r}\frac{\hat{u}\times\hat{r}}{1+\hat{u}\cdot\hat{r}}
 \label{eq:monopolepotential}
 \end{equation}
 
-The first thing to note in this Lagrangian is its time independence, which yields to the conservation of the Jacobi integral:
+\section{The symmetries and its conserved quantities}
+
+The first thing to note in the previously defined Lagrangian is its time independence, which yields to the conservation of the Jacobi integral:
 
 \begin{equation*}
  \frac{\partial L}{\partial\dot{\vec{x}}}\cdot\dot{\vec{x}} - L = m\norm{\dot{\vec{x}}}^2                    =m\norm{\dot{\vec{x_0}}}^2 
 \end{equation*}
 
-With $\dot{\vec{x_0}}$ the initial velocity of the particle. Here the Jacobi integral clearly represents the kinetic energy of the particle, which is constant in time because of the linear dependence of the term associated with the magnetic interaction that basically means that the magnetic fields do no work.\\
+With $\dot{\vec{x_0}}$ the initial velocity of the particle. Here the Jacobi integral clearly represents the kinetic energy of the particle, which is constant in time because of the linear dependence of the term associated with the magnetic interaction, that basically means that the magnetic fields do no work.\\
 
-For the following symmetry of the system, let us take the action integral:
+Now, due to the simplicity of the problem, one can suspect of many other symmetries. The next symmetry presented here is not associated with Lagrangian, but rather with the action invariance. If we define the action as in the equation \refeq{eq:action}, it can be seen that it may be invariant under a proper scale transform of position and time. It is not difficult to find this transform, and it is presented in equation \refeq{eq:scaletrans}.\\
 
 \begin{equation}
 S = \int_{t_1}^{t_2}L\roundP{\vec{x},\dot{\vec{x}}}dt = \int_{t_1}^{t_2}\roundP{\frac{m}{2}\norm{\dot{\vec{x}}}^2 - e\vec{A}_{\hat{u}}(\vec{x})\cdot\dot{\vec{x}}}dt 
 \label{eq:action}
 \end{equation}
 
-We note that this action is invariant under the following scale transformation:
+\begin{equation}
+\begin{aligned}
+\vec{x}' &= e^{s}\vec{x}\\
+t'&= e^{2s}t
+\end{aligned}
+\label{eq:scaletrans}
+\end{equation}
 
-\begin{align*}
-\vec{x}' &= \exp^{s}\vec{x}\\
-t'&= \exp^{2s}t
-\end{align*}
-
-Which, by the Noether's theorem must imply a conserved quantity. To calculate it we prefer the method stated in \cite[Thm (dontforget)]{scheck}, however, to apply it, the Lagrangian must be reparametrised to include the time as a generalised coordinate. To achieve this, note that:
+As a result of this symmetry, by Noether's theorem there must be a conserved quantity implied. To calculate it we prefer the method stated in \cite[Thm (dontforget)]{scheck}; however, to apply this method, the Lagrangian must be parametrised to include the time $t$ as a generalised coordinate. To achieve this, note that:
 
 \begin{align*}
 \dot{\vec{x}} = \frac{d\vec{x}}{dt} = \frac{\frac{d\vec{x}}{d\tau}}{\frac{dt}{d\tau}} \coloneqq \frac{\mathring{\vec{x}}}{\mathring{t}}
@@ -52,14 +55,66 @@ S = \int_{t_1}^{t_2}L\roundP{\vec{x},\dot{\vec{x}}}dt = \int_{\tau_1}^{\tau_2}\m
 \label{eq:action}
 \end{equation*}
 
-This gives us the new parametrised Lagrangian $L'$:
+Which by analogy with equation \refeq{eq:action}, gives the new parametrised Lagrangian $L'$:
 
 \begin{equation*}
-L'\roundP{\vec{x},\mathring{\vec{x}},\mathring{t}} = \mathring{t}L\roundP{\vec{x},\mathring{\vec{x}}{\mathring{t}}^{-1}}
+L'\roundP{\vec{x},\mathring{\vec{x}},\mathring{t}} = \mathring{t}L\roundP{\vec{x},\mathring{\vec{x}}{\mathring{t}}^{-1}} = \roundP{\frac{m}{2\mathring{t}}\norm{\mathring{\vec{x}}}^2 - e\vec{A}_{\hat{u}}(\vec{x})\cdot\mathring{\vec{x}}}
 \end{equation*}
 
+As we converted the symmetry of the action $S$ in a symmetry of the Lagrangian $L'$, the invariance given by  equation\refeq{eq:scaletrans} becomes clear. Now, using \cite[Thm (dontforget)]{scheck}, we obtain the conserved quantity in accordance with the transformation \refeq{eq:scaletrans}: \\
 
+\begin{align*}
+\nonumber
+G &= \frac{\partial L'}{\partial \mathring{q_i}} \frac{\partial q'_i}{\partial s} \rvert_{s=0}\\ \nonumber
+\\ \nonumber
+G &= -m\norm{\frac{\mathring{\vec{x}}}{\mathring{t}}}^2t + \roundP{\frac{m\mathring{\vec{x}}}{\mathring{t}} - e\vec{A}_{\hat{u}}}\cdot \vec{x}\\ \nonumber
+\\ \nonumber
+G &= m\dot{\vec{x_0}}\cdot\vec{x_0} = -m\norm{\dot{\vec{x_0}}}^2t + m\dot{\vec{x}}\cdot\vec{x} \\\nonumber
+\end{align*}
 
+Working the previous conserved quantity one can obtain an equation for the magnitude of the position in function of time:
+
+\begin{align}
+\nonumber
+ 2\dot{\vec{x}}\cdot\vec{x} &= \frac{d\norm{x}^2}{dt} = 2\norm{\dot{\vec{x_0}}}^2t + 2\dot{\vec{x_0}}\cdot\vec{x_0}\\ \nonumber
+ \\ 
+ x^2 &= x_0^2 +2\dot{\vec{x_0}}\cdot\vec{x_0}t +\norm{\dot{\vec{x_0}}}^2t^2  
+ \label{eq:radius}
+\end{align}
+
+From equation \ref{eq:radius} it is important to note that the only way the radius of the particle stays constant is that the initial velocity of the particle is $0$, otherwise, the time-quadratic term will always contribute to the increase in the radius. This is in fact different from the analogous case of the cyclotron, where one can obtain closed trajectories with constant radius.\\
+
+On the other hand, we note that once chosen a unit vector $\hat{u}$ for the vector potential  $\vec{A}_{\hat{u}}$, it is quite obvious that the original Lagrangian $L$ in equation \refeq{eq:lagrangian} is invariant under rotations around the unit vector $\hat{u}$, that is, under the following infinitesimal transformation:
+
+\begin{equation}
+\vec{x}' = \vec{x} + s\roundP{\hat{u}\times\vec{x}}
+\label{eq:rotinv}
+\end{equation}
+
+Then, as this transformation does not include the time $t$, we can perform the calculation of the conserved quantity over the original Lagrangian:
+
+\begin{align*}
+G_2 &= \frac{\partial L}{\partial \dot{\vec{x}}}\cdot\frac{\partial \vec{x}}{\partial s} \rvert_{s=0}\\
+G_2 &= \roundP{m\dot{\vec{x}} - e\vec{A}_{\hat{u}}}\cdot \roundP{\hat{u}\times\vec{x}} \\
+G_2 &= \roundP{m\vec{x}\times\dot{\vec{x}}}\cdot\hat{u}-eg\frac{\norm{\hat{u}\times\hat{x}}^2}{\roundP{1+\hat{x}\cdot\hat{u}}}\\
+G_2 &= \roundP{m\vec{x}\times\dot{\vec{x}}}\cdot\hat{u} -eg\roundP{1-\hat{x}\cdot\hat{u}}\\
+J_{\hat{u}} &\coloneqq \roundP{\roundP{m\vec{x}\times\dot{\vec{x}}}+ eg\hat{x}}\cdot\hat{u} = constant
+\end{align*}
+
+Now, the last argument is valid for any unit vector $\hat{u}$ chosen and this yields the conservation of the  known as Poincar\'e vector in equation \refeq{eq:poincarevec}.
+
+\begin{equation}
+\vec{J} = \roundP{m\vec{x}\times\dot{\vec{x}}}+ eg\hat{x}
+\label{eq:poincarevec}
+\end{equation}
+
+This last symmetry is very meaningful because it restricts the trajectory of the particle to a cone centred in the origin with central vector $\hat{J}$. To verify this, it is only necessary the radial component of the Poincar\'e vector is constant for all points in the trajectory, which means that the angle between $\vec{J}$ and $\vec{x}(t)$ is a constant and that the trajectory of the particle is restricted to a cone:
+
+\begin{align*}
+\vec{J}\cdot\hat{x} = eg
+\end{align*}
+
+Furthermore, we can deduce from the conservation of the Poincar\'e vector that the angular momentum of the particle is constant in magnitude and that it determines the aperture of the cone of restriction:
 
 
 
