@@ -25,7 +25,7 @@ The first thing to note in the previously defined Lagrangian is its time indepen
  \frac{\partial L}{\partial\dot{\vec{x}}}\cdot\dot{\vec{x}} - L = m\norm{\dot{\vec{x}}}^2                    =m\norm{\dot{\vec{x_0}}}^2 
 \end{equation*}
 
-With $\dot{\vec{x_0}}$ the initial velocity of the particle. Here the Jacobi integral clearly represents the kinetic energy of the particle, which is constant in time because of the linear dependence of the term associated with the magnetic interaction, that basically means that the magnetic fields do no work.\\
+With $\dot{\vec{x_0}}$ the initial velocity of the particle. Here the Jacobi integral clearly represents the kinetic energy of the particle, which is constant in time because the magnetic field does no work.\\
 
 Now, due to the simplicity of the problem, one can suspect of many other symmetries. The next symmetry presented here is not associated with Lagrangian, but rather with the action invariance. If we define the action as in the equation \refeq{eq:action}, it can be seen that it may be invariant under a proper scale transform of position and time. It is not difficult to find this transform, and it is presented in equation \refeq{eq:scaletrans}.\\
 
@@ -58,10 +58,10 @@ S = \int_{t_1}^{t_2}L\roundP{\vec{x},\dot{\vec{x}}}dt = \int_{\tau_1}^{\tau_2}\m
 Which by analogy with equation \refeq{eq:action}, gives the new parametrised Lagrangian $L'$:
 
 \begin{equation*}
-L'\roundP{\vec{x},\mathring{\vec{x}},\mathring{t}} = \mathring{t}L\roundP{\vec{x},\mathring{\vec{x}}{\mathring{t}}^{-1}} = \roundP{\frac{m}{2\mathring{t}}\norm{\mathring{\vec{x}}}^2 - e\vec{A}_{\hat{u}}(\vec{x})\cdot\mathring{\vec{x}}}
+L'\roundP{\vec{x},\mathring{\vec{x}},\mathring{t}} = \mathring{t}L\roundP{\vec{x},\mathring{\vec{x}}{\mathring{t}}^{-1}} = \frac{m}{2\mathring{t}}\norm{\mathring{\vec{x}}}^2 - e\vec{A}_{\hat{u}}(\vec{x})\cdot\mathring{\vec{x}}
 \end{equation*}
 
-As we converted the symmetry of the action $S$ in a symmetry of the Lagrangian $L'$, the invariance given by  equation\refeq{eq:scaletrans} becomes clear. Now, using \cite[Thm (dontforget)]{scheck}, we obtain the conserved quantity in accordance with the transformation \refeq{eq:scaletrans}: \\
+As we converted the symmetry of the action $S$ in a symmetry of the Lagrangian $L'$, the invariance given by  equation \refeq{eq:scaletrans} becomes clear. Now, using \cite[Thm (dontforget)]{scheck}, we obtain the conserved quantity in accordance with the transformation \refeq{eq:scaletrans}: \\
 
 \begin{align*}
 \nonumber
@@ -82,7 +82,7 @@ Working the previous conserved quantity one can obtain an equation for the magni
  \label{eq:radius}
 \end{align}
 
-From equation \ref{eq:radius} it is important to note that the only way the radius of the particle stays constant is that the initial velocity of the particle is $0$, otherwise, the time-quadratic term will always contribute to the increase in the radius. This is in fact different from the analogous case of the cyclotron, where one can obtain closed trajectories with constant radius.\\
+From equation \ref{eq:radius} it is important to note that the only way the radius of the particle stays constant is that the initial velocity of the particle is zero, otherwise, the time-quadratic term will always contribute to the increase of that radius. Furthermore, if the angular momentum of the particle $m\dot{\vec{x_0}}\cdot\vec{x_0}$ is zero, we retrieve the trajectory of a particle in rectilinear motion. This means that the radial velocity of the particle is not affected by the magnetic field of the monopole, as expected from the symmetry of the field.\\
 
 On the other hand, we note that once chosen a unit vector $\hat{u}$ for the vector potential  $\vec{A}_{\hat{u}}$, it is quite obvious that the original Lagrangian $L$ in equation \refeq{eq:lagrangian} is invariant under rotations around the unit vector $\hat{u}$, that is, under the following infinitesimal transformation:
 
@@ -98,7 +98,7 @@ G_2 &= \frac{\partial L}{\partial \dot{\vec{x}}}\cdot\frac{\partial \vec{x}}{\pa
 G_2 &= \roundP{m\dot{\vec{x}} - e\vec{A}_{\hat{u}}}\cdot \roundP{\hat{u}\times\vec{x}} \\
 G_2 &= \roundP{m\vec{x}\times\dot{\vec{x}}}\cdot\hat{u}-eg\frac{\norm{\hat{u}\times\hat{x}}^2}{\roundP{1+\hat{x}\cdot\hat{u}}}\\
 G_2 &= \roundP{m\vec{x}\times\dot{\vec{x}}}\cdot\hat{u} -eg\roundP{1-\hat{x}\cdot\hat{u}}\\
-J_{\hat{u}} &\coloneqq \roundP{\roundP{m\vec{x}\times\dot{\vec{x}}}+ eg\hat{x}}\cdot\hat{u} = constant
+J_{\hat{u}} &\coloneqq \roundP{{m\vec{x}\times\dot{\vec{x}}}+ eg\hat{x}}\cdot\hat{u} = ct
 \end{align*}
 
 Now, the last argument is valid for any unit vector $\hat{u}$ chosen and this yields the conservation of the  known as Poincar\'e vector in equation \refeq{eq:poincarevec}.
@@ -108,14 +108,31 @@ Now, the last argument is valid for any unit vector $\hat{u}$ chosen and this yi
 \label{eq:poincarevec}
 \end{equation}
 
-This last symmetry is very meaningful because it restricts the trajectory of the particle to a cone centred in the origin with central vector $\hat{J}$. To verify this, it is only necessary the radial component of the Poincar\'e vector is constant for all points in the trajectory, which means that the angle between $\vec{J}$ and $\vec{x}(t)$ is a constant and that the trajectory of the particle is restricted to a cone:
+This last symmetry is very meaningful because it restricts the trajectory of the particle to a cone centred in the origin with central vector $\hat{J}$. To verify this, it is only necessary to see that the radial component of the Poincar\'e vector is constant for all points in the trajectory, which means that the angle between $\vec{J}$ and $\vec{x}(t)$ is a constant and that the path of the particle is restricted to a cone:
 
 \begin{align*}
 \vec{J}\cdot\hat{x} = eg
 \end{align*}
 
-Furthermore, we can deduce from the conservation of the Poincar\'e vector that the angular momentum of the particle is constant in magnitude and that it determines the aperture of the cone of restriction:
+Furthermore, we can deduce from the conservation of the Poincar\'e vector that the angular momentum $\mathbb{L}= m\vec{x}\times\dot{\vec{x}}$ of the particle is constant in magnitude and that it determines the aperture of the cone of restriction:
 
+\begin{equation}
+\begin{aligned}
+\norm{\vec{J}}^2 &= \norm{\mathbb{L}}^2 +\roundP{gc}^2\\
+\norm{\mathbb{L}} &= ct\\
+\cos{\theta} &= \frac{\vec{J}\cdot\hat{x}}{\norm{\vec{J}}} = \sqrt{\frac{\roundP{gc}^2}{\norm{\mathbb{L}}^2 +\roundP{gc}^2}}
+\end{aligned}
+\label{eq:poincarecone}
+\end{equation}
+
+
+From this equations it can be seen that the angle of aperture of the Poincar\'e cone is zero when the angular momentum $\mathbb{L}$ cancel. Which means that the particle performs rectilinear motion, as deduced before from the other symmetries of the problem.\\
+
+It is important to note here that if we restrict the trajectories of the particle to be in a sphere, we cannot carry a scale transform, hence we would not obtain the radius trajectory described in equation \refeq{eq:radius}. However, a rotation is consistent with the norm conservation of the restriction to the sphere, and consequently we can obtain the Poincare\'e's vector invariance. The cone confinement of the particle together with the restriction of the trajectories to a constant radius would result in the particle describing a circular trajectory on the sphere.\\
+
+Another important aspect that can be deduced from the set of equations \refeq{eq:poincarecone} is that if we choose a magnetic monopole with big charge $g$ compared with the angular momentum (in proper units), the angle of the Poincar\'e cone would tend to zero, which in the case of the particle restricted to the sphere, would mean that the radius of the circular motion would also tend to zero, in analogy with the already studied case of the particle in the plane. This gives us some clues as where to look for the analogue guiding center in the case of the magnetic monopole.\\
+
+\section{Important quantities in the Hamiltonian formalism}
 
 
 

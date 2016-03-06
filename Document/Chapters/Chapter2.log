@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  5 MAR 2016 16:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  6 MAR 2016 00:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7370,41 +7370,37 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 137--138
  []
 
 
-! LaTeX Error: Environment align* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.139 \begin{align*}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 ! LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.140 T
-       _x &= \sum_{i=1}^{3} x_i \\
+l.139 \begin{equation}
+                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no T in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.140 T_
-        x &= \sum_{i=1}^{3} x_i \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 139--139
+[] 
+ []
+
+
+! LaTeX Error: Environment aligned undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.140 \begin{aligned}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.140 T_x &
+l.141 T_x &
            = \sum_{i=1}^{3} x_i \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -7414,7 +7410,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.141 T_y &
+l.142 T_y &
            = \sum_{i=1}^{3} y_i
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -7424,47 +7420,22 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{document} ended by \end{align*}.
+! LaTeX Error: \begin{equation} on input line 139 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.142 \end{align*}
-                  
+l.143 \end{aligned}
+                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.142 \end{align*}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
-
-Overfull \hbox (35.59024pt too wide) in paragraph at lines 140--143
-[]$[] \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (34.7211pt too wide) in paragraph at lines 140--143
-[][] \OML/cmm/m/it/10 x[][] 
- []
-
-
-Overfull \hbox (21.20601pt too wide) in paragraph at lines 140--143
-\OML/cmm/m/it/10 T[] \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (33.90865pt too wide) in paragraph at lines 140--143
-[][] \OML/cmm/m/it/10 y[]$ 
+Overfull \hbox (97.69427pt too wide) detected at line 145
+\OML/cmm/m/it/10 T[] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 x[][] T[] \OT1/cmr/m
+/n/10 = [] \OML/cmm/m/it/10 y[][]
  []
 
 
@@ -7474,18 +7445,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.145 \begin{equation}
+l.148 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 145--145
+Overfull \hbox (20.0pt too wide) in paragraph at lines 148--148
 [] 
  []
 
 ! Undefined control sequence.
-l.146 R_z = \frac{1}{2} \sum_{i=1}^{3} \roundP
+l.149 R_z = \frac{1}{2} \sum_{i=1}^{3} \roundP
                                               {x_i^2 + y_i^2}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7494,7 +7465,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (82.8828pt too wide) detected at line 148
+Overfull \hbox (82.8828pt too wide) detected at line 151
 \OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 = [] [] [][]
  []
 
@@ -7505,7 +7476,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.150 I
+l.153 I
        t is easily verifiable that these are indeed the symmetries generator...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -7654,19 +7625,19 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 150--151
+Overfull \hbox (20.0pt too wide) in paragraph at lines 153--154
 []
  []
 
 
-! LaTeX Error: Environment align* undefined.
+! LaTeX Error: Environment equation* undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 \begin{align*}
-                    
+l.155 \begin{equation*}
+                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -7678,8 +7649,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153 x
-       _i  &\rightarrow x_i + \epsilon \\
+l.156 x
+       _i  \rightarrow x_i + \epsilon
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -7687,70 +7658,20 @@ Missing character: There is no x in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.153 x_
-        i  &\rightarrow x_i + \epsilon \\
+l.156 x_
+        i  \rightarrow x_i + \epsilon
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Misplaced alignment tab character &.
-l.153 x_i  &
-            \rightarrow x_i + \epsilon \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-! Misplaced alignment tab character &.
-l.154 y_i &
-           \rightarrow y_i + \epsilon \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-<recently read> \roundP 
-                        
-l.155 \roundP
-             {x_i,y_i} &\rightarrow \roundP{x_i +\epsilon y_i, y_i - \epsilo...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced alignment tab character &.
-l.155 \roundP{x_i,y_i} &
-                        \rightarrow \roundP{x_i +\epsilon y_i, y_i - \epsilo...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.155 \roundP{x_i,y_i} &\rightarrow \roundP
-                                           {x_i +\epsilon y_i, y_i - \epsilo...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{document} ended by \end{align*}.
+! LaTeX Error: \begin{document} ended by \end{equation*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.156 \end{align*}
-                  
+l.157 \end{equation*}
+                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -7758,8 +7679,8 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.156 \end{align*}
-                  
+l.157 \end{equation*}
+                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -7767,42 +7688,197 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (36.10701pt too wide) in paragraph at lines 153--157
+Overfull \hbox (36.10701pt too wide) in paragraph at lines 156--158
 []$[] \OMS/cmsy/m/n/10 !
  []
 
 
-Overfull \hbox (16.82236pt too wide) in paragraph at lines 153--157
+Overfull \hbox (16.82236pt too wide) in paragraph at lines 156--158
 \OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (4.05904pt too wide) in paragraph at lines 153--157
-\OML/cmm/m/it/10 ^^O[] 
+Overfull \hbox (4.05904pt too wide) in paragraph at lines 156--158
+\OML/cmm/m/it/10 ^^O$ 
  []
 
 
-Overfull \hbox (21.00983pt too wide) in paragraph at lines 153--157
-\OML/cmm/m/it/10 y[] \OMS/cmsy/m/n/10 !
+! LaTeX Error: Environment equation* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 \begin{equation*}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 y
+       _i \rightarrow y_i + \epsilon
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no y in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.160 y_
+        i \rightarrow y_i + \epsilon
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \end{equation*}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.161 \end{equation*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (36.10701pt too wide) in paragraph at lines 160--162
+[]$[] \OMS/cmsy/m/n/10 !
  []
 
 
-Overfull \hbox (16.0099pt too wide) in paragraph at lines 153--157
+Overfull \hbox (16.0099pt too wide) in paragraph at lines 160--162
 \OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (4.05904pt too wide) in paragraph at lines 153--157
-\OML/cmm/m/it/10 ^^O[] 
+Overfull \hbox (4.05904pt too wide) in paragraph at lines 160--162
+\OML/cmm/m/it/10 ^^O$ 
  []
 
 
-Overfull \hbox (34.4988pt too wide) in paragraph at lines 153--157
-[] \OMS/cmsy/m/n/10 !
+! LaTeX Error: Environment equation* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 \begin{equation*}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.164 \roundP
+             {x_i,y_i} \rightarrow \roundP{x_i +\epsilon y_i, y_i - \epsilon...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 \roundP{x
+               _i,y_i} \rightarrow \roundP{x_i +\epsilon y_i, y_i - \epsilon...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no x in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.164 \roundP{x_
+                i,y_i} \rightarrow \roundP{x_i +\epsilon y_i, y_i - \epsilon...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.164 \roundP{x_i,y_i}
+                       \rightarrow \roundP{x_i +\epsilon y_i, y_i - \epsilon...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.164 \roundP{x_i,y_i} \rightarrow \roundP
+                                          {x_i +\epsilon y_i, y_i - \epsilon...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 \end{equation*}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.165 \end{equation*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.165 \end{equation*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (48.78352pt too wide) in paragraph at lines 164--166
+[]$[]\OML/cmm/m/it/10 ; y[] \OMS/cmsy/m/n/10 !
  []
 
 
-Overfull \hbox (71.56007pt too wide) in paragraph at lines 153--157
+Overfull \hbox (71.56007pt too wide) in paragraph at lines 164--166
 []$ 
  []
 
@@ -7813,7 +7889,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 N
+l.167 N
        ow note that for the infinitesimal translations, the potential of the...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -8039,12 +8115,12 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 158--159
+Overfull \hbox (20.0pt too wide) in paragraph at lines 167--168
 []
  []
 
 
-Overfull \hbox (12.65279pt too wide) in paragraph at lines 158--159
+Overfull \hbox (12.65279pt too wide) in paragraph at lines 167--168
 \OML/cmm/m/it/10 V[]$
  []
 
@@ -8055,7 +8131,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 \begin{align*}
+l.169 \begin{align*}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -8068,7 +8144,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.161 0
+l.170 0
        ={V^*\roundP{\bar{x}+\epsilon,\bar{y}} - V^*\roundP{\bar{x},\bar{y}}}...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -8080,13 +8156,13 @@ Missing character: There is no V in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.161 0={V^
+l.170 0={V^
            *\roundP{\bar{x}+\epsilon,\bar{y}} - V^*\roundP{\bar{x},\bar{y}}}...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.161 0={V^*\roundP
+l.170 0={V^*\roundP
                    {\bar{x}+\epsilon,\bar{y}} - V^*\roundP{\bar{x},\bar{y}}}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8095,7 +8171,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.161 ...dP{\bar{x}+\epsilon,\bar{y}} - V^*\roundP
+l.170 ...dP{\bar{x}+\epsilon,\bar{y}} - V^*\roundP
                                                   {\bar{x},\bar{y}}} &= \eps...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8104,7 +8180,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Extra }, or forgotten $.
-l.161 ...n,\bar{y}} - V^*\roundP{\bar{x},\bar{y}}}
+l.170 ...n,\bar{y}} - V^*\roundP{\bar{x},\bar{y}}}
                                                    &= \epsilon \sum_{i = 1}^...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -8113,7 +8189,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Misplaced alignment tab character &.
-l.161 ...\bar{y}} - V^*\roundP{\bar{x},\bar{y}}} &
+l.170 ...\bar{y}} - V^*\roundP{\bar{x},\bar{y}}} &
                                                   = \epsilon \sum_{i = 1}^3 ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8125,7 +8201,7 @@ might try typing `S' now just to see what is salvageable.
 ! Undefined control sequence.
 <argument> \partial V^*\roundP 
                                {\bar {x},\bar {y}}
-l.161 ...^*\roundP{\bar{x},\bar{y}}}{\partial x_i}
+l.170 ...^*\roundP{\bar{x},\bar{y}}}{\partial x_i}
                                                     = \epsilon \poisson{V^*}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8134,7 +8210,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.161 ...r{y}}}{\partial x_i}  = \epsilon \poisson
+l.170 ...r{y}}}{\partial x_i}  = \epsilon \poisson
                                                   {V^*}{T_x} = 0\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8143,7 +8219,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.162 0={V^*\roundP
+l.171 0={V^*\roundP
                    {\bar{x},\bar{y}+\epsilon} - V^*\roundP{\bar{x},\bar{y}}}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8152,7 +8228,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.162 ...dP{\bar{x},\bar{y}+\epsilon} - V^*\roundP
+l.171 ...dP{\bar{x},\bar{y}+\epsilon} - V^*\roundP
                                                   {\bar{x},\bar{y}}} &= \eps...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8161,7 +8237,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.162 ...epsilon} - V^*\roundP{\bar{x},\bar{y}}} &
+l.171 ...epsilon} - V^*\roundP{\bar{x},\bar{y}}} &
                                                   = \epsilon \sum_{i = 1}^3 ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8173,7 +8249,7 @@ might try typing `S' now just to see what is salvageable.
 ! Undefined control sequence.
 <argument> \partial V^*\roundP 
                                {\bar {x},\bar {y}}
-l.162 ...^*\roundP{\bar{x},\bar{y}}}{\partial y_i}
+l.171 ...^*\roundP{\bar{x},\bar{y}}}{\partial y_i}
                                                    = \epsilon \poisson{T_y}{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8182,7 +8258,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.162 ...ar{y}}}{\partial y_i} = \epsilon \poisson
+l.171 ...ar{y}}}{\partial y_i} = \epsilon \poisson
                                                   {T_y}{V^*} = 0
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8197,7 +8273,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.163 \end{align*}
+l.172 \end{align*}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -8206,7 +8282,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.163 \end{align*}
+l.172 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -8217,7 +8293,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.163 \end{align*}
+l.172 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -8226,52 +8302,52 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (64.07748pt too wide) in paragraph at lines 161--164
+Overfull \hbox (64.07748pt too wide) in paragraph at lines 170--173
 []$[][] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (38.62958pt too wide) in paragraph at lines 161--164
+Overfull \hbox (38.62958pt too wide) in paragraph at lines 170--173
 \OML/cmm/m/it/10 V[][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (70.90028pt too wide) in paragraph at lines 161--164
+Overfull \hbox (70.90028pt too wide) in paragraph at lines 170--173
 \OML/cmm/m/it/10 ^^O [][] [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (38.14581pt too wide) in paragraph at lines 161--164
+Overfull \hbox (38.14581pt too wide) in paragraph at lines 170--173
 \OML/cmm/m/it/10 ^^O[][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 161--164
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 170--173
 \OT1/cmr/m/n/10 0[] 
  []
 
 
-Overfull \hbox (15.55553pt too wide) in paragraph at lines 161--164
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 170--173
 \OT1/cmr/m/n/10 0 =
  []
 
 
-Overfull \hbox (95.20695pt too wide) in paragraph at lines 161--164
+Overfull \hbox (95.20695pt too wide) in paragraph at lines 170--173
 [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (70.90028pt too wide) in paragraph at lines 161--164
+Overfull \hbox (70.90028pt too wide) in paragraph at lines 170--173
 \OML/cmm/m/it/10 ^^O [][] [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (37.91783pt too wide) in paragraph at lines 161--164
+Overfull \hbox (37.91783pt too wide) in paragraph at lines 170--173
 \OML/cmm/m/it/10 ^^O[][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 161--164
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 170--173
 \OT1/cmr/m/n/10 0$ 
  []
 
@@ -8282,7 +8358,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.165 F
+l.174 F
        or the infinitesimal rotation, the relation is analogous:
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8339,7 +8415,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 165--166
+Overfull \hbox (20.0pt too wide) in paragraph at lines 174--175
 []
  []
 
@@ -8350,7 +8426,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 \begin{equation*}
+l.176 \begin{equation*}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -8363,7 +8439,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 0
+l.177 0
        ={V^*\roundP{\bar{x} +\epsilon \bar{y}, \bar{y} - \epsilon \bar{y}}-V...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -8375,13 +8451,13 @@ Missing character: There is no V in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.168 0={V^
+l.177 0={V^
            *\roundP{\bar{x} +\epsilon \bar{y}, \bar{y} - \epsilon \bar{y}}-V...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.168 0={V^*\roundP
+l.177 0={V^*\roundP
                    {\bar{x} +\epsilon \bar{y}, \bar{y} - \epsilon \bar{y}}-V...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8390,7 +8466,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.168 ...}, \bar{y} - \epsilon \bar{y}}-V^*\roundP
+l.177 ...}, \bar{y} - \epsilon \bar{y}}-V^*\roundP
                                                   {\bar{x},\bar{y}}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8399,7 +8475,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Extra }, or forgotten $.
-l.168 ...lon \bar{y}}-V^*\roundP{\bar{x},\bar{y}}}
+l.177 ...lon \bar{y}}-V^*\roundP{\bar{x},\bar{y}}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -8410,7 +8486,7 @@ deleted material, e.g., by typing `I$}'.
 ! Undefined control sequence.
 <argument> \partial V^*\roundP 
                                {\bar {x},\bar {y}}
-l.169 ...^*\roundP{\bar{x},\bar{y}}}{\partial x_i}
+l.178 ...^*\roundP{\bar{x},\bar{y}}}{\partial x_i}
                                                    \roundP{\epsilon y_i} -  ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8419,7 +8495,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.169 ...P{\bar{x},\bar{y}}}{\partial x_i} \roundP
+l.178 ...P{\bar{x},\bar{y}}}{\partial x_i} \roundP
                                                   {\epsilon y_i} -          ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8430,7 +8506,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \partial V^*\roundP 
                                {\bar {x},\bar {y}}
-l.169 ...^*\roundP{\bar{x},\bar{y}}}{\partial y_i}
+l.178 ...^*\roundP{\bar{x},\bar{y}}}{\partial y_i}
                                                    \roundP{\epsilon x_i}    ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8439,7 +8515,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.169 ...P{\bar{x},\bar{y}}}{\partial y_i} \roundP
+l.178 ...P{\bar{x},\bar{y}}}{\partial y_i} \roundP
                                                   {\epsilon x_i}            ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8448,7 +8524,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.169 ...                      = \epsilon \poisson
+l.178 ...                      = \epsilon \poisson
                                                   {V^*}{R_z}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8463,7 +8539,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.170 \end{equation*}
+l.179 \end{equation*}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -8472,7 +8548,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.170 \end{equation*}
+l.179 \end{equation*}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -8483,7 +8559,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.170 \end{equation*}
+l.179 \end{equation*}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -8492,27 +8568,27 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (90.88185pt too wide) in paragraph at lines 168--171
+Overfull \hbox (90.88185pt too wide) in paragraph at lines 177--180
 []$[][] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (38.62958pt too wide) in paragraph at lines 168--171
+Overfull \hbox (38.62958pt too wide) in paragraph at lines 177--180
 \OML/cmm/m/it/10 V[][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (49.0115pt too wide) in paragraph at lines 168--171
+Overfull \hbox (49.0115pt too wide) in paragraph at lines 177--180
 [][] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (52.60167pt too wide) in paragraph at lines 168--171
+Overfull \hbox (52.60167pt too wide) in paragraph at lines 177--180
 [][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (28.9124pt too wide) in paragraph at lines 168--171
+Overfull \hbox (28.9124pt too wide) in paragraph at lines 177--180
 \OML/cmm/m/it/10 ^^O[][]$ 
  []
 
@@ -8523,7 +8599,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172 T
+l.181 T
        herefore, we conclude that the generators of translations and rotatio...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -9013,27 +9089,27 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 172--173
+Overfull \hbox (20.0pt too wide) in paragraph at lines 181--182
 []
  []
 
 
-Overfull \hbox (12.65279pt too wide) in paragraph at lines 172--173
+Overfull \hbox (12.65279pt too wide) in paragraph at lines 181--182
 \OML/cmm/m/it/10 V[]$
  []
 
 
-Overfull \hbox (12.20058pt too wide) in paragraph at lines 172--173
+Overfull \hbox (12.20058pt too wide) in paragraph at lines 181--182
 \OML/cmm/m/it/10 R[]$
  []
 
 
-Overfull \hbox (12.65279pt too wide) in paragraph at lines 172--173
+Overfull \hbox (12.65279pt too wide) in paragraph at lines 181--182
 \OML/cmm/m/it/10 V[]$
  []
 
 
-Overfull \hbox (16.5387pt too wide) in paragraph at lines 172--173
+Overfull \hbox (16.5387pt too wide) in paragraph at lines 181--182
 \OML/cmm/m/it/10 H[]$ 
  []
 
@@ -9044,18 +9120,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174 \begin{equation}
+l.183 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 174--174
+Overfull \hbox (20.0pt too wide) in paragraph at lines 183--183
 [] 
  []
 
 
-Overfull \hbox (51.35416pt too wide) detected at line 176
+Overfull \hbox (51.35416pt too wide) detected at line 185
 \OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 T[] \OT1/cmr/m/n/10 + \OM
 L/cmm/m/it/10 T[]
  []
@@ -9067,7 +9143,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.178 T
+l.187 T
        his new quantity $L$ clearly commutes with the potential $V^*$ becaus...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -9260,22 +9336,22 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 178--179
+Overfull \hbox (20.0pt too wide) in paragraph at lines 187--188
 []
  []
 
 
-Overfull \hbox (6.80557pt too wide) in paragraph at lines 178--179
+Overfull \hbox (6.80557pt too wide) in paragraph at lines 187--188
 \OML/cmm/m/it/10 L$
  []
 
 
-Overfull \hbox (12.65279pt too wide) in paragraph at lines 178--179
+Overfull \hbox (12.65279pt too wide) in paragraph at lines 187--188
 \OML/cmm/m/it/10 V[]$
  []
 
 
-Overfull \hbox (12.20058pt too wide) in paragraph at lines 178--179
+Overfull \hbox (12.20058pt too wide) in paragraph at lines 187--188
 \OML/cmm/m/it/10 R[]$ 
  []
 
@@ -9286,14 +9362,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.180 \begin{align*}
+l.189 \begin{align*}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.181 \poisson
+l.190 \poisson
               {T_x^2+ T_y^2}{ R_z} &= \sum_{i,j,k} \poisson{x_ix_j + y_iy_j}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9308,7 +9384,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.181 \poisson{T
+l.190 \poisson{T
                 _x^2+ T_y^2}{ R_z} &= \sum_{i,j,k} \poisson{x_ix_j + y_iy_j}...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -9318,13 +9394,13 @@ Missing character: There is no T in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.181 \poisson{T_
+l.190 \poisson{T_
                  x^2+ T_y^2}{ R_z} &= \sum_{i,j,k} \poisson{x_ix_j + y_iy_j}...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.181 \poisson{T_x^2+ T_y^2}
+l.190 \poisson{T_x^2+ T_y^2}
                             { R_z} &= \sum_{i,j,k} \poisson{x_ix_j + y_iy_j}...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -9333,7 +9409,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Misplaced alignment tab character &.
-l.181 \poisson{T_x^2+ T_y^2}{ R_z} &
+l.190 \poisson{T_x^2+ T_y^2}{ R_z} &
                                     = \sum_{i,j,k} \poisson{x_ix_j + y_iy_j}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -9343,7 +9419,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.181 ...^2+ T_y^2}{ R_z} &= \sum_{i,j,k} \poisson
+l.190 ...^2+ T_y^2}{ R_z} &= \sum_{i,j,k} \poisson
                                                   {x_ix_j + y_iy_j}{x_k^2 + ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9354,7 +9430,7 @@ and I'll forget about whatever was undefined.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.182 &
+l.191 &
        = \sum_{i,j,k}  \poisson{x_ix_j}{y_k^2} + \poisson{y_iy_j}{x_k^2} = \...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -9364,7 +9440,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.182 &= \sum_{i,j,k}  \poisson
+l.191 &= \sum_{i,j,k}  \poisson
                                {x_ix_j}{y_k^2} + \poisson{y_iy_j}{x_k^2} = \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9373,7 +9449,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.182 ...,j,k}  \poisson{x_ix_j}{y_k^2} + \poisson
+l.191 ...,j,k}  \poisson{x_ix_j}{y_k^2} + \poisson
                                                   {y_iy_j}{x_k^2} = \sum_{i,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9382,7 +9458,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.182 ..._iy_j}{x_k^2} = \sum_{i,j,k} y_k \poisson
+l.191 ..._iy_j}{x_k^2} = \sum_{i,j,k} y_k \poisson
                                                   {x_ix_j}{y_k} + x_k \poiss...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9391,7 +9467,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.182 ... y_k \poisson{x_ix_j}{y_k} + x_k \poisson
+l.191 ... y_k \poisson{x_ix_j}{y_k} + x_k \poisson
                                                   {y_iy_j}{x_k}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9402,7 +9478,7 @@ and I'll forget about whatever was undefined.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.183 &
+l.192 &
        = \sum_{i,j,k} y_kx_i\delta_{jk}+y_kx_j\delta_{ik} - x_ky_i\delta_{jk...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -9414,7 +9490,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.184 &
+l.193 &
        = \sum_{i,j} y_jx_i + y_ix_j - x_jy_i - x_iy_j = 0
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -9430,7 +9506,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{align*}
+l.194 \end{align*}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9439,7 +9515,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.185 \end{align*}
+l.194 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -9450,7 +9526,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.185 \end{align*}
+l.194 \end{align*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -9459,97 +9535,97 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (32.81253pt too wide) in paragraph at lines 181--186
+Overfull \hbox (32.81253pt too wide) in paragraph at lines 190--195
 []$[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (34.47487pt too wide) in paragraph at lines 181--186
+Overfull \hbox (34.47487pt too wide) in paragraph at lines 190--195
 \OML/cmm/m/it/10 T[][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (109.22923pt too wide) in paragraph at lines 181--186
+Overfull \hbox (109.22923pt too wide) in paragraph at lines 190--195
 [][] [][][] 
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 181--186
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 190--195
 \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (64.57884pt too wide) in paragraph at lines 181--186
+Overfull \hbox (64.57884pt too wide) in paragraph at lines 190--195
 [][] [][] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (38.53943pt too wide) in paragraph at lines 181--186
+Overfull \hbox (38.53943pt too wide) in paragraph at lines 190--195
 [][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (74.40182pt too wide) in paragraph at lines 181--186
+Overfull \hbox (74.40182pt too wide) in paragraph at lines 190--195
 [][] \OML/cmm/m/it/10 y[][][] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (38.61935pt too wide) in paragraph at lines 181--186
+Overfull \hbox (38.61935pt too wide) in paragraph at lines 190--195
 \OML/cmm/m/it/10 x[][][][] 
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 181--186
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 190--195
 \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (67.72818pt too wide) in paragraph at lines 181--186
+Overfull \hbox (67.72818pt too wide) in paragraph at lines 190--195
 [][] \OML/cmm/m/it/10 y[]x[]^^N[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (39.72351pt too wide) in paragraph at lines 181--186
+Overfull \hbox (39.72351pt too wide) in paragraph at lines 190--195
 \OML/cmm/m/it/10 y[]x[]^^N[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (39.72351pt too wide) in paragraph at lines 181--186
+Overfull \hbox (39.72351pt too wide) in paragraph at lines 190--195
 \OML/cmm/m/it/10 x[]y[]^^N[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (31.94571pt too wide) in paragraph at lines 181--186
+Overfull \hbox (31.94571pt too wide) in paragraph at lines 190--195
 \OML/cmm/m/it/10 x[]y[]^^N[][] 
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 181--186
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 190--195
 \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (47.5788pt too wide) in paragraph at lines 181--186
+Overfull \hbox (47.5788pt too wide) in paragraph at lines 190--195
 [][] \OML/cmm/m/it/10 y[]x[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (25.93874pt too wide) in paragraph at lines 181--186
+Overfull \hbox (25.93874pt too wide) in paragraph at lines 190--195
 \OML/cmm/m/it/10 y[]x[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (25.93874pt too wide) in paragraph at lines 181--186
+Overfull \hbox (25.93874pt too wide) in paragraph at lines 190--195
 \OML/cmm/m/it/10 x[]y[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (28.71645pt too wide) in paragraph at lines 181--186
+Overfull \hbox (28.71645pt too wide) in paragraph at lines 190--195
 \OML/cmm/m/it/10 x[]y[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 181--186
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 190--195
 \OT1/cmr/m/n/10 0$ 
  []
 
@@ -9560,7 +9636,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.187 A
+l.196 A
        s we found $L$ as the last integral in involution, we conclude, by th...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -9705,17 +9781,17 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 187--188
+Overfull \hbox (20.0pt too wide) in paragraph at lines 196--197
 []
  []
 
 
-Overfull \hbox (6.80557pt too wide) in paragraph at lines 187--188
+Overfull \hbox (6.80557pt too wide) in paragraph at lines 196--197
 \OML/cmm/m/it/10 L$
  []
 
 ! Undefined control sequence.
-l.189 \section
+l.198 \section
               {Analysis of the motion}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9730,7 +9806,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.189 \section{A
+l.198 \section{A
                 nalysis of the motion}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -9755,7 +9831,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 189--190
+Overfull \hbox (20.0pt too wide) in paragraph at lines 198--199
 []
  []
 
@@ -9767,10 +9843,10 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 189--190
 
  
 Here is how much of TeX's memory you used:
- 19 strings out of 494985
- 266 string characters out of 6180356
+ 21 strings out of 494985
+ 283 string characters out of 6180356
  59094 words of memory out of 5000000
- 3333 multiletter control sequences out of 15000+600000
+ 3335 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  18i,5n,21p,1200b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
