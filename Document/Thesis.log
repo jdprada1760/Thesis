@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  7 MAR 2016 00:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  7 MAR 2016 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,13 +849,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-[13]
-Overfull \hbox (9.03767pt too wide) in paragraph at lines 175--175
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+[13] [14]
+Overfull \hbox (9.03767pt too wide) in paragraph at lines 177--177
 [] 
  []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
@@ -890,7 +895,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
 Here is how much of TeX's memory you used:
  13432 strings out of 494985
  190651 string characters out of 6180356
- 270977 words of memory out of 5000000
+ 269977 words of memory out of 5000000
  16376 multiletter control sequences out of 15000+600000
  13007 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -912,7 +917,7 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (29 pages, 242981 bytes).
+Output written on Thesis.pdf (29 pages, 242875 bytes).
 PDF statistics:
  385 PDF objects out of 1000 (max. 8388607)
  332 compressed objects within 4 object streams

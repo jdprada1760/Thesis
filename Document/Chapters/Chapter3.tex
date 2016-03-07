@@ -114,7 +114,7 @@ This last symmetry is very meaningful because it restricts the trajectory of the
 \vec{J}\cdot\hat{x} = eg
 \end{align*}
 
-Furthermore, we can deduce from the conservation of the Poincar\'e vector that the angular momentum $\mathbb{L}= m\vec{x}\times\dot{\vec{x}}$ of the particle is constant in magnitude and that it determines the aperture of the cone of restriction:
+Furthermore, we can deduce from the conservation of the Poincar\'e vector that the angular momentum $\mathbb{L}= m\vec{x}\times\dot{\vec{x}}$ of the particle is constant in magnitude and that it determines the aperture of the cone of restriction.:
 
 \begin{equation}
 \begin{aligned}
@@ -126,11 +126,13 @@ Furthermore, we can deduce from the conservation of the Poincar\'e vector that t
 \end{equation}
 
 
-From this equations it can be seen that the angle of aperture of the Poincar\'e cone is zero when the angular momentum $\mathbb{L}$ cancel. Which means that the particle performs rectilinear motion, as deduced before from the other symmetries of the problem.\\
+From this equations it can be seen that the angle of aperture of the Poincar\'e cone is zero when the angular momentum $\mathbb{L}$ cancel, which means that the particle performs rectilinear motion, as deduced before from the other symmetries of the problem.\\
 
-It is important to note here that if we restrict the trajectories of the particle to be in a sphere, we cannot carry a scale transform, hence we would not obtain the radius trajectory described in equation \refeq{eq:radius}. However, a rotation is consistent with the norm conservation of the restriction to the sphere, and consequently we can obtain the Poincare\'e's vector invariance. The cone confinement of the particle together with the restriction of the trajectories to a constant radius would result in the particle describing a circular trajectory on the sphere.\\
+It is important to note here that if we restrict the trajectories of the particle to be in a sphere, we cannot carry a scale transform, hence we would not obtain the radius trajectory described in equation \refeq{eq:radius}. However, a rotation is consistent with the norm conservation of the restriction to the sphere, and consequently we can obtain the Poincar\'e's vector invariance. The cone confinement together with the restriction of the trajectories to a constant radius would result in the particle describing a circular trajectory on the sphere.\\ 
 
-Another important aspect that can be deduced from the set of equations \refeq{eq:poincarecone} is that if we choose a magnetic monopole with big charge $g$ compared with the angular momentum (in proper units), the angle of the Poincar\'e cone would tend to zero, which in the case of the particle restricted to the sphere, would mean that the radius of the circular motion would also tend to zero, in analogy with the already studied case of the particle in the plane. This gives us some clues as where to look for the analogue guiding center in the case of the magnetic monopole.\\
+Moreover in the sphere restriction the position vector and the velocity vector must be perpendicular, therefore, as the norm of the position is the constant radius of the sphere, the conservation of the angular momentum would result in the conservation of the linear velocity, meaning that the circular motion of the particle is in fact uniform, in analogy with the problem in the sphere.\\
+
+Another important aspect that can be deduced from the set of equations \refeq{eq:poincarecone} is that if we choose a magnetic monopole with big charge $g$ compared with the angular momentum (in proper units), the angle of the Poincar\'e cone would tend to zero, which in the case of the particle restricted to the sphere, would mean that the radius of the circular motion would also tend to zero, as happens with the already studied case of the particle in the plane. This gives us some clues as where to look for the analogue guiding center formalism in the case of the magnetic monopole.\\
 
 \section{Important quantities in the Hamiltonian formalism}
 From the analysis carried out before, we can see some important quantities that are useful to describe the movement of particles in the presence of a magnetic monopole, some of which are associated with certain symmetries of the problem. Here we would like to study specially the angular momentum $\mathbb{L}= m\vec{x}\times\dot{\vec{x}}$ and the Poincar\'e vector $\vec{J} = \roundP{m\vec{x}\times\dot{\vec{x}}}+ eg\hat{x}$. To do that, let us first calculate the Hamiltonian for the particle in the magnetic field of a monopole, this time restricting the problem to a sphere of radius $R$:
@@ -174,7 +176,7 @@ Then the algebra becomes a little bit easier for $\mathbb{L}$
 & = \epsilon_{ijk}\roundP{\epsilon_{abk}x_a\pi_b-{eg}\hat{x}_k} = \epsilon_{ijk}\roundP{L_k-{eg}\hat{x}_k}
 \end{align*}
 
-Now, we can observe that $\mathbb{L}$ does not follow the canonical relations for angular momentum, which is not surprising because the moment $\vec{\pi}$ used in the definition of $\mathbb{L}$ is not the canonical momentum. We can fix this by taking a slight variation in $\mathbb{L}$:\\
+Now, we can observe that $\mathbb{L}$ does not follow the canonical relations for angular momentum, which is not surprising because the momentum $\vec{\pi}$ used in the definition of $\mathbb{L}$ is not the canonical momentum $p$. We can fix this by taking a slight variation in $\mathbb{L}$:\\
 
 \begin{equation}
 \mathbb{J} \coloneqq \mathbb{L} + eg\hat{x}
@@ -191,13 +193,10 @@ The Poisson bracket relation for this angular momentum is given by:
 &= \epsilon_{ijk}\roundP{L_k+{eg}\hat{x}_k} = \epsilon_{ijk}J_k
 \end{align*}
 
-Then we deduce that $\mathbb{J}$ is a canonical angular momentum. It is not difficult to see that this is in fact the Poincar\'e vector in equation \refeq{eq:poincarevec}, and furthermore, that this is the canonical angular moment associated with the current canonical variables:
+Then we deduce that $\mathbb{J}$ is a canonical angular momentum. It is not difficult to see that this is in fact the Poincar\'e vector in equation \refeq{eq:poincarevec} and that, as seen before, it determines the center of the circular motion performed by the particle:
 
 \begin{align*}
 \mathbb{J} &= \vec{x}\times\vec{\pi}+{eg}\hat{x} = m{\vec{x}}\times\dot{\vec{x}} + eg\hat{x} = \vec{J}\\ 
-&= \vec{x}\times\vec{p} = \vec{x}\times\roundP{\vec{\pi} -e\vec{A}_{\hat{u}}}\\
-&= \vec{x}\times\vec{\pi} - \vec{x}\times\roundP{\frac{g}{R^2}\frac{{\hat{u}\times\vec{x}}}{1+\hat{u}\cdot\hat{x}}}\\
-&= \vec{x}\times\vec{\pi} -\frac{g}{R^2}\roundP{\frac{R^2\hat{u} - R\hat{x}\roundP{u}}{1+\hat{u}\cdot\hat{x}}}
 \end{align*}
 
 
