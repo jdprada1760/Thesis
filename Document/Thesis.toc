@@ -11,17 +11,17 @@
 \contentsline {chapter}{Symbols}{x}{dummy.15}
 \vspace {2em}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.18}
-\contentsline {section}{\numberline {1.1}Motivation}{1}{section.19}
-\contentsline {section}{\numberline {1.2}State of the art}{1}{section.20}
-\contentsline {chapter}{\numberline {2}The three body problem in the plane}{2}{chapter.21}
-\contentsline {section}{\numberline {2.1}The definition of the problem}{2}{section.22}
-\contentsline {section}{\numberline {2.2}The canonical transformation of the guiding centres}{3}{section.25}
-\contentsline {section}{\numberline {2.3}Integrability of the system}{6}{section.32}
-\contentsline {section}{\numberline {2.4}Analysis of the motion}{8}{section.38}
-\contentsline {chapter}{\numberline {3}The problem of a charged particle in the magnetic field of a monopole}{9}{chapter.39}
-\contentsline {section}{\numberline {3.1}Definition of the Lagrangian}{9}{section.40}
-\contentsline {section}{\numberline {3.2}The symmetries and its conserved quantities}{10}{section.43}
-\contentsline {section}{\numberline {3.3}Important quantities in the Hamiltonian formalism}{14}{section.50}
+\contentsline {section}{\numberline {1.1}Motivation}{2}{section.19}
+\contentsline {section}{\numberline {1.2}State of the art}{2}{section.20}
+\contentsline {chapter}{\numberline {2}The three body problem in the plane}{3}{chapter.21}
+\contentsline {section}{\numberline {2.1}The definition of the problem}{3}{section.22}
+\contentsline {section}{\numberline {2.2}The canonical transformation of the guiding centres}{4}{section.25}
+\contentsline {section}{\numberline {2.3}Integrability of the system}{7}{section.32}
+\contentsline {section}{\numberline {2.4}Analysis of the motion}{9}{section.38}
+\contentsline {chapter}{\numberline {3}The problem of a charged particle in the magnetic field of a monopole}{10}{chapter.39}
+\contentsline {section}{\numberline {3.1}Definition of the Lagrangian}{10}{section.40}
+\contentsline {section}{\numberline {3.2}The symmetries and its conserved quantities}{11}{section.43}
+\contentsline {section}{\numberline {3.3}Important quantities in the Hamiltonian formalism}{15}{section.50}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}An Appendix}{17}{appendix.53}
+\contentsline {chapter}{\numberline {A}An Appendix}{18}{appendix.53}
 \vspace {2em}
