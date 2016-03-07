@@ -65,7 +65,7 @@ As we converted the symmetry of the action $S$ in a symmetry of the Lagrangian $
 
 \begin{align*}
 \nonumber
-G &= \frac{\partial L'}{\partial \mathring{q_i}} \frac{\partial q'_i}{\partial s} \rvert_{s=0}\\ \nonumber
+G &= \left. \frac{\partial L'}{\partial \mathring{q_i}} \frac{\partial q'_i}{\partial s} \right|_{s=0}\\ \nonumber
 \\ \nonumber
 G &= -m\norm{\frac{\mathring{\vec{x}}}{\mathring{t}}}^2t + \roundP{\frac{m\mathring{\vec{x}}}{\mathring{t}} - e\vec{A}_{\hat{u}}}\cdot \vec{x}\\ \nonumber
 \\ \nonumber
@@ -94,7 +94,7 @@ On the other hand, we note that once chosen a unit vector $\hat{u}$ for the vect
 Then, as this transformation does not include the time $t$, we can perform the calculation of the conserved quantity over the original Lagrangian:
 
 \begin{align*}
-G_2 &= \frac{\partial L}{\partial \dot{\vec{x}}}\cdot\frac{\partial \vec{x}}{\partial s} \rvert_{s=0}\\
+G_2 &= \left. \frac{\partial L}{\partial \dot{\vec{x}}}\cdot\frac{\partial \vec{x}}{\partial s} \right|_{s=0}\\
 G_2 &= \roundP{m\dot{\vec{x}} - e\vec{A}_{\hat{u}}}\cdot \roundP{\hat{u}\times\vec{x}} \\
 G_2 &= \roundP{m\vec{x}\times\dot{\vec{x}}}\cdot\hat{u}-eg\frac{\norm{\hat{u}\times\hat{x}}^2}{\roundP{1+\hat{x}\cdot\hat{u}}}\\
 G_2 &= \roundP{m\vec{x}\times\dot{\vec{x}}}\cdot\hat{u} -eg\roundP{1-\hat{x}\cdot\hat{u}}\\
@@ -133,7 +133,45 @@ It is important to note here that if we restrict the trajectories of the particl
 Another important aspect that can be deduced from the set of equations \refeq{eq:poincarecone} is that if we choose a magnetic monopole with big charge $g$ compared with the angular momentum (in proper units), the angle of the Poincar\'e cone would tend to zero, which in the case of the particle restricted to the sphere, would mean that the radius of the circular motion would also tend to zero, in analogy with the already studied case of the particle in the plane. This gives us some clues as where to look for the analogue guiding center in the case of the magnetic monopole.\\
 
 \section{Important quantities in the Hamiltonian formalism}
+From the analysis carried out before, we can see some important quantities that are useful to describe the movement of particles in the presence of a magnetic monopole, some of which are associated with certain symmetries of the problem. Here we would like to study specially the angular momentum $\mathbb{L}= m\vec{x}\times\dot{\vec{x}}$ and the Poincar\'e vector $\vec{J} = \roundP{m\vec{x}\times\dot{\vec{x}}}+ eg\hat{x}$. To do that, let us first calculate the Hamiltonian for the particle in the magnetic field of a monopole, this time restricting the problem to a sphere of radius $R$:
+
+\begin{equation}
+H\roundP{\vec{x},\vec{p}} = \left.\frac{1}{2m}\norm{\vec{p}+e\vec{A}_{\hat{u}}(\vec{x})}^2\right|_{S^2}
+\label{hamiltonian}
+\end{equation}
+
+As the Hamiltonian is the Legendre transform of the Lagrangian, we obtain the generalised momentum $\vec{p}$  in terms of the velocity of the particle. Moreover, we can see that the Hamiltonian is just the kinematic energy of the particle:
+
+\begin{equation*}
+\begin{aligned}
+\vec{p} &= \frac{\partial L}{\partial \dot{\vec{x}}} = m\dot{\vec{x}}-e\vec{A}_{\hat{u}} \coloneqq \vec{\pi}-e\vec{A}_{\hat{u}} \\
+\\
+H &= \left.\frac{1}{2m}\norm{\vec{\pi}}^2\right|_{S^2}
+\end{aligned}
+\end{equation*}
+
+From here we can propose the angular momentum of the particle as $\mathbb{L}= \vec{x}\times\vec{\pi}$ and we can calculate its Poisson bracket. To do so, it is useful to calculate first some Poisson brackets related to the linear momentum $\vec{\pi} = \vec{p} + e\vec{A}$, as it was done in the first chapter:
 
 
+\begin{align*}
+\poisson{\pi_i}{\pi_j} &= \frac{\partial \pi_i}{\partial x_l}\frac{\partial \pi_j}{\partial p_l} - \frac{\partial \pi_j}{\partial x_l}\frac{\partial \pi_i}{\partial p_l}\\
+&= e\delta_{lj}\frac{\partial A_i}{\partial x_l} -e\delta_{li}\frac{\partial A_j}{\partial x_l}            = e\roundP{\delta_{lj}\delta_{mi} - \delta_{li}\delta_{mj}}\frac{\partial A_m}{\partial x_l} \\
+&= -e\epsilon_{ijk}\epsilon_{lmk}\frac{\partial A_m}{\partial x_l}\\
+&= -e\epsilon_{ijk}(\nabla \times \vec{A})_k = e\epsilon_{ijk}B_k = -\frac{eg}{R^3}\epsilon_{ijk}x_k
+\end{align*}
+
+\begin{align*}
+\poisson{\pi_i}{x_j} &= \frac{\partial \pi_i}{\partial x_l}\cancelto{0}{\frac{\partial x_j}{\partial p_l}} - \frac{\partial x_j}{\partial x_l}\frac{\partial \pi_i}{\partial p_l} =  -\delta_{ij}
+\end{align*}
+
+Then the algebra becomes a little bit easier for $\mathbb{L}$
+\begin{align*}
+\poisson{L_i}{L_j} &= \poisson{\epsilon_{iab}x_a\pi_b}{\epsilon_{jcd}x_c\pi_d} = \epsilon_{iab}\epsilon_{jcd}\poisson{x_a\pi_b}{x_c\pi_d}\\
+&= \epsilon_{iab}\epsilon_{jcd}\roundP{x_ax_c\poisson{\pi_b}{\pi_d}+\pi_bx_c\poisson{x_a}{\pi_d}            +x_a\pi_d\poisson{\pi_b}{x_c} + \pi_b\pi_d\cancelto{0}{\poisson{x_a}{x_c}}}\\
+&= \epsilon_{iab}\epsilon_{jcd}\roundP{-\frac{eg}{R^3}\epsilon_{bdk}x_ax_cx_k+\pi_bx_c\delta_{ad}-\pi_dx_a\delta_{bc}}\\
+&= -\frac{eg}{R^3}\epsilon_{iab}\roundP{\delta_{jk}\delta_{cb} - \delta_{jb}\delta_{ck}}x_ax_cx_k + \roundP{\delta_{bj}\delta_{ic} - \cancel{\delta_{bc}\delta_{ij}}}\pi_bx_c - \roundP{\delta_{aj}\delta_{ib} - \cancel{\delta_{ia}\delta_{jb}}}\pi_dx_a\\
+& = -\frac{eg}{R^3}\roundP{x_j\cancelto{0}{\epsilon_{iab}x_ax_b}-\epsilon_{aji}x_a{x_bx_b}}             +\roundP{\delta_{ia}\delta_{jb}-\delta_{ib}\delta_{ja}}x_a\pi_b\\
+& = \epsilon_{ijk}\roundP{\epsilon_{abk}x_a\pi_b-{eg}\hat{x}_k} = \epsilon_{ijk}\roundP{L_k-{eg}\hat{x}_k}
+\end{align*}
 
 

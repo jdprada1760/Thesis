@@ -21,7 +21,7 @@
 \contentsline {chapter}{\numberline {3}The problem of a charged particle in the magnetic field of a monopole}{9}{chapter.39}
 \contentsline {section}{\numberline {3.1}Definition of the Lagrangian}{9}{section.40}
 \contentsline {section}{\numberline {3.2}The symmetries and its conserved quantities}{10}{section.43}
-\contentsline {section}{\numberline {3.3}Important quantities in the Hamiltonian formalism}{13}{section.50}
+\contentsline {section}{\numberline {3.3}Important quantities in the Hamiltonian formalism}{14}{section.50}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}An Appendix}{14}{appendix.51}
+\contentsline {chapter}{\numberline {A}An Appendix}{16}{appendix.52}
 \vspace {2em}

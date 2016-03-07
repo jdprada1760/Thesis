@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  6 MAR 2016 01:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  6 MAR 2016 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -499,6 +499,9 @@ LaTeX Info: Redefining \addtolength on input line 77.
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 13.
 
+(/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
 (/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
 Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
 
@@ -516,9 +519,6 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen156
 \l_MT_above_shortintertext_sep=\dimen157
 \l_MT_below_shortintertext_sep=\dimen158
-)
-(/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
-Package: cancel 2013/04/12 v2.2 Cancel math terms
 ) (./Thesis.aux
 
 LaTeX Warning: Label `eq:action' multiply defined.
@@ -849,12 +849,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-) (./Appendices/AppendixA.tex [13]
+[13]
+Overfull \hbox (9.03767pt too wide) in paragraph at lines 175--175
+[] 
+ []
+
+[14]) (./Appendices/AppendixA.tex [15]
 Appendix A.
 ------------------------------------------------------------------------------
  A An Appendix
 ------------------------------------------------------------------------------
-) [14
+) [16
 
 ]
 ------------------------------------------------------------------------------
@@ -870,7 +875,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 13543208E9BE49EE0242C48C1342B06F;4028.
+(rerunfilecheck)             Checksum: E09B71AFB1C8CC66125972DFFECF7CCC;4028.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -878,10 +883,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
- 13425 strings out of 494985
- 190575 string characters out of 6180356
- 267823 words of memory out of 5000000
- 16374 multiletter control sequences out of 15000+600000
+ 13429 strings out of 494985
+ 190613 string characters out of 6180356
+ 270899 words of memory out of 5000000
+ 16375 multiletter control sequences out of 15000+600000
  13007 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,19n,45p,1244b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -902,10 +907,10 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (26 pages, 234259 bytes).
+Output written on Thesis.pdf (28 pages, 240322 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 319 compressed objects within 4 object streams
- 78 named destinations out of 1000 (max. 500000)
+ 379 PDF objects out of 1000 (max. 8388607)
+ 327 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
