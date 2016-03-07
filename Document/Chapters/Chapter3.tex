@@ -174,4 +174,31 @@ Then the algebra becomes a little bit easier for $\mathbb{L}$
 & = \epsilon_{ijk}\roundP{\epsilon_{abk}x_a\pi_b-{eg}\hat{x}_k} = \epsilon_{ijk}\roundP{L_k-{eg}\hat{x}_k}
 \end{align*}
 
+Now, we can observe that $\mathbb{L}$ does not follow the canonical relations for angular momentum, which is not surprising because the moment $\vec{\pi}$ used in the definition of $\mathbb{L}$ is not the canonical momentum. We can fix this by taking a slight variation in $\mathbb{L}$:\\
+
+\begin{equation}
+\mathbb{J} \coloneqq \mathbb{L} + eg\hat{x}
+\label{eq:ham poincarevec}
+\end{equation}
+
+The Poisson bracket relation for this angular momentum is given by:
+
+\begin{align*}
+\poisson{J_i}{J_j} &= \poisson{L_i + \frac{eg}{R}x_i}{L_j + \frac{eg}{R}x_j}\\
+&= \poisson{L_i}{L_j} + \frac{eg}{R}\roundP{\poisson{L_i}{x_j} +\poisson{x_i}{L_j}} + \roundP{\frac{eg}{R}}^2\cancelto{0}{\poisson{x_i}{x_j}}\\
+& = \epsilon_{ijk}\roundP{L_k-{eg}\hat{x}_k}+\frac{eg}{R}\roundP{-\delta_{lj}\frac{\partial \epsilon_{iab}x_a\roundP{p_b+eA_b}}{\partial p_l}+ \delta_{il}\frac{\partial\epsilon_{jcd}x_c\roundP{p_d+eA_d}}{\partial p_l}}\\
+& = \epsilon_{ijk}\roundP{L_k-{eg}\hat{x}_k}+ \frac{eg}{R}\roundP{-\epsilon_{jia}x_a+\epsilon_{ijc}x_c}\\
+&= \epsilon_{ijk}\roundP{L_k+{eg}\hat{x}_k} = \epsilon_{ijk}J_k
+\end{align*}
+
+Then we deduce that $\mathbb{J}$ is a canonical angular momentum. It is not difficult to see that this is in fact the Poincar\'e vector in equation \refeq{eq:poincarevec}, and furthermore, that this is the canonical angular moment associated with the current canonical variables:
+
+\begin{align*}
+\mathbb{J} &= \vec{x}\times\vec{\pi}+{eg}\hat{x} = m{\vec{x}}\times\dot{\vec{x}} + eg\hat{x} = \vec{J}\\ 
+&= \vec{x}\times\vec{p} = \vec{x}\times\roundP{\vec{\pi} -e\vec{A}_{\hat{u}}}\\
+&= \vec{x}\times\vec{\pi} - \vec{x}\times\roundP{\frac{g}{R^2}\frac{{\hat{u}\times\vec{x}}}{1+\hat{u}\cdot\hat{x}}}\\
+&= \vec{x}\times\vec{\pi} -\frac{g}{R^2}\roundP{\frac{R^2\hat{u} - R\hat{x}\roundP{u}}{1+\hat{u}\cdot\hat{x}}}
+\end{align*}
+
+
 

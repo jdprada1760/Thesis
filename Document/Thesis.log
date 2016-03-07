@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  6 MAR 2016 20:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  7 MAR 2016 00:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,12 +854,17 @@ Overfull \hbox (9.03767pt too wide) in paragraph at lines 175--175
 [] 
  []
 
-[14]) (./Appendices/AppendixA.tex [15]
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+[15]) (./Appendices/AppendixA.tex [16]
 Appendix A.
 ------------------------------------------------------------------------------
  A An Appendix
 ------------------------------------------------------------------------------
-) [16
+) [17
 
 ]
 ------------------------------------------------------------------------------
@@ -875,7 +880,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E09B71AFB1C8CC66125972DFFECF7CCC;4028.
+(rerunfilecheck)             Checksum: B03C1464A1EB3F08ADFBC14E221324AA;4028.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -883,10 +888,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
- 13429 strings out of 494985
- 190613 string characters out of 6180356
- 270899 words of memory out of 5000000
- 16375 multiletter control sequences out of 15000+600000
+ 13432 strings out of 494985
+ 190651 string characters out of 6180356
+ 270977 words of memory out of 5000000
+ 16376 multiletter control sequences out of 15000+600000
  13007 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,19n,45p,1244b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -907,10 +912,10 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (28 pages, 240322 bytes).
+Output written on Thesis.pdf (29 pages, 242981 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 327 compressed objects within 4 object streams
- 81 named destinations out of 1000 (max. 500000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 332 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
