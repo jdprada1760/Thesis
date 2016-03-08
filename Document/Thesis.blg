@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Thesis.aux
+The style file: unsrt.bst
+Database file #1: Bibliography.bib
+Warning--entry type for "alonso" isn't style-file defined
+--line 1 of file Bibliography.bib
+Warning--I didn't find a database entry for "haldane"
+Warning--I didn't find a database entry for "arnold"
+Warning--I didn't find a database entry for "poincare"
+Warning--I didn't find a database entry for "scheck"
+You've used 4 entries,
+            1791 wiz_defined-function locations,
+            476 strings with 4263 characters,
+and the built_in function-call counts, 696 in all, are:
+= -- 62
+> -- 20
+< -- 0
++ -- 9
+- -- 5
+* -- 32
+:= -- 117
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 33
+empty$ -- 80
+format.name$ -- 5
+if$ -- 159
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 4
+newline$ -- 22
+num.names$ -- 4
+pop$ -- 11
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 16
+stack$ -- 0
+substring$ -- 30
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 6
+width$ -- 5
+write$ -- 43
+(There were 5 warnings)

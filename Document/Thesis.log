@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  7 MAR 2016 18:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  7 MAR 2016 21:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,13 +467,6 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count136
 \LT@p@ftn=\toks29
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip71
-\bibsep=\skip72
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count137
-)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks30
@@ -484,18 +477,18 @@ Package: vector 1994/09/16 v1.0 vector macros for LaTeX2e (nde)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count138
-\calc@Bcount=\count139
+\calc@Acount=\count137
+\calc@Bcount=\count138
 \calc@Adimen=\dimen150
 \calc@Bdimen=\dimen151
-\calc@Askip=\skip73
-\calc@Bskip=\skip74
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count140
-\calc@Cskip=\skip75
+\calc@Ccount=\count139
+\calc@Cskip=\skip73
 )
-\c@vec@elem=\count141
+\c@vec@elem=\count140
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 13.
 
@@ -510,9 +503,9 @@ Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count142
+\g_MT_multlinerow_int=\count141
 \l_MT_multwidth_dim=\dimen152
-\origjot=\skip76
+\origjot=\skip74
 \l_MT_shortvdotswithinadjustabove_dim=\dimen153
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen154
 \l_MT_above_intertext_sep=\dimen155
@@ -555,19 +548,19 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count143
+\scratchcounter=\count142
 \scratchdimen=\dimen159
 \scratchbox=\box35
-\nofMPsegments=\count144
-\nofMParguments=\count145
+\nofMPsegments=\count143
+\nofMParguments=\count144
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count146
+\MPscratchCnt=\count145
 \MPscratchDim=\dimen160
-\MPnumerator=\count147
-\makeMPintoPDFobject=\count148
+\MPnumerator=\count146
+\makeMPintoPDFobject=\count147
 \everyMPtoPDFconversion=\toks33
 )
-\c@lstlisting=\count149
+\c@lstlisting=\count148
 \AtBeginShipoutBox=\box36
 Package hyperref Info: Link coloring OFF on input line 27.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -576,7 +569,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count150
+\c@section@level=\count149
 )
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
@@ -597,101 +590,26 @@ LaTeX Info: Redefining \nameref on input line 27.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 ------------------------------------------------------------------------------
- Declaration of Authorship
+ Table of Contents
 ------------------------------------------------------------------------------
-LaTeX Font Info:    Try loading font information for U+msa on input line 84.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(./Thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 84.
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-
- []
-
-[1
-
-] [2
-
-]
-------------------------------------------------------------------------------
- Abstract Page
-------------------------------------------------------------------------------
-[3
-
-]
-------------------------------------------------------------------------------
- Acknowledgements
-------------------------------------------------------------------------------
-[4
-
-]
-------------------------------------------------------------------------------
- Table of Contents
-------------------------------------------------------------------------------
-(./Thesis.toc)
+))
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
- [5
+ [1
 
 
 ]
-------------------------------------------------------------------------------
- List of Figures
-------------------------------------------------------------------------------
-(./Thesis.lof)
-\tf@lof=\write5
-\openout5 = `Thesis.lof'.
-
- [6
-
-
-]
-------------------------------------------------------------------------------
- List of Tables
-------------------------------------------------------------------------------
-(./Thesis.lot)
-\tf@lot=\write6
-\openout6 = `Thesis.lot'.
-
- [7
-
-
-]
-------------------------------------------------------------------------------
- Abbreviations
-------------------------------------------------------------------------------
-[8
-
-
-
-]
-------------------------------------------------------------------------------
- Physical Constants
-------------------------------------------------------------------------------
-[9
-
-
-
-]
-------------------------------------------------------------------------------
- Symbols
-------------------------------------------------------------------------------
-[10
-
-
-
-]
-------------------------------------------------------------------------------
- Dedicatory
-------------------------------------------------------------------------------
-[11
-
-] (./Chapters/Chapter1.tex
+(./Chapters/Chapter1.tex
 Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
@@ -702,36 +620,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Package natbib Warning: Citation `introPoincare' on page 1 undefined on input l
-ine 4.
-
-
-Package natbib Warning: Citation `introJacobi' on page 1 undefined on input lin
-e 4.
-
-
-Package natbib Warning: Citation `introPoincare' on page 1 undefined on input l
-ine 4.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
-
-
-Package natbib Warning: Citation `strangeCases' on page 1 undefined on input li
-ne 6.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) (./Chapters/Chapter2.tex [1
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+[1
 
 
 
-] [2]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+LaTeX Warning: Citation `haldane' on page 2 undefined on input line 15.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 15--73
+
+ []
+
+(./Chapters/Chapter2.tex [2]
 Chapter 2.
 ------------------------------------------------------------------------------
  2 The three body problem in the plane
@@ -799,8 +724,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
  []
 
 
-Package natbib Warning: Citation `arnold' on page 7 undefined on input line 135
-.
+LaTeX Warning: Citation `arnold' on page 7 undefined on input line 135.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
@@ -818,12 +742,10 @@ Chapter 3.
  3 The problem of a charged particle in the magnetic field of a monopole
 ------------------------------------------------------------------------------
 
-Package natbib Warning: Citation `poincare' on page 10 undefined on input line 
-3.
+LaTeX Warning: Citation `poincare' on page 10 undefined on input line 3.
 
 
-Package natbib Warning: Citation `haldane' on page 10 undefined on input line 3
-.
+LaTeX Warning: Citation `haldane' on page 10 undefined on input line 3.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -831,8 +753,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
-Package natbib Warning: Citation `poincare' on page 10 undefined on input line 
-13.
+LaTeX Warning: Citation `poincare' on page 10 undefined on input line 13.
 
 [10
 
@@ -847,13 +768,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
  []
 
 
-Package natbib Warning: Citation `scheck' on page 11 undefined on input line 45
-.
+LaTeX Warning: Citation `scheck' on page 11 undefined on input line 45.
 
 [11]
 
-Package natbib Warning: Citation `scheck' on page 12 undefined on input line 64
-.
+LaTeX Warning: Citation `scheck' on page 12 undefined on input line 64.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
@@ -906,29 +825,40 @@ Appendix A.
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-No file Thesis.bbl.
+(./Thesis.bbl
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmti10!
+Missing character: There is no € in font cmti10!
+Missing character: There is no ™ in font cmti10!
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
+ [19
 
-Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
-(./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
+ (./Thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B03C1464A1EB3F08ADFBC14E221324AA;4028.
+(rerunfilecheck)             Checksum: 2F63ABD4BF8C603F1A1964C548F8F0B9;3015.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
  ) 
 Here is how much of TeX's memory you used:
- 13436 strings out of 494985
- 190700 string characters out of 6180356
- 269978 words of memory out of 5000000
- 16379 multiletter control sequences out of 15000+600000
- 13007 words of font info for 48 fonts, out of 8000000 for 9000
+ 13076 strings out of 494985
+ 186621 string characters out of 6180356
+ 263204 words of memory out of 5000000
+ 16051 multiletter control sequences out of 15000+600000
+ 11663 words of font info for 43 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,19n,45p,1244b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -940,18 +870,15 @@ t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (30 pages, 245212 bytes).
+/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Thesis.pdf (21 pages, 214355 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
- 335 compressed objects within 4 object streams
- 84 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 296 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
