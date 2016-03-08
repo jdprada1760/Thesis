@@ -10,7 +10,7 @@ L\roundP{\vec{x},\dot{\vec{x}}} = \frac{m}{2}\norm{\dot{\vec{x}}}^2 - e\vec{A}_{
 \label{eq:lagrangian}
 \end{equation}
 
-Where $\vec{A}(\vec{x})$ is the vector potential of the magnetic monopole with singularity along the direction defined by the unit vector $\hat{u}$. It is know that there is no vector potential that is finite in $\mathbb{R}^3$ which reproduces the magnetic field of a monopole; in addition, the different vector potentials identified by different unit vectors $\hat{u}$ are related by a gauge transformation which leaves the trajectories invariant. This family of vector potentials are given by \cite{poincare}:
+Where $\vec{A}(\vec{x})$ is the vector potential of the magnetic monopole with singularity along the direction defined by the unit vector $\hat{u}$. It is know that there is no vector potential that is finite in $\mathbb{R}^3$ which reproduces the magnetic field of a monopole; in addition, the different vector potentials identified by different unit vectors $\hat{u}$ are related by a gauge transformation which leaves the trajectories invariant. This family of vector potentials are given by \cite{vectorPotentials}:
 
 \begin{equation}
 \vec{A}_{\hat{u}}(\vec{x}) = \frac{g}{r}\frac{\hat{u}\times\hat{r}}{1+\hat{u}\cdot\hat{r}}
@@ -27,7 +27,7 @@ The first thing to note in the previously defined Lagrangian is its time indepen
 
 With $\dot{\vec{x_0}}$ the initial velocity of the particle. Here the Jacobi integral clearly represents the kinetic energy of the particle, which is constant in time because the magnetic field does no work.\\
 
-Now, due to the simplicity of the problem, one can suspect of many other symmetries. The next symmetry presented here is not associated with Lagrangian, but rather with the action invariance. If we define the action as in the equation \refeq{eq:action}, it can be seen that it may be invariant under a proper scale transform of position and time. It is not difficult to find this transform, and it is presented in equation \refeq{eq:scaletrans}.\\
+Now, due to the simplicity of the problem, one can suspect of many other symmetries. The next symmetry presented here is not associated with Lagrangian, but rather with the action invariance. If we define the action as in the equation \eqref{eq:action}, it can be seen that it may be invariant under a proper scale transform of position and time. It is not difficult to find this transform, and it is presented in equation \eqref{eq:scaletrans}.\\
 
 \begin{equation}
 S = \int_{t_1}^{t_2}L\roundP{\vec{x},\dot{\vec{x}}}dt = \int_{t_1}^{t_2}\roundP{\frac{m}{2}\norm{\dot{\vec{x}}}^2 - e\vec{A}_{\hat{u}}(\vec{x})\cdot\dot{\vec{x}}}dt 
@@ -42,7 +42,7 @@ t'&= e^{2s}t
 \label{eq:scaletrans}
 \end{equation}
 
-As a result of this symmetry, by Noether's theorem there must be a conserved quantity implied. To calculate it we prefer the method stated in \cite[Thm (dontforget)]{scheck}; however, to apply this method, the Lagrangian must be parametrised to include the time $t$ as a generalised coordinate. To achieve this, note that:
+As a result of this symmetry, by Noether's theorem there must be a conserved quantity implied. To calculate it we prefer the method stated in \cite[Thm on Integrable Systems]{scheck}; however, to apply this method, the Lagrangian must be parametrised to include the time $t$ as a generalised coordinate. To achieve this, note that:
 
 \begin{align*}
 \dot{\vec{x}} = \frac{d\vec{x}}{dt} = \frac{\frac{d\vec{x}}{d\tau}}{\frac{dt}{d\tau}} \coloneqq \frac{\mathring{\vec{x}}}{\mathring{t}}
@@ -52,16 +52,16 @@ Then the action can be written in terms of the new parameter $\tau$:
 
 \begin{equation*}
 S = \int_{t_1}^{t_2}L\roundP{\vec{x},\dot{\vec{x}}}dt = \int_{\tau_1}^{\tau_2}\mathring{t}L\roundP{\vec{x},\mathring{\vec{x}}{\mathring{t}}^{-1}}d\tau                                                                    = \int_{\tau_1}^{\tau_2}L'\roundP{\vec{x},\mathring{\vec{x}},\mathring{t}}d\tau
-\label{eq:action}
+\label{eq:actiontau}
 \end{equation*}
 
-Which by analogy with equation \refeq{eq:action}, gives the new parametrised Lagrangian $L'$:
+Which by analogy with equation \eqref{eq:action}, gives the new parametrised Lagrangian $L'$:
 
 \begin{equation*}
 L'\roundP{\vec{x},\mathring{\vec{x}},\mathring{t}} = \mathring{t}L\roundP{\vec{x},\mathring{\vec{x}}{\mathring{t}}^{-1}} = \frac{m}{2\mathring{t}}\norm{\mathring{\vec{x}}}^2 - e\vec{A}_{\hat{u}}(\vec{x})\cdot\mathring{\vec{x}}
 \end{equation*}
 
-As we converted the symmetry of the action $S$ in a symmetry of the Lagrangian $L'$, the invariance given by  equation \refeq{eq:scaletrans} becomes clear. Now, using \cite[Thm (dontforget)]{scheck}, we obtain the conserved quantity in accordance with the transformation \refeq{eq:scaletrans}: \\
+As we converted the symmetry of the action $S$ in a symmetry of the Lagrangian $L'$, the invariance given by  equation \eqref{eq:scaletrans} becomes clear. Now, using \cite[Thm on Integrable Systems]{scheck}, we obtain the conserved quantity in accordance with the transformation \eqref{eq:scaletrans}: \\
 
 \begin{align*}
 \nonumber
@@ -82,9 +82,9 @@ Working the previous conserved quantity one can obtain an equation for the magni
  \label{eq:radius}
 \end{align}
 
-From equation \ref{eq:radius} it is important to note that the only way the radius of the particle stays constant is that the initial velocity of the particle is zero, otherwise, the time-quadratic term will always contribute to the increase of that radius. Furthermore, if the angular momentum of the particle $m\dot{\vec{x_0}}\cdot\vec{x_0}$ is zero, we retrieve the trajectory of a particle in rectilinear motion. This means that the radial velocity of the particle is not affected by the magnetic field of the monopole, as expected from the symmetry of the field.\\
+From equation \eqref{eq:radius} it is important to note that the only way the radius of the particle stays constant is that the initial velocity of the particle is zero, otherwise, the time-quadratic term will always contribute to the increase of that radius. Furthermore, if the angular momentum of the particle $m\dot{\vec{x_0}}\cdot\vec{x_0}$ is zero, we retrieve the trajectory of a particle in rectilinear motion. This means that the radial velocity of the particle is not affected by the magnetic field of the monopole, as expected from the symmetry of the field.\\
 
-On the other hand, we note that once chosen a unit vector $\hat{u}$ for the vector potential  $\vec{A}_{\hat{u}}$, it is quite obvious that the original Lagrangian $L$ in equation \refeq{eq:lagrangian} is invariant under rotations around the unit vector $\hat{u}$, that is, under the following infinitesimal transformation:
+On the other hand, we note that once chosen a unit vector $\hat{u}$ for the vector potential  $\vec{A}_{\hat{u}}$, it is quite obvious that the original Lagrangian $L$ in equation \eqref{eq:lagrangian} is invariant under rotations around the unit vector $\hat{u}$, that is, under the following infinitesimal transformation:
 
 \begin{equation}
 \vec{x}' = \vec{x} + s\roundP{\hat{u}\times\vec{x}}
@@ -101,7 +101,7 @@ G_2 &= \roundP{m\vec{x}\times\dot{\vec{x}}}\cdot\hat{u} -eg\roundP{1-\hat{x}\cdo
 J_{\hat{u}} &\coloneqq \roundP{{m\vec{x}\times\dot{\vec{x}}}+ eg\hat{x}}\cdot\hat{u} = ct
 \end{align*}
 
-Now, the last argument is valid for any unit vector $\hat{u}$ chosen and this yields the conservation of the  known as Poincar\'e vector in equation \refeq{eq:poincarevec}.
+Now, the last argument is valid for any unit vector $\hat{u}$ chosen and this yields the conservation of the  known as Poincar\'e vector in equation \eqref{eq:poincarevec}.
 
 \begin{equation}
 \vec{J} = \roundP{m\vec{x}\times\dot{\vec{x}}}+ eg\hat{x}
@@ -128,11 +128,11 @@ Furthermore, we can deduce from the conservation of the Poincar\'e vector that t
 
 From this equations it can be seen that the angle of aperture of the Poincar\'e cone is zero when the angular momentum $\mathbb{L}$ cancel, which means that the particle performs rectilinear motion, as deduced before from the other symmetries of the problem.\\
 
-It is important to note here that if we restrict the trajectories of the particle to be in a sphere, we cannot carry a scale transform, hence we would not obtain the radius trajectory described in equation \refeq{eq:radius}. However, a rotation is consistent with the norm conservation of the restriction to the sphere, and consequently we can obtain the Poincar\'e's vector invariance. The cone confinement together with the restriction of the trajectories to a constant radius would result in the particle describing a circular trajectory on the sphere.\\ 
+It is important to note here that if we restrict the trajectories of the particle to be in a sphere, we cannot carry a scale transform, hence we would not obtain the radius trajectory described in equation \eqref{eq:radius}. However, a rotation is consistent with the norm conservation of the restriction to the sphere, and consequently we can obtain the Poincar\'e's vector invariance. The cone confinement together with the restriction of the trajectories to a constant radius would result in the particle describing a circular trajectory on the sphere.\\ 
 
 Moreover in the sphere restriction the position vector and the velocity vector must be perpendicular, therefore, as the norm of the position is the constant radius of the sphere, the conservation of the angular momentum would result in the conservation of the linear velocity, meaning that the circular motion of the particle is in fact uniform, in analogy with the problem in the sphere.\\
 
-Another important aspect that can be deduced from the set of equations \refeq{eq:poincarecone} is that if we choose a magnetic monopole with big charge $g$ compared with the angular momentum (in proper units), the angle of the Poincar\'e cone would tend to zero, which in the case of the particle restricted to the sphere, would mean that the radius of the circular motion would also tend to zero, as happens with the already studied case of the particle in the plane. This gives us some clues as where to look for the analogue guiding center formalism in the case of the magnetic monopole.\\
+Another important aspect that can be deduced from the set of equations \eqref{eq:poincarecone} is that if we choose a magnetic monopole with big charge $g$ compared with the angular momentum (in proper units), the angle of the Poincar\'e cone would tend to zero, which in the case of the particle restricted to the sphere, would mean that the radius of the circular motion would also tend to zero, as happens with the already studied case of the particle in the plane. This gives us some clues as where to look for the analogue guiding center formalism in the case of the magnetic monopole.\\
 
 \section{Important quantities in the Hamiltonian formalism}
 From the analysis carried out before, we can see some important quantities that are useful to describe the movement of particles in the presence of a magnetic monopole, some of which are associated with certain symmetries of the problem. Here we would like to study specially the angular momentum $\mathbb{L}= m\vec{x}\times\dot{\vec{x}}$ and the Poincar\'e vector $\vec{J} = \roundP{m\vec{x}\times\dot{\vec{x}}}+ eg\hat{x}$. To do that, let us first calculate the Hamiltonian for the particle in the magnetic field of a monopole, this time restricting the problem to a sphere of radius $R$:
@@ -193,7 +193,7 @@ The Poisson bracket relation for this angular momentum is given by:
 &= \epsilon_{ijk}\roundP{L_k+{eg}\hat{x}_k} = \epsilon_{ijk}J_k
 \end{align*}
 
-Then we deduce that $\mathbb{J}$ is a canonical angular momentum. It is not difficult to see that this is in fact the Poincar\'e vector in equation \refeq{eq:poincarevec} and that, as seen before, it determines the center of the circular motion performed by the particle:
+Then we deduce that $\mathbb{J}$ is a canonical angular momentum. It is not difficult to see that this is in fact the Poincar\'e vector in equation \eqref{eq:poincarevec} and that, as seen before, it determines the center of the circular motion performed by the particle:
 
 \begin{align*}
 \mathbb{J} &= \vec{x}\times\vec{\pi}+{eg}\hat{x} = m{\vec{x}}\times\dot{\vec{x}} + eg\hat{x} = \vec{J}\\ 

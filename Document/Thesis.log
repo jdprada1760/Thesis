@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  7 MAR 2016 21:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  7 MAR 2016 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -512,11 +512,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen156
 \l_MT_above_shortintertext_sep=\dimen157
 \l_MT_below_shortintertext_sep=\dimen158
-) (./Thesis.aux
-
-LaTeX Warning: Label `eq:action' multiply defined.
-
-)
+) (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -539,7 +535,8 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
- (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
@@ -648,9 +645,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-
-LaTeX Warning: Citation `haldane' on page 2 undefined on input line 15.
-
 )
 Underfull \hbox (badness 10000) in paragraph at lines 15--73
 
@@ -742,18 +736,9 @@ Chapter 3.
  3 The problem of a charged particle in the magnetic field of a monopole
 ------------------------------------------------------------------------------
 
-LaTeX Warning: Citation `poincare' on page 10 undefined on input line 3.
-
-
-LaTeX Warning: Citation `haldane' on page 10 undefined on input line 3.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
-
-
-LaTeX Warning: Citation `poincare' on page 10 undefined on input line 13.
 
 [10
 
@@ -767,14 +752,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-
-LaTeX Warning: Citation `scheck' on page 11 undefined on input line 45.
-
 [11]
-
-LaTeX Warning: Citation `scheck' on page 12 undefined on input line 64.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
@@ -832,6 +810,8 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmti10!
 Missing character: There is no € in font cmti10!
 Missing character: There is no ™ in font cmti10!
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no ¡ in font cmti10!
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
  [19
@@ -848,16 +828,13 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
  ) 
 Here is how much of TeX's memory you used:
- 13076 strings out of 494985
- 186621 string characters out of 6180356
- 263204 words of memory out of 5000000
- 16051 multiletter control sequences out of 15000+600000
+ 13084 strings out of 494985
+ 186731 string characters out of 6180356
+ 264390 words of memory out of 5000000
+ 16054 multiletter control sequences out of 15000+600000
  11663 words of font info for 43 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,19n,45p,1244b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -875,10 +852,10 @@ amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (21 pages, 214355 bytes).
+Output written on Thesis.pdf (21 pages, 218363 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 255 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 269 compressed objects within 3 object streams
+ 69 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
