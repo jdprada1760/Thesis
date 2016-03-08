@@ -9,7 +9,15 @@
 \contentsline {section}{\numberline {3.1}Definition of the Lagrangian}{10}{section.23}
 \contentsline {section}{\numberline {3.2}The symmetries and its conserved quantities}{11}{section.26}
 \contentsline {section}{\numberline {3.3}Important quantities in the Hamiltonian formalism}{15}{section.33}
+\contentsline {chapter}{\numberline {4}The three body problem in the sphere}{18}{chapter.36}
+\contentsline {section}{\numberline {4.1}Definition of the problem}{18}{section.37}
+\contentsline {section}{\numberline {4.2}Integrability of the system}{18}{section.38}
+\contentsline {section}{\numberline {4.3}Analysis of the movement of the guiding centres}{18}{section.39}
+\contentsline {chapter}{\numberline {5}Quantum analysis of the three body problem in the plane}{19}{chapter.40}
+\contentsline {section}{\numberline {5.1}The spinorial representation}{19}{section.41}
+\contentsline {section}{\numberline {5.2}The Schwinger oscillator and the angular momentum representation}{19}{section.42}
+\contentsline {chapter}{\numberline {6}The quantum three body problem on the sphere}{20}{chapter.43}
+\contentsline {chapter}{\numberline {7}Conclusions}{21}{chapter.44}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}An Appendix}{18}{appendix.36}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{19}{dummy.37}
+\contentsline {chapter}{Bibliography}{22}{dummy.45}
