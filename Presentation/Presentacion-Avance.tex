@@ -1,0 +1,290 @@
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice. 
+
+\documentclass[xcolor=dvipsnames]{beamer}
+\usepackage{bibentry}
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+\usepackage{cancel}
+\usepackage{amsmath} 
+\usepackage{mathtools}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+% Command for round parenthesis
+\newcommand{\roundP}[1]{\left( #1 \right)}
+% Command for poisson brackets
+\newcommand{\poisson}[2]{\left\lbrace #1, #2 \right\rbrace}
+
+\usepackage{varwidth}
+\usepackage{lipsum}
+\usepackage{color}
+\usepackage{todonotes}
+\definecolor{dgray}{gray}{0.30}
+\definecolor{uyellow}{RGB}{253,241,0}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage{datenumber}
+\usepackage{todonotes}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{thm}{Theorem}
+\newcommand{\fmunu}{F^{\mu\nu}}
+\newcommand{\E}{\vec{E}}
+\newcommand{\B}{\vec{B}}
+\newcommand{\rot}{\nabla\times}
+\newcommand{\dive}{\nabla\cdot}
+\newcommand{\tmunu}{T^{\mu\nu}}
+\newcommand{\levichi}{\epsilon_{\mu\nu\sigma\gamma}}
+\newcommand{\dete}{\textrm{det}}
+\newcommand{\lna}{\textrm{ln}}
+\newcommand{\Tr}{\textrm{Tr}}
+\newcommand{\seno}{\textrm{sin}}
+
+\makeatletter
+\newcommand{\pushright}[1]{\ifmeasuring@#1\else\omit\hfill$\displaystyle#1$\fi\ignorespaces}
+\newcommand{\pushleft}[1]{\ifmeasuring@#1\else\omit$\displaystyle#1$\hfill\fi\ignorespaces}
+\makeatother
+
+
+
+% There are many different themes available for Beamer. A comprehensive list with examples is given here:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{boxes}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{default}
+%\usetheme{Frankfurt}
+\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+%\usecolortheme{seagull}
+%\usetheme{Malmoe} 
+\setbeamercolor{frametitle}{fg=Black,bg=Blue!60}
+\setbeamercolor{section in head/foot}{bg=Blue, fg=Black}
+\setbeamercolor{author in head/foot}{bg=blue, fg=Black} 
+\setbeamercolor{date in head/foot}{fg=blue} 
+\setbeamercolor{institute in head/foot}{fg=Black}
+\usecolortheme[named=Black]{structure}
+\setbeamerfont{footnote}{size=\footnotesize}
+
+\setbeamertemplate{}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+ 
+\title{\textbf{El problema de tres cuerpos en la superficie esférica}}
+
+% A subtitle is optional and this may be deleted
+%\subtitle{Optional Subtitle}
+
+\author{Jesus Prada}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different affiliation.
+
+\institute[{\color{Black} Universidad de los Andes}] % (optional, but mostly needed)
+{
+ \vspace{5mm} \normalsize Advisor: PhD Alonso Botero \\ \vspace{6mm} \small  Universidad de los Andes, Departamento de Física
+}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\tiny
+\date{ \footnotesize Marzo 9, 2016}
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including yourself) who are reading the slides online
+	
+
+\subject{Quantum and classical N body Problem}
+% This is only inserted into the PDF information catalog. Can be left out. 
+
+% If you have a file called "university-logo-filename.xxx", where xxx  is a graphic format that can be processed by latex or pdflatex, resp., then you can add a logo as follows:
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+% Delete this, if you do not want the table of contents to pop up at the beginning of each subsection:
+%\AtBeginSubsection[] { \begin{frame}<beamer>{Outline} \tableofcontents[currentsection,currentsubsection] \end{frame}}
+
+% Let's get started
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+%--------------------------------------------
+\begin{frame}{Outline}
+ \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+%------------------------------------------------
+\section{Introducción}
+\subsection{Introducción}
+\begin{frame}
+\begin{itemize}
+\item El problema de N cuerpos trata de estudiar las trayectorias que seguir\'ian N partículas interactuando con fuerzas externas e internas, teniendo en cuenta la informaci\'on de las condiciones iniciales.\\~\\ 
+\item Es de inter\'es para la comprensi\'on de la mec\'anica cl\'asica. Fue as\'i como Poincar\'e plante\'o las bases de la teor\'ia del caos. \cite{poincare}
+\end{itemize}
+\end{frame}
+%--------------------------------------------------------------------------------------
+\subsection{Motivación}
+\begin{frame}
+\begin{itemize}
+\item Para $N\geq 3$ los sistemas son en general no integrables. Varios casos son integrables pero involucran Fuerzas poco realistas \cite{strangeCases}.\\~\\ 
+\item Alonso Botero et al. demostraron en \cite{alonso} la integrabilidad de un caso de tres partículas cargadas en el plano.\\~\\ 
+\item El caso incluye potenciales centrales y puede ser tomado como modelo de electrones para estudiar el efecto Hall clásico y cuántico.\\~\\ 
+\end{itemize}
+\end{frame}
+%-----------------------------------------------------------------------------------------
+\begin{frame}
+\begin{itemize}
+\item Los modelos de efecto Hall no se interesan en la física interna y se trabajan sobre superficies sin borde\cite{schlief}. \\~\\
+\item La motivación principal es extender el análisis en \cite{alonso} al análogo caso de las esfera.\\~\\
+\end{itemize}
+\end{frame}
+%---------------------------------------------------------------------------------------
+\section{Tabla de contenidos de la Tesis}
+\begin{frame}[allowframebreaks]
+\begin{itemize}
+\item Introduction\\
+\begin{itemize}
+\item Motivación\\
+\end{itemize}
+\item The three body problem on the plane\\
+\begin{itemize}
+\item The definition of the problem\\
+\item The canonical transformation of the guiding centres\\
+\item Integration of the system\\
+\item Analysis of the motion\\
+\end{itemize}
+\item The problem of a charged particle in the magnetic field of a monopole\
+\begin{itemize}
+\item Definition of the Lagrangian\\
+\item The symmetries and its conserved quantities\\
+\item Important quantities in the Hamiltonian formalism\\
+\end{itemize}
+\item The three body problem on the sphere\\
+\begin{itemize}
+\item The definition of the problem\\
+\item Integrability of the system\\
+\item Analysis of the movement of the guiding centres\\
+\end{itemize}
+\item Quantum analysis of the three body problem in the plane\\
+\begin{itemize}
+\item The spinorial representation\\
+\item The Schwinger oscillator and the angular momentum representation\\
+\end{itemize}
+\item The quantum three body problem on the sphere\\
+\item Conclusions\\
+\end{itemize}
+\end{frame}
+%-------------------------------------------------------------------------
+\section{Avances}
+\subsection{El problema de 3 cuerpos en el plano}
+\begin{frame}
+El Hamiltoniano del problema propuesto está dado por:
+\begin{equation*}
+H = \sum_{i=1}^{3} \frac{1}{2m} \norm{ \vec{p_i} - 
+e\vec{ A } \left( \vec{q_i} \right)}^2
++ V \roundP{ \vec{q_1},\vec{q_2},\vec{q_3} }
++\frac{\omega_c^2}{2m}\sum_{i=1}^{3} \norm{\vec{q_i}}^2
+\end{equation*}
+\\~\\
+Se propone la transformación canónica de los centros guía:
+\begin{align*}
+\vec{\pi_i} &= \vec{p_i} - e\vec{A}\roundP{\vec{q_i}}\\
+\vec{R_i} &= \vec{q_i} - \frac{\hat{k}\times\vec{\pi_i}}{eB}
+\end{align*}
+Que es canónica dados los corchetes de Poisson:
+\begin{align*}
+\poisson{\pi_{i,\alpha}}{\pi_{j,\beta}}&=\roundP{eB}\delta_{ij}\epsilon_{\alpha \beta}\\  
+\poisson{R_{i,\alpha}}{R_{j,\beta}}&= -\roundP{eB}^{-1} \delta_{ij}\epsilon_{\alpha \beta}\\  
+\poisson{R_{i,\alpha}}{\pi_{j,\beta}}&=0
+\end{align*}
+\end{frame}
+%---------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+\begin{frame}
+En unidades necesarias y bajo un gran $B$ el Hamiltoniano es separable y el problema se reduce a solucionar el Hamiltoniano de los centros guía con $R_{i,\alpha} = \{(x_1,x_2,x_3),(y_1,y_2,y_3)\}$:
+\begin{equation*}
+H_{gc} = \frac{{\omega_c^*}^2}{2m} \sum_{i=1}^{3} \norm{\bar{x}^2} + \norm{\bar{y}^2}
++ V^*\roundP{\bar{x},\bar{y}}
+\end{equation*}
+El cual es integrable dadas las integrales en involucion \cite{scheck}:
+\begin{align*}
+R_z = \frac{1}{2} \sum_{i=1}^{3} \roundP{x_i^2 + y_i^2}\\
+L = T_x^2 + T_y^2 = \roundP{\sum_{i=1}^{3} x_i}^2 + \roundP{\sum_{i=1}^{3} y_i}^2\\
+\end{align*}
+\end{frame}
+%---------------------------------------------------------------------------
+\subsection{El problema de una partícula bajo el campo magnético monopolar}
+\begin{frame}
+El Lagrangiano y Hamiltoniano de la partícula están dados por:
+\begin{align*}
+L\roundP{\vec{x},\dot{\vec{x}}} = \frac{m}{2}\norm{\dot{\vec{x}}}^2 - e\vec{A}_{\hat{u}}(\vec{x})\cdot\dot{\vec{x}}\\
+H\roundP{\vec{x},\vec{p}} = \left.\frac{1}{2m}\norm{\vec{p}+e\vec{A}_{\hat{u}}(\vec{x})}^2\right|_{S^2}
+\end{align*}
+Con \cite{vectorPotentials}:
+\begin{equation*}
+\vec{A}_{\hat{u}}(\vec{x}) = \frac{g}{r}\frac{\hat{u}\times\hat{r}}{1+\hat{u}\cdot\hat{r}}
+\end{equation*}
+\\~\\
+\end{frame}
+%---------------------------------------------------------------------------
+%---------------------------------------------------------------------------
+\begin{frame}
+Dadas las simetrías del problema se deduce que la trayectoria está restringida a un cono:
+
+\begin{align*}
+\mathbb{J} &= \vec{x}\times\vec{\pi}+{eg}\hat{x} = m{\vec{x}}\times\dot{\vec{x}} + eg\hat{x}
+\end{align*}
+\\~\\
+\begin{equation}
+\begin{aligned}
+\norm{\vec{J}}^2 &= \norm{\mathbb{L}}^2 +\roundP{gc}^2\\
+\norm{\mathbb{L}} &= ct\\
+\cos{\theta} &= \frac{\vec{J}\cdot\hat{x}}{\norm{\vec{J}}} = \sqrt{\frac{\roundP{gc}^2}{\norm{\mathbb{L}}^2 +\roundP{gc}^2}}
+\end{aligned}
+\label{eq:poincarecone}
+\end{equation}
+\\~\\
+Lo cual, junto a la restricción de la esfera, dice que la partícula describe movimiento circular uniforme alrededor del centro guía definido por $\mathbb{J}$. Más aún, en el formalismo Hamiltoniano dicho $\mathbb{J}$ satisface las relaciones Poisson de un momento angular canónico \cite{haldane}.\\
+\end{frame}
+%---------------------------------------------------------------------------
+
+\section{References}
+\begin{frame}[t, allowframebreaks]
+\frametitle{Referencias}
+\small
+\bibliographystyle{unsrt}
+\bibliography{Bibliography}
+\end{frame}
+\end{document}

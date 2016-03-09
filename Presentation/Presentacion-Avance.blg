@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Presentacion-Avance.aux
+The style file: unsrt.bst
+Database file #1: Bibliography.bib
+Warning--entry type for "alonso" isn't style-file defined
+--line 1 of file Bibliography.bib
+You've used 7 entries,
+            1791 wiz_defined-function locations,
+            493 strings with 4682 characters,
+and the built_in function-call counts, 1273 in all, are:
+= -- 123
+> -- 36
+< -- 0
++ -- 16
+- -- 9
+* -- 61
+:= -- 215
+add.period$ -- 25
+call.type$ -- 7
+change.case$ -- 7
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 59
+empty$ -- 137
+format.name$ -- 9
+if$ -- 290
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 40
+num.names$ -- 7
+pop$ -- 16
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 23
+stack$ -- 0
+substring$ -- 63
+swap$ -- 7
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 10
+width$ -- 8
+write$ -- 83
+(There was 1 warning)

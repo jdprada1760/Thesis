@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Introducci\IeC {\'o}n}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Motivaci\IeC {\'o}n}{4}{0}{1}
+\beamer@sectionintoc {2}{Tabla de contenidos de la Tesis}{6}{0}{2}
+\beamer@sectionintoc {3}{Avances}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{El problema de 3 cuerpos en el plano}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{El problema de una part\IeC {\'\i }cula bajo el campo magn\IeC {\'e}tico monopolar}{10}{0}{3}
+\beamer@sectionintoc {4}{References}{12}{0}{4}
