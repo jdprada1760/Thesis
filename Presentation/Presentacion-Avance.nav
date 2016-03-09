@@ -39,12 +39,8 @@
 \headcommand {\beamer@subsectionpages {10}{11}}
 \headcommand {\slideentry {4}{0}{3}{12/12}{}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {4}{0}{3}{12/13}{}{0}}
-\headcommand {\beamer@framepages {12}{13}}
-\headcommand {\slideentry {4}{0}{3}{12/14}{}{0}}
-\headcommand {\beamer@framepages {12}{14}}
-\headcommand {\beamer@partpages {1}{14}}
-\headcommand {\beamer@subsectionpages {12}{14}}
-\headcommand {\beamer@sectionpages {12}{14}}
-\headcommand {\beamer@documentpages {14}}
-\headcommand {\def \inserttotalframenumber {14}}
+\headcommand {\beamer@partpages {1}{12}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\beamer@sectionpages {12}{12}}
+\headcommand {\beamer@documentpages {12}}
+\headcommand {\def \inserttotalframenumber {12}}
