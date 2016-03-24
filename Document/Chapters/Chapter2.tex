@@ -181,13 +181,14 @@ For the infinitesimal rotation, the relation is analogous:
 Therefore, we conclude that the generators of translations and rotations in the plane commute with the potential $V^*$ due to its symmetries. Besides, the generator of rotations is multiple of the harmonic-like part of the guiding centres Hamiltonian which validates that $R_z$ is other integral in involution. The generators of translations are not integrals in involution, for they do not commute with the harmonic potential, however, we can calculate a quantity in terms of these generators, which already commute with the potential $V^*$, to make it commute with the remaining part of $H_{gc}$: 
 
 \begin{equation}
-L = T_x^2 + T_y^2
+L \coloneqq \frac{1}{6}\roundP{T_x^2 + T_y^2}
+\label{eq:gccircle}
 \end{equation}
 
-This new quantity $L$ clearly commutes with the potential $V^*$ because the Poisson bracket is  a linear differential operator in one component and it obeys the Leibniz rule. Moreover, it also commutes with the rotation generator $R_z$:
+This new quantity $L$ clearly commutes with the potential $V^*$ because the Poisson bracket is  a linear differential operator in one component and it obeys the Leibniz rule. Moreover, it also commutes with the rotation generator $J \coloneqq R_z$:
 
 \begin{align*}
-\poisson{T_x^2+ T_y^2}{ R_z} &= \sum_{i,j,k} \poisson{x_ix_j + y_iy_j}{x_k^2 + y_k^2}\\
+\poisson{T_x^2+ T_y^2}{ J} &= \sum_{i,j,k} \poisson{x_ix_j + y_iy_j}{x_k^2 + y_k^2}\\
 &= \sum_{i,j,k}  \poisson{x_ix_j}{y_k^2} + \poisson{y_iy_j}{x_k^2} = \sum_{i,j,k} y_k \poisson{x_ix_j}{y_k} + x_k \poisson{y_iy_j}{x_k}\\
 &= \sum_{i,j,k} y_kx_i\delta_{jk}+y_kx_j\delta_{ik} - x_ky_i\delta_{jk}- x_ky_j\delta_{ik}\\
 &= \sum_{i,j} y_jx_i + y_ix_j - x_jy_i - x_iy_j = 0
@@ -196,13 +197,52 @@ This new quantity $L$ clearly commutes with the potential $V^*$ because the Pois
 As we found $L$ as the last integral in involution, we conclude, by the Liouville-Arnol'd theorem, that the subsystem of guiding centres is integrable by quadratures.\\
 
 \section{Analysis of the motion}
+Taking the motion integrals obtained in the previous section for the guiding center Hamiltonian \eqref{eq:hamgc} the motion of the particles can be broken down in that of the center of mass, and the relative trajectories of the particles. To see that, note that as $T_x^2 + T_y^2$ in \eqref{eq:gccircle} is an integral in involution with the Hamiltonian, it is a conserved quantity. The conservation of this term is clearly interpreted as a circular motion of the center of mass of the system $\roundP{\frac{T_x}{3},\frac{T_y}{3}}$.\\
 
+The latter analysis can be clarified in terms of the decoupling of the guiding center trajectories from the general motion of the particles. In that sense one can deduce that the guiding centre movement is only affected by the interaction potential $V$ and the external harmonic potential, which can be confirmed by the lack of magnetic terms in the guiding centre Hamiltonian in equation \eqref{eq:newham}. Taking this into account, as the potential $V$ is a central potential that produces only internal forces, one can assure that the motion of the center of mass of the guiding centres is determined by the only term of external interaction in the Hamiltonian, producing, as consequence, the deduced circular motion of the center of mass.\\
 
+The problem is then reduced to the analysis of the motion of the coordinates relative to the centre of mass. To carry on with this procedure, let us take the spinor of relative position defined as follows:
 
+\begin{align}
+\Psi_\alpha = \frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}\roundP{z_{2}-z_{1}}\\
+z_{2}+z_{1}-2z_{2}\end{pmatrix}
+\end{align}
 
+With $z_{i} = x_i + iy_i$. If we call define the center of mass as $T = \frac{1}{3}\roundP{T_x + iT_y} = \frac{1}{3}\roundP{z_1 +z_2+z_3}$ we can retrieve the general position of each particle as follows:
+\small
+\begin{align*}
+z_1 &= T+\frac{1}{\sqrt{3}}\Psi_2 - \frac{1}{3}\Psi_1 \\
+z_2 &= T+\frac{1}{\sqrt{3}}\Psi_2 + \frac{1}{3}\Psi_1 \\
+z_3 &= T-\frac{2}{\sqrt{3}}\Psi_2
+\end{align*}
+\normalsize
 
+The spinor components were chosen to satisfy the canonical commutation relations:
 
+\small
+\begin{align*}
+\poisson{\Psi_\alpha}{\Psi_\alpha} &= 0\\ 
+\poisson{\Psi_1}{\Psi_2} &= \poisson{\Psi_1^*}{\Psi_2^*}^* = \poisson{\frac{1}{2}\roundP{z_{2}-z_{1}}}{\frac{1}{2\sqrt{3}}\roundP{z_{2}+z_{1}-2z_{3}}} \\
+&= i\poisson{\frac{1}{2}\roundP{x_{2}-x_{1}}}{\frac{1}{2\sqrt{3}}\roundP{y_{2}+y_{1}-2y_{3}}}\\
+&+ i\poisson{\frac{1}{2}\roundP{y_{2}-y_{1}}}{\frac{1}{2\sqrt{3}}\roundP{x_{2}+x_{1}-2x_{3}}} = 0\\
+\end{align*}
+\small
+\begin{align*}
+\poisson{\Psi_1}{\Psi_2^*} &= \poisson{\Psi_1^*}{\Psi_2}^* = -\frac{i}{2\sqrt{3}}\poisson{x_{2}-x_{1}}{y_{2}+y_{1}-2y_{3}} = 0\\
+\poisson{\Psi_1}{\Psi_1^*} &= \frac{-2i}{4}\poisson{x_{2}-x_{1}}{y_2-y_1} = -i\\
+\poisson{\Psi_2}{\Psi_2^*} &= \frac{-i}{6}\poisson{x_{1}+x_{2}-2x_3}{y_1+y_2-2y_3} = -i
+\end{align*}
+\normalsize
 
+Which can be resumed:
 
+\begin{align*}
+\poisson{\Psi_\alpha}{\Psi_\beta} &= \poisson{\Psi_\alpha^*}{\Psi_\beta^*} = 0\\
+\poisson{\Psi_\alpha*}{\Psi_\beta} &= i\delta_{\alpha,\beta}
+\end{align*}
 
+This spinorial representation of the relative coordinates of the particles with respect to the center of mass is analogous to the transformation performed to analyse the two body problem, only adapted to take into account one more particle and one less dimension. This spinor, besides representing a canonical transformation of the guiding centres, has norm equal to the spin quantity $S = J-L$ which is also an integral of motion:
 
+\begin{align*}
+\Psi^\dagger\Psi = \frac{1}{4}\roundP{x_1^2 + x_2}
+\end{align*}
