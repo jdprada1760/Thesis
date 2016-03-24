@@ -204,11 +204,11 @@ The latter analysis can be clarified in terms of the decoupling of the guiding c
 The problem is then reduced to the analysis of the motion of the coordinates relative to the centre of mass. To carry on with this procedure, let us take the spinor of relative position defined as follows:
 
 \begin{align}
-\Psi_\alpha = \frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}\roundP{z_{2}-z_{1}}\\
+\Psi = \frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}\roundP{z_{2}-z_{1}}\\
 z_{2}+z_{1}-2z_{2}\end{pmatrix}
 \end{align}
 
-With $z_{i} = x_i + iy_i$. If we call define the center of mass as $T = \frac{1}{3}\roundP{T_x + iT_y} = \frac{1}{3}\roundP{z_1 +z_2+z_3}$ we can retrieve the general position of each particle as follows:
+With $z_{i} = x_i + iy_i$. If we call define the center of mass as $T = \frac{1}{3}\roundP{T_x + iT_y} = \frac{1}{3}\roundP{z_1 +z_2+z_3}$ we can retrieve the general position of each particle:
 \small
 \begin{align*}
 z_1 &= T+\frac{1}{\sqrt{3}}\Psi_2 - \frac{1}{3}\Psi_1 \\
@@ -252,3 +252,37 @@ This spinorial representation of the relative coordinates of the particles with 
 &= J-L = S
 \end{align*}
 \normalsize
+
+This quantity $S$ can be easily interpreted as proportional to the moment of inertia of the triangle rotating about its center of mass, which gives more intuition to the interpretation of $S$ as spin momentum:
+
+\begin{align*}
+I &= m\sum_{i=1}^3 \norm{\vec{r}_i - \vec{r}_{cm}}^2 = m\sum_{i=1}^3 \norm{\vec{r}_i}^2 + 3\norm{\vec{r}_{cm}} - 2\vec{r}_{cm}\cdot\sum_{i=1}^3\vec{r}_i =m\roundP{2J -3\norm{\vec{r}_{cm}}}\\
+&= m\roundP{2J - \frac{1}{3}\roundP{T_x^2+T_y^2}} = m\roundP{2J-2L} = 2mS
+\end{align*}
+
+Also, it is observed that any phase multiplication to the spinor $\Psi$ is equivalent to rotations about the center of mass or about the origin, as they have the same effect on relative vectors $\vec{r_i}-\vec{r_j}$:
+
+\begin{align*}
+e^{i\phi}z &= \roundP{\cos{\phi}+i\sin{\phi}}\roundP{x+iy} = \roundP{x\cos{\phi}-y\sin{\phi}} + i\roundP{y\cos{\phi}+x\sin{\phi}}\\
+\Psi &= \frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}\roundP{z_{2}-z_{1}}\\
+z_{2}+z_{1}-2z_{3}\end{pmatrix}=\frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}\roundP{z_{2}-z_{1}}\\
+z_{2}-z_3+ z_{1}-z_{3}\end{pmatrix}\\
+e^{i\phi}\Psi &= \frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}e^{i\phi}\roundP{z_{2}-z_{1}}\\
+e^{i\phi}\roundP{z_{2}-z_3}+ e^{i\phi}\roundP{z_{1}-z_{3}}\end{pmatrix}
+\end{align*}
+
+On the other hand, scale transformations will be clearly given by a scalar multiplication. Consequently, a general transformation performed to the triangle relative coordinates can be represented by a scalar and a phase, or which is the same, a complex number. Taking this into account, we can codify the phase space information of the triangle from $\Psi$ in a Bloch sphere taking into account only its shape by omitting the rotations and scale transformations which leave it unchanged. To see that clearly, let us take the equivalence class representing a triangle shape:
+
+\begin{equation}
+\left[ \Psi \right] = \left\{ z\Psi | z \in \mathbb{C} \\ \left\{ 0 \right\} \right\}
+\label{eq:equivalence}
+\end{equation}
+
+Now, to map the space of shapes $\left\{ \Psi / \sqrt{S} \right\} $ to a Bloch sphere, let us define the following quantity:
+
+\begin{equation}
+\vec{\zeta} = \frac{1}{S} \Psi^{\dagger}\vec{\sigma}\Psi
+\end{equation}
+
+The interpretation of this vector is 
+

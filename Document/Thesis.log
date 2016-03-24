@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  24 MAR 2016 01:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  24 MAR 2016 18:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -746,7 +746,7 @@ Overfull \hbox (17.95895pt too wide) in paragraph at lines 253--253
 [] 
  []
 
-) (./Chapters/Chapter3.tex [12]
+[12]) (./Chapters/Chapter3.tex [13]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 The problem of a charged particle in the magnetic field of a monopole
@@ -756,7 +756,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[13
+[14
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
@@ -768,7 +768,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[14]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
@@ -778,7 +778,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
-[15] [16]
+[16] [17]
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
@@ -798,7 +798,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
-[17] [18]
+[18] [19]
 Overfull \hbox (9.03767pt too wide) in paragraph at lines 177--177
 [] 
  []
@@ -808,33 +808,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
-[19]) (./Chapters/Chapter4.tex [20]
+[20]) (./Chapters/Chapter4.tex [21]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 The three body problem in the sphere
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter5.tex [21
+) (./Chapters/Chapter5.tex [22
 
 ]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Quantum analysis of the three body problem in the plane
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter6.tex [22
+) (./Chapters/Chapter6.tex [23
 
 ]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 The quantum three body problem on the sphere
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter7.tex [23
+) (./Chapters/Chapter7.tex [24
 
 ]
 Chapter 7.
 ------------------------------------------------------------------------------
  7 Conclusions
 ------------------------------------------------------------------------------
-) [24
+) [25
 
 ]
 ------------------------------------------------------------------------------
@@ -851,7 +851,7 @@ Missing character: There is no Ã in font cmti10!
 Missing character: There is no ¡ in font cmti10!
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
- [25
+ [26
 
 
 ]
@@ -860,7 +860,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F8D1AD5F00BAC1FED9652B3AEEADA8A8;5337.
+(rerunfilecheck)             Checksum: 3659747A6372C5710159C9F57BEFA172;5337.
 
 
 LaTeX Warning: There were undefined references.
@@ -868,10 +868,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
  ) 
 Here is how much of TeX's memory you used:
- 13126 strings out of 494985
- 187215 string characters out of 6180356
- 264446 words of memory out of 5000000
- 16071 multiletter control sequences out of 15000+600000
+ 13130 strings out of 494985
+ 187260 string characters out of 6180356
+ 264497 words of memory out of 5000000
+ 16072 multiletter control sequences out of 15000+600000
  13362 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,19n,45p,1244b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -893,10 +893,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (27 pages, 261618 bytes).
+Output written on Thesis.pdf (28 pages, 266626 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 347 compressed objects within 4 object streams
- 84 named destinations out of 1000 (max. 500000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 353 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
