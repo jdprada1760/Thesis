@@ -209,12 +209,16 @@ z_{2}+z_{1}-2z_{2}\end{pmatrix}
 \end{align}
 
 With $z_{i} = x_i + iy_i$. If we call define the center of mass as $T = \frac{1}{3}\roundP{T_x + iT_y} = \frac{1}{3}\roundP{z_1 +z_2+z_3}$ we can retrieve the general position of each particle:
+
 \small
-\begin{align*}
+\begin{equation}
+\begin{aligned}
 z_1 &= T+\frac{1}{\sqrt{3}}\Psi_2 - \frac{1}{3}\Psi_1 \\
 z_2 &= T+\frac{1}{\sqrt{3}}\Psi_2 + \frac{1}{3}\Psi_1 \\
 z_3 &= T-\frac{2}{\sqrt{3}}\Psi_2
-\end{align*}
+\end{aligned}
+\label{eq:singlevecs}
+\end{equation}
 \normalsize
 
 The spinor components were chosen to satisfy the canonical commutation relations:
@@ -260,7 +264,7 @@ I &= m\sum_{i=1}^3 \norm{\vec{r}_i - \vec{r}_{cm}}^2 = m\sum_{i=1}^3 \norm{\vec{
 &= m\roundP{2J - \frac{1}{3}\roundP{T_x^2+T_y^2}} = m\roundP{2J-2L} = 2mS
 \end{align*}
 
-Also, it is observed that any phase multiplication to the spinor $\Psi$ is equivalent to rotations about the center of mass or about the origin, as they have the same effect on relative vectors $\vec{r_i}-\vec{r_j}$:
+On the other hand, it is observed that any phase multiplication to the spinor $\Psi$ is equivalent to rotations about the center of mass or about the origin, as they have the same effect on relative vectors $\vec{r_i}-\vec{r_j}$:
 
 \begin{align*}
 e^{i\phi}z &= \roundP{\cos{\phi}+i\sin{\phi}}\roundP{x+iy} = \roundP{x\cos{\phi}-y\sin{\phi}} + i\roundP{y\cos{\phi}+x\sin{\phi}}\\
@@ -271,19 +275,38 @@ e^{i\phi}\Psi &= \frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}e^{i\phi}\roundP{z_{2
 e^{i\phi}\roundP{z_{2}-z_3}+ e^{i\phi}\roundP{z_{1}-z_{3}}\end{pmatrix}
 \end{align*}
 
-On the other hand, scale transformations will be clearly given by a scalar multiplication. Consequently, a general transformation performed to the triangle relative coordinates can be represented by a scalar and a phase, or which is the same, a complex number. Now, taking this into account, we can take the equivalence class of shapes associated with an spinor $\Psi$ as $\left[ \Psi \right] = \left\{ z\Psi | z \in \mathbb{C} \\ \left\{ 0 \right\} \right\}$ the same way we do for the wave vectors of a Qubit. In fact, the Hilbert spaces associated to the shapes of the triangles and to the wave vectors of a Qubit are equivalent, and can be mapped to a Bloch sphere. To do that, let us define the vector consisting of the expected value of the Pauli matrices, that is the same for all normalised vectors in an equivalence class:
+On the other hand, scale transformations will be clearly given by a scalar multiplication. Consequently, a general transformation performed to the triangle relative coordinates can be represented by a scalar and a phase, or which is the same, a complex number. Now, taking this into account, we can take the equivalence class of shapes associated with an spinor $\Psi$ as $\left[ \Psi \right] = \left\{ z\Psi | z \in \mathbb{C} \\ \left\{ 0 \right\} \right\}$ the same way we do for the wave vectors of a Qubit. In fact, the Hilbert spaces associated to the shapes of the triangles and to the wave vectors of a Qubit are equivalent, and can be mapped to a Bloch sphere. To do that, let us define the vector consisting of the expected value of the Pauli matrices $\vec{\sigma}$, that is the same for all normalised vectors in an equivalence class:
 
 \begin{equation}
 \vec{\zeta} = \frac{1}{S} \Psi^{\dagger}\vec{\sigma}\Psi
 \end{equation}
 
-The interpretation of each component of this vector becomes clear with some heavy algebra. Here we present the result in terms of the position vectors $\left\{ \vec{r}_i \right\} $ of each particle:
+The interpretation of each component of this vector becomes clear with some heavy algebra. Here we present the result in terms of the position vectors $ \vec{r}_i $ of each particle:
 
 \begin{align*}
-\zeta_1 &= \\
-\zeta_2 &= \\
-\zeta_3 &= \\
+\zeta_1 &= \frac{1}{2\sqrt{3}S}\roundP{\norm{\vec{r}_2 -\vec{r}_3}^2-\norm{\vec{r}_1 -\vec{r}_3}^2}\\
+\zeta_2 &= \frac{1}{\sqrt{3}S}\roundP{\vec{r}_1\times\vec{r}_2 + \vec{r}_2\times\vec{r}_3 +\vec{r}_3\times\vec{r}_1}\cdot\hat{z} = \frac{2A}{\sqrt{3}S} \\
+\zeta_3 &= \frac{1}{6S}\roundP{2\norm{\vec{r}_2 -\vec{r}_1}^2-\norm{\vec{r}_3 -\vec{r}_1}^2-\norm{\vec{r}_3 -\vec{r}_2}^2}\\
 \end{align*}
+
+From this, the second component of the vector can be easily interpreted as proportional to the area of the triangle. The first and third components, in turn, share a similar composition with the components of the vector $\Psi$, taking the position complex vectors $z_i$ to the squared norm of the opposite side of the triangle. In other words, we can obtain expressions for the squared lengths of the sides of the triangle as we did in equations \eqref{eq:singlevecs}:
+
+\begin{align*}
+S &= \frac{1}{3}\sum_{i=1}^3 x_i^2 + y_i^2 -\frac{1}{3}\sum_{i > j} x_ix_j + y_iy_j  = \frac{1}{6}\roundP{\norm{\vec{r}_1 -\vec{r}_2}^2+\norm{\vec{r}_2 -\vec{r}_3}^2+\norm{\vec{r}_3 -\vec{r}_1}^2}\\
+\rho_1 &\coloneqq \norm{\vec{r}_2 -\vec{r}_3}^2 = 2S\roundP{1+\frac{\sqrt{3}}{2}\zeta_1-\frac{1}{2}\zeta_3} \\
+\rho_2 &\coloneqq \norm{\vec{r}_3 -\vec{r}_1}^2 = 2S\roundP{1-\frac{\sqrt{3}}{2}\zeta_1-\frac{1}{2}\zeta_3} \\
+\rho_3 &\coloneqq \norm{\vec{r}_2 -\vec{r}_1}^2 = 2S\roundP{1+\zeta_3}
+\end{align*}
+
+The information carried by the three components of the vector $\vec{\zeta}$ and the scalar $S$ presented before, can then be compressed elegantly in this fashion:
+
+\begin{align*}
+\rho_k &= 2S\roundP{1+\vec{m}_k\cdot\vec{\zeta}}\\
+\vec{m}_k &= \roundP{\sin{\frac{2\pi k}{3}},0,\cos{\frac{2\pi k}{3}}}\\
+A &= \frac{\sqrt{3}S}{2} \zeta_2
+\end{align*}
+
+
 
 
 
