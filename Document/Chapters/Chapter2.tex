@@ -1,6 +1,6 @@
 \chapter{The three body problem in the plane}
 
-In this chapter a classic approach of a somehow general case of the three body problem in 2 dimensions is going to be presented. This problem was developed by Alonso Botero et. al in \cite{alonso}. It will give some necessary intuition to develop the analogous problem in the spherical geometry. To begin with, the problem is going to be described in great detail; then its integrability is going to be proven; and finally, a formalism to describe the movement of the particles is going to be presented.\\
+In this chapter a classic approach of a somehow general case of the three body problem in 2 dimensions is going to be presented. This problem was developed by Alonso Botero et. al in \cite{alonso}. It will give some necessary intuition to develop the analogous problem in the spherical geometry. To begin with, the problem is going to be described in great detail; then, its integrability is going to be proven; and finally some sort of description of the remaining problem is going to be made.\\
 
 \section{The definition of the problem}
 
@@ -196,18 +196,19 @@ This new quantity $L$ clearly commutes with the potential $V^*$ because the Pois
 
 As we found $L$ as the last integral in involution, we conclude, by the Liouville-Arnol'd theorem, that the subsystem of guiding centres is integrable by quadratures.\\
 
-\section{Analysis of the motion}
+\section{Brief analysis of the motion}
 Taking the motion integrals obtained in the previous section for the guiding center Hamiltonian \eqref{eq:hamgc} the motion of the particles can be broken down in that of the center of mass, and the relative trajectories of the particles. To see that, note that as $T_x^2 + T_y^2$ in \eqref{eq:gccircle} is an integral in involution with the Hamiltonian, it is a conserved quantity. The conservation of this term is clearly interpreted as a circular motion of the center of mass of the system $\roundP{\frac{T_x}{3},\frac{T_y}{3}}$.\\
 
-The latter analysis can be clarified in terms of the decoupling of the guiding center trajectories from the general motion of the particles. In that sense one can deduce that the guiding centre movement is only affected by the interaction potential $V$ and the external harmonic potential, which can be confirmed by the lack of magnetic terms in the guiding centre Hamiltonian in equation \eqref{eq:newham}. Taking this into account, as the potential $V$ is a central potential that produces only internal forces, one can assure that the motion of the center of mass of the guiding centres is determined by the only term of external interaction in the Hamiltonian, producing, as consequence, the deduced circular motion of the center of mass.
+The latter analysis can be clarified in terms of the decoupling of the guiding center trajectories from the general motion of the particles. In that sense one can deduce that the guiding centre movement is only affected by the interaction potential $V$ and the external harmonic potential. This can be confirmed by the lack of magnetic terms in the guiding centre Hamiltonian in equation \eqref{eq:newham}. Taking this into account, as the potential $V$ is a central potential that produces only internal forces that do not affect the movement of the centre of mass, one can assure that its motion is determined by the only term of external interaction in the Hamiltonian, the harmonic potential.\\
 
-Furthermore, in the guiding centre Hamiltonian \eqref{eq:newham}, one can also decouple the motion of the center of mass from the motion of the relative coordinates; and as the potential $V$ does not depend on the general coordinates, we deduce that $\roundP{\frac{T_x}{3},\frac{T_y}{3}}$ performs the motion of a harmonic oscillator, in other words, the motion is besides circular, uniform. \\
+Now, as the center of mass variables are clearly canonical conjugates, we deduce that $\roundP{\frac{T_x}{3},\frac{T_y}{3}}$ performs the motion of a harmonic oscillator. In other words, the motion is besides circular, uniform. \\
 
 The problem is then reduced to the analysis of the motion of the coordinates relative to the centre of mass. To carry on with this procedure, let us take the spinor of relative position defined as follows:
 
 \begin{align}
 \Psi = \frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}\roundP{z_{2}-z_{1}}\\
 z_{2}+z_{1}-2z_{2}\end{pmatrix}
+\label{eq:spinor}
 \end{align}
 
 With $z_{i} = x_i + iy_i$. If we call define the center of mass as $T = \frac{1}{3}\roundP{T_x + iT_y} = \frac{1}{3}\roundP{z_1 +z_2+z_3}$ we can retrieve the general position of each particle:
@@ -242,88 +243,19 @@ The spinor components were chosen to satisfy the canonical commutation relations
 
 Which can be resumed:
 
-\begin{align*}
+\begin{align}
 \poisson{\Psi_\alpha}{\Psi_\beta} &= \poisson{\Psi_\alpha^*}{\Psi_\beta^*} = 0\\
 \poisson{\Psi_\alpha^*}{\Psi_\beta} &= i\delta_{\alpha,\beta}
-\end{align*}
+\label{eq:canonicalSpinor}
+\end{align}
 
-This spinorial representation of the relative coordinates of the particles with respect to the center of mass is analogous to the transformation performed to analyse the two body problem, only adapted to take into account one more particle and one less dimension. This spinor, besides representing a canonical transformation of the guiding centres, has norm equal to the spin quantity $S = J-L$ which is also an integral of motion:
-
-\small
-\begin{align*}
-\Psi^\dagger\Psi &= \norm{\Psi_1}^2 + \norm{\Psi_2}^2 \\
-&= \frac{1}{4}\roundP{\norm{z_1}^2 + \norm{z_2}^2 - 2\operatorname{Re}\roundP{z_1z_2^*}} + \frac{1}{12}\roundP{\norm{z_1}^2 + \norm{z_2}^2+ \norm{z_3}^2 + \operatorname{Re}\roundP{2z_1z_2^*- 4z_1z_3^*- 4z_2z_3^*}}\\
-&= \frac{1}{3}\sum_{i=1}^3 x_i^2 + y_i^2 -\frac{1}{3}\sum_{i > j} x_ix_j + y_iy_j\\
-&= \frac{1}{2}\sum_{i=1}^3 x_i^2 + y_i^2 - \frac{1}{6}\roundP{T_x^2+T_y^2}\\
-&= J-L = S
-\end{align*}
-\normalsize
-
-This quantity $S$ can be easily interpreted as proportional to the moment of inertia of the triangle rotating about its center of mass, which gives more intuition to the interpretation of $S$ as spin momentum:
-
-\begin{align*}
-I &= m\sum_{i=1}^3 \norm{\vec{r}_i - \vec{r}_{cm}}^2 = m\sum_{i=1}^3 \norm{\vec{r}_i}^2 + 3\norm{\vec{r}_{cm}} - 2\vec{r}_{cm}\cdot\sum_{i=1}^3\vec{r}_i =m\roundP{2J -3\norm{\vec{r}_{cm}}}\\
-&= m\roundP{2J - \frac{1}{3}\roundP{T_x^2+T_y^2}} = m\roundP{2J-2L} = 2mS
-\end{align*}
-
-On the other hand, it is observed that any phase multiplication to the spinor $\Psi$ is equivalent to any rotation about the center of mass or about the origin, as they have the same effect on relative vectors $\vec{r_i}-\vec{r_j}$:
-
-\begin{align*}
-e^{i\phi}z &= \roundP{\cos{\phi}+i\sin{\phi}}\roundP{x+iy} = \roundP{x\cos{\phi}-y\sin{\phi}} + i\roundP{y\cos{\phi}+x\sin{\phi}}\\
-\Psi &= \frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}\roundP{z_{2}-z_{1}}\\
-z_{2}+z_{1}-2z_{3}\end{pmatrix}=\frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}\roundP{z_{2}-z_{1}}\\
-z_{2}-z_3+ z_{1}-z_{3}\end{pmatrix}\\
-e^{i\phi}\Psi &= \frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}e^{i\phi}\roundP{z_{2}-z_{1}}\\
-e^{i\phi}\roundP{z_{2}-z_3}+ e^{i\phi}\roundP{z_{1}-z_{3}}\end{pmatrix}
-\end{align*}
-
-Moreover, scale transformations will be clearly given by a scalar multiplication. Consequently, a general transformation performed to the triangle relative coordinates can be represented by a scalar and a phase, or which is the same, a complex number. Now, taking this into account, we can take the equivalence class of shapes associated with a spinor $\Psi$ as $\left[ \Psi \right] = \left\{ z\Psi | z \in \mathbb{C} / \left\{ 0 \right\} \right\}$. Here the equivalence class $\left[ \Psi \right]$ represents a shape of the triangle formed by the particles, and together with the norm of the spinor, it codifies the actual information needed of the triangle for the Hamiltonian of guiding centres. 
-
-In fact, if we take the space of normalised representatives $\Psi/\sqrt{S}$ we can note that the Hilbert spaces associated to the shapes of the triangles and to the wave vectors of a Qubit are equivalent, and can be mapped to a Bloch sphere. To comprehend better this mapping, let us define the vector consisting of the expected value of the Pauli matrices $\vec{\sigma}$ in terms of the equivalence class representatives:
+From here, the solution of the problem can be done by simple integration of the equations of motion, which given the spinorial canonical transformation, can be expressed in the following compact form:
 
 \begin{equation}
-\vec{\zeta} = \frac{1}{S} \Psi^{\dagger}\vec{\sigma}\Psi
+\frac{d\Psi}{dt} = i\frac{\partial V^*\roundP{\Psi}}{\partial\Psi^*}
 \end{equation}
 
-The interpretation of each component of this vector becomes clear with some heavy algebra. Here we present the result in terms of the position vectors $ \vec{r}_i $ of each particle:
-
-\begin{align*}
-\zeta_1 &= \frac{1}{2\sqrt{3}S}\roundP{\norm{\vec{r}_2 -\vec{r}_3}^2-\norm{\vec{r}_1 -\vec{r}_3}^2}\\
-\zeta_2 &= \frac{1}{\sqrt{3}S}\roundP{\vec{r}_1\times\vec{r}_2 + \vec{r}_2\times\vec{r}_3 +\vec{r}_3\times\vec{r}_1}\cdot\hat{z} = \frac{2A}{\sqrt{3}S} \\
-\zeta_3 &= \frac{1}{6S}\roundP{2\norm{\vec{r}_2 -\vec{r}_1}^2-\norm{\vec{r}_3 -\vec{r}_1}^2-\norm{\vec{r}_3 -\vec{r}_2}^2}\\
-\end{align*}
-
-From this, the second component of the vector can be easily interpreted as proportional to the signed area $A$ of the triangle which sign encodes the chirality of the system. The first and third components, in turn, share a similar composition with the components of the vector $\Psi$, taking the position complex vectors $z_i$ to the squared norm of the opposite side of the triangle. In other words, we can obtain expressions for the squared lengths of the sides of the triangle as we did in equations \eqref{eq:singlevecs}:
-
-\begin{align*}
-S &= \frac{1}{3}\sum_{i=1}^3 x_i^2 + y_i^2 -\frac{1}{3}\sum_{i > j} x_ix_j + y_iy_j  = \frac{1}{6}\roundP{\norm{\vec{r}_1 -\vec{r}_2}^2+\norm{\vec{r}_2 -\vec{r}_3}^2+\norm{\vec{r}_3 -\vec{r}_1}^2}\\
-\rho_1 &\coloneqq \norm{\vec{r}_2 -\vec{r}_3}^2 = 2S\roundP{1+\frac{\sqrt{3}}{2}\zeta_1-\frac{1}{2}\zeta_3} \\
-\rho_2 &\coloneqq \norm{\vec{r}_3 -\vec{r}_1}^2 = 2S\roundP{1-\frac{\sqrt{3}}{2}\zeta_1-\frac{1}{2}\zeta_3} \\
-\rho_3 &\coloneqq \norm{\vec{r}_2 -\vec{r}_1}^2 = 2S\roundP{1+\zeta_3}
-\end{align*}
-
-The information carried by the three components of the vector $\vec{\zeta}$ and the scalar $S$ presented before, can then be compressed elegantly in this fashion:
-
-\begin{equation}
-\begin{aligned}
-\rho_k &= 2S\roundP{1+\vec{m}_k\cdot\vec{\zeta}}\\
-\vec{m}_k &= \roundP{\sin{\frac{2\pi k}{3}},0,\cos{\frac{2\pi k}{3}}}, k \in \poisson{1,2}{3}\\
-A &= \frac{\sqrt{3}S}{2} \zeta_2
-\end{aligned}
-\label{eq:compressed}
-\end{equation}
-
-Now, to know better the distribution of shapes in the Bloch sphere, let us take the coordinate $\zeta_2$ as the vertical axis which defines the poles and the rest as the ones defining the remaining perpendicular plane. In this terms, the pole vectors represent triangles of maximal area and the equatorial line, triangles of minimal null area. The triangles from the north hemisphere differ from their specular image with respect to the equatorial plane in the south hemisphere by only a sign in the area, which means that they have the same shape but different chirality.\\
-
-Moreover, isosceles triangles require the vector $\vec{\zeta}$ to be perpendicular to $\vec{m}_i-\vec{m}_j$ for some $i \neq j$. It can be easily demonstrated that $\vec{m}_k \perp \vec{m}_i-\vec{m}_j$ for all $i \neq j \neq k$ and as a consequence, any isosceles triangle must follow that $\vec{\zeta}\parallel\vec{m}_i$ for any $i$. Besides, given that the vectors $\vec{m}$ live in the equatorial plane, it can be deduced that any isosceles triangle can be found on the lines on the sphere connecting the poles with the vectors $\vec{m}$. From this, it is clear that the polar triangles are equilateral.\\
-
-Taking the analysis a little bit further, it can be seen from the form that takes the sides of the vertices $\rho_k$ in equation \eqref{eq:compressed}, that in the equatorial plane if we look the directions $\vec{\zeta} = \vec{m}_k$, no side of the triangle will be null. Hence, those directions will determine isosceles triangles with null area, that is, triangles whose two sides sum up to the other. On the other hand, if we look directions $\vec{\zeta} = -\vec{m}_k \coloneqq \vec{n}_k$, we find that one of the sides will be null. We find then on those directions, isosceles triangles with one of the sides equal to zero, which accounts for its null area.\\
-
-One can be curious for the direction of equilateral triangles with null area, that is, all the points in the same position.  The answer is that we cannot find them in the Bloch sphere because, as we stated earlier, it is a representation for normalised vectors $\Psi/\sqrt{S}$ and this triangle would require $S=0$. However, if we take the normalisation factor $S$ as the radius of the sphere, and consider the family of Bloch spheres for different radii filling $\mathbb{R}^3/\left\{0\right\}$, we surely would find these triangles in any direction on the limit $S\to 0$.\\
-
-
-
-
+The similarities of this expression with the Schr\"odinger's equation is uncanny,however, there is nothing quantumly treated in this classical approach. In fact, these similarities are due to the complex treatment of the spinorial canonical transformation, which could have been done  less compactly by taking the real and imaginary parts as different canonical variables.\\
 
 
 
