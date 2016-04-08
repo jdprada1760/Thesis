@@ -5,19 +5,19 @@
 \contentsline {section}{\numberline {2.2}The canonical transformation of the guiding centres}{5}{section.8}
 \contentsline {section}{\numberline {2.3}Integrability of the system}{8}{section.15}
 \contentsline {section}{\numberline {2.4}Analysis of the motion}{10}{section.21}
-\contentsline {chapter}{\numberline {3}The problem of a charged particle in the magnetic field of a monopole}{15}{chapter.25}
-\contentsline {section}{\numberline {3.1}Definition of the Lagrangian}{15}{section.26}
-\contentsline {section}{\numberline {3.2}The symmetries and its conserved quantities}{16}{section.29}
-\contentsline {section}{\numberline {3.3}Important quantities in the Hamiltonian formalism}{20}{section.36}
-\contentsline {chapter}{\numberline {4}The three body problem in the sphere}{23}{chapter.39}
-\contentsline {section}{\numberline {4.1}Definition of the problem}{23}{section.40}
-\contentsline {section}{\numberline {4.2}Integrability of the system}{23}{section.41}
-\contentsline {section}{\numberline {4.3}Analysis of the movement of the guiding centres}{23}{section.42}
-\contentsline {chapter}{\numberline {5}Quantum analysis of the three body problem in the plane}{24}{chapter.43}
-\contentsline {section}{\numberline {5.1}The spinorial representation}{24}{section.44}
-\contentsline {section}{\numberline {5.2}The Schwinger oscillator and the angular momentum representation}{24}{section.45}
-\contentsline {chapter}{\numberline {6}The quantum three body problem on the sphere}{25}{chapter.46}
-\contentsline {chapter}{\numberline {7}Conclusions}{26}{chapter.47}
+\contentsline {chapter}{\numberline {3}The problem of a charged particle in the magnetic field of a monopole}{16}{chapter.26}
+\contentsline {section}{\numberline {3.1}Definition of the Lagrangian}{16}{section.27}
+\contentsline {section}{\numberline {3.2}The symmetries and its conserved quantities}{17}{section.30}
+\contentsline {section}{\numberline {3.3}Important quantities in the Hamiltonian formalism}{21}{section.37}
+\contentsline {chapter}{\numberline {4}The three body problem in the sphere}{24}{chapter.40}
+\contentsline {section}{\numberline {4.1}Definition of the problem}{24}{section.41}
+\contentsline {section}{\numberline {4.2}Integrability of the system}{24}{section.42}
+\contentsline {section}{\numberline {4.3}Analysis of the movement of the guiding centres}{24}{section.43}
+\contentsline {chapter}{\numberline {5}Quantum analysis of the three body problem in the plane}{25}{chapter.44}
+\contentsline {section}{\numberline {5.1}The spinorial representation}{25}{section.45}
+\contentsline {section}{\numberline {5.2}The Schwinger oscillator and the angular momentum representation}{25}{section.46}
+\contentsline {chapter}{\numberline {6}The quantum three body problem on the sphere}{26}{chapter.47}
+\contentsline {chapter}{\numberline {7}Conclusions}{27}{chapter.48}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{27}{dummy.48}
+\contentsline {chapter}{Bibliography}{28}{dummy.49}
