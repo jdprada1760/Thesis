@@ -1,21 +1,21 @@
 \chapter{Quantum analysis of the three body problem in the plane}
-In this chapter we continue the analysis implemented in \cite{botero}, explaining in detail the quantum treatment of the three body problem in the plane. To achieve this goal, first, the quantum problem will be defined at the same time as the quantum analogous of the classical reduction of problem is going to be briefly discussed; then, the remaining problem is going to be analysed; and finally, some intriguing and rare aspects of this problem are going to be clarified.\\
+In this chapter we continue the analysis implemented in \cite{alonso}, explaining in detail the quantum treatment of the three body problem in the plane. To achieve this goal, the quantum problem will be defined at the same time as the quantum analogous of the classical reduction of problem is going to be briefly discussed; then, the remaining problem is going to be analysed; and finally, some intriguing and rare aspects of this problem are going to be clarified.\\
 
 MODIFY LAST PART
 \section{The quantum three body problem on the plane}
-The quantum treatment of the three body problem on the plane is nothing special given that we thoroughly worked the classical system out in the Hamiltonian formalism. The only thing we have to do is to apply the principles of canonical quantization \cite{Canonical quantization}. \\
+The quantum treatment of the three body problem on the plane is not very different from the classical approach, given that we thoroughly worked the classical system out in the Hamiltonian formalism. The only thing we have to do is to apply the principles of canonical quantization \cite{Canonical quantization}. \\
 
-Including the lasr considerations, the quantum Hamiltonian is going to be the same as the one expressed in \eqref{eq:ham2D}, and as the canonical transformations still work in quantum mechanics, a similar reduction of the problem can be performed.\\
+Including the last considerations, the quantum Hamiltonian is going to be the same as the one expressed in \eqref{eq:ham2d}, and as canonical transformations still work in quantum mechanics, a similar reduction of the problem can be performed.\\
 
-In this case, the classical guiding centres motion decoupling from the linear momenta $\vec{\pi}_i$ will produce a separable quantum Hamiltonian in the same fashion. However, the decoupling cannot be applied to the states, at least not completely. What we can do is consider pure states that can be totally separable, bearing in mind that at the end the final general solution  may consist of a linear combination of those pure states which may not be separable.Once left this clear, we can continue with the reduction of the problem in the same fashion we did in the classical formalism.\\
+%In this case, the classical guiding centres motion decoupling from the linear momenta $\vec{\pi}_i$ will produce a separable quantum Hamiltonian in the same fashion. However, the decoupling cannot be applied to the states, at least not completely. What we can do is consider pure states that can be totally separable, bearing in mind that at the end the final general solution  may consist of a linear combination of those pure states which may not be separable.Once left this clear, we can continue with the reduction of the problem in the same fashion we did in the classical formalism.%\\
 
 First, given the big magnetic field decoupling, the problem can be reduced to the analysis of the guiding centres motion given by the Hamiltonian \eqref{eq:newham}. The decoupled system of linear momenta is equally identified as a quantum harmonic oscillator, which is also very well known amongst the physical sciences community.\\
 
-Puzzling comment on the Heissenbergs uncertainty principle consequences of the canonical transformation.\\
+%Puzzling comment on the Heissenbergs uncertainty principle consequences of the canonical transformation.\\%
 
-Now, we are left with the reduced Hamiltonian for the guiding centres \eqref{eq:newham} with the same definition of the canonical coordinates. The integrability analysis carried out in Chapter $2$ where there were found two integrals of motion in involution with the Hamiltonian, may be interpreted as the finding of a complete set of commutative observables (CSCO) \cite{csco}. This means that the Hamiltonian of the guiding centres can be simultaneously diagonalised with the operators $L$ and $J$ that can be interpreted as orbital and total angular momentum. However, as the problem can be more refined, this occurrence is currently of no interest for us.\\
+Now, we are left with the reduced Hamiltonian for the guiding centres \eqref{eq:newham} with the same definition of the canonical coordinates. The integrability analysis carried out in Chapter 2 where there were found two integrals of motion in involution with the Hamiltonian, may be interpreted as the finding of a complete set of commutative observables (CSCO) \cite{csco}. This means that the Hamiltonian of the guiding centres can be simultaneously diagonalised with the operators $L$ and $J$ that can be interpreted as orbital and total angular momentum. However, as the problem can refined to a better extent, this occurrence is currently of no interest for us.\\
 
-Proceeding with the reduction of the problem, we can decouple here the motion of the center of mass of the guiding centre Hamiltonian and then take the same canonical transformation given by the spinor in \eqref{eq:spinor}:
+Proceeding with the reduction of the problem, we can decouple here the motion of the center of mass, which describes quantum harmonic motion, from the guiding centre  Hamiltonian and then take the same canonical transformation given by the spinor in \eqref{eq:spinor}:
 
 \begin{align}
 \Psi = \frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}\roundP{z_{2}-z_{1}}\\
@@ -23,10 +23,17 @@ z_{2}+z_{1}-2z_{2}\end{pmatrix}
 \label{eq:spinor2}
 \end{align}
 
-Here the problem becomes more interesting than its classical counterpart. Hence it is worth to restate some of the important aspects of the problem, in the formal quantum way. Let us start with the change of the Hamiltonian \ref{eq:newham} in terms of this new canonical coordinates and the position of the center of mass:\\
+The Hamiltonian associated with the relative coordinates will be the same as \eqref{eq:LastHam}:
+
+\begin{align}
+H_{rc}\roundP{\Psi,\Psi^*} = V^*\roundP{\Psi,\Psi^*}
+\end{align}
+
+In quantum mechanics the symmetries of a system play a substantial role in the solution of the associated problem. They determine the algebra of operators, and consequently, the eigenvectors and eigenvalues that generate the states of the Hilbert space. In this case, we know that the potential $V^*$ follows the symmetries associated with the special Euclidean group in 2D ($SE(2)$), but given the simplification of the problem, this symmetry slightly vary for $V^*\roundP{\Psi,\Psi^*}$.\\
+
+From here, the following step in analysing the quantum 2-body problem restricted to the plane is to look for the symmetries in the most simplified Hamiltonian \eqref{eq:LastHam}.\\
 
 \section{The spinorial representation and the Bloch sphere mapping}
-The
 
 This spinorial representation of the relative coordinates of the particles with respect to the center of mass is analogous to the transformation performed to analyse the two body problem, only adapted to take into account one more particle and one less dimension. This spinor, besides representing a canonical transformation of the guiding centres, has norm equal to the spin quantity $S = J-L$ which is also an integral of motion:
 
@@ -58,7 +65,7 @@ e^{i\phi}\Psi &= \frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}e^{i\phi}\roundP{z_{2
 e^{i\phi}\roundP{z_{2}-z_3}+ e^{i\phi}\roundP{z_{1}-z_{3}}\end{pmatrix}
 \end{align*}
 
-Moreover, scale transformations will be clearly given by a scalar multiplication. Consequently, a general transformation performed to the triangle relative coordinates can be represented by a scalar and a phase, or which is the same, a complex number. Now, taking this into account, we can take the equivalence class of shapes associated with a spinor $\Psi$ as $\left[ \Psi \right] = \left\{ z\Psi | z \in \mathbb{C} / \left\{ 0 \right\} \right\}$. Here the equivalence class $\left[ \Psi \right]$ represents a shape of the triangle formed by the particles, and together with the norm of the spinor, it codifies the actual information needed of the triangle for the Hamiltonian of guiding centres. 
+Moreover, scale transformations will be clearly given by a scalar multiplication. Consequently, a general transformation performed to the triangle relative coordinates can be represented by a scalar and a phase, or which is the same, a complex number. Now, taking this into account, we can take the equivalence class of shapes associated with a spinor $\Psi$ as $\left[ \Psi \right] = \left\{ z\Psi | z \in \mathbb{C} / \left\{ 0 \right\} \right\}$. Here the equivalence class $\left[ \Psi \right]$ represents a shape of the triangle formed by the particles, and together with the norm of the spinor, it codifies the actual information needed of the triangle for the Hamiltonian of guiding centres \eqref{eq:newHam}. 
 
 In fact, if we take the space of normalised representatives $\Psi/\sqrt{S}$ we can note that the Hilbert spaces associated to the shapes of the triangles and to the wave vectors of a Qubit are equivalent, and can be mapped to a Bloch sphere. To comprehend better this mapping, let us define the vector consisting of the expected value of the Pauli matrices $\vec{\sigma}$ in terms of the equivalence class representatives:
 
@@ -74,7 +81,9 @@ The interpretation of each component of this vector becomes clear with some heav
 \zeta_3 &= \frac{1}{6S}\roundP{2\norm{\vec{r}_2 -\vec{r}_1}^2-\norm{\vec{r}_3 -\vec{r}_1}^2-\norm{\vec{r}_3 -\vec{r}_2}^2}\\
 \end{align*}
 
-From this, the second component of the vector can be easily interpreted as proportional to the signed area $A$ of the triangle which sign encodes the chirality of the system. The first and third components, in turn, share a similar composition with the components of the vector $\Psi$, taking the position complex vectors $z_i$ to the squared norm of the opposite side of the triangle. In other words, we can obtain expressions for the squared lengths of the sides of the triangle as we did in equations \eqref{eq:singlevecs}:
+From this, the second component of the vector can be easily interpreted as proportional to the signed area $A$ of the triangle which sign encodes the chirality of the system.\\
+
+The first and third components, in turn, share a similar composition with the components of the vector $\Psi$, mapping the complex quantities $z_i$ that encode the vertices coordinates, to the squared norm of the opposite side of the triangle. In other words, we can obtain expressions for the squared lengths of the sides of the triangle as we did in equations \eqref{eq:singlevecs}:
 
 \begin{align*}
 S &= \frac{1}{3}\sum_{i=1}^3 x_i^2 + y_i^2 -\frac{1}{3}\sum_{i > j} x_ix_j + y_iy_j  = \frac{1}{6}\roundP{\norm{\vec{r}_1 -\vec{r}_2}^2+\norm{\vec{r}_2 -\vec{r}_3}^2+\norm{\vec{r}_3 -\vec{r}_1}^2}\\
