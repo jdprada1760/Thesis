@@ -6,121 +6,124 @@ With the objective to obtain some intuition about the N-body problem restricted 
 Let $L$ be the Lagrangian of a charged particle of charge $-e$ and mass $m$ under the influence of a magnetic monopole of magnitude $g$. Then $L$ takes the form:
 
 \begin{equation}
-L\roundP{\vec{x},\dot{\vec{x}}} = \frac{m}{2}\norm{\dot{\vec{x}}}^2 - e\vec{A}_{\hat{u}}(\vec{x})\cdot\dot{\vec{x}}
+L\roundP{\vec{r},\dot{\vec{r}}} = \frac{m}{2}\norm{\dot{\vec{r}}}^2 - e\vec{A}_{\hat{u}}(\vec{r})\cdot\dot{\vec{r}}
 \label{eq:lagrangian}
 \end{equation}
 
-Where $\vec{A}(\vec{x})$ is the vector potential of the magnetic monopole with singularity along the direction defined by the unit vector $\hat{u}$. It is know that there is no vector potential that is finite in $\mathbb{R}^3$ which reproduces the magnetic field of a monopole; in addition, the different vector potentials identified by different unit vectors $\hat{u}$ are related by a gauge transformation which leaves the trajectories invariant. This family of vector potentials are given by \cite{vectorPotentials}:
+Where $\vec{A}(\vec{r})$ is the vector potential of the magnetic monopole with singularity along the direction defined by the unit vector $\hat{u}$. This singularity arises from our inability to reproduce the magnetic field of the monopole with the electromagnetic theory and it has no physical meaning \cite{haldane}. In addition, the different vector potentials identified by different unit vectors $\hat{u}$ are related by a gauge transformation which leaves the trajectories invariant. This family of vector potentials are given by \cite{vectorPotentials}:
 
 \begin{equation}
-\vec{A}_{\hat{u}}(\vec{x}) = \frac{g}{r}\frac{\hat{u}\times\hat{r}}{1+\hat{u}\cdot\hat{r}}
+\vec{A}_{\hat{u}}(\vec{r}) = \frac{g}{r}\frac{\hat{u}\times\hat{r}}{1+\hat{u}\cdot\hat{r}}
 \label{eq:monopolepotential}
 \end{equation}
 
 \section{The symmetries and its conserved quantities}
-
 The first thing to note in the previously defined Lagrangian is its time independence, which yields to the conservation of the Jacobi integral:
 
 \begin{equation*}
- \frac{\partial L}{\partial\dot{\vec{x}}}\cdot\dot{\vec{x}} - L = m\norm{\dot{\vec{x}}}^2                    =m\norm{\dot{\vec{x_0}}}^2 
+ \frac{\partial L}{\partial\dot{\vec{r}}}\cdot\dot{\vec{r}} - L = m\norm{\dot{\vec{r}}}^2                    =m\norm{\dot{\vec{r_0}}}^2 
 \end{equation*}
 
-With $\dot{\vec{x_0}}$ the initial velocity of the particle. Here the Jacobi integral clearly represents the kinetic energy of the particle, which is constant in time because the magnetic field does no work.\\
+With $\dot{\vec{r_0}}$ the initial velocity of the particle. Here the Jacobi integral clearly represents the kinetic energy of the particle, which is constant in time because the magnetic field does no work.\\
 
-Now, due to the simplicity of the problem, one can suspect of many other symmetries. The next symmetry presented here is not associated with Lagrangian, but rather with the action invariance. If we define the action as in the equation \eqref{eq:action}, it can be seen that it may be invariant under a proper scale transform of position and time. It is not difficult to find this transform, and it is presented in equation \eqref{eq:scaletrans}.\\
+Now, due to the simplicity of the problem, one can expect some other symmetries. The next symmetry presented here is not associated with the Lagrangian, but rather with the action invariance due to the transformation involving the time parameter. If we define the action as in the equation \eqref{eq:action}, it can be seen that it may be invariant under a proper scale transform of position and time. It is not difficult to find this transform, and it is presented in equation \eqref{eq:scaletrans}.\\
 
 \begin{equation}
-S = \int_{t_1}^{t_2}L\roundP{\vec{x},\dot{\vec{x}}}dt = \int_{t_1}^{t_2}\roundP{\frac{m}{2}\norm{\dot{\vec{x}}}^2 - e\vec{A}_{\hat{u}}(\vec{x})\cdot\dot{\vec{x}}}dt 
+S = \int_{t_1}^{t_2}L\roundP{\vec{r},\dot{\vec{r}}}dt = \int_{t_1}^{t_2}\roundP{\frac{m}{2}\norm{\dot{\vec{r}}}^2 - e\vec{A}_{\hat{u}}(\vec{r})\cdot\dot{\vec{r}}}dt 
 \label{eq:action}
 \end{equation}
 
 \begin{equation}
 \begin{aligned}
-\vec{x}' &= e^{s}\vec{x}\\
+\vec{r}' &= e^{s}\vec{r}\\
 t'&= e^{2s}t
 \end{aligned}
 \label{eq:scaletrans}
 \end{equation}
 
-As a result of this symmetry, by Noether's theorem there must be a conserved quantity implied. To calculate it we prefer the method stated in \cite[Thm on Integrable Systems]{scheck}; however, to apply this method, the Lagrangian must be parametrised to include the time $t$ as a generalised coordinate. To achieve this, note that:
+As a result of this symmetry, by the general form of Noether's theorem, there must be a conserved quantity implied. To calculate it we prefer the method stated in \cite[2.19 Noether's Thm]{scheck}; however, to apply this method, the Lagrangian must be parametrised to include the time $t$ as a generalised coordinate.\\
+
+To achieve this, note that:
 
 \begin{align*}
-\dot{\vec{x}} = \frac{d\vec{x}}{dt} = \frac{\frac{d\vec{x}}{d\tau}}{\frac{dt}{d\tau}} \coloneqq \frac{\mathring{\vec{x}}}{\mathring{t}}
+\dot{\vec{r}} = \frac{d\vec{r}}{dt} = \frac{\frac{d\vec{r}}{d\tau}}{\frac{dt}{d\tau}} \coloneqq \frac{\mathring{\vec{r}}}{\mathring{t}}
 \end{align*}
 
 Then the action can be written in terms of the new parameter $\tau$:
 
 \begin{equation*}
-S = \int_{t_1}^{t_2}L\roundP{\vec{x},\dot{\vec{x}}}dt = \int_{\tau_1}^{\tau_2}\mathring{t}L\roundP{\vec{x},\mathring{\vec{x}}{\mathring{t}}^{-1}}d\tau                                                                    = \int_{\tau_1}^{\tau_2}L'\roundP{\vec{x},\mathring{\vec{x}},\mathring{t}}d\tau
+S = \int_{t_1}^{t_2}L\roundP{\vec{r},\dot{\vec{r}}}dt = \int_{\tau_1}^{\tau_2}\mathring{t}L\roundP{\vec{r},\mathring{\vec{r}}{\mathring{t}}^{-1}}d\tau                                                                    = \int_{\tau_1}^{\tau_2}L'\roundP{\vec{r},\mathring{\vec{r}},\mathring{t}}d\tau
 \label{eq:actiontau}
 \end{equation*}
 
 Which by analogy with equation \eqref{eq:action}, gives the new parametrised Lagrangian $L'$:
 
 \begin{equation*}
-L'\roundP{\vec{x},\mathring{\vec{x}},\mathring{t}} = \mathring{t}L\roundP{\vec{x},\mathring{\vec{x}}{\mathring{t}}^{-1}} = \frac{m}{2\mathring{t}}\norm{\mathring{\vec{x}}}^2 - e\vec{A}_{\hat{u}}(\vec{x})\cdot\mathring{\vec{x}}
+L'\roundP{\vec{r},\mathring{\vec{r}},\mathring{t}} = \mathring{t}L\roundP{\vec{r},\mathring{\vec{r}}{\mathring{t}}^{-1}} = \frac{m}{2\mathring{t}}\norm{\mathring{\vec{r}}}^2 - e\vec{A}_{\hat{u}}(\vec{r})\cdot\mathring{\vec{r}}
 \end{equation*}
 
-As we converted the symmetry of the action $S$ in a symmetry of the Lagrangian $L'$, the invariance given by  equation \eqref{eq:scaletrans} becomes clear. Now, using \cite[Thm on Integrable Systems]{scheck}, we obtain the conserved quantity in accordance with the transformation \eqref{eq:scaletrans}: \\
+As we converted the symmetry of the action $S$ in a symmetry of the Lagrangian $L'$, the invariance given by  equation \eqref{eq:scaletrans} becomes clear. Now, using Noether's theorem \cite{scheck}, we obtain the conserved quantity in accordance with the transformation \eqref{eq:scaletrans}: \\
 
 \begin{align*}
-\nonumber
-G &= \left. \frac{\partial L'}{\partial \mathring{q_i}} \frac{\partial q'_i}{\partial s} \right|_{s=0}\\ \nonumber
-\\ \nonumber
-G &= -m\norm{\frac{\mathring{\vec{x}}}{\mathring{t}}}^2t + \roundP{\frac{m\mathring{\vec{x}}}{\mathring{t}} - e\vec{A}_{\hat{u}}}\cdot \vec{x}\\ \nonumber
-\\ \nonumber
-G &= m\dot{\vec{x_0}}\cdot\vec{x_0} = -m\norm{\dot{\vec{x_0}}}^2t + m\dot{\vec{x}}\cdot\vec{x} \\\nonumber
+G &= \left. \frac{\partial L'}{\partial \mathring{q_i}} \frac{\partial q'_i}{\partial s} \right|_{s=0} = -m\norm{\frac{\mathring{\vec{r}}}{\mathring{t}}}^2t + \roundP{\frac{m\mathring{\vec{r}}}{\mathring{t}} - e\vec{A}_{\hat{u}}}\cdot \vec{r}\\
+\\
+G &= m\dot{\vec{r_0}}\cdot\vec{r_0} = -m\norm{\dot{\vec{r}}}^2t + m\dot{\vec{r}}\cdot\vec{r} \\
 \end{align*}
 
 Working the previous conserved quantity one can obtain an equation for the magnitude of the position in function of time:
 
-\begin{align}
+\begin{align*}
 \nonumber
- 2\dot{\vec{x}}\cdot\vec{x} &= \frac{d\norm{x}^2}{dt} = 2\norm{\dot{\vec{x_0}}}^2t + 2\dot{\vec{x_0}}\cdot\vec{x_0}\\ \nonumber
+ 2\dot{\vec{r}}\cdot\vec{r} &= \frac{d\norm{r}^2}{dt} = 2\norm{\dot{\vec{r_0}}}^2t + 2\dot{\vec{r_0}}\cdot\vec{r_0}\\
  \\ 
- x^2 &= x_0^2 +2\dot{\vec{x_0}}\cdot\vec{x_0}t +\norm{\dot{\vec{x_0}}}^2t^2  
- \label{eq:radius}
-\end{align}
-
-From equation \eqref{eq:radius} it is important to note that the only way the radius of the particle stays constant is that the initial velocity of the particle is zero, otherwise, the time-quadratic term will always contribute to the increase of that radius. Furthermore, if the angular momentum of the particle $m\dot{\vec{x_0}}\cdot\vec{x_0}$ is zero, we retrieve the trajectory of a particle in rectilinear motion. This means that the radial velocity of the particle is not affected by the magnetic field of the monopole, as expected from the symmetry of the field.\\
-
-On the other hand, we note that once chosen a unit vector $\hat{u}$ for the vector potential  $\vec{A}_{\hat{u}}$, it is quite obvious that the original Lagrangian $L$ in equation \eqref{eq:lagrangian} is invariant under rotations around the unit vector $\hat{u}$, that is, under the following infinitesimal transformation:
+ r^2 &= r_0^2 +2\dot{\vec{r_0}}\cdot\vec{r_0}t +\norm{\dot{\vec{r_0}}}^2t^2  \\
+\end{align*}
 
 \begin{equation}
-\vec{x}' = \vec{x} + s\roundP{\hat{u}\times\vec{x}}
+r^2 = \norm{\vec{r_0}+\dot{\vec{r_0}}t}^2 \\
+\label{eq:radius}
+\end{equation}
+
+From equation \eqref{eq:radius} it is important to note that the only way the radius of the particle stays constant is that the initial velocity of the particle is zero, otherwise, the time term will always contribute to the change of that radius. Furthermore, as constant magnetic fields only affect perpendicular velocities, one expect equation \eqref{eq:radius} to be fulfilled not only in norm, but in direction when the initial velocity $\dot{\vec{r_0}}$ is parallel to the initial radius $r_0$. We then retrieve the formula for uniform motion with no acceleration. To verify this suspicion, let us analyse other quantities associated with the symmetries of the problem.  %Furthermore, if the initial velocity of the particle is  of the particle $m\dot{\vec{r_0}}\cdot\vec{r_0}$ is zero, we retrieve the trajectory of a particle in rectilinear motion. This means that the radial velocity of the particle is not affected by the magnetic field of the monopole, as expected from the symmetry of the field.%
+\\
+
+Taking our attention to the usual symmetries on the original Lagrangian $L$ in equation \eqref{eq:lagrangian} , we note that once chosen a unit vector $\hat{u}$ for the vector potential  $\vec{A}_{\hat{u}}$, it is quite clear that $L$ is invariant under rotations around said unit vector $\hat{u}$. To obtain the conserved quantity, take following infinitesimal transformation:
+
+\begin{equation}
+\vec{r}' = \vec{r} + s\roundP{\hat{u}\times\vec{r}}
 \label{eq:rotinv}
 \end{equation}
 
-Then, as this transformation does not include the time $t$, we can perform the calculation of the conserved quantity over the original Lagrangian:
+As this transformation does not include the time $t$, we can perform the calculation of the conserved quantity over the original Lagrangian:
 
 \begin{align*}
-G_2 &= \left. \frac{\partial L}{\partial \dot{\vec{x}}}\cdot\frac{\partial \vec{x}}{\partial s} \right|_{s=0}\\
-G_2 &= \roundP{m\dot{\vec{x}} - e\vec{A}_{\hat{u}}}\cdot \roundP{\hat{u}\times\vec{x}} \\
-G_2 &= \roundP{m\vec{x}\times\dot{\vec{x}}}\cdot\hat{u}-eg\frac{\norm{\hat{u}\times\hat{x}}^2}{\roundP{1+\hat{x}\cdot\hat{u}}}\\
-G_2 &= \roundP{m\vec{x}\times\dot{\vec{x}}}\cdot\hat{u} -eg\roundP{1-\hat{x}\cdot\hat{u}}\\
-J_{\hat{u}} &\coloneqq \roundP{{m\vec{x}\times\dot{\vec{x}}}+ eg\hat{x}}\cdot\hat{u} = const
+G_2 &= \left. \frac{\partial L}{\partial \dot{\vec{r}}}\cdot\frac{\partial \vec{r}}{\partial s} \right|_{s=0}\\
+G_2 &= \roundP{m\dot{\vec{r}} - e\vec{A}_{\hat{u}}}\cdot \roundP{\hat{u}\times\vec{r}} \\
+G_2 &= \roundP{m\vec{r}\times\dot{\vec{r}}}\cdot\hat{u}-eg\frac{\norm{\hat{u}\times\hat{r}}^2}{\roundP{1+\hat{r}\cdot\hat{u}}}\\
+G_2 &= \roundP{m\vec{r}\times\dot{\vec{r}}}\cdot\hat{u} -eg\roundP{1-\hat{r}\cdot\hat{u}}\\
+J_{\hat{u}} &\coloneqq \roundP{{m\vec{r}\times\dot{\vec{r}}}+ eg\hat{r}}\cdot\hat{u} = const
 \end{align*}
 
 Now, the last argument is valid for any unit vector $\hat{u}$ chosen and this yields the conservation of the  known as Poincar\'e vector in equation \eqref{eq:poincarevec}.
 
 \begin{equation}
-\vec{J} = \roundP{m\vec{x}\times\dot{\vec{x}}}+ eg\hat{x}
+\vec{J} = \roundP{m\vec{r}\times\dot{\vec{r}}}+ eg\hat{r}
 \label{eq:poincarevec}
 \end{equation}
 
-This last symmetry is very meaningful because it restricts the trajectory of the particle to a cone centred in the origin with central vector $\hat{J}$. To verify this, it is only necessary to see that the radial component of the Poincar\'e vector is constant for all points in the trajectory, which means that the angle between $\vec{J}$ and $\vec{x}(t)$ is a constant and that the path of the particle is restricted to a cone:
+This last symmetry is very meaningful because it restricts the trajectory of the particle to a cone centred in the origin with central vector $\hat{J}$. To verify this, it is only necessary to see that the radial component of the Poincar\'e vector is constant for all points in the trajectory, which means that the angle between $\vec{J}$ and $\vec{r}(t)$ is a constant and that the path of the particle is restricted to a cone:
 
 \begin{align*}
-\vec{J}\cdot\hat{x} = eg
+\vec{J}\cdot\hat{r} = eg
 \end{align*}
 
-Furthermore, we can deduce from the conservation of the Poincar\'e vector that the angular momentum $\mathbb{L}= m\vec{x}\times\dot{\vec{x}}$ of the particle is constant in magnitude and that it determines the aperture of the cone of restriction.:
+Furthermore, we can deduce from the conservation of the Poincar\'e vector that the angular momentum $\mathbb{L}= m\vec{r}\times\dot{\vec{r}}$ of the particle is constant in magnitude and that it determines the aperture of the cone of restriction.:
 
 \begin{equation}
 \begin{aligned}
 \norm{\vec{J}}^2 &= \norm{\mathbb{L}}^2 +\roundP{gc}^2\\
 \norm{\mathbb{L}} &= const\\
-\cos{\theta} &= \frac{\vec{J}\cdot\hat{x}}{\norm{\vec{J}}} = \sqrt{\frac{\roundP{ge}^2}{\norm{\mathbb{L}}^2 +\roundP{ge}^2}}
+\cos{\theta} &= \frac{\vec{J}\cdot\hat{r}}{\norm{\vec{J}}} = \sqrt{\frac{\roundP{ge}^2}{\norm{\mathbb{L}}^2 +\roundP{ge}^2}}
 \end{aligned}
 \label{eq:poincarecone}
 \end{equation}
@@ -135,69 +138,89 @@ Moreover in the sphere restriction the position vector and the velocity vector m
 Another important aspect that can be deduced from the set of equations \eqref{eq:poincarecone} is that if we choose a magnetic monopole with big charge $g$ compared with the angular momentum (in proper units), the angle of the Poincar\'e cone would tend to zero, which in the case of the particle restricted to the sphere, would mean that the radius of the circular motion would also tend to zero, as happens with the already studied case of the particle in the plane. This gives us some clues as where to look for the analogue guiding center formalism in the case of the magnetic monopole.\\
 
 \section{Important quantities in the Hamiltonian formalism}
-From the analysis carried out before, we can see some important quantities that are useful to describe the movement of particles in the presence of a magnetic monopole, some of which are associated with certain symmetries of the problem. Here we would like to study specially the angular momentum $\mathbb{L}= m\vec{x}\times\dot{\vec{x}}$ and the Poincar\'e vector $\vec{J} = \roundP{m\vec{x}\times\dot{\vec{x}}}+ eg\hat{x}$. To do that, let us first calculate the Hamiltonian for the particle in the magnetic field of a monopole, this time restricting the problem to a sphere of radius $R$:
+From the analysis carried out before, we can see some important quantities that are useful to describe the movement of particles in the presence of a magnetic monopole, some of which are associated with certain symmetries of the problem. Here we would like to study specially the angular momentum $\mathbb{L}= m\vec{r}\times\dot{\vec{r}}$ and the Poincar\'e vector $\vec{J} = \roundP{m\vec{r}\times\dot{\vec{r}}}+ eg\hat{r}$. To do that, let us first calculate the Hamiltonian for the particle in the magnetic field of a monopole, this time restricting the radius $r$ of the sphere to a constant:
 
 \begin{equation}
-H\roundP{\vec{x},\vec{p}} = \left.\frac{1}{2m}\norm{\vec{p}+e\vec{A}_{\hat{u}}(\vec{x})}^2\right|_{S^2}
+H\roundP{\vec{r},\vec{p}} = \left.\frac{1}{2m}\norm{\vec{p}+e\vec{A}_{\hat{u}}(\vec{r})}^2\right|_{S^2}
 \label{hamiltonian}
 \end{equation}
 
-As the Hamiltonian is the Legendre transform of the Lagrangian, we obtain the generalised momentum $\vec{p}$  in terms of the velocity of the particle. Moreover, we can see that the Hamiltonian is just the kinematic energy of the particle:
+As the Hamiltonian is the Legendre transform of the Lagrangian, we obtain the generalised momentum $\vec{p}$  in terms of the velocity of the particle. Moreover, we can see that the Hamiltonian is just the kinetic energy of the particle:
 
 \begin{equation*}
 \begin{aligned}
-\vec{p} &= \frac{\partial L}{\partial \dot{\vec{x}}} = m\dot{\vec{x}}-e\vec{A}_{\hat{u}} \coloneqq \vec{\pi}-e\vec{A}_{\hat{u}} \\
+\vec{p} &= \frac{\partial L}{\partial \dot{\vec{r}}} = m\dot{\vec{r}}-e\vec{A}_{\hat{u}} \coloneqq \vec{\pi}-e\vec{A}_{\hat{u}} \\
 \\
 H &= \left.\frac{1}{2m}\norm{\vec{\pi}}^2\right|_{S^2}
 \end{aligned}
 \end{equation*}
 
-From here we can propose the angular momentum of the particle as $\mathbb{L}= \vec{x}\times\vec{\pi}$ and we can calculate its Poisson bracket. To do so, it is useful to calculate first some Poisson brackets related to the linear momentum $\vec{\pi} = \vec{p} + e\vec{A}$, as it was done in the first chapter:
+From here we can propose the angular momentum of the particle as $\mathbb{L}= \vec{r}\times\vec{\pi}$ and we can calculate its Poisson bracket. To do so, it is useful to calculate first some Poisson brackets related to the linear momentum $\vec{\pi} = \vec{p} + e\vec{A}$, as it was done in the first chapter:
 
 
 \begin{align*}
-\poisson{\pi_i}{\pi_j} &= \frac{\partial \pi_i}{\partial x_l}\frac{\partial \pi_j}{\partial p_l} - \frac{\partial \pi_j}{\partial x_l}\frac{\partial \pi_i}{\partial p_l}\\
-&= e\delta_{lj}\frac{\partial A_i}{\partial x_l} -e\delta_{li}\frac{\partial A_j}{\partial x_l}            = e\roundP{\delta_{lj}\delta_{mi} - \delta_{li}\delta_{mj}}\frac{\partial A_m}{\partial x_l} \\
-&= -e\epsilon_{ijk}\epsilon_{lmk}\frac{\partial A_m}{\partial x_l}\\
-&= -e\epsilon_{ijk}(\nabla \times \vec{A})_k = e\epsilon_{ijk}B_k = -\frac{eg}{R^3}\epsilon_{ijk}x_k
+\poisson{\pi_i}{\pi_j} &= \frac{\partial \pi_i}{\partial r_l}\frac{\partial \pi_j}{\partial p_l} - \frac{\partial \pi_j}{\partial r_l}\frac{\partial \pi_i}{\partial p_l}\\
+&= e\delta_{lj}\frac{\partial A_i}{\partial r_l} -e\delta_{li}\frac{\partial A_j}{\partial r_l}            = e\roundP{\delta_{lj}\delta_{mi} - \delta_{li}\delta_{mj}}\frac{\partial A_m}{\partial r_l} \\
+&= -e\epsilon_{ijk}\epsilon_{lmk}\frac{\partial A_m}{\partial r_l}\\
+&= -e\epsilon_{ijk}(\nabla \times \vec{A})_k = e\epsilon_{ijk}B_k = -\frac{eg}{r^3}\epsilon_{ijk}r_k
 \end{align*}
 
 \begin{align*}
-\poisson{\pi_i}{x_j} &= \frac{\partial \pi_i}{\partial x_l}\cancelto{0}{\frac{\partial x_j}{\partial p_l}} - \frac{\partial x_j}{\partial x_l}\frac{\partial \pi_i}{\partial p_l} =  -\delta_{ij}
+\poisson{\pi_i}{r_j} &= \frac{\partial \pi_i}{\partial r_l}\cancelto{0}{\frac{\partial r_j}{\partial p_l}} - \frac{\partial r_j}{\partial r_l}\frac{\partial \pi_i}{\partial p_l} =  -\delta_{ij}
 \end{align*}
 
 Then the algebra becomes a little bit easier for $\mathbb{L}$
 \begin{align*}
-\poisson{L_i}{L_j} &= \poisson{\epsilon_{iab}x_a\pi_b}{\epsilon_{jcd}x_c\pi_d} = \epsilon_{iab}\epsilon_{jcd}\poisson{x_a\pi_b}{x_c\pi_d}\\
-&= \epsilon_{iab}\epsilon_{jcd}\roundP{x_ax_c\poisson{\pi_b}{\pi_d}+\pi_bx_c\poisson{x_a}{\pi_d}            +x_a\pi_d\poisson{\pi_b}{x_c} + \pi_b\pi_d\cancelto{0}{\poisson{x_a}{x_c}}}\\
-&= \epsilon_{iab}\epsilon_{jcd}\roundP{-\frac{eg}{R^3}\epsilon_{bdk}x_ax_cx_k+\pi_bx_c\delta_{ad}-\pi_dx_a\delta_{bc}}\\
-&= -\frac{eg}{R^3}\epsilon_{iab}\roundP{\delta_{jk}\delta_{cb} - \delta_{jb}\delta_{ck}}x_ax_cx_k + \roundP{\delta_{bj}\delta_{ic} - \cancel{\delta_{bc}\delta_{ij}}}\pi_bx_c - \roundP{\delta_{aj}\delta_{ib} - \cancel{\delta_{ia}\delta_{jb}}}\pi_dx_a\\
-& = -\frac{eg}{R^3}\roundP{x_j\cancelto{0}{\epsilon_{iab}x_ax_b}-\epsilon_{aji}x_a{x_bx_b}}             +\roundP{\delta_{ia}\delta_{jb}-\delta_{ib}\delta_{ja}}x_a\pi_b\\
-& = \epsilon_{ijk}\roundP{\epsilon_{abk}x_a\pi_b-{eg}\hat{x}_k} = \epsilon_{ijk}\roundP{L_k-{eg}\hat{x}_k}
+\poisson{L_i}{L_j} &= \poisson{\epsilon_{iab}r_a\pi_b}{\epsilon_{jcd}r_c\pi_d} = \epsilon_{iab}\epsilon_{jcd}\poisson{r_a\pi_b}{r_c\pi_d}\\
+&= \epsilon_{iab}\epsilon_{jcd}\roundP{r_ar_c\poisson{\pi_b}{\pi_d}+\pi_br_c\poisson{r_a}{\pi_d}            +r_a\pi_d\poisson{\pi_b}{r_c} + \pi_b\pi_d\cancelto{0}{\poisson{r_a}{r_c}}}\\
+&= \epsilon_{iab}\epsilon_{jcd}\roundP{-\frac{eg}{r^3}\epsilon_{bdk}r_ar_cr_k+\pi_br_c\delta_{ad}-\pi_dr_a\delta_{bc}}\\
+&= -\frac{eg}{r^3}\epsilon_{iab}\roundP{\delta_{jk}\delta_{cb} - \delta_{jb}\delta_{ck}}r_ar_cr_k + \roundP{\delta_{bj}\delta_{ic} - \cancel{\delta_{bc}\delta_{ij}}}\pi_br_c - \roundP{\delta_{aj}\delta_{ib} - \cancel{\delta_{ia}\delta_{jb}}}\pi_dr_a\\
+& = -\frac{eg}{r^3}\roundP{r_j\cancelto{0}{\epsilon_{iab}r_ar_b}-\epsilon_{aji}r_a{r_br_b}}             +\roundP{\delta_{ia}\delta_{jb}-\delta_{ib}\delta_{ja}}r_a\pi_b\\
+& = \epsilon_{ijk}\roundP{\epsilon_{abk}r_a\pi_b-{eg}\hat{r}_k} = \epsilon_{ijk}\roundP{L_k-{eg}\hat{r}_k}
 \end{align*}
 
 Now, we can observe that $\mathbb{L}$ does not follow the canonical relations for angular momentum, which is not surprising because the momentum $\vec{\pi}$ used in the definition of $\mathbb{L}$ is not the canonical momentum $p$. We can fix this by taking a slight variation in $\mathbb{L}$:\\
 
 \begin{equation}
-\mathbb{J} \coloneqq \mathbb{L} + eg\hat{x}
+\mathbb{J} \coloneqq \mathbb{L} + eg\hat{r}
 \label{eq:ham poincarevec}
 \end{equation}
 
 The Poisson bracket relation for this angular momentum is given by:
 
 \begin{align*}
-\poisson{J_i}{J_j} &= \poisson{L_i + \frac{eg}{R}x_i}{L_j + \frac{eg}{R}x_j}\\
-&= \poisson{L_i}{L_j} + \frac{eg}{R}\roundP{\poisson{L_i}{x_j} +\poisson{x_i}{L_j}} + \roundP{\frac{eg}{R}}^2\cancelto{0}{\poisson{x_i}{x_j}}\\
-& = \epsilon_{ijk}\roundP{L_k-{eg}\hat{x}_k}+\frac{eg}{R}\roundP{-\delta_{lj}\frac{\partial \epsilon_{iab}x_a\roundP{p_b+eA_b}}{\partial p_l}+ \delta_{il}\frac{\partial\epsilon_{jcd}x_c\roundP{p_d+eA_d}}{\partial p_l}}\\
-& = \epsilon_{ijk}\roundP{L_k-{eg}\hat{x}_k}+ \frac{eg}{R}\roundP{-\epsilon_{jia}x_a+\epsilon_{ijc}x_c}\\
-&= \epsilon_{ijk}\roundP{L_k+{eg}\hat{x}_k} = \epsilon_{ijk}J_k
+\poisson{J_i}{J_j} &= \poisson{L_i + \frac{eg}{r}r_i}{L_j + \frac{eg}{r}r_j}\\
+&= \poisson{L_i}{L_j} + \frac{eg}{r}\roundP{\poisson{L_i}{r_j} +\poisson{r_i}{L_j}} + \roundP{\frac{eg}{r}}^2\cancelto{0}{\poisson{r_i}{r_j}}\\
+& = \epsilon_{ijk}\roundP{L_k-{eg}\hat{r}_k}+\frac{eg}{r}\roundP{-\delta_{lj}\frac{\partial \epsilon_{iab}r_a\roundP{p_b+eA_b}}{\partial p_l}+ \delta_{il}\frac{\partial\epsilon_{jcd}r_c\roundP{p_d+eA_d}}{\partial p_l}}\\
+& = \epsilon_{ijk}\roundP{L_k-{eg}\hat{r}_k}+ \frac{eg}{r}\roundP{-\epsilon_{jia}r_a+\epsilon_{ijc}r_c}\\
+&= \epsilon_{ijk}\roundP{L_k+{eg}\hat{r}_k} = \epsilon_{ijk}J_k
 \end{align*}
 
-Then we deduce that $\mathbb{J}$ is a canonical angular momentum. It is not difficult to see that this is in fact the Poincar\'e vector in equation \eqref{eq:poincarevec} and that, as seen before, it determines the center of the circular motion performed by the particle:
+Then we deduce that $\mathbb{J}$ satisfies the canonical relations for angular momentum. It is not difficult to see that this is in fact the Poincar\'e vector in equation \eqref{eq:poincarevec} and that, as seen before, it determines the center of the circular motion performed by the particle:
 
 \begin{align*}
-\mathbb{J} &= \vec{x}\times\vec{\pi}+{eg}\hat{x} = m{\vec{x}}\times\dot{\vec{x}} + eg\hat{x} = \vec{J}\\ 
+\mathbb{J} &= \vec{r}\times\vec{\pi}+{eg}\hat{r} = m{\vec{r}}\times\dot{\vec{r}} + eg\hat{r} = \vec{J}\\ 
 \end{align*}
+
+Moreover, we can calculate the Poisson brackets of this angular momentum with other important vectors of the system, namely $\vec{r}$ and $\vec{L}$:
+
+\begin{align*}
+\poisson{J_i}{r_j} &= \poisson{L_i+eg\hat{r}_i}{r_j} =  \epsilon_{iab}r_a\poisson{\pi_b}{r_j} \\
+&= \epsilon_{ijk}r_k\\
+\\
+\poisson{J_i}{L_j} &= \poisson{J_i}{J_j-\frac{eg}{r}r_i} = \epsilon_{ijk}J_k-\frac{eg}{r}\poisson{L_i}{r_j} =\epsilon_{ijk}(J_k-eg\hat{r}_k) \\
+&= \epsilon_{ijk}L_k\\
+\end{align*}
+
+With this, we conclude that the angular momentum $\mathbb{J}$ is also the generator of rotations over the sphere.\\
+
+Here it is important to clarify that this angular momentum is gauge-invariant and arises, as seen before in the Lagrangian formalism, from the rotational symmetry of the system that leaves invariant the equations of movement. This is indeed the difference between this angular momentum and the canonical momentum $\vec{r}\times\vec{p}$.
+
+
+
+
+
+
 
 
 

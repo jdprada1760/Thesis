@@ -1,50 +1,54 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis.aux
+White space in argument---line 89 of file Thesis.aux
+ : \citation{Canonical
+ :                     quantization}
+I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: Bibliography.bib
 Warning--entry type for "alonso" isn't style-file defined
 --line 1 of file Bibliography.bib
-Warning--I didn't find a database entry for "arnold"
-You've used 9 entries,
+Warning--I didn't find a database entry for "csco"
+You've used 10 entries,
             1791 wiz_defined-function locations,
-            508 strings with 4969 characters,
-and the built_in function-call counts, 1651 in all, are:
-= -- 159
-> -- 44
+            513 strings with 5059 characters,
+and the built_in function-call counts, 1819 in all, are:
+= -- 177
+> -- 48
 < -- 0
-+ -- 20
-- -- 11
-* -- 83
-:= -- 277
-add.period$ -- 31
-call.type$ -- 9
-change.case$ -- 9
++ -- 22
+- -- 12
+* -- 89
+:= -- 306
+add.period$ -- 35
+call.type$ -- 10
+change.case$ -- 10
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 77
-empty$ -- 179
-format.name$ -- 11
-if$ -- 376
+cite$ -- 10
+duplicate$ -- 87
+empty$ -- 198
+format.name$ -- 12
+if$ -- 417
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 9
-newline$ -- 50
-num.names$ -- 9
-pop$ -- 18
+int.to.str$ -- 10
+missing$ -- 11
+newline$ -- 55
+num.names$ -- 10
+pop$ -- 22
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 29
+skip$ -- 30
 stack$ -- 0
 substring$ -- 93
-swap$ -- 9
+swap$ -- 10
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 14
-width$ -- 10
-write$ -- 105
-(There were 2 warnings)
+while$ -- 15
+width$ -- 12
+write$ -- 117
+(There was 1 error message)

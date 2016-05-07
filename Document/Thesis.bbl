@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{introPoincare}
 Henri Poincar\'e.
@@ -37,6 +37,11 @@ F.~D.~M. Haldane.
 \newblock Fractional quantization of the hall effect: A hierarchy of
   incompressible quantum fluid states.
 \newblock {\em Physical Review Letters}, 51:605--608, 1983.
+
+\bibitem{arnold}
+A.~Weinstein V.I.~Arnol'd, K.~Vogtmann.
+\newblock {\em Mathematical Methods of Classical Mechanics}.
+\newblock Graduate Texts in Mathematics. Springer, 2nd edition, 1989.
 
 \bibitem{poincare}
 Henri Poincar\'e.

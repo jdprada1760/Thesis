@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  1 MAY 2016 21:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  6 MAY 2016 20:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -646,7 +646,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 15--72
+Underfull \hbox (badness 10000) in paragraph at lines 15--70
 
  []
 
@@ -673,17 +673,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
@@ -692,12 +687,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
@@ -707,24 +702,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-
+Overfull \hbox (4.63814pt too wide) in paragraph at lines 200--200
+[]\OT1/cmr/bx/n/14.4 The spino-rial rep-re-sen-ta-tion and the Bloch sphere map
+-
  []
 
 
@@ -742,7 +743,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
-[10]) (./Chapters/Chapter3.tex [11]
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+[10]
+Overfull \hbox (17.95895pt too wide) in paragraph at lines 262--262
+[] 
+ []
+
+[11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+[15]) (./Chapters/Chapter3.tex [16]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 The problem of a charged particle in the magnetic field of a monopole
@@ -752,64 +788,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[12
+[17
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
-[16] [17]
-Overfull \hbox (9.03767pt too wide) in paragraph at lines 177--177
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+[21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-[18]) (./Chapters/Chapter4.tex [19]
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+) (./Chapters/Chapter4.tex [24]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 The three body problem in the sphere
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter5.tex [20
+) (./Chapters/Chapter5.tex [25
 
 ]
 Chapter 5.
@@ -822,7 +863,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-LaTeX Warning: Citation `Canonical quantization' on page 21 undefined on input 
+LaTeX Warning: Citation `Canonical quantization' on page 26 undefined on input 
 line 6.
 
 
@@ -840,11 +881,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-[21
+[26
 
 ]
 
-LaTeX Warning: Citation `csco' on page 22 undefined on input line 16.
+LaTeX Warning: Citation `csco' on page 27 undefined on input line 16.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
@@ -861,59 +902,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[22]
-Overfull \hbox (4.63814pt too wide) in paragraph at lines 36--36
-[]\OT1/cmr/bx/n/14.4 The spino-rial rep-re-sen-ta-tion and the Bloch sphere map
--
- []
-
-
-Overfull \hbox (17.95895pt too wide) in paragraph at lines 47--47
-[] 
- []
-
-[23]
-
-LaTeX Warning: Reference `eq:newHam' on page 24 undefined on input line 68.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-
- []
-
-) (./Chapters/Chapter6.tex [26]
+[27]) (./Chapters/Chapter6.tex [28]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 The quantum three body problem on the sphere
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter7.tex [27
+) (./Chapters/Chapter7.tex [29
 
 ]
 Chapter 7.
 ------------------------------------------------------------------------------
  7 Conclusions
 ------------------------------------------------------------------------------
-) [28
+) [30
 
 ]
 ------------------------------------------------------------------------------
@@ -929,27 +930,27 @@ Missing character: There is no ™ in font cmti10!
 Missing character: There is no Ã in font cmti10!
 Missing character: There is no ¡ in font cmti10!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
- [29
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+ [31
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: FFD3135AE893D033F5739351350813E5;5844.
+(rerunfilecheck)             Checksum: AEB309363389F6EE0B2DD84604B5BEEE;5810.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 13149 strings out of 494985
- 187482 string characters out of 6180356
- 264829 words of memory out of 5000000
+ 13151 strings out of 494985
+ 187493 string characters out of 6180356
+ 265940 words of memory out of 5000000
  16080 multiletter control sequences out of 15000+600000
  13362 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -972,10 +973,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (31 pages, 279457 bytes).
+Output written on Thesis.pdf (33 pages, 283428 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
- 387 compressed objects within 4 object streams
- 98 named destinations out of 1000 (max. 500000)
+ 455 PDF objects out of 1000 (max. 8388607)
+ 397 compressed objects within 4 object streams
+ 100 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
