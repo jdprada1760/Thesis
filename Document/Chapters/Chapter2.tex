@@ -4,7 +4,7 @@ In this chapter a classic approach of a somehow general case of the three body p
 
 \section{The definition of the problem}
 
-The three body problem presented here is that of three particles of electrical charge $e$ and mass $m$ confined to a plane, under the influence of a strong magnetic field perpendicular to it and forces whose potentials satisfy translational and rotational symmetries in the plane.\\
+The three body problem presented here is that of three particles of electrical charge $e$ and mass $m$ confined to a plane, under the influence of a strong magnetic field perpendicular to it and forces whose potentials satisfy translational and rotational symmetries in the plane. To make the problem more interesting, we consider a harmonic potential with frequency $\omega$\\
 
 Given this information, the Hamiltonian associated with this system has the form:
 
@@ -12,7 +12,7 @@ Given this information, the Hamiltonian associated with this system has the form
 H = \sum_{i=1}^{3} \frac{1}{2m} \norm{ \vec{p_i} - 
 e\vec{ A } \left( \vec{r_i} \right)}^2
 + V \roundP{ \vec{r_1},\vec{r_2},\vec{r_3} }
-+\frac{m\omega_c^2}{2}\sum_{i=1}^{3} \norm{\vec{r_i}}^2
++\frac{m\omega}{2}\sum_{i=1}^{3} \norm{\vec{r_i}}^2
 \label{eq:ham2d}
 \end{equation}
 
@@ -103,7 +103,7 @@ With this consideration, the Hamiltonian of the system in the new set of rescale
 \begin{equation}
 H = \sum_{i=1}^{3} \frac{eB}{2m} \norm{ \vec{\pi}_i}^2
 + V\roundP{ (eB)^{-1/2}\vec{R_1},(eB)^{-1/2}\vec{R_2}, (eB)^{-1/2}\vec{R_3} }
-+\frac{m\omega_c^2}{2eB}\sum_{i=1}^{3} \norm{\vec{R}_i}^2
++\frac{m\omega}{2eB}\sum_{i=1}^{3} \norm{\vec{R}_i}^2
 \label{eq:newham}
 \end{equation}
 
@@ -114,19 +114,19 @@ As the Hamiltonian describing the trajectories of the linear momenta of the part
 
 
 \begin{equation}
-H_{gc} = \frac{1}{2} \sum_{i=1}^{3} \norm{\bar{x}^2} + \norm{\bar{y}^2}
-+ V^*\roundP{\bar{x},\bar{y}}
+H_{gc} = \frac{\omega}{2} \sum_{i=1}^{3} \norm{\bar{x}^2} + \norm{\bar{y}^2}
++ V\roundP{\bar{x},\bar{y}}
 \label{eq:hamgc}
 \end{equation}
 
-Where $\bar{x} = \roundP{x_1,x_2,x_3}$ and $\bar{y} = \roundP{y_1,y_2,y_3}$, being $x_i,y_i$ the rescaled coordinates of the guiding centres of the particles. For simplicity, the potential $V$ and has been rescaled to take into account the scale transform of the coordinates and maintain the original form of the Hamiltonian:
+Where $\bar{x} = \roundP{x_1,x_2,x_3}$ and $\bar{y} = \roundP{y_1,y_2,y_3}$, being $x_i,y_i$ the rescaled coordinates of the guiding centres of the particles. For simplicity, the potential $V$ and the frequency $\omega$ have been rescaled to take into account the scale transform of the coordinates and maintain the original form of the Hamiltonian:
 
 \begin{align*}
-\omega_c^2 &= \frac{eB}{m}\\
-V^*\roundP{\bar{x},\bar{y}} &= V\roundP{\frac{\bar{x}}{\sqrt{eB}},\frac{\bar{y}}{\sqrt{eB}}}
+\frac{eB\omega}{m} &\rightarrow \omega\\
+ V\roundP{\frac{\bar{x}}{\sqrt{eB}},\frac{\bar{y}}{\sqrt{eB}}} &\rightarrow V\roundP{\bar{x},\bar{y}}
 \end{align*}
 
-Clearly, the new potential $V^*$ still has the symmetries expressed in the equation \eqref{eq:vsym}. Furthermore, with this scale transformation the Poisson brackets take the form:
+Clearly, the scaled potential $V$ still has the symmetries expressed in the equation \eqref{eq:vsym}. Furthermore, with this scale transformation the Poisson brackets take the form:
 
 \begin{equation}
 \poisson{y_i}{x_j} = \delta_{ij}
@@ -165,34 +165,34 @@ y_i \rightarrow y_i + \epsilon
 \roundP{x_i,y_i} \rightarrow \roundP{x_i +\epsilon y_i, y_i - \epsilon x_i}
 \end{equation*}
 
-Now note that for the infinitesimal translations, the potential of the transformed coordinates is related to the potential of the normal coordinates by a directional derivative, which can be identified with the Poisson bracket of the potential $V^*$ and each generator:
+Now note that for the infinitesimal translations, the potential of the transformed coordinates is related to the potential of the normal coordinates by a directional derivative, which can be identified with the Poisson bracket of the potential $V$ and each generator:
 
 \begin{align*}
-0={V^*\roundP{\bar{x}+\epsilon,\bar{y}} - V^*\roundP{\bar{x},\bar{y}}} &= \epsilon \sum_{i = 1}^3 \frac{\partial V^*\roundP{\bar{x},\bar{y}}}{\partial x_i}  = \epsilon \poisson{V^*}{T_x} = 0\\
-0={V^*\roundP{\bar{x},\bar{y}+\epsilon} - V^*\roundP{\bar{x},\bar{y}}} &= \epsilon \sum_{i = 1}^3 \frac{\partial V^*\roundP{\bar{x},\bar{y}}}{\partial y_i} = \epsilon \poisson{T_y}{V^*} = 0
+0={V\roundP{\bar{x}+\epsilon,\bar{y}} - V\roundP{\bar{x},\bar{y}}} &= \epsilon \sum_{i = 1}^3 \frac{\partial V\roundP{\bar{x},\bar{y}}}{\partial x_i}  = \epsilon \poisson{V}{T_x} = 0\\
+0={V\roundP{\bar{x},\bar{y}+\epsilon} - V\roundP{\bar{x},\bar{y}}} &= \epsilon \sum_{i = 1}^3 \frac{\partial V\roundP{\bar{x},\bar{y}}}{\partial y_i} = \epsilon \poisson{T_y}{V} = 0
 \end{align*}
 
 For the infinitesimal rotation, the relation is analogous:
 
 \begin{equation*}
-0={V^*\roundP{\bar{x} +\epsilon \bar{y}, \bar{y} - \epsilon \bar{y}}-V^*\roundP{\bar{x},\bar{y}}}
-= \frac{\partial V^*\roundP{\bar{x},\bar{y}}}{\partial x_i} \roundP{\epsilon y_i} -                                \frac{\partial V^*\roundP{\bar{x},\bar{y}}}{\partial y_i} \roundP{\epsilon x_i}                                        = \epsilon \poisson{V^*}{R_z}
+0={V\roundP{\bar{x} +\epsilon \bar{y}, \bar{y} - \epsilon \bar{y}}-V\roundP{\bar{x},\bar{y}}}
+= \frac{\partial V\roundP{\bar{x},\bar{y}}}{\partial x_i} \roundP{\epsilon y_i} -                                \frac{\partial V\roundP{\bar{x},\bar{y}}}{\partial y_i} \roundP{\epsilon x_i}                                        = \epsilon \poisson{V}{R_z}
 \end{equation*}
 
-Therefore, we conclude that the generators of translations and rotations in the plane commute with the potential $V^*$ due to its symmetries. Besides, the generator of rotations is exactly equal to the harmonic-like part of the guiding center Hamiltonian which validates that $R_z$ is other integral in involution. The generators of translations are not integrals in involution for they do not commute with the harmonic potential. However, we can calculate a quantity in terms of these generators, which already commute with the potential $V^*$, to make it commute with the remaining part of $H_{gc}$: 
+Therefore, we conclude that the generators of translations and rotations in the plane commute with the potential $V$ due to its symmetries. Besides, the generator of rotations is exactly equal to the harmonic-like part of the guiding center Hamiltonian which validates that $R_z$ is other integral in involution. The generators of translations are not integrals in involution for they do not commute with the harmonic potential. However, we can calculate a quantity in terms of these generators, which already commute with the potential $V$, to make it commute with the remaining part of $H_{gc}$: 
 
 \begin{equation}
 L \coloneqq \frac{1}{6}\roundP{T_x^2 + T_y^2}
 \label{eq:gccircle}
 \end{equation}
 
-This new quantity $L$ clearly commutes with the potential $V^*$ because the Poisson bracket is  a linear differential operator in one component and it obeys the Leibniz rule. Moreover, it also commutes with the rotation generator $J \coloneqq R_z$:
+This new quantity $L$ clearly commutes with the potential $V$ because the Poisson bracket is  a linear differential operator in one component and it obeys the Leibniz rule. Moreover, it also commutes with the rotation generator $J \coloneqq R_z$:
 
 \begin{align*}
 \poisson{T_x^2+ T_y^2}{ J} &= \sum_{i,j,k} \poisson{x_ix_j + y_iy_j}{x_k^2 + y_k^2}\\
 &= \sum_{i,j,k}  \poisson{x_ix_j}{y_k^2} + \poisson{y_iy_j}{x_k^2} = \sum_{i,j,k} y_k \poisson{x_ix_j}{y_k} + x_k \poisson{y_iy_j}{x_k}\\
 &= \sum_{i,j,k} y_kx_i\delta_{jk}+y_kx_j\delta_{ik} - x_ky_i\delta_{jk}- x_ky_j\delta_{ik}\\
-&= \sum_{i,j} y_jx_i + y_ix_j - x_jy_i - x_iy_j = 0
+&= 2\sum_{i,j}x_iy_j-x_iy_j = 0
 \end{align*}
 
 As we found $L$ as the last integral in involution, we conclude, by the Liouville-Arnol'd theorem, that the subsystem of guiding centres is integrable by quadratures.\\
@@ -204,7 +204,16 @@ The latter analysis can be clarified in terms of the decoupling of the guiding c
 
 Taking this into account, as the potential $V$ is a central potential that produces only internal forces that do not affect the movement of the centre of mass, one can assure that its motion is determined by the only term of external interaction in the Hamiltonian, the harmonic potential.\\
 
-Now, as the center of mass variables are clearly canonical conjugates, we deduce that $\roundP{\frac{T_x}{3},\frac{T_y}{3}}$ performs the motion of a harmonic oscillator. In other words, the motion is besides circular, uniform. The problem is then reduced to the analysis of the motion of the coordinates relative to the centre of mass. \\
+With this, the equations of motion for the center of mass of the system will be given by $\dot{T}_i = \poisson{T_i}{{\omega}J}$. Now, from equations above about the commutation of $L$ and $J$, it is simple to deduce:
+
+\begin{align*}
+\poisson{T_x^2}{\omega J} &= 2T_x\poisson{T_x}{J} = 2\omega\sum_{i,j}x_iy_j = -\poisson{T_y^2}{\omega J}\\
+&= 2\omega T_xT_y \\
+\poisson{T_x}{\omega J} &= \omega T_y\\
+\poisson{T_y}{\omega J} &= -\omega T_x
+\end{align*}
+
+Which tells us that the movement of $(T_x,T_y)$ mass is besides circular, uniform. The problem is then reduced to the analysis of the coordinates relative to the center of mass.\\
 
 To carry on with this procedure, let us take the spinor of relative position defined as follows:
 
@@ -304,11 +313,14 @@ The first and third components, in turn, share a similar composition with the co
 S &= \frac{1}{3}\sum_{i=1}^3 x_i^2 + y_i^2 -\frac{1}{3}\sum_{i > j} x_ix_j + y_iy_j  = \frac{1}{6}\roundP{\norm{\vec{r}_1 -\vec{r}_2}^2+\norm{\vec{r}_2 -\vec{r}_3}^2+\norm{\vec{r}_3 -\vec{r}_1}^2}\\
 \end{align*}
 
-\begin{align*}
+\begin{equation}
+\begin{aligned}
 \rho_1 &\coloneqq \norm{\vec{r}_2 -\vec{r}_3}^2 = 2S\roundP{1+\frac{\sqrt{3}}{2}\zeta_1-\frac{1}{2}\zeta_3} \\
 \rho_2 &\coloneqq \norm{\vec{r}_3 -\vec{r}_1}^2 = 2S\roundP{1-\frac{\sqrt{3}}{2}\zeta_1-\frac{1}{2}\zeta_3} \\
 \rho_3 &\coloneqq \norm{\vec{r}_2 -\vec{r}_1}^2 = 2S\roundP{1+\zeta_3}
-\end{align*}
+\end{aligned}
+\label{eq:lados}
+\end{equation}
 
 The information carried by the three components of the vector $\vec{\zeta}$ and the scalar $S$ presented before, can then be compressed elegantly in this fashion:
 
@@ -330,14 +342,14 @@ Taking the analysis a little bit further, it can be seen from the form that take
 One can be curious for the direction of equilateral triangles with null area, that is, all the points in the same position.  The answer is that we cannot find them in the Bloch sphere because, as we stated earlier, it is a representation for normalised vectors $\Psi/\sqrt{S}$ and this triangle would require $S=0$. However, if we take the normalisation factor $S$ as the radius of the sphere, and consider the family of Bloch spheres for different radii filling $\mathbb{R}^3/\left\{0\right\}$, we surely would find these triangles in any direction on the limit $S\to 0$.\\
 
 \section{Analysis of the motion}
-With this spinorial canonical transformation, we are left with a very simple Hamiltonian for the relative positions of the guiding centers:
+Taking into account the decoupling of the center of mass movement with respect to the relative coordinates which are encoded in the canonical spinor $\Psi$, the addition of terms that depend only on the center of mass components to the Hamiltonian will not affect the equations of motion of the relative coordinates. We then can add a term $-\omega L$ from the Hamiltonian in equation \eqref{eq:hamgc} with no effect on $\Psi$:
 
-\begin{align}
-H_{rc} = V^*\roundP{\Psi,\Psi^*}+ \frac{\omega_c}{2}\Psi\Psi^{\dagger}
-\label{eq:LastHam}
-\end{align}
+\begin{align*}
+H_{\Psi} &= H_{gc} - \omega L =  V\roundP{\Psi,\Psi^*}+ \omega (J-L) = V\roundP{\Psi,\Psi^*}+ \omega S\\
+&= V\roundP{\Psi_\alpha,\Psi_\alpha^*}+ \omega\Psi_\alpha\Psi^*_\alpha
+\end{align*}
 
-From here, one can obtain the temporal evolution of the spinor $\Psi$, taking the Poisson bracket with the time displacement generator, the Hamiltonian. However, to express the Poisson bracket in terms of the new spinorial coordinates, we can reformulate the canonical relations in \eqref{eq:canonicalSpinor} to resemble more the classical relations of $x$ and $p_x$:
+With this new Hamiltonian for relative coordinates, one can obtain the temporal evolution of the spinor $\Psi$, taking the Poisson bracket with it, the time evolution generator. However, to express the Poisson bracket in terms of the new spinorial coordinates, we can reformulate the canonical relations in \eqref{eq:canonicalSpinor} to resemble more the classical relations of $x$ and $p_x$:
 
 \begin{align*}
 \poisson{\Psi_1}{i\Psi^*_1} = \poisson{\Psi_2}{i\Psi^*_2} = 1
@@ -353,16 +365,83 @@ i\poisson{f}{g} &= \sum_{\alpha = 1}^2 \roundP{\frac{\partial f}{\partial \Psi_\
 And the temporal evolution of $\Psi_\alpha$ takes the simple form:
 
 \begin{align*}
-i\dot{\Psi_\alpha} = i\poisson{\Psi_\alpha}{H_{rc}} = \frac{\partial V^*}{\partial \Psi_\alpha^*} + \omega_c \Psi_\alpha
+i\dot{\Psi}_\alpha = i\poisson{\Psi_\alpha}{H_{rc}} = \frac{\partial V}{\partial \Psi_\alpha^*} + \omega \Psi_\alpha
 \end{align*}
 
 We can go further in this analysis if we take into account the Bloch sphere mapping. We then can pass from the spinorial representation given by $(\Psi,\Psi^*)$ to the shape space given by $(\vec{\zeta},S)$. In this fashion, the time evolution of the spinor component $\Psi_\alpha$ will be given by:
 
 \begin{align*}
-i\dot{\Psi_\alpha} &= \frac{\partial V^*}{\partial \Psi_\alpha^*} + \omega_c \Psi_\alpha\\
-&= \omega_c \Psi_\alpha + \frac{\partial V^*}{\partial S}\frac{\partial}{\partial \Psi_\alpha^*}\roundP{\Psi^*_\beta\Psi_\beta} + \frac{\partial V^*}{\partial \zeta_j}\frac{\partial}{\partial \Psi_\alpha^*}\roundP{\frac{1}{S}\Psi^*_{\delta}\sigma^j_{\delta\beta}\Psi_\beta}
+i\dot{\Psi}_\alpha &= \frac{\partial V}{\partial \Psi_\alpha^*} + \omega\Psi_\alpha\\
+\\
+&=  \frac{\partial V}{\partial S}\frac{\partial S}{\partial \Psi_\alpha^*}+ \frac{\partial V}{\partial \zeta_j}\frac{\partial \zeta_j}{\partial \Psi_\alpha^*} + \omega\Psi_\alpha  \\
+\\
+&= \omega \Psi_\alpha + \frac{\partial V}{\partial S}\frac{\partial}{\partial \Psi_\alpha^*}\roundP{\Psi^*_\beta\Psi_\beta} + \frac{\partial V}{\partial \zeta_j}\frac{\partial}{\partial \Psi_\alpha^*}\roundP{\frac{1}{S}\Psi^*_{\delta}\sigma^j_{\delta\beta}\Psi_\beta}\\
+\\
+&= \omega \Psi_\alpha + \frac{\partial V}{\partial S}\Psi_\alpha +\frac{\partial V}{\partial \zeta_j}\roundP{ \frac{-1}{S^2}\Psi^*_{\delta}\sigma^j_{\delta\beta}\Psi_\beta\frac{\partial S}{\partial \Psi_\alpha^*} +\frac{1}{S}\sigma^j_{\alpha\beta}\Psi_\beta}\\
+\\
+&= \roundP{\omega \Psi +\frac{\partial V}{\partial S}\Psi+ \frac{1}{S}\frac{\partial V}{\partial \zeta_j}\roundP{-\zeta_j \Psi + \sigma^j \Psi}}_\alpha
 \end{align*}
 
+This result can be compressed taking into account all components of $\Psi$:
 
+\begin{equation}
+i\dot{\Psi} = \roundP{\omega +\frac{\partial V}{\partial S}+ \frac{1}{S}\frac{\partial V}{\partial \zeta_j}\roundP{-\zeta_j \mathbb{I}  + \sigma^j }}\Psi
+\label{eq:Psi_time_ev}
+\end{equation}
+
+Now, as we know that $S$ is a constant of movement, the time evolution of the components $\zeta_j$  of the vector of shapes will be given by:
+
+\begin{align*}
+\dot{\zeta}_j &= \frac{1}{S}\roundP{ \dot{\Psi^{\dagger}}\sigma^j\Psi + \Psi^{\dagger}\sigma^j\dot{\Psi}} =
+\frac{1}{S}\roundP{ \dot{\Psi^{\dagger}}{\sigma^j}^{\dagger}\Psi + \Psi^{\dagger}\sigma^j\dot{\Psi}}\\
+\\
+&= \frac{2}{S}\Re{\left\{\Psi^{\dagger}\sigma^j\dot{\Psi}\right\}}
+\end{align*}
+
+From equation \eqref{eq:Psi_time_ev} this expression can be simplified:
+
+\begin{align*}
+\frac{1}{S}\Psi^{\dagger}\sigma^k\dot{\Psi} &= -i\roundP{\omega +\frac{\partial V}{\partial S}- \frac{1}{S}\frac{\partial V}{\partial \zeta_j}\zeta_j }\frac{1}{S}\Psi^{\dagger}\sigma^k\dot{\Psi} -i\frac{1}{S}\Psi^{\dagger}\sigma^k\roundP{\frac{1}{S}\frac{\partial V}{\partial \zeta_j}\sigma^j}\Psi\\
+\\
+\frac{2}{S}\Re{\left\{\Psi^{\dagger}\sigma^k\dot{\Psi}\right\}} &= 2\Re{\left\{-i\frac{1}{S}\frac{\partial V}{\partial \zeta_j}\frac{1}{S}\Psi^{\dagger}\sigma^k\sigma^j\Psi\right\}}\\
+\\
+\dot{\zeta}_k &= -i\frac{1}{S}\frac{\partial V}{\partial \zeta_j}\frac{1}{S}\Psi^{\dagger}\sigma^k\sigma^j\Psi +i\frac{1}{S}\frac{\partial V}{\partial \zeta_j}\frac{1}{S}\Psi^{\dagger}\sigma^j\sigma^k\Psi\\
+\\
+&= -i\roundP{\frac{1}{S}\frac{\partial V}{\partial \zeta_j}}\frac{1}{S}\Psi^{\dagger}\left[\sigma^k,\sigma^j\right]\Psi
+\end{align*}
+
+Where $[a,b] = ab-ba$ is the commutator between $a$ and $b$. It is widely known that the Pauli matrices $\vec{\sigma}$ satisfy the commutation relations $[\sigma^i,\sigma^j] = 2i\epsilon_{ijk}\sigma_k$, that are in fact  the angular momentum relations. Taking this into account, we finally obtain an expression for the time evolution of the shape vector $\vec{\zeta}$:
+
+\begin{align}
+\dot{\zeta}_k &= 2\epsilon_{kjl}\roundP{\frac{1}{S}\frac{\partial V}{\partial \zeta_j}}\frac{1}{S}\Psi^{\dagger}\sigma_l\Psi =  2\epsilon_{kjl}\roundP{\frac{1}{S}\frac{\partial V}{\partial \zeta_j}}\zeta_l \nonumber \\ 
+\nonumber \\ 
+\dot{\vec{\zeta}} &= \frac{2}{S}\roundP{\nabla_{\vec{\zeta}}V}\times\vec{\zeta} 
+\end{align}
+
+Having the time evolution for the vector $\vec{\zeta}$ and knowing the potential $V$, the shape of the triangle can be easily retrieved from the relations in \eqref{eq:lados}. Regarding the orientation of the triangle, the analysis requires more work because when passing from the spinor representation $(\Psi,\Psi^*)$ to the shape space $(\vec{\zeta},S)$ we loose the information of the phase of the spinor. This phase, as we deduced before, encodes the rotation (orientation) of the triangle and is not important when analysing shapes.\\
+
+To retrieve the orientation information of the triangle, we would like to obtain a definition of phase for infinitesimally separated spinors that would correspond to infinitesimal evolution in time of the trajectories. To achieve this, let us take an infinitesimal rotation in the spinorial representation and compare with the infinitesimal separation of the spinor:
+
+\begin{align*}
+e^{-id\chi}\Psi &\approx \Psi -id\chi\Psi = \Psi + d\Psi\\
+d\chi\Psi &= id\Psi \\
+d\chi\Psi^\dagger\Psi &= i\Psi^\dagger d\Psi\\
+d\chi &= i\frac{\Psi^\dagger d\Psi}{\Psi^\dagger\Psi}
+\end{align*}
+
+Now, if we identify $\Psi$ with the state of the triangle at a time $t$ and $\Psi+d\Psi$ with a time $t+dt$, we can obtain an expression for the dynamical angular velocity of the triangle:\\
+
+\begin{align}
+\omega_r^{(dyn)} &\coloneqq \frac{d\chi}{dt} = i\frac{\Psi^\dagger\dot{\Psi}}{\Psi^\dagger\Psi}\nonumber\\
+\nonumber\\
+\omega_r^{(dyn)}&= \roundP{\omega +\frac{\partial V}{\partial S}-\cancel{\frac{1}{S}\frac{\partial V}{\partial \zeta_j}\zeta_j}} + \cancel{\roundP{\frac{1}{S}\frac{\partial V}{\partial \zeta_j}}\frac{ \Psi^\dagger \sigma^j\Psi}{\Psi^\dagger \Psi}}\nonumber\\
+\nonumber\\
+\omega_r^{(dyn)} &= \omega + \frac{\partial V}{\partial S}
+\label{eq:wdyn}
+\end{align}
+
+From the equation \eqref{eq:wdyn} for the dynamical angular velocity of the triangle, one may define a phase between two finite-time separated spinors in the trajectory by simple integration. However, if the initial and final shapes are not the same, the interpretation of this phase as an angle of rotation of the triangle is not possible.\\
+
+If we then define the phase $\Delta \chi = \int_0^{T_s}\omega_r^{(dyn)}dt$ over a period $T_s$ of the shape motion, as the initial and final shapes must be equal over this period, one would expect that $\Delta \chi$ may be interpreted as the angle of rotation of the shape. This is wrong as long as an extra phase is obtained for the change of shape by parallel transport. To see this more clearly, let us parametrise the spinor $\Psi$:
 
 
