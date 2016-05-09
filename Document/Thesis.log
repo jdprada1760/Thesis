@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  8 MAY 2016 03:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  9 MAY 2016 03:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -793,17 +793,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 443--444
 
  []
 
-[18]) (./Chapters/Chapter3.tex [19] [20]
+[18]
+
+LaTeX Warning: Citation `hannay' on page 19 undefined on input line 445.
+
+[19]) (./Chapters/Chapter3.tex [20]
 Chapter 3.
 ------------------------------------------------------------------------------
- 3 The problem of a charged particle in the magnetic field of a monopole
+ 3 Quantum analysis of the three body problem in the plane
+------------------------------------------------------------------------------
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+LaTeX Warning: Citation `Canonical quantization' on page 21 undefined on input 
+line 5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+[21
+
+]
+
+LaTeX Warning: Citation `csco' on page 22 undefined on input line 15.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+LaTeX Warning: Citation `Schwinger' on page 24 undefined on input line 73.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
+LaTeX Warning: Citation `qfhebook' on page 24 undefined on input line 75.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+
+LaTeX Warning: Citation `Schwinger' on page 24 undefined on input line 77.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+[24]) (./Chapters/Chapter4.tex [25]
+Chapter 4.
+------------------------------------------------------------------------------
+ 4 The problem of a charged particle in the magnetic field of a monopole
 ------------------------------------------------------------------------------
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[21
+[26
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
@@ -820,17 +913,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[22]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-[23]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
-[24]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
@@ -850,92 +943,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
-[25] [26]
+[30] [31]
 Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-[27]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
-) (./Chapters/Chapter4.tex [28]
-Chapter 4.
-------------------------------------------------------------------------------
- 4 The three body problem in the sphere
-------------------------------------------------------------------------------
-) (./Chapters/Chapter5.tex [29
-
-]
+) (./Chapters/Chapter5.tex [33]
 Chapter 5.
 ------------------------------------------------------------------------------
- 5 Quantum analysis of the three body problem in the plane
+ 5 The three body problem in the sphere
 ------------------------------------------------------------------------------
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-LaTeX Warning: Citation `Canonical quantization' on page 30 undefined on input 
-line 6.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-[30
+) (./Chapters/Chapter6.tex [34
 
 ]
-
-LaTeX Warning: Citation `csco' on page 31 undefined on input line 16.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-
-LaTeX Warning: Reference `eq:LastHam' on page 31 undefined on input line 26.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-
-LaTeX Warning: Reference `eq:LastHam' on page 31 undefined on input line 34.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-[31]) (./Chapters/Chapter6.tex [32]
 Chapter 6.
 ------------------------------------------------------------------------------
- 6 The quantum three body problem on the sphere
+ 6 Conclusions
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter7.tex [33
-
-]
-Chapter 7.
-------------------------------------------------------------------------------
- 7 Conclusions
-------------------------------------------------------------------------------
-) [34
+) [35
 
 ]
 ------------------------------------------------------------------------------
@@ -952,7 +982,7 @@ Missing character: There is no Ã in font cmti10!
 Missing character: There is no ¡ in font cmti10!
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
- [35
+ [36
 
 
 ]
@@ -961,20 +991,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8FBCAA077120ABC41811FC7892021712;5810.
+(rerunfilecheck)             Checksum: F181E42F48EF306ADE23DCAEC19F7CB3;5511.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 13161 strings out of 494985
- 187589 string characters out of 6180356
- 266077 words of memory out of 5000000
+ 13156 strings out of 494985
+ 187505 string characters out of 6180356
+ 266006 words of memory out of 5000000
  16083 multiletter control sequences out of 15000+600000
  13362 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -997,10 +1024,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (37 pages, 298634 bytes).
+Output written on Thesis.pdf (38 pages, 307694 bytes).
 PDF statistics:
- 481 PDF objects out of 1000 (max. 8388607)
- 418 compressed objects within 5 object streams
- 107 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 478 PDF objects out of 1000 (max. 8388607)
+ 414 compressed objects within 5 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

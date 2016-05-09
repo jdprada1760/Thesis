@@ -365,7 +365,7 @@ i\poisson{f}{g} &= \sum_{\alpha = 1}^2 \roundP{\frac{\partial f}{\partial \Psi_\
 And the temporal evolution of $\Psi_\alpha$ takes the simple form:
 
 \begin{align*}
-i\dot{\Psi}_\alpha = i\poisson{\Psi_\alpha}{H_{rc}} = \frac{\partial V}{\partial \Psi_\alpha^*} + \omega \Psi_\alpha
+i\dot{\Psi}_\alpha = i\poisson{\Psi_\alpha}{H_{\Psi}} = \frac{\partial V}{\partial \Psi_\alpha^*} + \omega \Psi_\alpha
 \end{align*}
 
 We can go further in this analysis if we take into account the Bloch sphere mapping. We then can pass from the spinorial representation given by $(\Psi,\Psi^*)$ to the shape space given by $(\vec{\zeta},S)$. In this fashion, the time evolution of the spinor component $\Psi_\alpha$ will be given by:
@@ -442,14 +442,21 @@ Now, if we identify $\Psi$ with the state of the triangle at a time $t$ and $\Ps
 
 From the equation \eqref{eq:wdyn} for the dynamical angular velocity of the triangle, one may define a phase between two finite-time separated spinors in the trajectory by simple integration. However, if the initial and final shapes are not the same, the interpretation of this phase as an angle of rotation of the triangle is not possible.\\
 
-If we then define the phase $\Delta \chi = \int_0^{T_s}\omega_r^{(dyn)}dt$ over a period $T_s$ of the shape motion, as the initial and final shapes must be equal over this period, one would expect that $\Delta \chi$ may be interpreted as the angle of rotation of the shape. This is wrong as long as a geometrical phase must be taken into account by parallel transport due to the change of shape of the triangle in the period. To see this more clearly, let us parametrise the spinor $\Psi$:obtained
+If we then define the phase $\Delta \chi = \int_0^{T_s}\omega_r^{(dyn)}dt$ over a period $T_s$ of the shape motion, as the initial and final shapes must be equal over this period, one would expect that $\Delta \chi$ may be interpreted as the angle of rotation of the shape. This is wrong as long as a geometrical phase or Hannay angle \cite{hannay} must be taken into account due to the change of shape of the triangle in the period. To see this more clearly, let us parametrise the spinor $\Psi$:obtained
 
 \begin{equation*}
 \Psi = \sqrt{S}e^{-i\gamma} \begin{pmatrix}\cos{\frac{\theta}{2}}\\
 e^{-i\phi}\sin{\frac{\theta}{2}}\end{pmatrix}
 \end{equation*}
 
-Then apply the definition of $\omega_r^{(dyn)}$:
+This parametrisation is chosen so that the angles $(\theta,\phi)$ correspond to spherical angular coordinates. The vector $\vec{\zeta}$ under this parametrisation is then given by:
+
+\begin{equation*}
+\vec{\zeta} = \begin{pmatrix}\cos{\theta} \\ \sin{\theta}\cos{\phi}\\ \sin{\theta}\sin{\phi}\end{pmatrix}
+\end{equation*}
+
+
+Then if we apply the definition of $\omega_r^{(dyn)}$ we obtain:
 
 \begin{align*}
 \omega_r^{(dyn)} &= i\frac{1}{S}\Psi^\dagger\dot{\Psi} \\
@@ -469,7 +476,15 @@ Being $\gamma$ the rotation phase of the spinor, over a period $T_s$ one can tru
 \omega_r &= \left\langle \omega_r^{(dyn)} \right\rangle + \omega_r^{(geo)}\\
 \end{align*}
 
-With $\omega_r^{(geo)}= -\frac{1}{T_s}\oint\sin^2{\frac{\theta}{2}}d\phi$ being the solid angle on the Bloch sphere enclosed by the level curve of the shape:
+With $\omega_r^{(geo)}= -\frac{1}{2T_s}\oint 2\sin^2{\frac{\theta}{2}}d\phi = -\frac{1}{2T_s}\Omega(E,S)$ being proportional to the solid angle $\Omega(E,S)$ on the Bloch sphere enclosed by the level curve of the shape trajectory corresponding to $(S,E)$:
+
+\begin{align*}
+\Omega(E,S) &= \int_0^{2\pi}\int_0^{\theta(\phi)} \sin{\theta}d\theta d\phi = \oint (1-\cos{\theta})d\phi\\ 
+&= \oint 2\sin^2{\frac{\theta}{2}}d\phi
+\end{align*}
+
+The system may be analysed in terms of angle-action variables and with this method the frequencies deduced here can be formalised as canonical variables with unambiguous meaning. However, the purpose of this chapter is to present the 2-dimensional formalism developed by Botero et. al to describe the three body problem in presence of a strong magnetic field as a preamble and motivation to look for a similarly elegant formalism to describe the three-body problem on the sphere.
+
 
 
 
