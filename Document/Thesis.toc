@@ -7,17 +7,19 @@
 \contentsline {section}{\numberline {2.4}The spinorial representation and the Bloch sphere mapping}{10}{section.21}
 \contentsline {section}{\numberline {2.5}Analysis of the motion}{15}{section.29}
 \contentsline {chapter}{\numberline {3}Quantum analysis of the three body problem in the plane}{21}{chapter.33}
-\contentsline {section}{\numberline {3.1}The quantum three body problem on the plane}{21}{section.34}
-\contentsline {section}{\numberline {3.2}The Schwinger oscillator and the angular momentum representation}{24}{section.35}
-\contentsline {chapter}{\numberline {4}The problem of a charged particle in the magnetic field of a monopole}{26}{chapter.36}
-\contentsline {section}{\numberline {4.1}Definition of the Lagrangian}{26}{section.37}
-\contentsline {section}{\numberline {4.2}The symmetries and its conserved quantities}{27}{section.40}
-\contentsline {section}{\numberline {4.3}Important quantities in the Hamiltonian formalism}{31}{section.47}
-\contentsline {chapter}{\numberline {5}The three body problem in the sphere}{34}{chapter.50}
-\contentsline {section}{\numberline {5.1}Definition of the problem}{34}{section.51}
-\contentsline {section}{\numberline {5.2}Integrability of the system}{34}{section.52}
-\contentsline {section}{\numberline {5.3}Analysis of the movement of the guiding centres}{34}{section.53}
-\contentsline {chapter}{\numberline {6}Conclusions}{35}{chapter.54}
+\contentsline {section}{\numberline {3.1}The quantum reduction of the problem}{21}{section.34}
+\contentsline {section}{\numberline {3.2}The spinorial transformation}{22}{section.35}
+\contentsline {section}{\numberline {3.3}The Schwinger oscillator and the angular momentum representation}{24}{section.36}
+\contentsline {section}{\numberline {3.4}Quantum diagonalization of the Hamiltonian}{26}{section.38}
+\contentsline {chapter}{\numberline {4}The problem of a charged particle in the magnetic field of a monopole}{28}{chapter.39}
+\contentsline {section}{\numberline {4.1}Definition of the Lagrangian}{28}{section.40}
+\contentsline {section}{\numberline {4.2}The symmetries and its conserved quantities}{29}{section.43}
+\contentsline {section}{\numberline {4.3}Important quantities in the Hamiltonian formalism}{33}{section.50}
+\contentsline {chapter}{\numberline {5}The three body problem in the sphere}{36}{chapter.53}
+\contentsline {section}{\numberline {5.1}Definition of the problem}{36}{section.54}
+\contentsline {section}{\numberline {5.2}Integrability of the system}{36}{section.55}
+\contentsline {section}{\numberline {5.3}Analysis of the movement of the guiding centres}{36}{section.56}
+\contentsline {chapter}{\numberline {6}Conclusions}{37}{chapter.57}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{36}{dummy.55}
+\contentsline {chapter}{Bibliography}{38}{dummy.58}

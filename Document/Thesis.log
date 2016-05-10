@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  9 MAY 2016 03:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  10 MAY 2016 01:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -838,40 +838,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
- []
-
-
-LaTeX Warning: Citation `Schwinger' on page 24 undefined on input line 73.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-LaTeX Warning: Citation `qfhebook' on page 24 undefined on input line 75.
+LaTeX Warning: Citation `Schwinger' on page 24 undefined on input line 75.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
@@ -879,14 +862,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
  []
 
 
-LaTeX Warning: Citation `Schwinger' on page 24 undefined on input line 77.
+LaTeX Warning: Citation `qfhebook' on page 24 undefined on input line 77.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-[24]) (./Chapters/Chapter4.tex [25]
+
+LaTeX Warning: Citation `Schwinger' on page 24 undefined on input line 79.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+[24] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+) (./Chapters/Chapter4.tex [27]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 The problem of a charged particle in the magnetic field of a monopole
@@ -896,7 +902,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[26
+[28
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
@@ -913,17 +919,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[27]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-[28]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
-[29]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
@@ -943,29 +949,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
-[30] [31]
+[32] [33]
 Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-[32]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
-) (./Chapters/Chapter5.tex [33]
+) (./Chapters/Chapter5.tex [35]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 The three body problem in the sphere
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter6.tex [34
+) (./Chapters/Chapter6.tex [36
 
 ]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Conclusions
 ------------------------------------------------------------------------------
-) [35
+) [37
 
 ]
 ------------------------------------------------------------------------------
@@ -982,7 +988,7 @@ Missing character: There is no Ã in font cmti10!
 Missing character: There is no ¡ in font cmti10!
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
- [36
+ [38
 
 
 ]
@@ -990,19 +996,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F181E42F48EF306ADE23DCAEC19F7CB3;5511.
 
+
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: 52283BA7944DD26FF33085794ABB28EE;5850
+(rerunfilecheck)             After:  8F5FDB8B972CBA551D2079AA38473AD8;5994.
 
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 13156 strings out of 494985
- 187505 string characters out of 6180356
- 266006 words of memory out of 5000000
- 16083 multiletter control sequences out of 15000+600000
+ 13164 strings out of 494985
+ 187590 string characters out of 6180356
+ 266098 words of memory out of 5000000
+ 16086 multiletter control sequences out of 15000+600000
  13362 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,19n,45p,1289b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1024,10 +1036,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (38 pages, 307694 bytes).
+Output written on Thesis.pdf (40 pages, 315931 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
- 414 compressed objects within 5 object streams
- 105 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 501 PDF objects out of 1000 (max. 8388607)
+ 435 compressed objects within 5 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
