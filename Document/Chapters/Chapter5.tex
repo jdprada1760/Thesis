@@ -20,7 +20,7 @@ Where $\vec{\pi}_i = \vec{p}_i+e\vec{A}_{\hat{u}}(\vec{r}_i)$ is the linear mome
 
 For any three-dimensional rotation.\\
 
-\section{The analogous canonical transformation of the guiding centres}
+\section{The analogous canonical transformation of the guiding centres in Cartesian coordinates}
 Since the canonical coordinates of each particle are independent, we can define the Poincar\'e vector for each particle in the same way as in equation \eqref{eq:ham poincarevec} without loosing its angular momentum Poisson relations.
 
 \begin{align*}
@@ -55,15 +55,91 @@ To see this clearly, let us assume that we found some proper non-vectorial quant
 
 \begin{align*}
 H_{gc} &= V(\vec{J_1},\vec{J_2},\vec{J_3})\\
-\poisson{J_{\alpha,i}}{J_{\beta,j}} = \delta_{\alpha\beta}\epsilon{ijk} J_{\alpha,k}
+\poisson{J_{\alpha,i}}{J_{\beta,j}} &= \delta_{\alpha\beta}\epsilon_{ijk} J_{\alpha,k}
 \end{align*}
 
-Where Greek indices label the particle and Latin indices the coordinate. The next step here would be to find some transformation that decouples the movement of the center of mass of guiding centres from the relative coordinates. However, the relative coordinates are vectorial quantities and would definitely not commute with the center of mass coordinates, nor between them.\\
+Where Greek indices label the particle and Latin indices the coordinate. The next step here would be to find some transformation that decouples the movement of the center of mass of guiding centres from the relative coordinates. However, the relative coordinates are vectorial quantities and would definitely not commute with the center of mass coordinates, nor between them. Moreover, the subtraction of angular momentum is not necessarily another angular momentum. \\
 
-We would try the same argument as before of finding some scalar quantities to decouple the center of mas from the relative coordinates. Nonetheless, we would loose the coordinate-like transformation and would not be able to speak about triangles.
+We would try the same argument as before of finding some scalar quantities to decouple the center of mas from the relative coordinates. Nonetheless, we would loose the coordinate-like transformation and would not be able to easily relate the quantities with the characteristics of the triangle.\\
 
+The issue with Cartesian coordinates, besides the principal quantities being the generators of rotations, is that there is no simple way to introduce the restriction of the coordinates to the sphere. We will always be working with more coordinates than we need. Taking this into account, an obvious alternative to the solution of this problem is the use of spherical coordinates, where we would get rid of the radial coordinate and momentum, obtaining a problem properly described by two coordinates.\\ 
 
+\section{The problem in spherical coordinates}
+We redefine then the problem in spherical coordinates to verify if this is a suitable set of quantities to carry out a similar analysis than that of the plane. To do this let us start with the Lagrangian of a single particle in the magnetic field of a monopole restricted to the spherical surface. But first let us define the spherical coordinate transformation and some important relations \cite{sphericalcoordinates}:
 
+\begin{align*}
+x &= r\sin{\theta}\cos{\phi} & \hat{r} = \frac{\partial \vec{r}}{\partial r}\bigg/\norm{\frac{\partial \vec{r}}{\partial r}}\\
+y &= r\sin{\theta}\sin{\phi} & \hat{\theta} = \frac{\partial \vec{r}}{\partial \theta}\bigg/\norm{\frac{\partial \vec{r}}{\partial \theta}} \\
+z &= r\cos{\theta} & \hat{\phi} = \frac{\partial \vec{r}}{\partial \phi}\bigg/\norm{\frac{\partial \vec{r}}{\partial \phi}}\\
+\hat{r}&\times \hat{\theta} = \hat{\phi}
+\end{align*}
+
+We begin with the definition of the  linear velocity of a single particle in terms of the angular coordinates $(\theta,\phi)$ and their unit vectors $(\hat{\theta},\hat{\phi})$, which is not difficult to deduce with some algebra:
+
+\begin{equation}
+\dot{\vec{r}} = r\dot{\theta}\hat{\theta} + r\sin{\theta}\dot{\phi}\hat{\phi}
+\end{equation}
+
+Now, transforming the vector potential with the convenient gauge along the $z$ axis, we obtain:
+
+\begin{equation*}
+\vec{A}_{\hat{k}} = \frac{eg}{r}\tan{\frac{\theta}{2}}\hat{\phi}
+\end{equation*}
+
+As these unit vectors are orthogonal we obtain the following Lagrangian:\\
+
+\begin{equation*}
+L = \frac{mr^2}{2}\roundP{\dot{\theta}^2 + \sin^2\theta \dot{\phi}^2} + \frac{eg}{r}\tan{\frac{\theta}{2}\dot{phi}}
+\end{equation*}
+
+With this Lagrangian, the canonical conjugate momenta are determined:
+
+\begin{align*}
+p_\theta = mr^2\dot{\theta}
+p_\phi = mr^2\sin^2\theta\dot{\phi} + \frac{eg}{r}\tan{\frac{\theta}{2}}
+\end{align*}
+
+Then the Hamiltonian is determined:
+
+\begin{equation}
+H = \frac{1}{2mr^2}\roundP{p_\theta^2 + \roundP{\frac{p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}}}{\sin\theta}}^2}
+\end{equation}
+
+We can then define a linear momentum vector in analogy with this Hamiltonian and with the linear velocity previously defined:
+
+\begin{align*}
+\vec{\pi} &= \frac{p_\theta}{r}\hat{\theta} + \frac{p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}}}{r\sin\theta}\hat{\phi}\\
+\pi_\theta &= \frac{p_\theta}{r}\\
+\pi_\phi &= \frac{p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}}}{r\sin\theta}
+\end{align*}
+
+The purpose of this more or less long introduction to the problem in spherical coordinates was to obtain the linear momenta formula. With this formula one can calculate the Poisson bracket between the two components $(\pi_\theta,\pi_\phi)$ and realize that, given the dependence of $\pi_\phi$ on both momenta and coordinates, this Poisson bracket will have a rather complicated expression that is not worth writing down. This tells us that the counterpart for the guiding center transformation on spherical coordinates wont function at least for the linear momentum. \\
+
+One may argument that the correct analogous of the linear momentum in the plane are the conjugate angular momenta on the sphere. While this argument is right and makes a lot of sense, we find that even with this consideration we obtain a set of variables that are not much different from before and posses the same problem:
+
+\begin{align*}
+\vec{L} &= p_\theta\hat{\theta} + p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}}\hat{\phi}\\
+\L_\theta &= p_\theta\\
+\L_\phi &= p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}}
+\end{align*}
+
+When we calculate the Poisson brackets between these two quantities, one obtain the following result:
+
+\begin{align*}
+\poisson{L_\theta}{L\phi} = \cancelto{0}{\poisson{p_\theta}{p_\phi}}
+\end{align*}
+
+On the other hand, regarding the transformation to the guiding center angular momentum, one can simply transform the momentum $\vec{J}$ to spherical coordinates. In fact, the same rotational symmetries analysed on chapter 4 have to produce the same conserved quantity.\\
+
+\begin{align*}
+\vec{J} &= \vec{r}\times\vec{\pi} + eg\hat{r}\\
+&= r\pi_\theta \cancelto{\hat{\phi}}{(\hat{r}\times \theta)} + r\pi_\phi \cancelto{-\hat{\theta}}{(\hat{r}\times \phi)} + eg\hat{r}\\
+&= -r\pi_\phi \hat{\theta} + r\pi_\theta \hat{\pi_\phi} + eg\hat{r}
+\end{align*}
+
+We then discover that the guiding center angular momentum has angular components that are the same than the linear momentum, besides a constant radial component. The Poisson bracket relations do not change a little bit in comparison to that of the linear momentum components. Besides not finding a nice expression for the algebra followed by the guiding center and the linear momenta, we find in the spherical coordinates a bigger problem: The linear momentum and the guiding center cannot be properly decoupled because they are practically the same.\\
+
+These reasons leaded us to abandon the study of the problem in spherical coordinates.\\
 
 
 \section{Integrability of the system}
