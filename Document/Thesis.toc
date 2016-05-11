@@ -17,9 +17,10 @@
 \contentsline {section}{\numberline {4.3}Important quantities in the Hamiltonian formalism}{33}{section.50}
 \contentsline {chapter}{\numberline {5}The three body problem in the sphere}{36}{chapter.53}
 \contentsline {section}{\numberline {5.1}Definition of the problem}{36}{section.54}
-\contentsline {section}{\numberline {5.2}Integrability of the system}{36}{section.55}
-\contentsline {section}{\numberline {5.3}Analysis of the movement of the guiding centres}{36}{section.56}
-\contentsline {chapter}{\numberline {6}Conclusions}{37}{chapter.57}
+\contentsline {section}{\numberline {5.2}The analogous canonical transformation of the guiding centres}{37}{section.56}
+\contentsline {section}{\numberline {5.3}Integrability of the system}{40}{section.58}
+\contentsline {section}{\numberline {5.4}Analysis of the movement of the guiding centres}{40}{section.59}
+\contentsline {chapter}{\numberline {6}Conclusions}{41}{chapter.60}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{38}{dummy.58}
+\contentsline {chapter}{Bibliography}{42}{dummy.61}

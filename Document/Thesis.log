@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  10 MAY 2016 01:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  10 MAY 2016 20:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -964,14 +964,69 @@ Chapter 5.
 ------------------------------------------------------------------------------
  5 The three body problem in the sphere
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter6.tex [36
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+[36
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+) (./Chapters/Chapter6.tex [39] [40]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Conclusions
 ------------------------------------------------------------------------------
-) [37
+) [41
 
 ]
 ------------------------------------------------------------------------------
@@ -988,7 +1043,7 @@ Missing character: There is no Ã in font cmti10!
 Missing character: There is no ¡ in font cmti10!
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
- [38
+ [42
 
 
 ]
@@ -996,25 +1051,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 977B0F8D3F48C0799F4B4354B67C3524;6398.
 
-
-Package rerunfilecheck Warning: File `Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thesis.out':
-(rerunfilecheck)             Before: 52283BA7944DD26FF33085794ABB28EE;5850
-(rerunfilecheck)             After:  8F5FDB8B972CBA551D2079AA38473AD8;5994.
 
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 13164 strings out of 494985
- 187590 string characters out of 6180356
- 266098 words of memory out of 5000000
- 16086 multiletter control sequences out of 15000+600000
+ 13174 strings out of 494985
+ 187693 string characters out of 6180356
+ 266240 words of memory out of 5000000
+ 16089 multiletter control sequences out of 15000+600000
  13362 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,19n,45p,1289b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1036,10 +1085,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (40 pages, 315931 bytes).
+Output written on Thesis.pdf (44 pages, 325935 bytes).
 PDF statistics:
- 501 PDF objects out of 1000 (max. 8388607)
- 435 compressed objects within 5 object streams
- 110 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 532 PDF objects out of 1000 (max. 8388607)
+ 462 compressed objects within 5 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

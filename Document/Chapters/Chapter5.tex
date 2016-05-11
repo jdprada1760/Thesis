@@ -1,6 +1,69 @@
 \chapter{The three body problem in the sphere}
+Given the introduction about the one-body problem under the influence of a monopolar magnetic field, we are now able to generalize the three-body problem restricted to the sphere. As we did in chapter 2 and 3, we would like to search for a similar analysis for the three-body problem on the sphere on huge magnetic field regimen. As we will discuss later in this chapter, an analogous analysis is not trivial, however, we explain some important aspects of the problem and give some general guidelines that may, trough future work, carry to the so wanted analogous analysis.\\
+
+This chapter is organized the following way: First, the problem is going to be formally defined. Then, a brief discussion of the integrability in spherical and Cartesian coordinates and some disadvantages of these coordinate systems are going to be presented. Finally, the stereographic projection, as an alternative coordinate system to analyse similarities is going to be introduced.\\
 
 \section{Definition of the problem}
+In this problem, we practically have three Hamiltonians \eqref{eq:hamiltonian} of free particles in a monopolar magnetic field, coupled by a potential $V$ with the three-dimensional rotational symmetries. To make things easier, we choose the same gauge for the vector potentials associated with each particle. In this terms, the three-body Hamiltonian will have the form:
+
+\begin{align}
+H &= \left. \frac{1}{2m}\roundP{\norm{\vec{\pi}_1}^2+\norm{\vec{\pi}_2}^2+\norm{\vec{\pi}_3}^2} + V\roundP{\vec{r}_1,\vec{r}_2,\vec{r}_3}    \right|_{S^2} \nonumber \\
+&= \left. \frac{1}{2m}\roundP{\norm{\vec{p}_1+e\vec{A}_{\hat{u}}(\vec{r}_1)}^2+\norm{\vec{p}_2+e\vec{A}_{\hat{u}}(\vec{r}_2)}^2+\norm{\vec{p}_3+e\vec{A}_{\hat{u}}(\vec{r}_3)}^2} + V\roundP{\vec{r}_1,\vec{r}_2,\vec{r}_3}    \right|_{S^2}
+\label{eq:3sphereHam}
+\end{align}
+
+Where $\vec{\pi}_i = \vec{p}_i+e\vec{A}_{\hat{u}}(\vec{r}_i)$ is the linear momentum of each particle,  $\vec{A}_{\hat{u}}(\vec{r})$ is defined in equation \eqref{eq:monopolepotential}, and the potential $V$ satisfies:
+
+\begin{equation*}
+ V\roundP{R\vec{r}_1,R\vec{r}_2,R\vec{r}_3} =  V\roundP{\vec{r}_1,\vec{r}_2,\vec{r}_3} 
+\end{equation*}
+
+For any three-dimensional rotation.\\
+
+\section{The analogous canonical transformation of the guiding centres}
+Since the canonical coordinates of each particle are independent, we can define the Poincar\'e vector for each particle in the same way as in equation \eqref{eq:ham poincarevec} without loosing its angular momentum Poisson relations.
+
+\begin{align*}
+\vec{J}_i &= \vec{r}_i\times\vec{\pi}_i + eg\hat{r}_i\\
+&= \vec{r}_i\times\roundP{\vec{p}_i+e\vec{A}_{\hat{u}}(\vec{r}_i)} + eg\hat{r}_i\\
+\poisson{J_i}{J_j} &= \epsilon_{ijk}J_k
+\end{align*}
+
+Now, as seen before, $\vec{J}_i$ is the generator of rotations, in this case, of the coordinate system of each particle. To obtain the generator of rotations for the general system, we simply add up the three Poincar\'e vectors producing $\mathbb{J}$, which will also follow the angular momentum relations.\\
+
+It was previously discussed that the Poincar\'e vector points in the direction of the guiding center of a particle. We therefore are tempted to take this vector as the analogue of the canonical guiding center transformation performed in the plane:
+
+\begin{align}
+\vec{R}_i &= \frac{\vec{J}_i}{\frac{eg}{r}} = \vec{r}_i + \frac{\hat{r}_i\times\vec{\pi}_i}{\frac{eg}{r^2}} \nonumber\\
+&= \vec{r}_i + \frac{\hat{r}_i\times\vec{\pi}_i}{eB}
+\label{eq:gcSphere}
+\end{align}
+
+In fact, the previous transformation \eqref{eq:gcSphere} has the same form of that of the plane on equation \eqref{eq:ct2d2}. The problem is completely analogous: in stead of $\hat{k}$ indicating the direction of the constant magnetic field on the plane, we obtain $\hat{r}$ that is actually the direction of the magnetic field of the monopole. \\
+
+This can get things complicated as $\vec{r}$ is not constant in time, but points to the position of the particle on the sphere at any time. This situation is reflected in the fact that this transformation is not canonical, but it follows the relations of angular momentum with the exemption of constants, namely $\frac{eg}{r}$.\\
+
+Anyway, given the relation on equation \eqref{eq:gcSphere} in the big magnetic field regime we can also make the assumption that the guiding center is approximately equal to the position of the particle, simplifying the problem in a similar way. The next step on this problem would be to find the analogue to the linear momentum that characterises the radius of the guiding center and the position in the circle. As the guiding center variables follow the relations of angular momentum, it would be ideal to find this analogue quantity to follow the same relations.\\
+
+However, the principal idea of doing the guiding center transformation is to obtain some separated canonical quantities with null Poisson brackets with the objective of separating the former Hamiltonian into two decoupled problems under a big magnetic field $B$. Then, while it is ideal to find the complementary quantity of the spherical guiding center to satisfy the angular momentum relations, we would be okay with it not necessarily being an angular momentum but unavoidably satisfying the null Poisson brackets with its guiding center counterpart. Besides, in analogy with the problem on the plane, we require the kinetic part of the Hamiltonian to be a function of these new complementary quantities or at least to be separable into some function of the guiding centres and other of the remaining coordinates.\\
+
+One can try to find a vector which follows this condition. However, a little bit of thinking tells us that it can not be found at least in the Cartesian coordinate system. The reason is that, as it was demonstrated before, the guiding center transformation produces three generators of rotations of the particular coordinate system. In these terms, no matter what quantities we define, if they are vectors we automatically deduce that the Poisson bracket between this quantity and its respective guiding center coordinate is not null, but represents the infinitesimal rotation of this vector.\\
+
+We can propose a transformation that encodes the counterpart of the guiding center coordinates in some scalar quantities so that the Poisson bracket with the guiding centres become null, and we can then perform the separation of the problem into two different decoupled Hamiltonians. The finding of these quantities is not easy and anyway would have not helped much in the development of a sphere formalism similar to that of the plane. The problem resides in the characterisation of the guiding center coordinates as the rotation generator in the Cartesian coordinate system, which impedes a proper separation of variables.\\
+
+To see this clearly, let us assume that we found some proper non-vectorial quantities $\{\mathbb{\Lambda}_i\}$ that commute with the quantities $\{\vec{R}_i\}$,and which generate the kinetic part of the Hamiltonian. We then can separate this Hamiltonian into the guiding centres Hamiltonian and other for $\{\mathbb{\Lambda}_i\}$. The remaining Hamiltonian would be simply the potential $V$ averaged over the guiding centres and properly rescaled:
+
+\begin{align*}
+H_{gc} &= V(\vec{J_1},\vec{J_2},\vec{J_3})\\
+\poisson{J_{\alpha,i}}{J_{\beta,j}} = \delta_{\alpha\beta}\epsilon{ijk} J_{\alpha,k}
+\end{align*}
+
+Where Greek indices label the particle and Latin indices the coordinate. The next step here would be to find some transformation that decouples the movement of the center of mass of guiding centres from the relative coordinates. However, the relative coordinates are vectorial quantities and would definitely not commute with the center of mass coordinates, nor between them.\\
+
+We would try the same argument as before of finding some scalar quantities to decouple the center of mas from the relative coordinates. Nonetheless, we would loose the coordinate-like transformation and would not be able to speak about triangles.
+
+
+
 
 
 \section{Integrability of the system}
