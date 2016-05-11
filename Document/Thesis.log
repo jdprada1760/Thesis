@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  11 MAY 2016 01:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  11 MAY 2016 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1065,12 +1065,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
-) (./Chapters/Chapter6.tex [43]
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+ []
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+LaTeX Warning: Citation `haldane2' on page 47 undefined on input line 229.
+
+
+LaTeX Warning: Citation `haldane3' on page 47 undefined on input line 229.
+
+
+LaTeX Warning: Citation `haldane2' on page 47 undefined on input line 229.
+
+
+LaTeX Warning: Citation `haldane3' on page 47 undefined on input line 229.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+) (./Chapters/Chapter6.tex [47]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Conclusions
 ------------------------------------------------------------------------------
-) [44
+) [48
 
 ]
 ------------------------------------------------------------------------------
@@ -1087,7 +1154,7 @@ Missing character: There is no Ã in font cmti10!
 Missing character: There is no ¡ in font cmti10!
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
- [45
+ [49
 
 
 ]
@@ -1096,7 +1163,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D93BA012B765605500D4053B8B14EAE1;6802.
+(rerunfilecheck)             Checksum: F4110AA28807D522A2AD0803699A71CC;6336.
 
 
 LaTeX Warning: There were undefined references.
@@ -1104,10 +1171,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 13182 strings out of 494985
- 187780 string characters out of 6180356
- 266265 words of memory out of 5000000
- 16091 multiletter control sequences out of 15000+600000
+ 13187 strings out of 494985
+ 187817 string characters out of 6180356
+ 266240 words of memory out of 5000000
+ 16092 multiletter control sequences out of 15000+600000
  13362 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,19n,45p,1289b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1129,10 +1196,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (47 pages, 333734 bytes).
+Output written on Thesis.pdf (51 pages, 346381 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
- 480 compressed objects within 5 object streams
- 123 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 567 PDF objects out of 1000 (max. 8388607)
+ 490 compressed objects within 5 object streams
+ 127 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

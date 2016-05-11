@@ -20,7 +20,7 @@ Where $\vec{\pi}_i = \vec{p}_i+e\vec{A}_{\hat{u}}(\vec{r}_i)$ is the linear mome
 
 For any three-dimensional rotation.\\
 
-\section{The analogous canonical transformation of the guiding centres in Cartesian coordinates}
+\section{The analogous canonical transformation of the guiding centres}
 Since the canonical coordinates of each particle are independent, we can define the Poincar\'e vector for each particle in the same way as in equation \eqref{eq:ham poincarevec} without loosing its angular momentum Poisson relations.
 
 \begin{align*}
@@ -145,9 +145,129 @@ We then discover that the guiding center angular momentum has angular components
 
 These reasons leaded us to abandon the study of the problem in spherical coordinates.\\
 
-\section{Integrability of the system}
+%%\section{Integrability of the system}
+%%
+%%
+%%
+%%
+%%
+%%
+
+\section{The stereographic projection}
+Even though a simple analogue formalism for the sphere cannot be deduced from spherical and Cartesian coordinates, we can try it one last time with a not so popular system of coordinates for spheres, the stereographic projection.\\
+
+To understand the stereographic projection, let us choose one point on the surface of the sphere that we will call the projection point. Picture one plane that is tangent to the diametrical opposite of the projection point, which will be the target plane. To map any point of the sphere to the plane simply draw a straight line from the projection point to the mapping point and prolong it until it intersects the target plane. It is then clear that the projection point is not well defined under this transformation.\\
+
+With a little bit of algebra, one can obtain the formulas for the transformation when choosing the projection point at $z=-r$:
+
+\begin{align*}
+X &= \frac{x}{1+z/r}\\
+Y &= \frac{y}{1+z/r}
+\end{align*}
+
+The inverse transform is obtained easily:
+
+\begin{align*}
+x &= \frac{X}{\frac{1}{2r^2}(r^2+X^2+Y^2)}\\
+y &= \frac{Y}{\frac{1}{2r^2}(r^2+X^2+Y^2)}\\
+z &= \frac{\frac{1}{2r}(r^2-X^2-Z^2)}{\frac{1}{2r^2}(r^2+X^2+Y^2)}
+\end{align*}
+
+Some aspects are remarkable about this transformation, which can be verified with a simple analysis to the formulas. The first and most important of it being that this projection does not preserve areas. This is easily recognizable due to the factor $1+z/r$ which gets arbitrarily smaller when $z\to -1$ producing a divergence on the differential forms $(dX,dY)$. This non area conservation is actually expected since the area of the plane is infinite, while the one of the sphere is finite.\\
+
+The other important aspect of this transformation is that it conserves the azimuthal angle $\phi$ between the coordinates $(x,y)$ or $(X,Y)$, which easily verifiable through the transformation formulas. In fact, this is valid for all angles formed by three points on the sphere or their respective transformation on the plane. These aspects characterise the transformation as conformal.\\
+
+Now, applying the transformation directly in the Hamiltonian formalism is not simple because we do not know well how to apply it to the canonical momenta which keeps information also from the magnetic vector potential. Therefore, we choose to apply it first to the Lagrangian of one particle to then generalize from there to the Hamiltonian formalism.\\
+
+The Lagrangian of one particle under the presence of a magnetic monopole, restricted to the sphere, in stereographic coordinates, is given by:
+
+\begin{align}
+L &= \frac{m}{2}\roundP{\frac{\dot{X}^2+\dot{Y}^2}{\roundP{\frac{1}{2r^2}\roundP{r^2+X^2+Y^2}}}^2} + \frac{eg}{r^2}\frac{X\dot{Y}-Y\dot{X}}{\frac{1}{2r^2}\roundP{r^2+X^2+Y^2}} \nonumber \\
+&= \frac{m}{2}\roundP{\roundP{\frac{\dot{X}}{K}}^2+\roundP{\frac{\dot{Y}}{K}}^2} + eB\roundP{X\roundP{\frac{\dot{Y}}{K}}-Y\roundP{\frac{\dot{X}}{K}}}
+\end{align}
+
+Where we defined $K=\frac{1}{2r^2}\roundP{r^2+X^2+Y^2}$. And conveniently chose the magnetic vector potential in a gauge with shared singular axis with the stereographic projection.\\
+
+We note then that if we interpret $(\dot{X},\dot{Y})$ as velocities on the plane, some sort of scaled velocities will be given by $(\frac{\dot{X}}{K},\frac{\dot{Y}}{K})$. In these terms, the magnetic field in terms of these new coordinates will be analogue to the one on the plane:
+
+\begin{align*}
+\vec{V} &= \frac{1}{K}\roundP{\dot{X}\hat{X} + \dot{Y}\hat{Y}} = \frac{1}{K}\begin{pmatrix} \dot{X} \\ \dot{Y}\\0 \end{pmatrix} \\
+\vec{B} &= B\begin{pmatrix} -Y \\ X \\ 0 \end{pmatrix} = \vec{B}\times \vec{R} 
+\end{align*}
+
+The scale term $K$ accounts for the non conservation of the area by the stereographic transformation. Although this problem is very similar to that of the plane, the scale factor is complicated to treat. However, we can note that the scale factor that depends on the distance from the origin of the plane, is always accompanying the time variable. We presume that this can be simplified with a coordinate time transformation in analogy with the time-radius scale symmetry studied in the previous chapter. Further analysis of this transformation is not trivial and would require more time to be studied.\\
+
+We conclude this study with some remarks on the Hamiltonian formalism for the stereographic projection:
+
+\begin{align*}
+P_X &= \frac{m}{K^2}\dot{X} + \frac{eB}{A}Y\\
+P_Y &= \frac{m}{K^2}\dot{Y} - \frac{eB}{A}X\\
+H &= \frac{m}{2}\roundP{\roundP{\frac{\dot{X}}{K}}^2+\roundP{\frac{\dot{Y}}{K}}^2}\\
+&= \frac{1}{2m}\roundP{\roundP{KP_X-eBY}^2+\roundP{KP_Y+eBX}^2}
+\end{align*}
+
+Once again we find the scale factor in our way. We can ignore it and try to find the linear momentum on the stereographic plane in analogy with the usual case of the plane. We find that with some heavy algebra, we obtain a short expression:
+
+\begin{align*}
+\pi_X &= KP_X-eBY\\
+\pi_Y &= KP_Y+eBX
+\poisson{\pi_X}{\pi_Y} &= -K\roundP{2B + \frac{1}{r^2}\roundP{P_YX-P_XY}} 
+\end{align*}
+
+However, we do not confide in the stereographic canonical momenta because they can contain information about the magnetic field. We would like to study this expression in terms of the time derivatives of the coordinates, that is, replacing the canonical momenta for their Lagrangian expressions:
+
+\begin{align*}
+\poisson{\pi_X}{\pi_Y} &= -B + \frac{m}{K}\roundP{Y\dot{X}-X\dot{Y}}
+\end{align*}
+
+We find then that in a regime where $K \gg  m(Y\dot{X}-X\dot{Y})$ which is kind of a comparison between the strength of the magnetic field and the angular momentum of the particle in the stereographic plane. We then find that this is a canonical set of conjugate coordinates. Never the less this regime is translated to only one hemisphere or a small region near a pole of the sphere, as in the divergent hemisphere, this angular momentum is scaled and becomes arbitrarily big. This approximation is the same as to take the region of the pole as a plane and is not general enough to study the problem on the sphere.\\
+
+However, we can note that the scale factor affects specially the pole where we choose the projection point. We can take a gauge and a projection point to coincide with the initial position of the particle, which is constant. In these terms the scale factor $K$ will temporarily equal to 1, and we would obtain, on stereographic projection coordinates, a problem that is at least locally equivalent to that of the plane on chapter 2.\\
+
+We can use this same trick for each particle on the three body problem, using a different gauge and a different projection point coincident with each initial position. The sphere problem is also locally analogous to the one of the plane in stereographic coordinates. However, this approximation can produce huge errors when particles displace much from their initial position.\\
+
+At first we started the study of the problem on stereographic coordinates due to its use in the Haldane formalism \cite{haldane}\cite{haldane2}\cite{haldane3}. On some of these works \cite{haldane2}\cite{haldane3}, it is explicitly expressed that the rotational symmetries $SO(3)$ map to those symmetries of $SE(2)$ when the radius of the sphere is big enough:
+
+\begin{align*}
+L_z &\to rP_z\\
+L_x &\to -rP_y\\
+L_y &\to P_x
+\end{align*}
+
+However, this mapping is analogous to approximate the sphere to a plane.\\
 
 
-\section{Analysis of the movement of the guiding centres}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
