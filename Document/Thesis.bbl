@@ -27,7 +27,7 @@ A.~Botero and F.~Leyvraz.
 
 \bibitem{schlief}
 A.~Schlief.
-\newblock {\em Estructuras de enredamiento en el efecto Hall cuántico
+\newblock {\em Estructuras de enredamiento en el efecto Hall cu\'antico
   fraccionario}.
 \newblock B.s. thesis, Universidad de los Andes, 2013.
 \newblock p. 69-122.
@@ -42,6 +42,25 @@ F.~D.~M. Haldane.
 A.~Weinstein V.I.~Arnol'd, K.~Vogtmann.
 \newblock {\em Mathematical Methods of Classical Mechanics}.
 \newblock Graduate Texts in Mathematics. Springer, 2nd edition, 1989.
+
+\bibitem{hannay}
+J~H Hannay.
+\newblock Angle variable holonomy in adiabatic excursion of an integrable
+  hamiltonian.
+\newblock {\em Journal of Physics A: Mathematical and General}, 18(2):221,
+  1985.
+
+\bibitem{Cq}
+P.~A.~M. Dirac.
+\newblock The fundamental equations of quantum mechanics.
+\newblock {\em Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences}, 109(752):642--653, 1925.
+
+\bibitem{Schwinger}
+Julian Schwinger.
+\newblock {\em On angular momentum}.
+\newblock U.S. Atomic Energy Commission.; Report. ORNL US AEC, 1952.
+\newblock p. 1-3.
 
 \bibitem{poincare}
 Henri Poincar\'e.
@@ -60,5 +79,18 @@ Florian Scheck.
 \newblock Graduate Texts in Physics. Springer-Verlag Berlin Heidelberg, 5
   edition, 2010.
 \newblock p. 160.
+
+\bibitem{haldane2}
+W.~C. Haxton and Daniel~J. Haxton.
+\newblock Composite fermions and the first-landau-level fine structure of the
+  fractional quantum hall effect.
+\newblock {\em Phys. Rev. B}, 93:155138, Apr 2016.
+
+\bibitem{haldane3}
+Joseph~N. Ginocchio and Wick~C. Haxton.
+\newblock {\em Symmetries in Science VI: From the Rotation Group to Quantum
+  Algebras}, chapter The Fractional Quantum Hall Effect and the Rotation Group,
+  pages 263--273.
+\newblock Springer US, Boston, MA, 1993.
 
 \end{thebibliography}

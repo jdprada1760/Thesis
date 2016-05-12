@@ -2,7 +2,7 @@
 In this chapter we continue the analysis implemented in \cite{alonso}, explaining in detail the quantum treatment of the three body problem in the plane. To achieve this goal, the quantum problem will be defined at the same time as the quantum analogous of the classical reduction of problem is going to be briefly discussed. The Schwinger oscillator is going to be explained to get some insights about the quantum analogue analysis, and finally it is going to be applied to the problem.\\
 
 \section{The quantum reduction of the problem}
-The quantum treatment of the three body problem on the plane is not very different from the classical approach, given that we thoroughly worked the classical system out in the Hamiltonian formalism. In fact, all the transformations and reductions from the classical approach work, however, we have to be careful when treating topics referring equations of movement.  The only thing we have to do is to apply the principles of canonical quantization \cite{Canonical quantization}. To make the problem of parsing to the quantum formalism less complicated, let us carry the analysis in fundamental units $\hbar =1$. \\
+The quantum treatment of the three body problem on the plane is not very different from the classical approach, given that we thoroughly worked the classical system out in the Hamiltonian formalism. In fact, all the transformations and reductions from the classical approach work, however, we have to be careful when treating topics referring equations of movement.  The only thing we have to do is to apply the principles of canonical quantization \cite{Cq}. To make the problem of parsing to the quantum formalism less complicated, let us carry the analysis in fundamental units $\hbar =1$. \\
 
 Including the last considerations, the quantum Hamiltonian is going to be the same as the one expressed in \eqref{eq:ham2d}, and as canonical transformations still work in quantum mechanics, a similar reduction of the problem can be performed.\\
 
@@ -12,7 +12,7 @@ First, given the big magnetic field decoupling, the problem can be reduced to th
 
 %Puzzling comment on the Heissenbergs uncertainty principle consequences of the canonical transformation.\\%
 
-Therefore, we are left with the reduced Hamiltonian for the guiding centres \eqref{eq:newham} with the same definition of the canonical coordinates. The integrability analysis carried out in Chapter 2 where there were found two integrals of motion in involution with the Hamiltonian, may be interpreted as the finding of a complete set of commutative observables (CSCO) \cite{csco}. This means that the Hamiltonian of the guiding centres can be simultaneously diagonalised with the operators $L$ and $J$ that can be interpreted as orbital and total angular momentum respectively.\\
+Therefore, we are left with the reduced Hamiltonian for the guiding centres \eqref{eq:newham} with the same definition of the canonical coordinates. The integrability analysis carried out in Chapter 2 where there were found two integrals of motion in involution with the Hamiltonian, is not meaningful on the quantum formalism. Actually, speaking of integrability or chaos on quantum systems is somewhat complicated since the Schr\"odinger equation is lineal. The analysis of the consequences of integrability of classical systems on their quantum counterparts is a topic that goes beyond the scope of this monograph.\\
 
 
 \section{The spinorial transformation}
@@ -21,7 +21,7 @@ There are some remarkable aspects referring the canonical variables $(\bar{x},\b
 \begin{align*}
 a_j &= \frac{1}{\sqrt{2}}(x_j+iy_j)\\
 a_j^\dagger &= \frac{1}{\sqrt{2}}(x_j-iy_j)\\
-\left[a_j,a_k^\dagger\right] &= \delta_{kj}
+\left[a_j,a_k^\dagger\right] &= \delta_{kj}.
 \end{align*}
 
 We then note that the variables called $z_i$ in the classical formalism will correspond to annihilation operators in the quantum formalism.\\
@@ -32,15 +32,15 @@ Following the reduction of the problem analogously to the classical approach, we
 \begin{pmatrix} b \\ \Psi_1 \\ \Psi_2 \end{pmatrix} &= 
 \begin{pmatrix}\frac{1}{\sqrt{3}} &\frac{1}{\sqrt{3}}&\frac{1}{\sqrt{3}}\\
 				-\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}&0\\
-				\frac{1}{\sqrt{6}}&\frac{1}{\sqrt{6}}&\frac{1}{\sqrt{6}}\end{pmatrix}
+				\frac{1}{\sqrt{6}}&\frac{1}{\sqrt{6}}&\frac{1}{\sqrt{6}}\end{pmatrix},
 \end{align*}
 
-Where the new variables satisfy the creation-annihilation operators relation:
+where the new variables satisfy the creation-annihilation operators relation:
 
 \begin{align*}
 \left[ \Psi_\alpha,\Psi_\beta^\dagger\right] &= \delta_{\alpha\beta}\\
 \left[ b,b^\dagger\right] &= 1\\
-\left[ b,\Psi_\alpha^\dagger\right] &=\left[ b,\Psi_\alpha\right] = 0\\
+\left[ b,\Psi_\alpha^\dagger\right] &=\left[ b,\Psi_\alpha\right] = 0\\.
 \end{align*}
 
 From this transformation it is worth noticing:
@@ -48,7 +48,7 @@ From this transformation it is worth noticing:
 \begin{align*}
 b^\dagger b &= \frac{1}{3}\roundP{\sum_i a_i^\dagger}\roundP{\sum_j a_j} =  \frac{1}{6}\roundP{\sum_i x_i-iy_i}\roundP{\sum_j x_j+iy_j}\\
 &= \frac{1}{6}\sum_i\sum_j(x_i-iy_i)(x_j-iy_j) = \frac{1}{6}\sum_i\sum_jx_ix_j+y_iy_j +i\cancelto{i\delta_{ij}}{[xi,y_j]}\\
-&= L - \frac{1}{2}\\
+&= L - \frac{1}{2},
 \end{align*}
 \small
 \begin{align*}
@@ -58,7 +58,7 @@ b^\dagger b &= \frac{1}{3}\roundP{\sum_i a_i^\dagger}\roundP{\sum_j a_j} =  \fra
 &+\frac{1}{6}(x_2+x_1-2x_3-i(y_2+y_1-2y_3))(x_2+x_1-2x_3 +i(y_2+y_1-2y_3))\\
 &= \frac{1}{2} (x_2-x_1)^2+(y_2-y_1)^2+i\cancelto{2i}{[x_2-x_1,y_2-y_1]} \\
 &+ \frac{1}{6} (x_2+x_1-2x_3)^2+(y_2+y_1-2y_3)^2+i\cancelto{3i}{[x_2+x_1-2x_3,y_2+y_1-2y_3]}\\
-&= S-1
+&= S-1.
 \end{align*}
 \normalsize
 
@@ -69,7 +69,7 @@ So far we have reduced the problem to the study of the center of mass and relati
 \begin{align*}
 H_{gc} &= V\roundP{\Psi,\Psi^\dagger}+ \omega (S+L)\\
 &= V\roundP{\Psi,\Psi^\dagger} + \omega(\Psi^\dagger\Psi + b^\dagger b +\frac{3}{2})\\
-&= V\roundP{\Psi,\Psi^\dagger} + \omega(\Psi_1^\dagger\Psi_1 +\Psi_2^\dagger\Psi_2+ 1) +\omega(b^\dagger b +\frac{1}{2})
+&= V\roundP{\Psi,\Psi^\dagger} + \omega(\Psi_1^\dagger\Psi_1 +\Psi_2^\dagger\Psi_2+ 1) +\omega(b^\dagger b +\frac{1}{2}).
 \end{align*}
 
 Ignoring the effects of the center of mass $b$, what we have here is the Hamiltonian of two oscillators $(\Psi_1,\Psi_2)$ coupled by the potential $V$ which does not affect the center of the triangle. What we will see next is that in fact, the two oscillators from $\Psi$ induce a Schwinger angular momentum \cite{Schwinger}.\\
@@ -84,7 +84,7 @@ To understand better the role of the symmetry of $\Psi$ in the problem, let us e
 To understand this, let us first consider two decoupled harmonic oscillators with the same frequency $\omega$. The Hamiltonian of this system in terms of the annihilation-creation operators $(a_1,a_2)$ of each oscillator, will be given by:
 
 \begin{equation*}
-H_{SO} = \omega\roundP{a_1^\dagger a_1 + a_2^\dagger a_2 + 1}
+H_{SO} = \omega\roundP{a_1^\dagger a_1 + a_2^\dagger a_2 + 1}.
 \end{equation*}
 
 As the oscillators are decoupled, we can define the excitation number hermitian operators $n_i = a_i^\dagger a_i$. Some important commutation relations between these operators are then given by:
@@ -92,7 +92,7 @@ As the oscillators are decoupled, we can define the excitation number hermitian 
 \begin{align*}
 \left[ a_i,a_j^\dagger\right] &= \delta_{ij}\\
 \left[ a_i,a_j\right] &= 0\\
-\left[ n_i, a_j \right] &= \left[ n_i, a_j^\dagger \right] = \left[ n_i, n_j \right] =0
+\left[ n_i, a_j \right] &= \left[ n_i, a_j^\dagger \right] = \left[ n_i, n_j \right] =0,
 \end{align*}
  
 Now we are going to show that this algebra of annihilation operators induces an angular momentum algebra with symmetry $SU(2)$. To do that, let us define an angular momentum in terms of the $\{a_i\}$ and see its commutation relations:
@@ -103,7 +103,7 @@ J_i &= \frac{1}{2}\sigma^i_{\alpha\beta}a^\dagger_\alpha a_\beta \\
 J_1 &= \frac{1}{2} \roundP{a_2^\dagger a_1 + a_1^\dagger a_2}\\
 J_2 &= \frac{i}{2} \roundP{a_2^\dagger a_1 - a_1^\dagger a_2}\\
 J_3 &= \frac{1}{2} \roundP{n_1-n_2}
-\end{aligned}
+\end{aligned},
 \label{eq:schwingerAM}
 \end{equation}
 
@@ -113,7 +113,7 @@ J_3 &= \frac{1}{2} \roundP{n_1-n_2}
 &= \frac{1}{4}\roundP{\sigma^i_{\alpha\beta}\sigma^j_{\beta\delta}a^\dagger_\alpha a_\delta - \sigma^i_{\alpha\beta}\sigma^j_{\gamma\alpha}a^\dagger_\gamma a_\beta } = \frac{1}{4}a^\dagger_\alpha a_\beta \left[ \sigma^i,\sigma_j \right]_{\alpha\beta}\\
 &= i\epsilon_{ijk} \frac{1}{4} \sigma^k_{\alpha\beta}a^\dagger_\alpha a_\beta \\
 \\
-[J_i,J_j] &= i\epsilon_{ijk}J_k
+[J_i,J_j] &= i\epsilon_{ijk}J_k.
 \end{align*}
 
 Then as well as with any other angular momentum, one can get the operators $J^\pm = J_1\pm J_2$ and get, based on these, the rules for the quantised numbers $(j,m)$ that define the eigenvalues of $(J^2,J_3)$. Then, let us calculate $J^2$ in terms of the hermitian excitation number operators $(n_1,n_2)$:
@@ -123,7 +123,7 @@ J^2 &= J_1J_1+J_2J_2+J_3J_3\\
 &= \frac{1}{4}( (n_1-n_2)^2 +(-\cancel{a_2^\dagger a_1a_2^\dagger a_1}- \cancel{a_1^\dagger a_2a_1^\dagger a_2}+n_1a_2a_2^\dagger+n_2a_1a_1^\dagger)\\
 &+(\cancel{a_2^\dagger a_1a_2^\dagger a_1}+ \cancel{a_1^\dagger a_2a_1^\dagger a_2}+n_1a_2a_2^\dagger+n_2a_1a_1^\dagger))\\
 &= \frac{1}{4}\roundP{(n_1-n_2)^2 + 2n_1(n_2+1)+2n_2(n_1+1)} = \frac{1}{4}\roundP{(n_1+n_2)(n_1+n_2+4)}\\
-&= \frac{n_1+n_2}{2}\roundP{\frac{n_1+n_2}{2}+1}
+&= \frac{n_1+n_2}{2}\roundP{\frac{n_1+n_2}{2}+1}.
 \end{align*}
 
 Now, comparing this result with the eigenvalues $j(j+1)$ of $J^2$ it is clear that $j = \frac{n_1+n_2}{2}$. Furthermore, the eigenvalues $m$ of $J_3$ are given by  $j = \frac{n_1-n_2}{2}$. As a consequence, given that $n_1+n_2 = 1,2,...$, we conclude that the quantum number $j$ is going to be some semi-integer $j= \frac{1}{2},1,\frac{3}{2},...$. These results lead us to conclude that the symmetry group associated with this angular momentum algebra is SU(2).\\
@@ -135,14 +135,14 @@ Now that we introduced some important aspects about Schwinger oscillators and it
 
 \begin{align*}
 F_i  &= \frac{1}{2}\Psi_\alpha^\dagger \sigma^i_{\alpha,\beta}\Psi_\beta\\
-\vec{F} &= \frac{1}{2}\Psi^\dagger \vec{\sigma}\Psi
+\vec{F} &= \frac{1}{2}\Psi^\dagger \vec{\sigma}\Psi.
 \end{align*}
 
 In fact, as seen before, this angular momentum satisfies $[F_i,F_j] = i\epsilon_{ijk}F_k$. Moreover, this angular momentum has the same definition as the Bloch sphere shape vector $\vec{\zeta}$ with the exception of the constants, namely $\frac{2}{S}$. We can indeed relate its components to the shape of the triangle and its area in a similar way as we did in \eqref{eq:compressed}:
 
 \begin{align*}
 \rho_i &= 2S+4\vec{m}_i\cdot\vec{F}\\
-A &= \sqrt{3}F_2
+A &= \sqrt{3}F_2.
 \end{align*}
 
 On the other hand, the operator $F^2$, in analogy with $J^2$ studied before, will be given by: 
@@ -150,15 +150,15 @@ On the other hand, the operator $F^2$, in analogy with $J^2$ studied before, wil
 \begin{align*}
 F^2 &= \frac{n_1+n_2}{2}\roundP{\frac{n_1+n_2}{2}+1} = \frac{\Psi_1^\dagger \Psi_1 + Psi_2^\dagger \Psi_2}{2}\roundP{\frac{\Psi_1^\dagger \Psi_1 + \Psi_2^\dagger \Psi_2}{2}+1}\\
 &= \frac{S-1}{2}\roundP{\frac{S-1}{2}+1}\\
-&= \frac{1}{4}(S^2-1)
+&= \frac{1}{4}(S^2-1).
 \end{align*}
 
 The $SU(2)$ algebra relation then becomes clear. First, because it is already related to the symmetry of the shape vector $\vec{\zeta}$ and then because we deduced it in the Schwinger oscillator implementation.\\
 
-The quantum number associated with this angular momentum $\vec{F}$ are clearly given by $(s= S,m)$ where $m$ is some eigenvalue of some component of the shape vector $\vec{F}$. This, together with the quantum number $l=L$ completely characterises an eigenstate of our system $H_{gc}$. The eigen-energies associated with an eigenstate $(l,m,s)$ are then given by:
+The quantum number associated with this angular momentum $\vec{F}$ are clearly given by $(s= S,m)$ where $m$ is some eigenvalue of some component of the shape vector $\vec{F}$. This, together with the quantum number $l=L$ characterises an eigenstate of our system $H_{gc}$. The eigen-energies associated with an eigenstate $(l,m,s)$ are then given by:
 
 \begin{equation*}
-E_{l,m,s} = V_{s,m} + \omega(s+l)
+E_{l,m,s} = V_{s,m} + \omega(s+l).
 \end{equation*}
 
 With this, we consider the quantum problem fully analysed, at least for the purpose of this document.

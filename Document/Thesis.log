@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  11 MAY 2016 15:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  12 MAY 2016 02:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -713,91 +713,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
 
-Overfull \hbox (4.63814pt too wide) in paragraph at lines 200--200
+Overfull \hbox (4.63814pt too wide) in paragraph at lines 198--198
 []\OT1/cmr/bx/n/14.4 The spino-rial rep-re-sen-ta-tion and the Bloch sphere map
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
 [9]
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
 
 [10] [11]
-Overfull \hbox (17.95895pt too wide) in paragraph at lines 271--271
+Overfull \hbox (17.95895pt too wide) in paragraph at lines 270--270
 [] 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
 
 [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 432--433
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 443--444
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 
  []
 
-[18]
-
-LaTeX Warning: Citation `hannay' on page 19 undefined on input line 445.
-
-[19]) (./Chapters/Chapter3.tex [20]
+[18] [19]) (./Chapters/Chapter3.tex [20]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Quantum analysis of the three body problem in the plane
@@ -806,10 +807,6 @@ Chapter 3.
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
-
-
-LaTeX Warning: Citation `Canonical quantization' on page 21 undefined on input 
-line 5.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -829,10 +826,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 [21
 
 ]
-
-LaTeX Warning: Citation `csco' on page 22 undefined on input line 15.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
@@ -853,10 +846,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
  []
 
 [23]
-
-LaTeX Warning: Citation `Schwinger' on page 24 undefined on input line 75.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
@@ -868,9 +857,6 @@ LaTeX Warning: Citation `qfhebook' on page 24 undefined on input line 77.
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
-
-
-LaTeX Warning: Citation `Schwinger' on page 24 undefined on input line 79.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
@@ -924,12 +910,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-[31]
+[30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
@@ -944,18 +935,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
- []
-
 [32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
 
@@ -1026,109 +1012,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[39]
+
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
-LaTeX Warning: Citation `sphericalcoordinates' on page 40 undefined on input li
-ne 68.
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
 [41]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
-[44]
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
-
- []
-
-[46]
 Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
 
-LaTeX Warning: Citation `haldane2' on page 47 undefined on input line 229.
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
 
 
-LaTeX Warning: Citation `haldane3' on page 47 undefined on input line 229.
-
-
-LaTeX Warning: Citation `haldane2' on page 47 undefined on input line 229.
-
-
-LaTeX Warning: Citation `haldane3' on page 47 undefined on input line 229.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
@@ -1150,14 +1130,12 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmti10!
 Missing character: There is no € in font cmti10!
 Missing character: There is no ™ in font cmti10!
-Missing character: There is no Ã in font cmti10!
-Missing character: There is no ¡ in font cmti10!
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
  [49
 
 
-]
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+ [50]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
@@ -1171,13 +1149,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 13187 strings out of 494985
- 187817 string characters out of 6180356
- 266240 words of memory out of 5000000
+ 13193 strings out of 494985
+ 187850 string characters out of 6180356
+ 264388 words of memory out of 5000000
  16092 multiletter control sequences out of 15000+600000
  13362 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,19n,45p,1289b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,19n,45p,1289b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -1196,10 +1174,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (51 pages, 346381 bytes).
+Output written on Thesis.pdf (52 pages, 350468 bytes).
 PDF statistics:
- 567 PDF objects out of 1000 (max. 8388607)
- 490 compressed objects within 5 object streams
- 127 named destinations out of 1000 (max. 500000)
+ 586 PDF objects out of 1000 (max. 8388607)
+ 507 compressed objects within 6 object streams
+ 133 named destinations out of 1000 (max. 500000)
  193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
