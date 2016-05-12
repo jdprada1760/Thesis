@@ -39,7 +39,7 @@ It was previously discussed that the Poincar\'e vector points in the direction o
 \label{eq:gcSphere}
 \end{align}
 
-In fact, the previous transformation \eqref{eq:gcSphere} has the same form of that of the plane on equation \eqref{eq:ct2d2}. The problem is completely analogous: in stead of $\hat{k}$ indicating the direction of the constant magnetic field on the plane, we obtain $\hat{r}$ that is actually the direction of the magnetic field of the monopole. \\
+Indeed, the previous transformation \eqref{eq:gcSphere} has the same form of that of the plane on equation \eqref{eq:ct2d2}. The problem is completely analogous: in stead of $\hat{k}$ indicating the direction of the constant magnetic field on the plane, we obtain $\hat{r}$ that is actually the direction of the magnetic field of the monopole. \\
 
 This can get things complicated as $\vec{r}$ is not constant in time, but points to the position of the particle on the sphere at any time. This situation is reflected in the fact that this transformation is not canonical, but it follows the relations of angular momentum with the exemption of constants, namely $\frac{eg}{r}$.\\
 
@@ -53,7 +53,7 @@ We can propose a transformation that encodes the counterpart of the guiding cent
 
 To see this clearly, let us assume that we found some proper non-vectorial quantities $\{\Lambda_i\}$ that commute with the quantities $\{\vec{R}_i\}$,and which generate the kinetic part of the Hamiltonian. We then can separate this Hamiltonian into the guiding centres Hamiltonian and other for $\{\Lambda_i\}$. The remaining Hamiltonian would be simply the potential $V$ averaged over the guiding centres and properly rescaled:
 
-\begin{align*}Never
+\begin{align*}
 H_{gc} &= V(\vec{J_1},\vec{J_2},\vec{J_3})\\
 \poisson{J_{\alpha,i}}{J_{\beta,j}} &= \delta_{\alpha\beta}\epsilon_{ijk} J_{\alpha,k},
 \end{align*}
@@ -99,8 +99,8 @@ L = \frac{mr^2}{2}\roundP{\dot{\theta}^2 + \sin^2\theta \dot{\phi}^2} + \frac{eg
 With this Lagrangian, the canonical conjugate momenta are determined:
 
 \begin{align*}
-p_\theta = mr^2\dot{\theta}
-p_\phi = mr^2\sin^2\theta\dot{\phi} + \frac{eg}{r}\tan{\frac{\theta}{2}}.
+p_\theta &= mr^2\dot{\theta}\\
+p_\phi &= mr^2\sin^2\theta\dot{\phi} + \frac{eg}{r}\tan{\frac{\theta}{2}}.
 \end{align*}
 
 Then the Hamiltonian is determined:
@@ -122,7 +122,6 @@ The purpose of this more or less long introduction to the problem in spherical c
 One may argument that the correct analogous of the linear momentum in the plane are the conjugate angular momenta on the sphere in stead of the same linear momentum. While this argument is right and makes a lot of sense, we find that even with this consideration we obtain a set of variables that are not much different from before and posses the same problem:
 
 \begin{align*}
-\vec{L} &= p_\theta\hat{\theta} + \roundP{p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}}}\hat{\phi}\\
 L_\theta &= p_\theta\\
 L_\phi &= p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}},
 \end{align*}
@@ -137,7 +136,7 @@ then we calculate the Poisson brackets between these two quantities, one obtains
 
 While this expression is very close to something simple as happened in the case of the plane, we can not characterise this transformation as canonical. The reason is that this Poisson bracket can get as big as possible when $\theta \to \pi$. If we approximate this Poisson bracket to $\frac{eg}{r}$, which is valid when $\theta \to 0$, we would obtain the so wanted canonical transformation for the momentum. However, with this approximation, we are taking a region on the north pole of the sphere as if it was a plane, and the problem on the sphere its curvature.\\
 
-On the other hand, regarding the transformation to the guiding center angular momentum, one can simply transform the momentum $\vec{J}$ to spherical coordinates. In fact, the same rotational symmetries analysed on chapter 4 have to produce the same conserved quantity.\\
+On the other hand, regarding the transformation to the guiding center angular momentum, one can simply transform the momentum $\vec{J}$ to spherical coordinates. Certainly, the same rotational symmetries analysed on chapter 4 have to produce the same conserved quantity.\\
 
 \begin{align*}
 \vec{J} &= \vec{r}\times\vec{\pi} + eg\hat{r}\\
@@ -177,9 +176,9 @@ y &= \frac{Y}{\frac{1}{2r^2}(r^2+X^2+Y^2)}\\
 z &= \frac{\frac{1}{2r}(r^2-X^2-Z^2)}{\frac{1}{2r^2}(r^2+X^2+Y^2)}.
 \end{align*}
 
-Some aspects are remarkable about this transformation, which can be verified with a simple analysis to the formulas. The first and most important of it being that this projection does not preserve areas. This is easily recognizable due to the factor $1+z/r$ which gets arbitrarily smaller when $z\to -1$ producing a divergence on the differential forms $(dX,dY)$. This non area conservation is actually expected since the area of the plane is infinite, while the one of the sphere is finite.\\
+Some aspects are remarkable about this transformation, which can be verified with a simple analysis to the formulas. The first and most important of it being that this projection does not preserve areas. This is easily recognizable due to the factor $1+z/r$ which gets arbitrarily smaller when $z\to -r$ producing a divergence on the differential forms $(dX,dY)$. This non area conservation is actually expected since the area of the plane is infinite, while the one of the sphere is finite.\\
 
-The other important aspect of this transformation is that it conserves the azimuthal angle $\phi$ between the coordinates $(x,y)$ or $(X,Y)$, which easily verifiable through the transformation formulas. In fact, this is valid for all angles formed by three points on the sphere or their respective transformation on the plane. These aspects characterise the transformation as conformal.\\
+The other important aspect of this transformation is that it conserves the azimuthal angle $\phi$ between the coordinates $(x,y)$ or $(X,Y)$, which easily verifiable through the transformation formulas. Certainly, this is valid for all angles formed by three points on the sphere or their respective transformation on the plane. These aspects characterise the transformation as conformal.\\
 
 Now, applying the transformation directly in the Hamiltonian formalism is not simple because we do not know well how to apply it to the canonical momenta which keeps information also from the magnetic vector potential. Therefore, we choose to apply it first to the Lagrangian of one particle to then generalize from there to the Hamiltonian formalism.\\
 
