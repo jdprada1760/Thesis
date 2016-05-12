@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{alonso}
+A.~Botero and F.~Leyvraz.
+\newblock The two-dimensional three-body problem in a strong magnetic field is
+  integrable.
+
 \bibitem{introPoincare}
 Henri Poincar\'e.
 \newblock Sur le probl\`eme des trois corps et les \'equations de la dynamique.
@@ -19,11 +24,6 @@ Francesco Calogero.
   dimensional space}.
 \newblock Lecture notes in physics. Monographs m66. Springer, 1 edition, 2001.
 \newblock p. 471-493.
-
-\bibitem{alonso}
-A.~Botero and F.~Leyvraz.
-\newblock The two-dimensional three-body problem in a strong magnetic field is
-  integrable.
 
 \bibitem{schlief}
 A.~Schlief.
@@ -61,6 +61,12 @@ Julian Schwinger.
 \newblock {\em On angular momentum}.
 \newblock U.S. Atomic Energy Commission.; Report. ORNL US AEC, 1952.
 \newblock p. 1-3.
+
+\bibitem{qfhebook}
+Steven M. Girvin~(eds.) Richard E. Prange~(auth.), Richard E.~Prange.
+\newblock {\em The Quantum Hall Effect}.
+\newblock Graduate Texts in Contemporary Physics. Springer-Verlag New York, 2
+  edition, 1990.
 
 \bibitem{poincare}
 Henri Poincar\'e.

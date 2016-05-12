@@ -64,7 +64,8 @@
 \clubpenalty=9999                 % Almost no orphans at top of page.
 \interfootnotelinepenalty=9999    % Almost never break footnotes.
 \usepackage{fancyhdr}
-\lhead[\rm\thepage]{\fancyplain{}{\sl{\rightmark}}}
+\fancyhf{} 
+\lhead[\rm\thepage]{\fancyplain{}{\sl{\leftmark}}}
 \rhead[\fancyplain{}{\sl{\leftmark}}]{\rm\thepage}
 \chead{}\lfoot{}\rfoot{}\cfoot{}
 \pagestyle{fancy}
@@ -200,6 +201,12 @@
       {\LARGE by \par}
       \smallskip
       {\LARGE \authornames \par}
+	  \      
+      \newline
+      \newline
+     
+      \textit{Advisor}: PhD Alonso Botero
+	
       \vfill
       {\large A thesis submitted in partial fulfillment for the \par}
       {\large degree of Bachelor in Physics \par}
