@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  12 MAY 2016 02:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  12 MAY 2016 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -587,25 +587,40 @@ LaTeX Info: Redefining \nameref on input line 27.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 ------------------------------------------------------------------------------
+ Abstract Page
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+ Abstract Page
+------------------------------------------------------------------------------
+[1
+
+]
+------------------------------------------------------------------------------
+ Acknowledgements
+------------------------------------------------------------------------------
+[2
+
+]
+------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
 (./Thesis.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+LaTeX Font Info:    Try loading font information for U+msa on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+LaTeX Font Info:    Try loading font information for U+msb on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [3
+
+
+])
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
- [1
-
-
-]
+ [4]
 (./Chapters/Chapter1.tex
 Chapter 1.
 ------------------------------------------------------------------------------
@@ -646,7 +661,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 15--70
+Underfull \hbox (badness 10000) in paragraph at lines 15--100
 
  []
 
@@ -1117,9 +1132,39 @@ Chapter 6.
 ------------------------------------------------------------------------------
  6 Conclusions
 ------------------------------------------------------------------------------
-) [48
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+[48
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+) [49]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -1130,30 +1175,30 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmti10!
 Missing character: There is no € in font cmti10!
 Missing character: There is no ™ in font cmti10!
- [49
+ [50
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
- [50]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
+ [51]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F4110AA28807D522A2AD0803699A71CC;6336.
+(rerunfilecheck)             Checksum: CBB5D56EF010E27CC156B4811B1EEE85;6618.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
  ) 
 Here is how much of TeX's memory you used:
- 13193 strings out of 494985
- 187850 string characters out of 6180356
- 264388 words of memory out of 5000000
- 16092 multiletter control sequences out of 15000+600000
- 13362 words of font info for 51 fonts, out of 8000000 for 9000
+ 13206 strings out of 494985
+ 187970 string characters out of 6180356
+ 264390 words of memory out of 5000000
+ 16097 multiletter control sequences out of 15000+600000
+ 13709 words of font info for 52 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,19n,45p,1289b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -1172,12 +1217,13 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (52 pages, 350468 bytes).
+s/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Thesis.pdf (56 pages, 367204 bytes).
 PDF statistics:
- 586 PDF objects out of 1000 (max. 8388607)
- 507 compressed objects within 6 object streams
- 133 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 635 PDF objects out of 1000 (max. 8388607)
+ 551 compressed objects within 6 object streams
+ 140 named destinations out of 1000 (max. 500000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
 
