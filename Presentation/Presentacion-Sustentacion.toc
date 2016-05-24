@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Introducci\IeC {\'o}n}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Motivaci\IeC {\'o}n}{4}{0}{1}
+\beamer@sectionintoc {2}{El problema de 3 cuerpos en el plano}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Integrabilidad del problema}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{La representaci\IeC {\'o}n espinorial y la esfera de Bloch}{7}{0}{2}
+\beamer@subsectionintoc {2}{3}{An\IeC {\'a}lisis del movimiento}{9}{0}{2}
+\beamer@subsectionintoc {2}{4}{El problema de una part\IeC {\'\i }cula bajo el campo magn\IeC {\'e}tico monopolar}{12}{0}{2}
+\beamer@sectionintoc {3}{References}{14}{0}{3}
