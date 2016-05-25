@@ -4,8 +4,13 @@
 \beamer@subsectionintoc {1}{1}{Introducci\IeC {\'o}n}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Motivaci\IeC {\'o}n}{4}{0}{1}
 \beamer@sectionintoc {2}{El problema de 3 cuerpos en el plano}{5}{0}{2}
-\beamer@subsectionintoc {2}{1}{Integrabilidad del problema}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Integrabilidad del problema cl\IeC {\'a}sico}{5}{0}{2}
 \beamer@subsectionintoc {2}{2}{La representaci\IeC {\'o}n espinorial y la esfera de Bloch}{7}{0}{2}
 \beamer@subsectionintoc {2}{3}{An\IeC {\'a}lisis del movimiento}{9}{0}{2}
-\beamer@subsectionintoc {2}{4}{El problema de una part\IeC {\'\i }cula bajo el campo magn\IeC {\'e}tico monopolar}{12}{0}{2}
-\beamer@sectionintoc {3}{References}{14}{0}{3}
+\beamer@subsectionintoc {2}{4}{El an\IeC {\'a}logo cu\IeC {\'a}ntico}{12}{0}{2}
+\beamer@sectionintoc {3}{El problema de 3 cuerpos en la esfera}{14}{0}{3}
+\beamer@subsectionintoc {3}{1}{El problema de una part\IeC {\'\i }cula bajo el campo magn\IeC {\'e}tico monopolar}{14}{0}{3}
+\beamer@subsectionintoc {3}{2}{En coordenadas cartesianas}{16}{0}{3}
+\beamer@subsectionintoc {3}{3}{En coordenadas esf\IeC {\'e}ricas}{17}{0}{3}
+\beamer@subsectionintoc {3}{4}{En coordenadas estereogr\IeC {\'a}ficas}{18}{0}{3}
+\beamer@sectionintoc {4}{References}{20}{0}{4}

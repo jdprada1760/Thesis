@@ -167,8 +167,8 @@
 
 %---------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------
-\section{El problema clásico de 3 cuerpos en el plano}
-\subsection{Integrabilidad del problema}
+\section{El problema de 3 cuerpos en el plano}
+\subsection{Integrabilidad del problema clásico}
 \begin{frame}
 El Hamiltoniano del problema propuesto está dado por:
 \begin{equation*}
@@ -277,7 +277,7 @@ e^{-id\chi}\Psi &\approx \Psi -id\chi\Psi = \Psi + d\Psi\\
 d\chi &= i\frac{\Psi^\dagger d\Psi}{\Psi^\dagger\Psi}.
 \end{align*}
 
-De esta manera obtenemos una fase dinámica asociada, dada por:
+De esta manera obtenemos una velocidad angular dinámica asociada, dada por:
 
 \begin{align*}
 \omega_r^{(dyn)} &= \omega + \frac{\partial V}{\partial S}.
@@ -299,7 +299,7 @@ e^{-i\phi}\sin{\frac{\theta}{2}}\end{pmatrix}.
 &= \dot{\gamma}+\dot{\phi}\sin^2{\frac{\theta}{2}},
 \end{align*}
 \normalsize
-La velocidad de rotación es sobre un periodo $T_s$:
+La velocidad de rotación sobre un periodo $T_s$ es:
 \small
 \begin{align*}
 \omega_r &= \frac{\Delta \gamma}{T_s} = \frac{1}{T_s}\int_0^{T_s}\omega_r^{(dyn)}dt -\frac{1}{T_s}\oint\sin^2{\frac{\theta}{2}}d\phi\\
@@ -310,9 +310,53 @@ La velocidad de rotación es sobre un periodo $T_s$:
 
 
 \end{frame}
+
+%---------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+\subsection{El análogo cuántico}
+\begin{frame}
+El problema es escencialmente el mismo, teniendo en cuenta las reglas de la cuantización canónica \cite{Cq}. 
+\begin{equation*}
+H_{gc} = V\roundP{\Psi,\Psi^\dagger}+ \omega (S+L).
+\end{equation*}
+\begin{align*}
+\begin{pmatrix} b \\ \Psi_1 \\ \Psi_2 \end{pmatrix} &= 
+\begin{pmatrix}\frac{1}{\sqrt{3}} &\frac{1}{\sqrt{3}}&\frac{1}{\sqrt{3}}\\
+				-\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}&0\\
+				\frac{1}{\sqrt{6}}&\frac{1}{\sqrt{6}}&\frac{1}{\sqrt{6}}\end{pmatrix}
+				\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix},
+\end{align*}
+
+Donde $a_i= \frac{1}{\sqrt{2}}(x_i+iy_i)$ son operadores creación aniquilación. Se tienen RCC análogas:
+
+\begin{align*}
+\left[ \Psi_\alpha,\Psi_\beta^\dagger\right] &= \delta_{\alpha\beta}\\
+\left[ b,b^\dagger\right] &= 1,
+\end{align*}
+
+
+\end{frame}
 %---------------------------------------------------------------------------
 %-------------------------------------------------------------------------
 
+\begin{frame}
+Además $bb^\dagger = L-\frac{1}{2}$ y $\Psi^\dagger\Psi = S-1$, indica que $L$ y $S$ son cuantizados por números enteros y semienteros respectivamente. \\~\\
+
+La simetría SU(2) asociada a $\Psi$ se hace clara al notar que $\Psi$ implementa un momento angular de Schwinger \cite{Schwinger}:
+\begin{align*}
+\vec{F} &= \frac{1}{2}\Psi^\dagger \vec{\sigma}\Psi,
+\end{align*}
+
+Con $[F_i,F_j] = \epsilon_{ijk}F_k$ y $F^2 = \frac{S^2 -1}{4}$. Dado esto, el las energías propias estarán determinadas:
+
+\begin{equation*}
+E_{l,m,s} = V_{s,m} + \omega(s+l).
+\end{equation*}
+\end{frame}
+%---------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+
+\section{El problema de 3 cuerpos en la esfera}
 \subsection{El problema de una partícula bajo el campo magnético monopolar}
 \begin{frame}
 El Lagrangiano y Hamiltoniano de la partícula están dados por:
@@ -324,7 +368,6 @@ Con \cite{vectorPotentials}:
 \begin{equation*}
 \vec{A}_{\hat{u}}(\vec{x}) = \frac{g}{r}\frac{\hat{u}\times\hat{r}}{1+\hat{u}\cdot\hat{r}}
 \end{equation*}
-\\~\\
 \end{frame}
 %---------------------------------------------------------------------------
 %---------------------------------------------------------------------------
@@ -334,7 +377,6 @@ Dadas las simetrías del problema se deduce que la trayectoria está restringida
 \begin{align*}
 \mathbb{J} &= \vec{x}\times\vec{\pi}+{eg}\hat{x} = m{\vec{x}}\times\dot{\vec{x}} + eg\hat{x}
 \end{align*}
-\\~\\
 \begin{equation}
 \begin{aligned}
 \norm{\vec{J}}^2 &= \norm{\mathbb{L}}^2 +\roundP{ge}^2\\
@@ -343,10 +385,92 @@ Dadas las simetrías del problema se deduce que la trayectoria está restringida
 \end{aligned}
 \label{eq:poincarecone}
 \end{equation}
-\\~\\
-Lo cual, junto a la restricción de la esfera, dice que la partícula describe movimiento circular uniforme alrededor del centro guía definido por $\mathbb{J}$. Más aún, en el formalismo Hamiltoniano dicho $\mathbb{J}$ satisface las relaciones Poisson de un momento angular canónico \cite{haldane}.\\
+En el formalismo Hamiltoniano dicho $\mathbb{J}$ satisface las relaciones Poisson de un momento angular canónico \cite{haldane}.\\
 \end{frame}
 %---------------------------------------------------------------------------
+%---------------------------------------------------------------------------
+%---------------------------------------------------------------------------
+\subsection{En coordenadas cartesianas}
+\begin{frame}
+El Hamiltoniano en coordenadas cartesianas está dado por:
+\begin{align*}
+H &= \left. \frac{1}{2m}\sum_{i=1}^2\norm{\vec{p}_i+e\vec{A}_{\hat{u}}(\vec{r}_i)}^2+ V\roundP{\vec{r}_1,\vec{r}_2,\vec{r}_3}    \right|_{S^2},
+\end{align*}
+Definimos el momento angular de los centros guia:
+\begin{align*}
+\vec{J}_i &= \vec{r}_i\times\vec{\pi}_i + eg\hat{r}_i\\
+&= \vec{r}_i\times\roundP{\vec{p}_i+e\vec{A}_{\hat{u}}(\vec{r}_i)} + eg\hat{r}_i\\
+\poisson{J_i}{J_j} &= \epsilon_{ijk}J_k,
+\end{align*}
+E intentamos realizar la transformación de los centros guía, la cual descubrimos no es canónica:
+\begin{align*}
+\vec{R}_i &= \frac{\vec{J}_i}{\frac{eg}{r}} = \vec{r}_i + \frac{\hat{r}_i\times\vec{\pi}_i}{\frac{eg}{r^2}} \nonumber\\
+&= \vec{r}_i + \frac{\hat{r}_i\times\vec{\pi}_i}{eB}.
+\end{align*}
+\end{frame}
+
+%---------------------------------------------------------------------------
+%---------------------------------------------------------------------------
+\subsection{En coordenadas esféricas}
+\begin{frame}
+El Hamiltoniano en coordenadas esféricas el hamiltoniano de una sola partícula está dado por:
+\begin{equation}
+H = \frac{1}{2mr^2}\roundP{p_\theta^2 + \roundP{\frac{p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}}}{\sin\theta}}^2}.
+\end{equation}
+El momento lineal de la partícula determina su centro guía:
+\begin{align*}
+\pi_\theta &= \frac{p_\theta}{r}\\
+\pi_\phi &= \frac{p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}}}{r\sin\theta}.
+\end{align*}
+Los momentos angulares asociados a cada variable harían el papel de momentos lineales:
+
+\begin{align*}
+L_\theta &= p_\theta\\
+L_\phi &= p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}}\\
+\poisson{L_\theta}{L_\phi} &=  \frac{eg}{r} \frac{1}{1+\cos{\theta}}.
+\end{align*}
+\end{frame}
+
+%---------------------------------------------------------------------------
+%---------------------------------------------------------------------------
+\subsection{En coordenadas estereográficas}
+\begin{frame}
+La proyección estereográfica proyecta la esfera de radio $r$ al plano de la siguiente manera:
+\begin{align*}
+X &= \frac{x}{1+z/r}\\
+Y &= \frac{y}{1+z/r}.
+\end{align*}
+La expresión del Hamiltoniano en estas coordenadas no es trivial. Por esto, empezamos con el formalismo Lagrangiano:
+\small
+\begin{align*}
+L &= \frac{m}{2}\roundP{\frac{\dot{X}^2+\dot{Y}^2}{\roundP{\frac{1}{2r^2}\roundP{r^2+X^2+Y^2}}^2}} + \frac{eg}{r^2}\frac{X\dot{Y}-Y\dot{X}}{\frac{1}{2r^2}\roundP{r^2+X^2+Y^2}} \nonumber \\
+&= \frac{m}{2}\roundP{\roundP{\frac{\dot{X}}{K}}^2+\roundP{\frac{\dot{Y}}{K}}^2} + eB\roundP{X\roundP{\frac{\dot{Y}}{K}}-Y\roundP{\frac{\dot{X}}{K}}},
+\end{align*}
+\normalsize
+Con $K=\frac{1}{2r^2}\roundP{r^2+X^2+Y^2}$ un factor de escala debido a que la transformación es conformal.
+
+\end{frame}
+
+%---------------------------------------------------------------------------
+%---------------------------------------------------------------------------
+\begin{frame}
+Pasando al formalismo Hamiltoniano:
+\begin{align*}
+H &= \frac{1}{2m}\roundP{\roundP{KP_X-eBY}^2+\roundP{KP_Y+eBX}^2}.
+\end{align*}
+Y definimos los momentos lineales en el plano estereográfico:
+\begin{align*}
+\pi_X &= KP_X-eBY\\
+\pi_Y &= KP_Y+eBX
+\end{align*}
+Cuyos corchetes de Poisson están dados por:
+\begin{align*}
+\poisson{\pi_X}{\pi_Y} &= -K\roundP{2B + \frac{1}{r^2}\roundP{P_YX-P_XY}}\\
+ &= -B + \frac{m}{K}\roundP{Y\dot{X}-X\dot{Y}}.
+\end{align*}
+\small
+A pesar de que se llega a un resultado en el que es necesario aproximar para llegar a la transformación canónica, las coincidencias de esta transformación con el caso planar nos llevan a pensar que son las coordenadas más apropiadas para continuar el trabajo.
+\end{frame}
 
 \section{References}
 \begin{frame}[t, allowframebreaks]

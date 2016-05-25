@@ -1,0 +1,52 @@
+\begin{thebibliography}{1}
+
+\bibitem{poincare}
+Henri Poincar\'e.
+\newblock Remarques sur une exp\'erience de m. birkeland.
+\newblock {\em Comptes rendus hebdomadaires de l'Acad\'emie des sciences de
+  Paris}, 123:530--533, 1896.
+
+\bibitem{strangeCases}
+Francesco Calogero.
+\newblock {\em Classical many-body problems amenable to exact treatments:
+  solvable and/or integrable and/or linearizable... in one-, two-, and three-
+  dimensional space}.
+\newblock Lecture notes in physics. Monographs m66. Springer, 1 edition, 2001.
+\newblock p. 471-493.
+
+\bibitem{alonso}
+A.~Botero and F.~Leyvraz.
+\newblock The two-dimensional three-body problem in a strong magnetic field is
+  integrable.
+
+\bibitem{scheck}
+Florian Scheck.
+\newblock {\em Mechanics: From Newton's Laws to Deterministic Chaos}.
+\newblock Graduate Texts in Physics. Springer-Verlag Berlin Heidelberg, 5
+  edition, 2010.
+\newblock p. 160.
+
+\bibitem{Cq}
+P.~A.~M. Dirac.
+\newblock The fundamental equations of quantum mechanics.
+\newblock {\em Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences}, 109(752):642--653, 1925.
+
+\bibitem{Schwinger}
+Julian Schwinger.
+\newblock {\em On angular momentum}.
+\newblock U.S. Atomic Energy Commission.; Report. ORNL US AEC, 1952.
+\newblock p. 1-3.
+
+\bibitem{vectorPotentials}
+T.~Kawai M.~Ikeda and H.~Yoshida.
+\newblock Magnetic monopole, vector potential and gauge transformation.
+\newblock {\em Lettere al Nuovo Cimento}, 227-235:530--533, 1977.
+
+\bibitem{haldane}
+F.~D.~M. Haldane.
+\newblock Fractional quantization of the hall effect: A hierarchy of
+  incompressible quantum fluid states.
+\newblock {\em Physical Review Letters}, 51:605--608, 1983.
+
+\end{thebibliography}
