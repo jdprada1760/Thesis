@@ -1,5 +1,5 @@
 \chapter{Quantum analysis of the three body problem in the plane}
-In this chapter we continue the analysis implemented in \cite{alonso}, explaining in detail the quantum treatment of the three body problem in the plane. To achieve this goal, the quantum problem will be defined at the same time as the quantum analogous of the classical reduction of problem is going to be briefly discussed. The Schwinger oscillator is going to be explained to get some insights about the quantum analogue analysis, and finally it is going to be applied to the problem.\\
+In this chapter we continue the analysis implemented in \cite{alonso}, explaining in detail the quantum treatment of the three body problem in the plane. To achieve this goal, the quantum problem will be defined at the same time as the quantum analogous of the classical reduction of problem is briefly discussed. The Schwinger oscillator is going to be explained to get some insights about the quantum analogue analysis, and finally it is going to be applied to the problem.\\
 
 \section{The quantum reduction of the problem}
 The quantum treatment of the three-body problem on the plane is not very different from the classical approach, given that we thoroughly worked the classical system out in the Hamiltonian formalism. In fact, all the transformations and reductions from the classical approach work; however, we have to be careful when treating topics referring equations of movement.  The only thing we have to do is to apply the principles of canonical quantization \cite{Cq}. To make the problem of passing to the quantum formalism less complicated, let us carry the analysis in fundamental units $\hbar =1$. \\
@@ -12,12 +12,12 @@ First, given the big magnetic field decoupling, the problem can be reduced to th
 
 %Puzzling comment on the Heissenbergs uncertainty principle consequences of the canonical transformation.\\%
 
-Therefore, we are left with the reduced Hamiltonian for the guiding centres \eqref{eq:newham} with the same definition of the canonical coordinates. The integrability analysis carried out in Chapter 2 where there were found two integrals of motion in involution with the Hamiltonian, is not meaningful on the quantum formalism. Actually, speaking of integrability or chaos on quantum systems is somewhat complicated since the Schr\"odinger equation is lineal. The analysis of the consequences of integrability of classical systems on their quantum counterparts is a topic that goes beyond the scope of this monograph.\\
+Therefore, we are left with the reduced Hamiltonian for the guiding centres \eqref{eq:newham} with the same definition of the canonical coordinates. The integrability analysis carried out in Chapter 2 where there were found two integrals of motion in involution with the Hamiltonian is not meaningful on the quantum formalism. Actually, speaking of integrability or chaos on quantum systems is somewhat complicated since the Schr\"odinger equation is lineal. The analysis of the consequences of integrability of classical systems on their quantum counterparts is a topic that goes beyond the scope of this monograph.\\
 
 
 \section{The spinorial transformation}
-There are some remarkable aspects referring the canonical variables $(\bar{x},\bar{y})$ associated with \eqref{eq:newham}. With these one can form creation-annihilation operators given by:\\
- then 
+There are some remarkable aspects referring the canonical variables $(\bar{x},\bar{y})$ associated with \eqref{eq:newham}. With these one can form creation-annihilation operators given by:
+
 \begin{align*}
 a_j &= \frac{1}{\sqrt{2}}(x_j+iy_j)\\
 a_j^\dagger &= \frac{1}{\sqrt{2}}(x_j-iy_j)\\
@@ -26,16 +26,16 @@ a_j^\dagger &= \frac{1}{\sqrt{2}}(x_j-iy_j)\\
 
 We then note that the variables called $z_i$ in the classical formalism will correspond to annihilation operators in the quantum formalism.\\
 
-Following the reduction of the problem analogously to the classical approach, we can proceed to decouple the center of mass coordinates form the relative coordinates. The spinor $\Psi$ is known to follow relations of creation-annihilation operators (taking into account the canonical quantisation), however, the center of mass was not formalised as a canonical variable in the classical approach. To take this into account, we choose the constants to make it also an annihilation operator. If we encode the center of the triangle in $b$, the decoupling transformation can be expressed in the following way:\\
+Following the reduction of the problem analogously to the classical approach, we can proceed to decouple the center of mass coordinates form the relative coordinates. The spinor $\Psi$ is known to follow relations of creation-annihilation operators (taking into account the canonical quantization). However, the center of mass was not formalised as a canonical variable in the classical approach. To take this into account, we choose the constants to make it also an annihilation operator. If we encode the center of the triangle in $b$, the decoupling transformation can be expressed in the following way:
 
 \begin{align*}
 \begin{pmatrix} b \\ \Psi_1 \\ \Psi_2 \end{pmatrix} &= 
 \begin{pmatrix}\frac{1}{\sqrt{3}} &\frac{1}{\sqrt{3}}&\frac{1}{\sqrt{3}}\\
 				-\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}&0\\
-				\frac{1}{\sqrt{6}}&\frac{1}{\sqrt{6}}&\frac{1}{\sqrt{6}}\end{pmatrix},
+				\frac{1}{\sqrt{6}}&\frac{1}{\sqrt{6}}&\frac{1}{\sqrt{6}}\end{pmatrix} \begin{pmatrix} a_1 \\ a_2 \\ 1_3 \end{pmatrix} ,
 \end{align*}
 
-where the new variables satisfy the creation-annihilation operators relation:
+where the new variables satisfy the creation-annihilation relations:
 
 \begin{align*}
 \left[ \Psi_\alpha,\Psi_\beta^\dagger\right] &= \delta_{\alpha\beta}\\
@@ -64,7 +64,7 @@ b^\dagger b &= \frac{1}{3}\roundP{\sum_i a_i^\dagger}\roundP{\sum_j a_j} =  \fra
 
 %This tells us that the eigenvalues from operator $b$ are semi-integers, while those of $\Psi$ are quantized integers.\\
 
-So far we have reduced the problem to the study of the center of mass and relative coordinates spinor. In this terms, the Hamiltonian for these variables will be given by:\\
+So far we have reduced the problem to the study of the center of mass and relative coordinates spinor. In these terms, the Hamiltonian for these variables will be given by:
 
 \begin{align*}
 H_{gc} &= V\roundP{\Psi,\Psi^\dagger}+ \omega (S+L)\\
@@ -74,9 +74,9 @@ H_{gc} &= V\roundP{\Psi,\Psi^\dagger}+ \omega (S+L)\\
 
 Ignoring the effects of the center of mass $b$, what we have here is the Hamiltonian of two oscillators $(\Psi_1,\Psi_2)$ coupled by the potential $V$ which does not affect the center of the triangle. What we will see next is that in fact, the two oscillators from $\Psi$ induce a Schwinger angular momentum \cite{Schwinger}.\\
 
-In quantum mechanics the symmetries of a system play a substantial role in the solution of the associated problem. Actually, the role of the symmetries in quantum mechanics is more important than in classical mechanics for it is more sensitive to the internal structure of the symmetry groups \cite{qfhebook}. In quantum mechanics they determine the algebra of operators, and consequently, the eigenvectors and eigenvalues that generate the states of the Hilbert space. In this case, we know that the potential $V$ follows the symmetries associated with the special Euclidean group in 2D ($SE(2)$), that, given the simplification of the problem and the canonical spinor variables, is transformed into $SU(2)$.\\
+In quantum mechanics the symmetries of a system play a substantial role in the solution of the associated problem. Actually, the role of symmetries in quantum mechanics is more important than in classical mechanics for it is more sensitive to the internal structure of the symmetry groups \cite{qfhebook}. In quantum mechanics they determine the algebra of operators, and consequently, the eigenvectors and eigenvalues that generate the states of the Hilbert space. In this case, we know that the potential $V$ follows the symmetries associated with the special Euclidean group in 2D ($SE(2)$), that, given the simplification of the problem and the canonical spinor variables, is transformed into $SU(2)$.\\
 
-The role of this symmetry can be understood as the operators $\Psi_\alpha$ implement the mentioned Schwinger oscillator \cite{Schwinger} associated with this symmetry.\\
+The role of $SU(2)$ can be understood as the operators $\Psi_\alpha$ implement the mentioned Schwinger oscillator \cite{Schwinger} associated with this symmetry.\\
 
 \section{The Schwinger oscillator and the angular momentum representation}
 To understand better the role of the symmetry of $\Psi$ in the problem, let us explain the theory associated with the Schwinger oscillators. In a nutshell, the Schwinger formalism demonstrates that the annihilation-creation operator algebra associated to two decoupled quantum oscillators induce a $SU(2)$ algebra of angular momentum.\\
@@ -102,8 +102,8 @@ Now we are going to show that this algebra of annihilation operators induces an 
 J_i &= \frac{1}{2}\sigma^i_{\alpha\beta}a^\dagger_\alpha a_\beta \\
 J_1 &= \frac{1}{2} \roundP{a_2^\dagger a_1 + a_1^\dagger a_2}\\
 J_2 &= \frac{i}{2} \roundP{a_2^\dagger a_1 - a_1^\dagger a_2}\\
-J_3 &= \frac{1}{2} \roundP{n_1-n_2}
-\end{aligned},
+J_3 &= \frac{1}{2} \roundP{n_1-n_2},
+\end{aligned}
 \label{eq:schwingerAM}
 \end{equation}
 
@@ -111,12 +111,12 @@ J_3 &= \frac{1}{2} \roundP{n_1-n_2}
 [J_i,J_j] &= \frac{1}{4}\left[ \sigma^i_{\alpha\beta}a^\dagger_\alpha a_\beta,\sigma^j_{\gamma\delta}a^\dagger_\gamma a_\delta \right] = \frac{1}{4}\sigma^i_{\alpha\beta}\sigma^j_{\gamma\delta}\left[ a^\dagger_\alpha a_\beta,a^\dagger_\gamma a_\delta \right]\\
 &= \frac{1}{4}\sigma^i_{\alpha\beta}\sigma^j_{\gamma\delta}\roundP{a^\dagger_\alpha [a_\beta,a^\dagger_\gamma ]a_\delta +  a^\dagger_\gamma[a^\dagger_\alpha, a_\delta]a_\beta }\\
 &= \frac{1}{4}\roundP{\sigma^i_{\alpha\beta}\sigma^j_{\beta\delta}a^\dagger_\alpha a_\delta - \sigma^i_{\alpha\beta}\sigma^j_{\gamma\alpha}a^\dagger_\gamma a_\beta } = \frac{1}{4}a^\dagger_\alpha a_\beta \left[ \sigma^i,\sigma_j \right]_{\alpha\beta}\\
-&= i\epsilon_{ijk} \frac{1}{4} \sigma^k_{\alpha\beta}a^\dagger_\alpha a_\beta \\
+&= i\epsilon_{ijk} \frac{1}{4} \sigma^k_{\alpha\beta}a^\dagger_\alpha a_\beta, \\
 \\
 [J_i,J_j] &= i\epsilon_{ijk}J_k.
 \end{align*}
 
-Then as well as with any other angular momentum, one can get the operators $J^\pm = J_1\pm J_2$ and get, based on these, the rules for the quantised numbers $(j,m)$ that define the eigenvalues of $(J^2,J_3)$. Then, let us calculate $J^2$ in terms of the hermitian excitation number operators $(n_1,n_2)$:
+Then, as well as with any other angular momentum, one can define the operators $J^\pm = J_1\pm J_2$ and obtain, based on these, the rules for the quantised numbers $(j,m)$ that define the eigenvalues of $(J^2,J_3)$. Then, let us calculate $J^2$ in terms of the hermitian excitation number operators $(n_1,n_2)$:
 
 \begin{align*}
 J^2 &= J_1J_1+J_2J_2+J_3J_3\\
@@ -126,12 +126,12 @@ J^2 &= J_1J_1+J_2J_2+J_3J_3\\
 &= \frac{n_1+n_2}{2}\roundP{\frac{n_1+n_2}{2}+1}.
 \end{align*}
 
-Now, comparing this result with the eigenvalues $j(j+1)$ of $J^2$ it is clear that $j = \frac{n_1+n_2}{2}$. Furthermore, the eigenvalues $m$ of $J_3$ are given by  $m = \frac{n_1-n_2}{2}$. As a consequence, given that $n_1+n_2 = 1,2,...$, we conclude that the quantum number $j$ is going to be some semi-integer $j= \frac{1}{2},1,\frac{3}{2},...$. These results lead us to conclude that the symmetry group associated with this angular momentum algebra is SU(2).\\
+Now, comparing this result with the eigenvalues $j(j+1)$ of $J^2$ it is clear that $j = \frac{n_1+n_2}{2}$. Furthermore, the eigenvalues $m$ of $J_3$ are given by  $m = \frac{n_1-n_2}{2}$. As a consequence, given that $n_1+n_2 = 1,2,...$ , we conclude that the quantum number $j$ is going to be some semi-integer $j= \frac{1}{2},1,\frac{3}{2},...$ . These results lead us to conclude that the symmetry group associated with this angular momentum algebra is SU(2).\\
 
-To sum up, given the proceedings in this section, the algebra of creation-annihilation operators that characterise a set of 2 decoupled harmonic oscillators induces an angular momentum algebra with symmetry $SU(2)$.
+To sum up, given the proceedings in this section, the algebra of creation-annihilation operators that characterise a set of 2 decoupled harmonic oscillators, induces an angular momentum algebra with symmetry $SU(2)$.
 
 \section{Quantum diagonalization of the Hamiltonian}
-Now that we introduced some important aspects about Schwinger oscillators and its relation to $SU(2)$ symmetries, we are now able to apply this theory to the analysis of our reduced problem. The only thing we have to do is take the operators $\Psi_\alpha$ as the annihilation-creation operators of the decoupled harmonic oscillator. Given this, we obtain an angular momentum in accordance to equation \eqref{eq:schwingerAM} given by:
+Now that we introduced some important aspects about Schwinger oscillators and its relation to $SU(2)$ symmetries, we are able to apply this theory to the analysis of our reduced problem. The only thing we have to do is to take the operators $\Psi_\alpha$ as the annihilation-creation operators of the decoupled harmonic oscillators. Given this, we obtain an angular momentum in accordance to equation \eqref{eq:schwingerAM} given by:
 
 \begin{align*}
 F_i  &= \frac{1}{2}\Psi_\alpha^\dagger \sigma^i_{\alpha,\beta}\Psi_\beta\\
@@ -153,9 +153,9 @@ F^2 &= \frac{n_1+n_2}{2}\roundP{\frac{n_1+n_2}{2}+1} = \frac{\Psi_1^\dagger \Psi
 &= \frac{1}{4}(S^2-1).
 \end{align*}
 
-The $SU(2)$ algebra relation then becomes clear. First, because it is already related to the symmetry of the shape vector $\vec{\zeta}$ and then because we deduced it in the Schwinger oscillator implementation.\\
+The $SU(2)$ algebra relation becomes clear. First, because it is already related to the symmetry of the shape vector $\vec{\zeta}$, and then because we deduced it in the Schwinger oscillator implementation.\\
 
-The quantum number associated with this angular momentum $\vec{F}$ are clearly given by $(s= S,m)$ where $m$ is some eigenvalue of some component of the shape vector $\vec{F}$. This, together with the quantum number $l=L$ characterises an eigenstate of our system $H_{gc}$. The eigen-energies associated with an eigenstate $(l,m,s)$ are then given by:
+The quantum number associated with this angular momentum $\vec{F}$ are clearly given by $(s= S,m)$ where $m$ is an eigenvalue of some component of the shape vector $\vec{F}$. This, together with the quantum number $l=L$, characterises an eigenstate of our system $H_{gc}$. The eigen-energies associated with an eigenstate $(l,m,s)$ are then given by:
 
 \begin{equation*}
 E_{l,m,s} = V_{s,m} + \omega(s+l).
