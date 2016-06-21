@@ -45,11 +45,11 @@ This transformation is defined by the following two equations:
 \label{eq:ct2d2}
 \end{equation}
 
-The equation \eqref{eq:ct2d1} passes from the canonical momentum $\vec{p_i}$ to the linear momentum $\vec{\pi_i}$, which is much more intuitive and understandable; while the equation \eqref{eq:ct2d2} transforms the general position  $\vec{r_i}$ to the position of the instantaneous guiding centre $\vec{R_i}$.\\
+The equation \eqref{eq:ct2d1} passes from the canonical momentum $\vec{p_i}$ to the linear momentum $\vec{\pi_i}$, which is much more intuitive and understandable; while the equation \eqref{eq:ct2d2} transforms the general position  $\vec{r_i}$ to the position of the instantaneous guiding center $\vec{R_i}$.\\
 
 In a system without the interaction potentials, the electrically charged particles are known to perform the circular motion of the cyclotron with radii that depend on the initial linear momenta. In this case, the guiding centres would be constant in time as would be the linear momenta. However, with the introduction of an interacting potential, the momentum of each particle may vary making the guiding centre change too, which is why the instantaneous interpretation of the guiding centres is necessary.\\
 
-Now, let us calculate the Poisson brackets for this new set of coordinates for a specific particle.
+Now, let us calculate the Poisson brackets for this new set of coordinates for a specific particle:
 
 \begin{align*}
 \poisson{\pi_1}{\pi_2} &= \frac{\partial \pi_1}{\partial r_{\alpha}}\frac{\partial \pi_2}{\partial p_{\alpha}} - \frac{\partial \pi_2}{\partial r_{\alpha}}\frac{\partial \pi_1}{\partial p_{\alpha}}\\
@@ -89,7 +89,7 @@ Equations \eqref{eq:pb1}-\eqref{eq:pb2} allow us to identify the proposed transf
 
 Now, with a very large magnetic field, if the potential of the interaction forces does not vary abruptly in space, we can use the approximation $\vec{R}_i \approx \vec{q}_i$ to average the potentials over the guiding centres; that is, we can replace $\vec{q}_i$ for $\vec{R}_i$ in  $V \roundP{ \vec{q_1},\vec{q_2},\vec{q_3} }$.\\
 
-We can support the last approximation as follows: In the cyclotron problem, the radius of the circular motion described is proportional to the linear momentum and inversely proportional to the magnetic field. Then, in the presence of a big magnetic field $B$, the radius of the cyclotron would shrink to a very small size. Regarding the case we are working with, the radii of the instantaneous cyclotron motion would be proportional to $\norm{(\hat{k} \times \vec{\pi_i})(eB)^{-1}} = \norm{\vec{\pi_i}(eB)^{-1}}$ and its frequency to $\sqrt{B}$. As the potential $V$ does not vary abruptly in the radii scale, the averaging of this motion over the guiding centres means that this potential does not sense that circular motion. Moreover, given the big frequency of the cyclotrons and the scale of variance of the potential, the scale of time of the local circular motions is far smaller than that of the motion of the guiding centres. Therefore, we can ignore the instantaneous quality of the circular motion, and take it as constant in a scale of time small enough for the motion of the guiding centres. In this sense we say that the coordinates for the guiding centres decouple from those of the linear momenta of the particles.\\
+We can support the last approximation as follows: In the cyclotron problem, the radius of the circular motion described is proportional to the linear momentum and inversely proportional to the magnetic field. Then, in the presence of a big magnetic field $B$, the radius of the cyclotron would shrink to a very small size. Regarding the case we are working with, the radii of the instantaneous cyclotron motions would be proportional to $\norm{(\hat{k} \times \vec{\pi_i})(eB)^{-1}} = \norm{\vec{\pi_i}(eB)^{-1}}$ and its frequency to $\sqrt{B}$. As the potential $V$ does not vary abruptly in the radii scale, the averaging of this motion over the guiding centres means that this potential does not sense that circular motion. Moreover, given the big frequency of the cyclotrons and the scale of variance of the potential, the scale of time of the local circular motions is far smaller than that of the motion of the guiding centres. Therefore, we can ignore the instantaneous quality of the circular motion, and take it as constant in a scale of time small enough for the motion of the guiding centres. In this sense we say that the coordinates for the guiding centres decouple from those of the linear momenta of the particles.\\
 
 Before replacing the new set of coordinates in the Hamiltonian, it is necessary to do a scale transformation to obtain the proper Poisson brackets for the formal definition of canonical transformation; that is:
 
@@ -107,7 +107,7 @@ H = \sum_{i=1}^{3} \frac{eB}{2m} \norm{ \vec{\pi}_i}^2
 \label{eq:newham}
 \end{equation}
 
-This Hamiltonian, given equation \eqref{eq:pb3} can be decomposed in a Hamiltonian that describes the movement of the guiding centres, and other that describes de movement of the linear momenta. In one hand, the Hamiltonian for the linear momenta is easily identified with the harmonic oscillator, whereas the one that characterises the movement of the guiding centres needs a deeper analysis.
+This Hamiltonian, given equation \eqref{eq:pb3}, can be decomposed in a Hamiltonian that describes the movement of the guiding centres, and other that describes de movement of the linear momenta. In one hand, the Hamiltonian for the linear momenta is easily identified with the harmonic oscillator, whereas the one that characterises the movement of the guiding centres needs a deeper analysis.
 
 \section{Integrability of the system}
 As the Hamiltonian describing the trajectories of the linear momenta of the particles is that of an harmonic oscillator, this part of the problem is integrable and its solutions are widely known. The guiding centre Hamiltonian, in turn, needs to be analysed more deeply. For this purpose, let us take the following convention:\\
@@ -198,7 +198,7 @@ As we found $L$ as the last integral in involution, we conclude, by the Liouvill
 \section{The spinorial representation and the Bloch sphere mapping}
 Taking the motion integrals obtained in the previous section for the guiding center Hamiltonian \eqref{eq:hamgc} the motion of the particles can be broken down in that of the center of mass, and the relative trajectories of the particles. To see that, note that as $T_x^2 + T_y^2$ in \eqref{eq:gccircle} is an integral in involution with the Hamiltonian, it is a conserved quantity. The conservation of this term is clearly interpreted as a circular motion of the center of mass of the system $\roundP{\frac{T_x}{3},\frac{T_y}{3}}$.\\
 
-The latter analysis can be clarified in terms of the decoupling of the guiding center trajectories from the general motion of the particles. In that sense, one can deduce that the guiding centre movement is only affected by the interaction potential $V$ and the external harmonic potential. This can be confirmed by the lack of magnetic terms in the guiding centre Hamiltonian in equation \eqref{eq:newham}.\\
+The latter analysis can be clarified in terms of the decoupling of the guiding center trajectories from the general motion of the particles. In that sense, one can deduce that the guiding center movement is only affected by the interaction potential $V$ and the external harmonic potential. This can be confirmed by the lack of magnetic terms in the guiding centre Hamiltonian in equation \eqref{eq:newham}.\\
 
 Taking this into account, as the potential $V$ is a central potential that produces only internal forces that do not affect the movement of the centre of mass, one may assure that its motion is determined by the only term of external interaction in the Hamiltonian, the harmonic potential.\\
 
@@ -288,7 +288,7 @@ e^{i\phi}\Psi &= \frac{1}{2\sqrt{3}}\begin{pmatrix}\sqrt{3}e^{i\phi}\roundP{z_{2
 e^{i\phi}\roundP{z_{2}-z_3}+ e^{i\phi}\roundP{z_{1}-z_{3}}\end{pmatrix}.
 \end{align*}
 
-Moreover, scale transformations will be clearly given by a scalar multiplication. Consequently, a general transformation performed to the triangle relative coordinates can be represented by a scalar and a phase, or which is the same, a complex number. Now, taking this into account, we can take the equivalence class of shapes associated with a spinor $\Psi$ as $\left[ \Psi \right] = \left\{ z\Psi | z \in \mathbb{C} / \left\{ 0 \right\} \right\}$. Here the equivalence class $\left[ \Psi \right]$ represents a shape of the triangle formed by the particles, and together with the norm of the spinor, it codifies the actual information needed of the triangle for the Hamiltonian of guiding centres \eqref{eq:newham}. 
+Moreover, scale transformations will be clearly given by a scalar multiplication. Consequently, a general transformation performed to the triangle relative coordinates can be represented by a scalar and a phase, in other words, a complex number. Now, taking this into account, we can take the equivalence class of shapes associated with a spinor $\Psi$ as $\left[ \Psi \right] = \left\{ z\Psi | z \in \mathbb{C} / \left\{ 0 \right\} \right\}$. Here the equivalence class $\left[ \Psi \right]$ represents a shape of the triangle formed by the particles, and together with the norm of the spinor, it codifies the actual information needed of the triangle for the Hamiltonian of guiding centres \eqref{eq:newham}. 
 
 In fact, if we take the space of normalised representatives $\Psi/\sqrt{S}$ we can note that the Hilbert spaces associated to the shapes of the triangles and to the wave vectors of a Qubit are equivalent, and can be mapped to a Bloch sphere. To comprehend better this mapping, let us define the vector consisting of the expected value of the Pauli matrices $\vec{\sigma}$ in terms of the equivalence class representatives:
 
@@ -304,12 +304,12 @@ The interpretation of each component of this vector becomes clear with some heav
 \zeta_3 &= \frac{1}{6S}\roundP{2\norm{\vec{r}_2 -\vec{r}_1}^2-\norm{\vec{r}_3 -\vec{r}_1}^2-\norm{\vec{r}_3 -\vec{r}_2}^2}.
 \end{align*}
 
-From this, the second component of the vector can be easily interpreted as proportional to the signed area $A$ of the triangle which sign encodes the chirality of the system.\\
+From this, the second component of the vector can be easily interpreted as proportional to the signed area $A$ of the triangle whose sign encodes the chirality of the system.\\
 
 The first and third components, in turn, share a similar composition with the components of the vector $\Psi$, mapping the complex quantities $z_i$ that encode the vertices coordinates, to the squared norm of the opposite side of the triangle. In other words, we can obtain expressions for the squared lengths of the sides of the triangle as we did in equations \eqref{eq:singlevecs}:
 
 \begin{align*}
-S &= \frac{1}{3}\sum_{i=1}^3 x_i^2 + y_i^2 -\frac{1}{3}\sum_{i > j} x_ix_j + y_iy_j  = \frac{1}{6}\roundP{\norm{\vec{r}_1 -\vec{r}_2}^2+\norm{\vec{r}_2 -\vec{r}_3}^2+\norm{\vec{r}_3 -\vec{r}_1}^2},\\
+S &= \frac{1}{3}\sum_{i=1}^3 x_i^2 + y_i^2 -\frac{1}{3}\sum_{i > j} x_ix_j + y_iy_j  = \frac{1}{6}\roundP{\norm{\vec{r}_1 -\vec{r}_2}^2+\norm{\vec{r}_2 -\vec{r}_3}^2+\norm{\vec{r}_3 -\vec{r}_1}^2},
 \end{align*}
 
 \begin{equation}
@@ -332,11 +332,11 @@ A &= \frac{\sqrt{3}S}{2} \zeta_2.
 \label{eq:compressed}
 \end{equation}
 
-Now, to know better the distribution of shapes in the Bloch sphere, let us take the coordinate $\zeta_2$ as the vertical axis which defines the poles and the rest as the ones defining the remaining perpendicular plane. In this terms, the pole vectors represent triangles of maximal area and the equatorial line, triangles of minimal null area. The triangles from the north hemisphere differ from their specular image with respect to the equatorial plane in the south hemisphere by only a sign in the area, which means that they have the same shape but different chirality.\\
+Now, to know better the distribution of shapes in the Bloch sphere, let us take the coordinate $\zeta_2$ as the vertical axis which defines the poles and the rest as the ones defining the remaining perpendicular plane. In this terms, the pole vectors represent triangles of maximal area, while the equatorial line represents triangles of minimal null area. The triangles from the north hemisphere differ from their specular image with respect to the equatorial plane in the south hemisphere by only a sign in the area, in other words, they have the same shape but different chirality.\\
 
-Moreover, isosceles triangles require the vector $\vec{\zeta}$ to be perpendicular to $\vec{m}_i-\vec{m}_j$ for some $i \neq j$. Given that $\{\vec{m_i}\}$ define an equilateral triangle, the previous requirement is equivalent to $\vec{\zeta}$ being perpendicular to some $\vec{m_i}$. Besides, given that the vectors $\vec{m}$ live in the equatorial plane, it can be deduced that any isosceles triangle can be found on the lines on the sphere connecting the poles with the vectors $\vec{m}$. From this, it is clear that the polar triangles are equilateral.\\
+Moreover, isosceles triangles require the vector $\vec{\zeta}$ to be perpendicular to $\vec{m}_i-\vec{m}_j$ for some $i \neq j$. Given that $\{\vec{m_i}\}$ define an equilateral triangle on the equatorial plane, the previous requirement is equivalent to $\vec{\zeta}$ being parallel to some $\vec{m_i}$. Besides, given that the vectors $\vec{m}_i$ lie in the equatorial plane, it can be deduced that any isosceles triangle can be found on the lines on the sphere connecting the poles with the vectors $\vec{m}_i$. From this, it is clear that the polar triangles are equilateral.\\
 
-Taking the analysis a little bit further, it can be seen from equation \eqref{eq:compressed}, that directions $\vec{\zeta} = \vec{m}_k$ on the equatorial plane of the Bloch sphere describe triangles where none of its sides $\rho_k$ will be null. Hence, those directions will determine isosceles triangles with null area; that is, triangles whose two sides sum up to the other. On the other hand, if we look at directions $\vec{\zeta} = -\vec{m}_k \coloneqq \vec{n}_k$, we find that one of the sides will be null. We then find on those directions, isosceles triangles with one of the sides equal to zero, which accounts for its null area.\\
+Taking the analysis a little bit further, it can be seen from equation \eqref{eq:compressed}, that directions $\vec{\zeta} = \vec{m}_k$ on the equatorial plane of the Bloch sphere describe triangles where none of its sides $\rho_k$ are null. Hence, those directions will determine isosceles triangles with null area where two of its sides sum up to the other. On the other hand, if we look at directions $\vec{\zeta} = -\vec{m}_k \coloneqq \vec{n}_k$, we find that one of the sides will be null. We then find on those directions, isosceles triangles with one of the sides equal to zero, which accounts for its null area.\\
 
 One may be curious about the direction of equilateral triangles with null area; that is, all the points in the same position.  The answer is that we cannot find them in the Bloch sphere because, as we stated earlier, it is a representation for normalised vectors $\Psi/\sqrt{S}$ and this triangle would require $S=0$. However, if we take the normalisation factor $S$ as the radius of the sphere, and consider the family of Bloch spheres for different radii filling $\mathbb{R}^3/\left\{0\right\}$, we surely would find these triangles in any direction on the limit $S\to 0$.\\
 
@@ -405,7 +405,7 @@ From equation \eqref{eq:Psi_time_ev} this expression can be simplified:
 \\
 \dot{\zeta}_k &= -i\frac{1}{S}\frac{\partial V}{\partial \zeta_j}\frac{1}{S}\Psi^{\dagger}\sigma^k\sigma^j\Psi +i\frac{1}{S}\frac{\partial V}{\partial \zeta_j}\frac{1}{S}\Psi^{\dagger}\sigma^j\sigma^k\Psi\\
 \\
-&= -i\roundP{\frac{1}{S}\frac{\partial V}{\partial \zeta_j}}\frac{1}{S}\Psi^{\dagger}\left[\sigma^k,\sigma^j\right]\Psi.
+&= -i\roundP{\frac{1}{S}\frac{\partial V}{\partial \zeta_j}}\frac{1}{S}\Psi^{\dagger}\left[\sigma^k,\sigma^j\right]\Psi,
 \end{align*}
 
 where $[a,b] = ab-ba$ is the commutator between $a$ and $b$. \\
@@ -420,7 +420,7 @@ It is widely known that the Pauli matrices $\vec{\sigma}$ satisfy the commutatio
 
 Having the time evolution for the vector $\vec{\zeta}$ and knowing the potential $V$, the shape of the triangle can be easily retrieved from the relations in \eqref{eq:lados}. Regarding the orientation of the triangle, the analysis requires more work because when passing from the spinor representation $(\Psi,\Psi^*)$ to the shape space $(\vec{\zeta},S)$ we loose the information of the phase of the spinor. This phase, as we deduced before, encodes the rotation (orientation) of the triangle and is not important when analysing shapes.\\
 
-To retrieve the orientation information of the triangle, we would like to obtain a definition of phase for infinitesimally separated spinors that would correspond to infinitesimal evolution in time of the trajectories. To achieve this, let us take an infinitesimal rotation in the spinorial representation and compare with the infinitesimal separation of the spinor:
+To retrieve the orientation information of the triangle, we would like to obtain a definition of phase for infinitesimally separated spinors that would correspond to an infinitesimal evolution in time of the trajectories. To achieve this, let us take an infinitesimal rotation in the spinorial representation and compare with the infinitesimal separation of the spinor:
 
 \begin{align*}
 e^{-id\chi}\Psi &\approx \Psi -id\chi\Psi = \Psi + d\Psi\\
@@ -465,7 +465,9 @@ Then, if we apply the definition of $\omega_r^{(dyn)}$ we obtain:
 &= \dot{\gamma}+\dot{\phi}\sin^2{\frac{\theta}{2}},
 \end{align*}
 
-being $\gamma$ the rotation phase of the spinor, over a period $T_s$ one can truthfully identify $\Delta \gamma$ with the angle of rotation of that shape, obtaining then the overall angular velocity $\omega_r = \Delta \gamma /T_s$. With this clarification, the expression for $\omega_r$ in terms of the dynamical and geometrical angular velocities is easily deduced:
+being $\gamma$ the rotation phase of the spinor.\\
+
+Over a period $T_s$ one can truthfully identify $\Delta \gamma$ with the angle of rotation of that shape, obtaining then the overall angular velocity $\omega_r = \Delta \gamma /T_s$. With this clarification, the expression for $\omega_r$ in terms of the dynamical and geometrical angular velocities is easily deduced:
 
 \begin{align*}
 \Delta \gamma &= \Delta \chi - \int_0^{T_s}\dot{\phi}\sin^2{\frac{\theta}{2}}dt\\
