@@ -1,10 +1,10 @@
 \chapter{The three body problem in the plane}
 
-In this chapter a classic approach of a somehow general case of the three body problem in 2 dimensions is going to be presented. This problem was developed by Alonso Botero et. al in \cite{alonso}. It will give some necessary intuition to develop the analogous problem in the spherical geometry. To begin with, the problem is going to be described in great detail; then its integrability is going to be proven; and finally, a brief description of the movement of the particles is going to be presented.\\
+In this chapter a classic approach of a somehow general case of the three body problem in 2 dimensions is going to be presented. This problem was developed by Botero and Leyvraz in \cite{alonso}. It will give some necessary intuition to develop the analogous problem in the spherical geometry. To begin with, the problem is going to be described in great detail; then its integrability is going to be proven; and finally, a brief description of the movement of the particles is going to be presented.\\
 
 \section{The definition of the problem}
 
-The three body problem presented here is that of three particles of electrical charge $e$ and mass $m$ confined to a plane, under the influence of a strong magnetic field perpendicular to it and forces whose potentials satisfy translational and rotational symmetries in the plane. To make the problem more interesting, we consider a harmonic potential with frequency $\omega$\\
+The three-body problem presented here is that of three particles of electrical charge $e$ and mass $m$ confined to a plane, under the influence of a strong magnetic field perpendicular to it and forces whose potentials satisfy translational and rotational symmetries in the plane. To make the problem more interesting, we consider a harmonic potential with frequency $\omega$\\
 
 Given this information, the Hamiltonian associated with this system has the form:
 
@@ -27,11 +27,11 @@ V \roundP{ R\vec{r_1}+\vec{a},R\vec{r_2}+\vec{a},R\vec{r_3}+\vec{a}  }= V \round
 
 for any rotation $R$ about $\hat{k}$ and any translation $\vec{a}$ in the plane.
 
-Here it is important to note that a magnetic field that is perpendicular to the plane will have no effect on the dynamics of the system. In fact, one can choose a convenient gauge in which the vector potential has the only non-null component along the $z$ axis. This way, given the restriction $\dot{z} = 0$, there will be no change in the Lagrangian function.\\
+Here it is important to note that a magnetic field that is parallel to the plane will have no effect on the dynamics of the system. In fact, one can choose a convenient gauge in which the vector potential has the only non-null component along the $z$ axis. This way, given the restriction $\dot{z} = 0$, there will be no change in the Lagrangian function.\\
 
 \section{The canonical transformation of the guiding centres}
 
-For the proof of integrability for this system, and for further analysis of the trajectories of the particles, let us perform the well known transformation of the guiding centres.\\
+For the proof of integrability for this system, and for further analysis of the trajectories of the particles, let us perform the well-known transformation of the guiding centres.\\
 
 This transformation is defined by the following two equations:
 
@@ -47,7 +47,7 @@ This transformation is defined by the following two equations:
 
 The equation \eqref{eq:ct2d1} passes from the canonical momentum $\vec{p_i}$ to the linear momentum $\vec{\pi_i}$, which is much more intuitive and understandable; while the equation \eqref{eq:ct2d2} transforms the general position  $\vec{r_i}$ to the position of the instantaneous guiding centre $\vec{R_i}$.\\
 
-In a system without the interaction potentials, the electrically charged particles are known to perform the circular motion of the cyclotron with radii that depends on the initial linear momenta. In this case, the guiding centres would be constant in time as would be the linear momenta. However, with the introduction of an interacting potential, the momentum of each particle may vary making the guiding centre change too, which is why the instantaneous interpretation of the guiding centres is necessary.\\
+In a system without the interaction potentials, the electrically charged particles are known to perform the circular motion of the cyclotron with radii that depend on the initial linear momenta. In this case, the guiding centres would be constant in time as would be the linear momenta. However, with the introduction of an interacting potential, the momentum of each particle may vary making the guiding centre change too, which is why the instantaneous interpretation of the guiding centres is necessary.\\
 
 Now, let us calculate the Poisson brackets for this new set of coordinates for a specific particle.
 
@@ -87,11 +87,11 @@ This Poisson brackets can be generalised to the transformation for the three par
 
 Equations \eqref{eq:pb1}-\eqref{eq:pb2} allow us to identify the proposed transformation as canonical. However, this is not the usual canonical transformation where the position coordinates and the momentum coordinates are canonical conjugates. In this special case, one component of the momentum is canonical conjugate with the other momentum coordinate, and similarly for the guiding center position components.\\
 
-Now, with a huge magnetic field, if the potential of the interaction forces does not vary abruptly in space, we can use the approximation $\vec{R}_i \approx \vec{q}_i$ to average the potentials over the guiding centres, that is, we can replace $\vec{q}_i$ for $\vec{R}_i$ in  $V \roundP{ \vec{q_1},\vec{q_2},\vec{q_3} }$.\\
+Now, with a very large magnetic field, if the potential of the interaction forces does not vary abruptly in space, we can use the approximation $\vec{R}_i \approx \vec{q}_i$ to average the potentials over the guiding centres; that is, we can replace $\vec{q}_i$ for $\vec{R}_i$ in  $V \roundP{ \vec{q_1},\vec{q_2},\vec{q_3} }$.\\
 
-We can support the last approximation as follows: In the cyclotron problem, the radius of the circular motion described is proportional to the linear momentum and inversely proportional to the magnetic field. Then, in the presence of a big magnetic field $B$, the radius of the cyclotron would shrink to a very small size. Regarding the case we are working with, the radii of the instantaneous cyclotron motion would be proportional to $\norm{(\hat{k} \times \vec{\pi_i})(eB)^{-1}} = \norm{\vec{\pi_i}(eB)^{-1}}$ and its frequency to $\sqrt{B}$. As the potential $V$ does not vary abruptly in the radii scale, the averaging of this motion over the guiding centres means that this potential does not sense that circular motion. Moreover, given the big frequency of the cyclotrons and the scale of variance of the potential, the scale of time of the local circular motions is far smaller than that of the motion of the guiding centres. Therefore, we can ignore the instantaneous quality of the circular motion, and take it as constant in a scale of time small enough for the motion of the guiding centres. In this sense we say that the coordinates for the guiding centres decouple from that of the linear momenta of the particles.\\
+We can support the last approximation as follows: In the cyclotron problem, the radius of the circular motion described is proportional to the linear momentum and inversely proportional to the magnetic field. Then, in the presence of a big magnetic field $B$, the radius of the cyclotron would shrink to a very small size. Regarding the case we are working with, the radii of the instantaneous cyclotron motion would be proportional to $\norm{(\hat{k} \times \vec{\pi_i})(eB)^{-1}} = \norm{\vec{\pi_i}(eB)^{-1}}$ and its frequency to $\sqrt{B}$. As the potential $V$ does not vary abruptly in the radii scale, the averaging of this motion over the guiding centres means that this potential does not sense that circular motion. Moreover, given the big frequency of the cyclotrons and the scale of variance of the potential, the scale of time of the local circular motions is far smaller than that of the motion of the guiding centres. Therefore, we can ignore the instantaneous quality of the circular motion, and take it as constant in a scale of time small enough for the motion of the guiding centres. In this sense we say that the coordinates for the guiding centres decouple from those of the linear momenta of the particles.\\
 
-Before replacing the new set of coordinates in the Hamiltonian, it is necessary to do a scale transformation to obtain the proper Poisson brackets for the formal definition of canonical transformation, that is:
+Before replacing the new set of coordinates in the Hamiltonian, it is necessary to do a scale transformation to obtain the proper Poisson brackets for the formal definition of canonical transformation; that is:
 
 \begin{align*}
 \vec{\pi}_i & \rightarrow (eB)^{-1/2} \vec{ \pi}_i\\
@@ -134,7 +134,7 @@ Clearly, the scaled potential $V$ still has the symmetries expressed in the equa
 
 Now that the guiding center Hamiltonian has been expressed in terms of the proper canonical set of coordinates, the fastest way to prove the integrability of the system is via the Liouville-Arnol'd theorem \cite[Sect. 49]{arnold}. For this theorem, it is only necessary to find 2 more independent integrals in involution (besides the Hamiltonian).\\
 
-To get this 2 integrals, let us exploit the symmetries of the guiding centres Hamiltonian. We then define the generators of translations and rotation in the plane, which are symmetries of the potential:
+To get these 2 integrals, let us exploit the symmetries of the guiding centres Hamiltonian. We then define the generators of translations and rotation in the plane, which are symmetries of the potential:
 
 \begin{equation}
 \begin{aligned}
@@ -149,7 +149,7 @@ R_z = \frac{1}{2} \sum_{i=1}^{3} \roundP{x_i^2 + y_i^2}.
 \label{eq:genrotation}
 \end{equation}
 
-It is easily verifiable that these are indeed the symmetries generators. To see that, take the first order infinitesimal transformations of translations and rotations on the plane:
+It is easily verifiable that these are indeed the symmetry generators. To see that, take the first order infinitesimal transformations of translations and rotations on the plane:
 
 \begin{equation*}
 x_i  \rightarrow x_i + \epsilon ,
@@ -198,7 +198,7 @@ As we found $L$ as the last integral in involution, we conclude, by the Liouvill
 \section{The spinorial representation and the Bloch sphere mapping}
 Taking the motion integrals obtained in the previous section for the guiding center Hamiltonian \eqref{eq:hamgc} the motion of the particles can be broken down in that of the center of mass, and the relative trajectories of the particles. To see that, note that as $T_x^2 + T_y^2$ in \eqref{eq:gccircle} is an integral in involution with the Hamiltonian, it is a conserved quantity. The conservation of this term is clearly interpreted as a circular motion of the center of mass of the system $\roundP{\frac{T_x}{3},\frac{T_y}{3}}$.\\
 
-The latter analysis can be clarified in terms of the decoupling of the guiding center trajectories from the general motion of the particles. In that sense one can deduce that the guiding centre movement is only affected by the interaction potential $V$ and the external harmonic potential. This can be confirmed by the lack of magnetic terms in the guiding centre Hamiltonian in equation \eqref{eq:newham}.\\
+The latter analysis can be clarified in terms of the decoupling of the guiding center trajectories from the general motion of the particles. In that sense, one can deduce that the guiding centre movement is only affected by the interaction potential $V$ and the external harmonic potential. This can be confirmed by the lack of magnetic terms in the guiding centre Hamiltonian in equation \eqref{eq:newham}.\\
 
 Taking this into account, as the potential $V$ is a central potential that produces only internal forces that do not affect the movement of the centre of mass, one may assure that its motion is determined by the only term of external interaction in the Hamiltonian, the harmonic potential.\\
 
@@ -221,7 +221,7 @@ z_{2}+z_{1}-2z_{2}\end{pmatrix},
 \label{eq:spinor}
 \end{align}
 
-with $z_{i} = x_i + iy_i$. If we call define the center of mass as $T = \frac{1}{3}\roundP{T_x + iT_y} = \frac{1}{3}\roundP{z_1 +z_2+z_3}$ we can retrieve the general position of each particle:
+with $z_{i} = x_i + iy_i$. If we define the center of mass as $T = \frac{1}{3}\roundP{T_x + iT_y} = \frac{1}{3}\roundP{z_1 +z_2+z_3}$, we can retrieve the general position of each particle:
 
 \small
 \begin{equation}
@@ -250,7 +250,7 @@ The spinor components were chosen to satisfy the canonical commutation relations
 \end{align*}
 \normalsize
 
-which can be resumed:
+which can be summarized:
 
 \begin{align}
 \poisson{\Psi_\alpha}{\Psi_\beta} &= \poisson{\Psi_\alpha^*}{\Psi_\beta^*} = 0\\
@@ -277,7 +277,7 @@ I &= m\sum_{i=1}^3 \norm{\vec{r}_i - \vec{r}_{cm}}^2 = m\sum_{i=1}^3 \norm{\vec{
 &= m\roundP{2J - \frac{1}{3}\roundP{T_x^2+T_y^2}} = m\roundP{2J-2L} = 2mS.
 \end{align*}
 
-On the other hand, it is observed that any phase multiplication to the spinor $\Psi$ is equivalent to any rotation about the center of mass or about the origin, as they have the same effect on relative vectors $\vec{r_i}-\vec{r_j}$:
+On the other hand, it is observed that any phase multiplication to the spinor $\Psi$ is equivalent to a rotation about the center of mass or about the origin, as they have the same effect on relative vectors $\vec{r_i}-\vec{r_j}$:
 
 \begin{align*}
 e^{i\phi}z &= \roundP{\cos{\phi}+i\sin{\phi}}\roundP{x+iy} = \roundP{x\cos{\phi}-y\sin{\phi}} + i\roundP{y\cos{\phi}+x\sin{\phi}}\\
@@ -325,8 +325,8 @@ The information carried by the three components of the vector $\vec{\zeta}$ and 
 
 \begin{equation}
 \begin{aligned}
-\rho_k &= 2S\roundP{1+\vec{m}_k\cdot\vec{\zeta}}\\
-\vec{m}_k &= \roundP{\sin{\frac{2\pi k}{3}},0,\cos{\frac{2\pi k}{3}}}, k \in \poisson{1,2}{3}\\
+\rho_k &= 2S\roundP{1+\vec{m}_k\cdot\vec{\zeta}} & (1 \leq k \leq 3)\\
+\vec{m}_k &= \roundP{\sin{\frac{2\pi k}{3}},0,\cos{\frac{2\pi k}{3}}}\\
 A &= \frac{\sqrt{3}S}{2} \zeta_2.
 \end{aligned}
 \label{eq:compressed}
@@ -334,14 +334,14 @@ A &= \frac{\sqrt{3}S}{2} \zeta_2.
 
 Now, to know better the distribution of shapes in the Bloch sphere, let us take the coordinate $\zeta_2$ as the vertical axis which defines the poles and the rest as the ones defining the remaining perpendicular plane. In this terms, the pole vectors represent triangles of maximal area and the equatorial line, triangles of minimal null area. The triangles from the north hemisphere differ from their specular image with respect to the equatorial plane in the south hemisphere by only a sign in the area, which means that they have the same shape but different chirality.\\
 
-Moreover, isosceles triangles require the vector $\vec{\zeta}$ to be perpendicular to $\vec{m}_i-\vec{m}_j$ for some $i \neq j$. It can be easily demonstrated that $\vec{m}_k \perp \vec{m}_i-\vec{m}_j$ for all $i \neq j \neq k$ and as a consequence, any isosceles triangle must follow that $\vec{\zeta}\parallel\vec{m}_i$ for any $i$. Besides, given that the vectors $\vec{m}$ live in the equatorial plane, it can be deduced that any isosceles triangle can be found on the lines on the sphere connecting the poles with the vectors $\vec{m}$. From this, it is clear that the polar triangles are equilateral.\\
+Moreover, isosceles triangles require the vector $\vec{\zeta}$ to be perpendicular to $\vec{m}_i-\vec{m}_j$ for some $i \neq j$. Given that $\{\vec{m_i}\}$ define an equilateral triangle, the previous requirement is equivalent to $\vec{\zeta}$ being perpendicular to some $\vec{m_i}$. Besides, given that the vectors $\vec{m}$ live in the equatorial plane, it can be deduced that any isosceles triangle can be found on the lines on the sphere connecting the poles with the vectors $\vec{m}$. From this, it is clear that the polar triangles are equilateral.\\
 
-Taking the analysis a little bit further, it can be seen from the form that takes the sides of the vertices $\rho_k$ in equation \eqref{eq:compressed}, that in the equatorial plane if we look the directions $\vec{\zeta} = \vec{m}_k$, no side of the triangle will be null. Hence, those directions will determine isosceles triangles with null area, that is, triangles whose two sides sum up to the other. On the other hand, if we look directions $\vec{\zeta} = -\vec{m}_k \coloneqq \vec{n}_k$, we find that one of the sides will be null. We find then on those directions, isosceles triangles with one of the sides equal to zero, which accounts for its null area.\\
+Taking the analysis a little bit further, it can be seen from equation \eqref{eq:compressed}, that directions $\vec{\zeta} = \vec{m}_k$ on the equatorial plane of the Bloch sphere describe triangles where none of its sides $\rho_k$ will be null. Hence, those directions will determine isosceles triangles with null area; that is, triangles whose two sides sum up to the other. On the other hand, if we look at directions $\vec{\zeta} = -\vec{m}_k \coloneqq \vec{n}_k$, we find that one of the sides will be null. We then find on those directions, isosceles triangles with one of the sides equal to zero, which accounts for its null area.\\
 
-One may be curious for the direction of equilateral triangles with null area, that is, all the points in the same position.  The answer is that we cannot find them in the Bloch sphere because, as we stated earlier, it is a representation for normalised vectors $\Psi/\sqrt{S}$ and this triangle would require $S=0$. However, if we take the normalisation factor $S$ as the radius of the sphere, and consider the family of Bloch spheres for different radii filling $\mathbb{R}^3/\left\{0\right\}$, we surely would find these triangles in any direction on the limit $S\to 0$.\\
+One may be curious about the direction of equilateral triangles with null area; that is, all the points in the same position.  The answer is that we cannot find them in the Bloch sphere because, as we stated earlier, it is a representation for normalised vectors $\Psi/\sqrt{S}$ and this triangle would require $S=0$. However, if we take the normalisation factor $S$ as the radius of the sphere, and consider the family of Bloch spheres for different radii filling $\mathbb{R}^3/\left\{0\right\}$, we surely would find these triangles in any direction on the limit $S\to 0$.\\
 
 \section{Analysis of the motion}
-Taking into account the decoupling of the center of mass movement with respect to the relative coordinates which are encoded in the canonical spinor $\Psi$, the addition of terms that depend only on the center of mass components to the Hamiltonian will not affect the equations of motion of the relative coordinates. We then can add a term $-\omega L$ from the Hamiltonian in equation \eqref{eq:hamgc} with no effect on $\Psi$:
+Taking into account the decoupling of the center of mass movement with respect to the relative coordinates, which are encoded in the canonical spinor $\Psi$, the addition of terms that depend only on the center of mass components to the Hamiltonian will not affect the equations of motion of the relative coordinates. We can then add a term $-\omega L$ from the Hamiltonian in equation \eqref{eq:hamgc} with no effect on $\Psi$:
 
 \begin{align*}
 H_{\Psi} &= H_{gc} - \omega L =  V\roundP{\Psi,\Psi^*}+ \omega (J-L) = V\roundP{\Psi,\Psi^*}+ \omega S\\
@@ -351,14 +351,13 @@ H_{\Psi} &= H_{gc} - \omega L =  V\roundP{\Psi,\Psi^*}+ \omega (J-L) = V\roundP{
 With this new Hamiltonian for relative coordinates, one may obtain the temporal evolution of the spinor $\Psi$, taking the Poisson bracket with it, the time evolution generator. However, to express the Poisson bracket in terms of the new spinorial coordinates, we can reformulate the canonical relations in \eqref{eq:canonicalSpinor} to resemble more the classical relations of $x$ and $p_x$:
 
 \begin{align*}
-\poisson{\Psi_1}{i\Psi^*_1} = \poisson{\Psi_2}{i\Psi^*_2} = 1
+\poisson{\Psi_1}{i\Psi^*_1} = \poisson{\Psi_2}{i\Psi^*_2} = 1.
 \end{align*}
 
 With this clarification, we can take the usual Poisson bracket expressions with the canonical variables $(\Psi_\alpha,i\Psi^*_\alpha)$:
 
 \begin{align*}
-\poisson{f}{g} &= \sum_{\alpha = 1}^2 \roundP{\frac{\partial f}{\partial \Psi_\alpha }\frac{\partial g}{\partial i\Psi_\alpha^*}-\frac{\partial f}{\partial i\Psi_\alpha^* }\frac{\partial g}{\partial \Psi_\alpha}} \\
-i\poisson{f}{g} &= \sum_{\alpha = 1}^2 \roundP{\frac{\partial f}{\partial \Psi_\alpha }\frac{\partial g}{\partial \Psi_\alpha^*}-\frac{\partial f}{\partial \Psi_\alpha^* }\frac{\partial g}{\partial \Psi_\alpha}} .
+\poisson{f}{g} &= \frac{1}{i}\sum_{\alpha = 1}^2 \roundP{\frac{\partial f}{\partial \Psi_\alpha }\frac{\partial g}{\partial \Psi_\alpha^*}-\frac{\partial f}{\partial \Psi_\alpha^* }\frac{\partial g}{\partial \Psi_\alpha}}.
 \end{align*}
 
 And the temporal evolution of $\Psi_\alpha$ takes the simple form:
@@ -456,7 +455,7 @@ This parametrisation is chosen so that the angles $(\theta,\phi)$ correspond to 
 \vec{\zeta} = \begin{pmatrix} \sin{\theta}\cos{\phi}\\ \sin{\theta}\sin{\phi}\\ \cos{\theta} \end{pmatrix}.
 \end{equation*}
 
-Then if we apply the definition of $\omega_r^{(dyn)}$ we obtain:
+Then, if we apply the definition of $\omega_r^{(dyn)}$ we obtain:
 
 \begin{align*}
 \omega_r^{(dyn)} &= i\frac{1}{S}\Psi^\dagger\dot{\Psi} \\
@@ -473,7 +472,7 @@ being $\gamma$ the rotation phase of the spinor, over a period $T_s$ one can tru
 \\
 \omega_r &= \frac{\Delta \gamma}{T_s} = \frac{1}{T_s}\int_0^{T_s}\omega_r^{(dyn)}dt -\frac{1}{T_s}\oint\sin^2{\frac{\theta}{2}}d\phi\\
 \\
-\omega_r &= \left\langle \omega_r^{(dyn)} \right\rangle + \omega_r^{(geo)}\\,
+\omega_r &= \left\langle \omega_r^{(dyn)} \right\rangle + \omega_r^{(geo)},
 \end{align*}
 
 with $\omega_r^{(geo)}= -\frac{1}{2T_s}\oint 2\sin^2{\frac{\theta}{2}}d\phi = -\frac{1}{2T_s}\Omega(E,S)$ being proportional to the solid angle $\Omega(E,S)$ on the Bloch sphere enclosed by the level curve of the shape trajectory corresponding to $(S,E)$:
