@@ -1,10 +1,10 @@
 \chapter{The three body problem in the sphere}
-Given the introduction about the one-body problem under the influence of a monopolar magnetic field, we are now able to generalize the three-body problem restricted to the sphere. As we did in chapter 2 and 3, we would like to search for a similar analysis for the three-body problem on the sphere on huge magnetic field regimen. As we will discuss later in this chapter, an analogous analysis is not trivial, however, we explain some important aspects of the problem and give some general guidelines that may, trough future work, carry to the so wanted analogous analysis.\\
+Given the introduction about the one-body problem under the influence of a monopolar magnetic field, we are now able to generalize the three-body problem restricted to the sphere. As we did in chapter 2 and 3, we would like to search for a similar analysis for the three-body problem on the sphere on the large magnetic field regimen. As we will discuss later in this chapter, an analogous analysis is not trivial, however, we explain some important aspects of the problem and give some general guidelines that may, trough future work, carry to the so wanted analogous analysis.\\
 
-This chapter is organized the following way: First, the problem is going to be formally defined. Then, a brief discussion of the integrability in spherical and Cartesian coordinates and some disadvantages of these coordinate systems are going to be presented. Finally, the stereographic projection, as an alternative coordinate system to analyse similarities is going to be introduced.\\
+This chapter is organized in the following way: First, the problem is going to be formally defined. Then, a brief discussion of the advantages and flaws of spherical and Cartesian coordinate systems in the development of the analysis of the problem is going to be presented. Finally, the stereographic projection, as an alternative coordinate system to analyse similarities, is going to be introduced.\\
 
 \section{Definition of the problem}
-In this problem, we practically have three Hamiltonians \eqref{eq:hamiltonian} of free particles in a monopolar magnetic field, coupled by a potential $V$ with the three-dimensional rotational symmetries. To make things easier, we choose the same gauge for the vector potentials associated with each particle. In this terms, the three-body Hamiltonian will have the form:
+In this problem, we practically have three Hamiltonians \eqref{eq:hamiltonian} of free particles in a monopolar magnetic field, coupled by a potential $V$ with the three-dimensional rotational symmetries. To make things easier, we choose the same gauge for the vector potentials associated with each particle. In these terms, the three-body Hamiltonian will have the form:
 
 \begin{align}
 H &= \left. \frac{1}{2m}\roundP{\norm{\vec{\pi}_1}^2+\norm{\vec{\pi}_2}^2+\norm{\vec{\pi}_3}^2} + V\roundP{\vec{r}_1,\vec{r}_2,\vec{r}_3}    \right|_{S^2} \nonumber \\
@@ -43,31 +43,31 @@ Indeed, the previous transformation \eqref{eq:gcSphere} has the same form of tha
 
 This can get things complicated as $\vec{r}$ is not constant in time, but points to the position of the particle on the sphere at any time. This situation is reflected in the fact that this transformation is not canonical, but it follows the relations of angular momentum with the exemption of constants, namely $\frac{eg}{r}$.\\
 
-Anyway, given the relation on equation \eqref{eq:gcSphere} in the big magnetic field regime we can also make the assumption that the guiding center is approximately equal to the position of the particle, simplifying the problem in a similar way. The next step on this problem would be to find the analogue to the linear momentum that characterises the radius of the guiding center and the position in the circle. As the guiding center variables follow the relations of angular momentum, it would be ideal to find this analogue quantity to follow the same relations.\\
+Anyway, given taking equation \eqref{eq:gcSphere}, in the big magnetic field regimen, we can also make the assumption that the guiding center is approximately equal to the position of the particle, simplifying the problem in a similar way to the plane case. The next step on this problem would be to find the analogue to the linear momentum that characterises the radius of the guiding center and the position in the circle. As the guiding center variables follow the relations of angular momentum, it would be ideal to find this analogue quantity to follow the same relations.\\
 
-However, the principal idea of doing the guiding center transformation is to obtain some separated canonical quantities with null Poisson brackets with the objective of separating the former Hamiltonian into two decoupled problems under a big magnetic field $B$. Then, while it is ideal to find the complementary quantity of the spherical guiding center to satisfy the angular momentum relations, we would be okay with it not necessarily being an angular momentum but unavoidably satisfying the null Poisson brackets with its guiding center counterpart. Besides, in analogy with the problem on the plane, we require the kinetic part of the Hamiltonian to be a function of these new complementary quantities or at least to be separable into some function of the guiding centres and other of the remaining coordinates.\\
+However, the principal idea of doing the guiding center transformation is to obtain some independent canonical quantities with null Poisson brackets, with the objective of separating the former Hamiltonian into two decoupled problems under a big magnetic field $B$. Although it would be ideal to find the complementary quantity of the spherical guiding center to satisfy the angular momentum relations, for the purpose of the decoupling of the problem we only require this complementary quantity to satisfy the null Poisson brackets with its guiding center counterpart. Besides, in analogy with the problem on the plane, we require the kinetic part of the Hamiltonian to be a function of these new complementary quantities or at least to be separable into some function of the guiding centres and other of the remaining coordinates.\\
 
-One can try to find a vector which follows this condition. However, a little bit of thinking tells us that it can not be found at least in the Cartesian coordinate system. The reason is that, as it was demonstrated before, the guiding center transformation produces three generators of rotations of the particular coordinate system. In these terms, no matter what quantities we define, if they are vectors we automatically deduce that the Poisson bracket between this quantity and its respective guiding center coordinate is not null, but represents the infinitesimal rotation of this vector.\\
+One can try to find a vector which follows these conditions. However, a little bit of thinking tells us that it can not be found at least in the Cartesian coordinate system. The reason is that, as it was demonstrated before, the guiding center transformation produces three generators of rotations for the particular coordinate systems. In these terms, no matter what quantities we define, if they are vectors we automatically deduce that the Poisson bracket between this quantity and its respective guiding center coordinate is not null but represents the infinitesimal rotation of this vector.\\
 
-We can propose a transformation that encodes the counterpart of the guiding center coordinates in some scalar quantities so that the Poisson bracket with the guiding centres become null, and we can then perform the separation of the problem into two different decoupled Hamiltonians. The finding of these quantities is not easy and anyway would have not helped much in the development of a sphere formalism similar to that of the plane. The problem resides in the characterisation of the guiding center coordinates as the rotation generator in the Cartesian coordinate system, which impedes a proper separation of variables.\\
+We can propose a transformation that encodes the counterpart of the guiding center coordinates in some scalar quantities so that the Poisson bracket with the guiding centres becomes null, and we can then perform the separation of the problem into two different decoupled Hamiltonians. The finding of these quantities is not easy and anyway would have not helped much in the development of a sphere formalism similar to that of the plane. The problem resides in the characterisation of the guiding center coordinates as the rotation generator in the Cartesian coordinate system, which impedes a proper separation of variables.\\
 
-To see this clearly, let us assume that we found some proper non-vectorial quantities $\{\Lambda_i\}$ that commute with the quantities $\{\vec{R}_i\}$,and which generate the kinetic part of the Hamiltonian. We then can separate this Hamiltonian into the guiding centres Hamiltonian and other for $\{\Lambda_i\}$. The remaining Hamiltonian would be simply the potential $V$ averaged over the guiding centres and properly rescaled:
+To see this clearly, let us assume that we found some proper non-vectorial quantities $\{\vec{\Lambda}_i\}$ that commute with the quantities $\{\vec{R}_i\}$, which generate the kinetic part of the Hamiltonian. We then can separate this Hamiltonian into the guiding centres Hamiltonian and other for $\{\vec{\Lambda}_i\}$. The remaining Hamiltonian would be simply the potential $V$ averaged over the guiding centres, and properly rescaled:
 
 \begin{align*}
 H_{gc} &= V(\vec{J_1},\vec{J_2},\vec{J_3})\\
 \poisson{J_{\alpha,i}}{J_{\beta,j}} &= \delta_{\alpha\beta}\epsilon_{ijk} J_{\alpha,k},
 \end{align*}
 
-where Greek indices label the particle and Latin indices the coordinate. \\
+where Greek indices label the particle, and Latin indices the coordinate. \\
 
-The next step here would be to find some transformation that decouples the movement of the center of mass of guiding centres from the relative coordinates. However, the relative coordinates are vectorial quantities and would definitely not commute with the center of mass coordinates, nor between them. Moreover, the subtraction of angular momentum is not necessarily another angular momentum. \\
+The next step here would be to find some transformation that decouples the movement of the center of mass of guiding centres from the relative coordinates. However, the relative coordinates are vectorial quantities and would definitely not commute with the center of mass coordinates, nor between them. Moreover, the subtraction of angular momenta is not necessarily another angular momentum. \\
 
-We would try the same argument as before of finding some scalar quantities to decouple the center of mas from the relative coordinates. Nonetheless, we would loose the coordinate-like transformation and would not be able to easily relate the quantities with the characteristics of the triangle.\\
+We could try the same argument as before of finding some scalar quantities to decouple the center of mas from the relative coordinates, nonetheless, we would loose the coordinate-like transformation and would not be able to easily relate the quantities with the characteristics of the triangle.\\
 
-The issue with Cartesian coordinates, besides the principal quantities being the generators of rotations, is that there is no simple way to introduce the restriction of the coordinates to the sphere. We will always be working with more coordinates than we need. Taking this into account, an obvious alternative to the solution of this problem is the use of spherical coordinates, where we would get rid of the radial coordinate and momentum, obtaining a problem properly described by two coordinates.\\ 
+The issue with Cartesian coordinates, besides the principal quantities being the generators of rotations, is that there is no simple way to introduce the restriction to the sphere. We will always be working with more coordinates than we need. Taking this into account, an obvious alternative to the solution of this problem is the use of spherical coordinates, where we would get rid of the radial coordinate and momentum, obtaining a problem properly described by two angular coordinates.\\ 
 
 \section{The problem in spherical coordinates}
-We redefine then the problem in spherical coordinates to verify if this is a suitable set of quantities to carry out a similar analysis than that of the plane. To do this let us start with the Lagrangian of a single particle in the magnetic field of a monopole restricted to the spherical surface. But first let us define the spherical coordinate transformation and some important relations:
+We redefine the problem in spherical coordinates to verify if it produces a suitable set of quantities to carry out a similar analysis than that of the plane. To do this, let us calculate the Lagrangian of a single particle in the magnetic field of a monopole restricted to the spherical surface, but first, let us define the spherical coordinate transformation and some important relations:
 
 \begin{align*}
 x &= r\sin{\theta}\cos{\phi} & \hat{r} = \frac{\partial \vec{r}}{\partial r}\bigg/\norm{\frac{\partial \vec{r}}{\partial r}}\\
@@ -90,7 +90,7 @@ Now, transforming the vector potential with the convenient gauge along the $z$ a
 \vec{A}_{\hat{k}} = \frac{eg}{r}\tan{\frac{\theta}{2}}\hat{\phi}.
 \end{equation*}
 
-As these unit vectors are orthogonal we obtain the following Lagrangian:\\
+As these unit vectors are orthogonal, we obtain the following Lagrangian:\\
 
 \begin{equation*}
 L = \frac{mr^2}{2}\roundP{\dot{\theta}^2 + \sin^2\theta \dot{\phi}^2} + \frac{eg}{r}\tan{\frac{\theta}{2}\dot{\phi}}.
@@ -103,13 +103,13 @@ p_\theta &= mr^2\dot{\theta}\\
 p_\phi &= mr^2\sin^2\theta\dot{\phi} + \frac{eg}{r}\tan{\frac{\theta}{2}}.
 \end{align*}
 
-Then the Hamiltonian is determined:
+Then the Hamiltonian takes the form:
 
 \begin{equation}
 H = \frac{1}{2mr^2}\roundP{p_\theta^2 + \roundP{\frac{p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}}}{\sin\theta}}^2}.
 \end{equation}
 
-We can then define a linear momentum vector in analogy with this Hamiltonian and with the linear velocity previously defined:
+With the linear velocity previously defined, we can then define a linear momentum vector from this Hamiltonian:
 
 \begin{align*}
 \vec{\pi} &= \frac{p_\theta}{r}\hat{\theta} + \frac{p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}}}{r\sin\theta}\hat{\phi}\\
@@ -117,16 +117,16 @@ We can then define a linear momentum vector in analogy with this Hamiltonian and
 \pi_\phi &= \frac{p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}}}{r\sin\theta}.
 \end{align*}
 
-The purpose of this more or less long introduction to the problem in spherical coordinates was to obtain the linear momenta formula. With this formula one can calculate the Poisson bracket between the two components $(\pi_\theta,\pi_\phi)$ and realize that, given the dependence of $\pi_\phi$ on both momenta and coordinates, this Poisson bracket will have a rather complicated expression that is not worth writing down. This tells us that the counterpart for the guiding center transformation on spherical coordinates wont function at least for the linear momentum. \\
+The purpose of this more or less long introduction to the problem in spherical coordinates was to obtain the linear momenta formula. With this expression, one can calculate the Poisson bracket between the two components $(\pi_\theta,\pi_\phi)$ and realize that, given the dependence of $\pi_\phi$ on both canonical momenta and angular coordinates, this Poisson bracket will have a rather complicated expression that is not worth writing down. This tells us that the counterpart for the guiding center transformation on spherical coordinates will not work, at least, for the linear momentum.\\
 
-One may argument that the correct analogous of the linear momentum in the plane are the conjugate angular momenta on the sphere in stead of the same linear momentum. While this argument is right and makes a lot of sense, we find that even with this consideration we obtain a set of variables that are not much different from before and posses the same problem:
+One may justify that the correct analogous of the linear momenta in the plane are the conjugate angular momenta on the sphere in stead of the linear velocities. Although this argument is right and makes sense, we find that even with this consideration we obtain a set of variables that is not much different from before and possesses the same problem:
 
 \begin{align*}
 L_\theta &= p_\theta\\
-L_\phi &= p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}},
+L_\phi &= p_\phi - \frac{eg}{r}\tan{\frac{\theta}{2}}.
 \end{align*}
 
-then we calculate the Poisson brackets between these two quantities, one obtains the following result:
+When we calculate the Poisson brackets between these two quantities, we obtain the following result:
 
 \begin{align*}
 \poisson{L_\theta}{L\phi} &= \cancelto{0}{\poisson{p_\theta}{p_\phi}}-\poisson{p_\theta}{\frac{eg}{r}\tan{\frac{\theta}{2}}}\\
@@ -134,7 +134,7 @@ then we calculate the Poisson brackets between these two quantities, one obtains
 &=  \frac{eg}{r} \frac{1}{1+\cos{\theta}}.
 \end{align*}
 
-While this expression is very close to something simple as happened in the case of the plane, we can not characterise this transformation as canonical. The reason is that this Poisson bracket can get as big as possible when $\theta \to \pi$. If we approximate this Poisson bracket to $\frac{eg}{r}$, which is valid when $\theta \to 0$, we would obtain the so wanted canonical transformation for the momentum. However, with this approximation, we are taking a region on the north pole of the sphere as if it was a plane, and the problem on the sphere its curvature.\\
+While this expression is very close to something simple, as happens in the case of the plane, we can not characterise this transformation as canonical. The reason is that this Poisson bracket can get indefinitely big when $\theta \to \pi$. If we approximate this Poisson bracket to $\frac{eg}{r}$, which is valid when $\theta \to 0$, we would obtain the so wanted canonical transformation for the momentum. However, with this approximation, we are taking a region on the north pole of the sphere as if it was a plane, which is a drastic reduction of the problem.\\
 
 On the other hand, regarding the transformation to the guiding center angular momentum, one can simply transform the momentum $\vec{J}$ to spherical coordinates. Certainly, the same rotational symmetries analysed on chapter 4 have to produce the same conserved quantity.\\
 
@@ -144,7 +144,7 @@ On the other hand, regarding the transformation to the guiding center angular mo
 &= -r\pi_\phi \hat{\theta} + r\pi_\theta \hat{\phi} + eg\hat{r}.
 \end{align*}
 
-We then discover that the guiding center angular momentum has angular components that are the same than the linear momentum, besides a constant radial component. The Poisson bracket relations do not change a little bit in comparison to that of the linear momentum components. Besides not finding a nice expression for the algebra followed by the guiding center and the linear momenta, we find in the spherical coordinates a bigger problem: The linear momentum and the guiding center cannot be properly decoupled because they are practically the same.\\
+We then discover that the guiding center angular momentum has angular components that are the same than the linear momentum, besides a constant radial component. The Poisson bracket relations do not change at all in comparison to that of the linear momentum components. Besides not finding a nice expression for the algebra followed by the guiding center and the linear momenta, we find in the spherical coordinates a bigger problem: The linear momentum and the guiding center cannot be properly decoupled because they are practically the same.\\
 
 These reasons leaded us to abandon the study of the problem in spherical coordinates.\\
 
@@ -157,11 +157,11 @@ These reasons leaded us to abandon the study of the problem in spherical coordin
 %%
 
 \section{The stereographic projection}
-Even though a simple analogue formalism for the sphere cannot be deduced from spherical and Cartesian coordinates, we can try it one last time with a not so popular system of coordinates for spheres, the stereographic projection.\\
+Even though a simple analogue formalism for the sphere cannot be deduced from spherical and Cartesian coordinates, we can try one more time with an uncommon system of coordinates for spheres: the stereographic projection.\\
 
-To understand the stereographic projection, let us choose one point on the surface of the sphere that we will call the projection point. Picture one plane that is tangent to the diametrical opposite of the projection point, which will be the target plane. To map any point of the sphere to the plane simply draw a straight line from the projection point to the mapping point and prolong it until it intersects the target plane. It is then clear that the projection point is not well defined under this transformation.\\
+To understand the stereographic projection, let us choose one point on the surface of the sphere, that we will call the projection point. Picture one plane that is tangent to the diametrical opposite of the projection point, which will be addressed as target plane. To map any point of the sphere to the plane, draw a straight line from the projection point to the mapping point and prolong it until it intersects the target plane. It is clear that the projection point is not well defined under this transformation.\\
 
-With a little bit of algebra, one can obtain the formulas for the transformation when choosing the projection point at $z=-r$:
+With some algebra, one can obtain the formulas for the transformation when the projection point lies at $z=-r$:
 
 \begin{align*}
 X &= \frac{x}{1+z/r}\\
@@ -176,29 +176,29 @@ y &= \frac{Y}{\frac{1}{2r^2}(r^2+X^2+Y^2)}\\
 z &= \frac{\frac{1}{2r}(r^2-X^2-Z^2)}{\frac{1}{2r^2}(r^2+X^2+Y^2)}.
 \end{align*}
 
-Some aspects are remarkable about this transformation, which can be verified with a simple analysis to the formulas. The first and most important of it being that this projection does not preserve areas. This is easily recognizable due to the factor $1+z/r$ which gets arbitrarily smaller when $z\to -r$ producing a divergence on the differential forms $(dX,dY)$. This non area conservation is actually expected since the area of the plane is infinite, while the one of the sphere is finite.\\
+Some aspects are remarkable about this transformation, which can be verified with a simple analysis of the equations. The first and most important of it is that this projection does not preserve areas. This is easily recognizable due to the factor $1+z/r$ which gets arbitrarily small when $z\to -r$ producing a divergence on the differential forms $(dX,dY)$. This non-conservation of the area is actually expected since the area of the plane is infinite, while the one of the sphere is finite.\\
 
-The other important aspect of this transformation is that it conserves the azimuthal angle $\phi$ between the coordinates $(x,y)$ or $(X,Y)$, which easily verifiable through the transformation formulas. Certainly, this is valid for all angles formed by three points on the sphere or their respective transformation on the plane. These aspects characterise the transformation as conformal.\\
+The other important aspect of this transformation is that it conserves the azimuthal angle $\phi$ between the coordinates $(x,y)$ or $(X,Y)$, which is verifiable through the transformation equations. In fact, this is valid for all angles formed by three points on the sphere or the plane. These aspects characterise the transformation as conformal.\\
 
-Now, applying the transformation directly in the Hamiltonian formalism is not simple because we do not know well how to apply it to the canonical momenta which keeps information also from the magnetic vector potential. Therefore, we choose to apply it first to the Lagrangian of one particle to then generalize from there to the Hamiltonian formalism.\\
+Now, applying the transformation directly in the Hamiltonian formalism is not simple because we do not know well how to apply it to the canonical momenta, which also keeps information from the magnetic vector potential. Therefore, we choose to apply it first to the Lagrangian of one particle, to generalize from there to the Hamiltonian formalism.\\
 
-The Lagrangian of one particle under the presence of a magnetic monopole, restricted to the sphere, in stereographic coordinates, is given by:
+In stereographic coordinates, the Lagrangian of one particle under the presence of a magnetic monopole, is given by:
 
 \begin{align}
 L &= \frac{m}{2}\roundP{\frac{\dot{X}^2+\dot{Y}^2}{\roundP{\frac{1}{2r^2}\roundP{r^2+X^2+Y^2}}}^2} + \frac{eg}{r^2}\frac{X\dot{Y}-Y\dot{X}}{\frac{1}{2r^2}\roundP{r^2+X^2+Y^2}} \nonumber \\
 &= \frac{m}{2}\roundP{\roundP{\frac{\dot{X}}{K}}^2+\roundP{\frac{\dot{Y}}{K}}^2} + eB\roundP{X\roundP{\frac{\dot{Y}}{K}}-Y\roundP{\frac{\dot{X}}{K}}},
 \end{align}
 
-where we defined $K=\frac{1}{2r^2}\roundP{r^2+X^2+Y^2}$. And conveniently chose the magnetic vector potential in a gauge with shared singular axis with the stereographic projection.\\
+where we defined $K=\frac{1}{2r^2}\roundP{r^2+X^2+Y^2}$. Conveniently, we chose the magnetic vector potential in a gauge with singular axis matching the stereographic projection point.\\
 
-We note then that if we interpret $(\dot{X},\dot{Y})$ as velocities on the plane, some sort of scaled velocities will be given by $(\frac{\dot{X}}{K},\frac{\dot{Y}}{K})$. In these terms, the magnetic field in terms of these new coordinates will be analogue to the one on the plane:
+We note then that if we interpret $(\dot{X},\dot{Y})$ as velocities on the plane, some sort of scaled velocities will be given by $(\frac{\dot{X}}{K},\frac{\dot{Y}}{K})$. In these terms, the magnetic field, in terms of the new coordinates, will be analogue to the one on the planar case:
 
 \begin{align*}
 \vec{V} &= \frac{1}{K}\roundP{\dot{X}\hat{X} + \dot{Y}\hat{Y}} = \frac{1}{K}\begin{pmatrix} \dot{X} \\ \dot{Y}\\0 \end{pmatrix} \\
 \vec{B} &= B\begin{pmatrix} -Y \\ X \\ 0 \end{pmatrix} = \vec{B}\times \vec{R} .
 \end{align*}
 
-The scale term $K$ accounts for the non conservation of the area by the stereographic transformation. Although this problem is very similar to that of the plane, the scale factor is complicated to treat. However, we can note that the scale factor that depends on the distance from the origin of the plane, is always accompanying the time variable. We presume that this can be simplified with a coordinate time transformation in analogy with the time-radius scale symmetry studied in the previous chapter. Further analysis of this transformation is not trivial and would require more time to be studied.\\
+The scale term $K$ accounts for the non-conservation of the area by the stereographic transformation. Although this problem is now very similar to that of the plane, the scale factor is complicated to treat. However, we can note that the scale factor depends on the distance from the origin of the stereographic plane, and is always accompanying the time variable. We presume that this can be simplified with a coordinate-time transformation in analogy with the time-radius scale symmetry studied in the previous chapter. Further analysis of this transformation is not trivial and would require more time to be studied.\\
 
 We conclude this study with some remarks on the Hamiltonian formalism for the stereographic projection:
 
@@ -209,7 +209,7 @@ H &= \frac{m}{2}\roundP{\roundP{\frac{\dot{X}}{K}}^2+\roundP{\frac{\dot{Y}}{K}}^
 &= \frac{1}{2m}\roundP{\roundP{KP_X-eBY}^2+\roundP{KP_Y+eBX}^2}.
 \end{align*}
 
-Once again we find the scale factor in our way. We can ignore it and try to find the linear momentum on the stereographic plane in analogy with the usual case of the plane. We find that with some heavy algebra, we obtain a short expression:
+Once again we find the scale factor in our way. We can ignore it and try to find the linear momentum on the stereographic plane in analogy with the usual case of the plane. We find that, with some heavy algebra, we obtain a short expression:
 
 \begin{align*}
 \pi_X &= KP_X-eBY\\
@@ -223,13 +223,13 @@ However, we do not confide in the stereographic canonical momenta because they c
 \poisson{\pi_X}{\pi_Y} &= -B + \frac{m}{K}\roundP{Y\dot{X}-X\dot{Y}}.
 \end{align*}
 
-We find then that in a regime where $K \gg  m(Y\dot{X}-X\dot{Y})$ which is kind of a comparison between the strength of the magnetic field and the angular momentum of the particle in the stereographic plane. We then find that this is a canonical set of conjugate coordinates. Nevertheless this regime is translated to only one hemisphere or a small region near a pole of the sphere, as in the divergent hemisphere, this angular momentum is scaled and becomes arbitrarily big. This approximation is the same as to take the region of the pole as a plane and is not general enough to study the problem on the sphere.\\
+We find then that in a regime where $B \gg  m\roundP{Y\frac{\dot{X}}{K}-X\frac{\dot{Y}}{K}}$ which is a comparison between the strength of the magnetic field and the scaled angular momentum of the particle in the stereographic plane. We then find that this is a canonical set of conjugate coordinates. Nevertheless, this regime is translated to only one hemisphere or a small region near a pole of the sphere, as in the divergent hemisphere, this angular momentum is scaled and becomes arbitrarily big. This approximation is not trivial and requires deep analysis of the effects of the scale factor on the angular and linear velocities.\\
 
-However, we can note that the scale factor affects specially the pole where we choose the projection point. We can take a gauge and a projection point to coincide with the initial position of the particle, which is constant. In these terms the scale factor $K$ will temporarily equal to 1, and we would obtain, on stereographic projection coordinates, a problem that is at least locally equivalent to that of the plane on chapter 2.\\
+However, we can note that the scale factor affects specially the pole where we choose the projection point. We can take a gauge and a projection point to coincide with the initial position of the particle, which is constant. In these terms, the scale factor $K$ will temporarily equal to 1, and we would obtain, on stereographic coordinates, a problem that is at least locally equivalent to that of the plane on chapter 2.\\
 
-We can use this same trick for each particle on the three body problem, using a different gauge and a different projection point coincident with each initial position. The sphere problem is also locally analogous to the one of the plane in stereographic coordinates. However, this approximation can produce huge errors when particles displace much from their initial position.\\
+We can use this same trick for each particle on the three body problem, using a different gauge and a different projection points associated with each initial position. The sphere problem is also locally analogous to the one of the plane in stereographic coordinates. However, this approximation can produce huge errors when particles displace much from their initial position.\\
 
-At first we started the study of the problem on stereographic coordinates due to its use in the Haldane formalism \cite{haldane}\cite{haldane2}\cite{haldane3}. On some of these works \cite{haldane2}\cite{haldane3}, it is explicitly expressed that the rotational symmetries $SO(3)$ map to those symmetries of $SE(2)$ when the radius of the sphere is big enough:
+At first we started the study of the problem on stereographic coordinates due to its use in the Haldane formalism \cite{haldane,haldane2,haldane3}. On some of these works \cite{haldane2,haldane3}, it is explicitly expressed that the three-dimensional rotational symmetries $SO(3)$ map to the euclidean symmetries on the plane $SE(2)$ when the radius of the sphere is big enough:
 
 \begin{align*}
 L_z &\to rP_z\\
@@ -237,7 +237,7 @@ L_x &\to -rP_y\\
 L_y &\to P_x.
 \end{align*}
 
-However, this mapping is analogous to approximate the sphere to a plane.\\
+However, we consider this mapping a rough approximation of the sphere which is not useful for the purpose of this chapter.\\
 
 
 
