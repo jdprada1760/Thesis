@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  23 JUN 2016 22:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  24 JUN 2016 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -598,9 +598,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
 ]
 ------------------------------------------------------------------------------
- Acknowledgements
+ Resumen
 ------------------------------------------------------------------------------
 [2
+
+]
+------------------------------------------------------------------------------
+ Acknowledgements
+------------------------------------------------------------------------------
+[3
 
 ]
 ------------------------------------------------------------------------------
@@ -619,7 +625,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
- [3
+ [4
 
 
 ]
@@ -643,11 +649,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
 [1
 
 
@@ -663,19 +664,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 
-LaTeX Warning: Citation `cq' on page 2 undefined on input line 15.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-) [2] (./Chapters/Chapter2.tex [3]
+) (./Chapters/Chapter2.tex [2]
 Chapter 2.
 ------------------------------------------------------------------------------
  2 The three body problem in the plane
@@ -695,7 +688,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-[4
+[3
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
@@ -722,12 +715,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-[5]
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
-[6]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
@@ -737,7 +730,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-[7]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
@@ -747,7 +740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
-[8] [9]
+[7] [8]
 Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
@@ -763,7 +756,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
-[10]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
@@ -778,17 +771,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
 
-[11] [12]
+[10] [11]
 Overfull \hbox (17.95895pt too wide) in paragraph at lines 270--270
 [] 
  []
 
-[13]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
  []
 
-[14]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
@@ -803,12 +796,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
-[15]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
 
-[16] [17]
+[15] [16]
 Underfull \hbox (badness 10000) in paragraph at lines 411--412
 
  []
@@ -818,7 +811,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 421--422
 
  []
 
-[18]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 432--433
 
  []
@@ -828,12 +821,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 443--444
 
  []
 
-[19]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 468--469
 
  []
 
-[20]) (./Chapters/Chapter3.tex [21]
+[19]) (./Chapters/Chapter3.tex [20]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Quantum analysis of the three body problem in the plane
@@ -858,7 +851,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-[22
+[21
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
@@ -870,7 +863,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-[23] [24]
+[22] [23]
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
@@ -890,17 +883,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-[25] [26]
+[24] [25]
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
-[27]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-) (./Chapters/Chapter4.tex [28]
+) (./Chapters/Chapter4.tex [27]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 The problem of a charged particle in the magnetic field of a monopole
@@ -910,7 +903,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[29
+[28
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
@@ -927,17 +920,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
-[30]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-[31]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-[32]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
@@ -957,17 +950,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
-[33] [34]
+[32] [33]
 Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
-[35]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
-) (./Chapters/Chapter5.tex [36]
+) (./Chapters/Chapter5.tex [35]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 The three body problem in the sphere
@@ -982,7 +975,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-[37
+[36
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
@@ -994,7 +987,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-[38]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
@@ -1019,7 +1012,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-[39]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
@@ -1039,12 +1032,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-[40]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-[41]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
@@ -1054,12 +1047,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-[42]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-[43]
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
@@ -1074,7 +1067,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
-[44]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
@@ -1089,7 +1082,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
-[45]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
@@ -1099,7 +1092,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-[46]
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
@@ -1109,7 +1102,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
-[47]
+[46]
 Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
@@ -1119,7 +1112,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-) (./Chapters/Chapter6.tex [48]
+) (./Chapters/Chapter6.tex [47]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Conclusions
@@ -1139,7 +1132,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[49
+[48
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
@@ -1161,43 +1154,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-) [50]
-------------------------------------------------------------------------------
- Bibliography
-------------------------------------------------------------------------------
-(./Thesis.bbl
+) (./Thesis.bbl [49]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmti10!
 Missing character: There is no € in font cmti10!
 Missing character: There is no ™ in font cmti10!
- [51
-
+ [50
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
- [52]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
+ [51]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8407EC5DC92F114D59FEB57856A99869;6541.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
+(rerunfilecheck)             Checksum: 02FF4AE6F6A1B44C2D3FFE10BC24E231;6515.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
  ) 
 Here is how much of TeX's memory you used:
- 13208 strings out of 494985
- 187987 string characters out of 6180356
- 266459 words of memory out of 5000000
- 16099 multiletter control sequences out of 15000+600000
+ 13211 strings out of 494985
+ 188016 string characters out of 6180356
+ 266745 words of memory out of 5000000
+ 16103 multiletter control sequences out of 15000+600000
  13709 words of font info for 52 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,19n,45p,1291b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,19n,45p,1291b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -1217,10 +1204,10 @@ t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (56 pages, 368984 bytes).
+Output written on Thesis.pdf (56 pages, 369258 bytes).
 PDF statistics:
- 628 PDF objects out of 1000 (max. 8388607)
- 544 compressed objects within 6 object streams
- 140 named destinations out of 1000 (max. 500000)
+ 631 PDF objects out of 1000 (max. 8388607)
+ 547 compressed objects within 6 object streams
+ 139 named destinations out of 1000 (max. 500000)
  209 words of extra memory for PDF output out of 10000 (max. 10000000)
 

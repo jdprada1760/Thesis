@@ -3,48 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis.aux
 The style file: unsrt.bst
 Database file #1: Bibliography.bib
-Warning--entry type for "alonso" isn't style-file defined
---line 1 of file Bibliography.bib
 Warning--can't use both author and editor fields in haldane3
-You've used 16 entries,
+You've used 15 entries,
             1791 wiz_defined-function locations,
-            562 strings with 6112 characters,
-and the built_in function-call counts, 3136 in all, are:
-= -- 308
-> -- 80
+            559 strings with 6023 characters,
+and the built_in function-call counts, 3138 in all, are:
+= -- 311
+> -- 76
 < -- 2
-+ -- 36
-- -- 20
-* -- 168
-:= -- 503
-add.period$ -- 56
-call.type$ -- 16
-change.case$ -- 14
++ -- 34
+- -- 19
+* -- 184
+:= -- 497
+add.period$ -- 53
+call.type$ -- 15
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 155
-empty$ -- 339
-format.name$ -- 20
-if$ -- 725
+cite$ -- 16
+duplicate$ -- 152
+empty$ -- 338
+format.name$ -- 19
+if$ -- 727
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 20
-newline$ -- 86
-num.names$ -- 16
-pop$ -- 38
+int.to.str$ -- 15
+missing$ -- 21
+newline$ -- 81
+num.names$ -- 15
+pop$ -- 32
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 60
+skip$ -- 55
 stack$ -- 0
-substring$ -- 177
-swap$ -- 27
+substring$ -- 210
+swap$ -- 26
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
 while$ -- 28
-width$ -- 18
-write$ -- 187
-(There were 2 warnings)
+width$ -- 17
+write$ -- 178
+(There was 1 warning)

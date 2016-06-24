@@ -139,10 +139,12 @@
 \newcommand*{\university}[1]{\def\univname{#1}}
 \newcommand*{\UNIVERSITY}[1]{\def\UNIVNAME{#1}}
 \newcommand*{\department}[1]{\def\deptname{#1}}
+\newcommand*{\departamento}[1]{\def\deptnameES{#1}}
 \newcommand*{\DEPARTMENT}[1]{\def\DEPTNAME{#1}}
 \newcommand*{\group}[1]{\def\groupname{#1}}
 \newcommand*{\GROUP}[1]{\def\GROUPNAME{#1}}
 \newcommand*{\faculty}[1]{\def\facname{#1}}
+\newcommand*{\facultad}[1]{\def\facnameES{#1}}
 \newcommand*{\FACULTY}[1]{\def\FACNAME{#1}}
 \newcommand*{\subject}[1]{\def\subjectname{#1}}
 \newcommand*{\keywords}[1]{\def\keywordnames{#1}}
@@ -160,6 +162,9 @@
 \department  {\texorpdfstring{\href{http://fisica.uniandes.edu.co/en/}
                 {Department of Physics}}
                 {Department of Physics}}
+\departamento  {\texorpdfstring{\href{http://fisica.uniandes.edu.co/en/}
+                {Departamento de F\'isica}}
+                {Departamento de F\'isica}}
 \DEPARTMENT  {\texorpdfstring{\href{Department or School Web Site URL Here (include http://fisica.uniandes.edu.co/en/)}
                 {DEPARTMENT OF PHYSICS}}
                 {DEPARTMENT OF PHYSICS}}
@@ -172,6 +177,9 @@
 \faculty     {\texorpdfstring{\href{http://ciencias.uniandes.edu.co/}
                 {Faculty of Sciences}}
                 {Faculty of Sciences}}
+\facultad     {\texorpdfstring{\href{http://ciencias.uniandes.edu.co/}
+                {Facultad de ciencias}}
+                {Facultad de ciencias}}
 \FACULTY     {\texorpdfstring{\href{http://ciencias.uniandes.edu.co/}
                 {FACULTY OF SCIENCES}}
                 {FACULTY OF SCIENCES}}
@@ -257,6 +265,30 @@
     {\normalsize\bf \@title \par}
     \medskip
     {\normalsize by \authornames \par}
+    \bigskip
+  \end{center}
+}
+{
+  \vfil\vfil\vfil\null
+  \cleardoublepage
+}
+\newenvironment{resumen}
+{
+  \btypeout{Resumen}
+  \thispagestyle{empty}
+  \null\vfil
+  \begin{center}
+    \setlength{\parskip}{0pt}
+    {\normalsize \UNIVNAME \par}
+    \bigskip
+    {\huge{\textit{Resumen}} \par}
+    \bigskip
+    {\normalsize \facnameES \par}
+    {\normalsize \deptnameES \par}
+    \bigskip
+    {\normalsize\bf \@title \par}
+    \medskip
+    {\normalsize por \authornames \par}
     \bigskip
   \end{center}
 }

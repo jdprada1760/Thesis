@@ -2,8 +2,9 @@
 
 \bibitem{alonso}
 A.~Botero and F.~Leyvraz.
-\newblock The two-dimensional three-body problem in a strong magnetic field is
-  integrable.
+\newblock The two-dimensional three-body problem in the large magnetic field
+  limit is integrable.
+\newblock {\em Physics Letters A}, 380(27–28):2211 -- 2218, 2016.
 
 \bibitem{introPoincare}
 Henri Poincar\'e.
@@ -25,18 +26,18 @@ Francesco Calogero.
 \newblock Lecture notes in physics. Monographs m66. Springer, 1 edition, 2001.
 \newblock p. 471-493.
 
-\bibitem{schlief}
-A.~Schlief.
-\newblock {\em Estructuras de enredamiento en el efecto Hall cu\'antico
-  fraccionario}.
-\newblock B.s. thesis, Universidad de los Andes, 2013.
-\newblock p. 69-122.
+\bibitem{haldane3}
+Joseph~N. Ginocchio and Wick~C. Haxton.
+\newblock {\em Symmetries in Science VI: From the Rotation Group to Quantum
+  Algebras}, chapter The Fractional Quantum Hall Effect and the Rotation Group,
+  pages 263--273.
+\newblock Springer US, Boston, MA, 1993.
 
-\bibitem{haldane}
-F.~D.~M. Haldane.
-\newblock Fractional quantization of the hall effect: A hierarchy of
-  incompressible quantum fluid states.
-\newblock {\em Physical Review Letters}, 51:605--608, 1983.
+\bibitem{Cq}
+P.~A.~M. Dirac.
+\newblock The fundamental equations of quantum mechanics.
+\newblock {\em Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences}, 109(752):642--653, 1925.
 
 \bibitem{arnold}
 A.~Weinstein V.I.~Arnol'd, K.~Vogtmann.
@@ -49,12 +50,6 @@ J~H Hannay.
   hamiltonian.
 \newblock {\em Journal of Physics A: Mathematical and General}, 18(2):221,
   1985.
-
-\bibitem{Cq}
-P.~A.~M. Dirac.
-\newblock The fundamental equations of quantum mechanics.
-\newblock {\em Proceedings of the Royal Society of London A: Mathematical,
-  Physical and Engineering Sciences}, 109(752):642--653, 1925.
 
 \bibitem{Schwinger}
 Julian Schwinger.
@@ -74,6 +69,12 @@ Henri Poincar\'e.
 \newblock {\em Comptes rendus hebdomadaires de l'Acad\'emie des sciences de
   Paris}, 123:530--533, 1896.
 
+\bibitem{haldane}
+F.~D.~M. Haldane.
+\newblock Fractional quantization of the hall effect: A hierarchy of
+  incompressible quantum fluid states.
+\newblock {\em Physical Review Letters}, 51:605--608, 1983.
+
 \bibitem{vectorPotentials}
 T.~Kawai M.~Ikeda and H.~Yoshida.
 \newblock Magnetic monopole, vector potential and gauge transformation.
@@ -91,12 +92,5 @@ W.~C. Haxton and Daniel~J. Haxton.
 \newblock Composite fermions and the first-landau-level fine structure of the
   fractional quantum hall effect.
 \newblock {\em Phys. Rev. B}, 93:155138, Apr 2016.
-
-\bibitem{haldane3}
-Joseph~N. Ginocchio and Wick~C. Haxton.
-\newblock {\em Symmetries in Science VI: From the Rotation Group to Quantum
-  Algebras}, chapter The Fractional Quantum Hall Effect and the Rotation Group,
-  pages 263--273.
-\newblock Springer US, Boston, MA, 1993.
 
 \end{thebibliography}

@@ -33,7 +33,7 @@
 \frontmatter      % Begin Roman style (i, ii, iii, iv...) page numbering
 
 % Set up the Title Page
-\title  {Three body problem in the spherical geometry}
+\title  {The three-body problem in the spherical geometry}
 \authors  {\texorpdfstring
             {\href{jd.prada1760@uniandes.edu.co}{Jesus David Prada Gonzalez}}
             {Jesus David Prada Gonzalez}
@@ -59,13 +59,21 @@
 % The Abstract Page
 \addtotoc{Abstract}  % Add the "Abstract" page entry to the Contents
 \abstract{
-\addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
-English: In this document an elegant formalism for the study of the planar three-body problem by Botero et al. \cite{alonso} is reproduced with the objective to be mapped to its spherical counterpart. We deduced that a straightforward analogue is not trivial and studied the advantages and flaws of the Cartesian, spherical and stereographic coordinates in terms of feasibility of the aforesaid mapping. We discovered that the most suitable set of coordinates in which a very similar analogue of Botero's formalism can be deduced is the stereographic projection, due to its nature and the obtained results. However, the spherical analogue of the studied planar three-body problem was demonstrated to be not obvious nor simple. We leave the proper study of this map for future work.\\
-
-Espa\~nol: En este documento se reproduce un formalismo elegante para estudiar el problema de tres cuerpos en el plano desarrollado por Botero et al. \cite{alonso}, con el objetivo de traducirlo al caso esf\'erico. Deducimos que un an\'alogo directo no es trivial al intentar esta traducci\'on en coordenadas cartesianas, esf\'ericas y estereogr\'aficas. En cada caso expusimos las ventajas y las falencias de cada sistema de coordenadas en terminos de feasibilidad de esta traducci\'on. Deducimos as\'i que si buscamos un mapeo de dicho formalismo que no cambie mucho su esencia, el mejor candidato es la proyecci\'on estereogr\'afica, dada su naturaleza y los resultados obtenidos. De todas maneras, como el problema demostr\'o no ser obvio ni simple, dejamos el estudio de la apropiada traducci\'on del formalismo como trabajo futuro.
+%\addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
+In this document an insightful formalism for the study of the planar three-body problem by Botero and Leyvraz \cite{alonso} is reproduced with the objective to be mapped to its spherical counterpart. We deduced that a straightforward analogue is not trivial and studied the advantages and flaws of the Cartesian, spherical and stereographic coordinates in terms of feasibility of the aforesaid mapping. We discovered that the most suitable set of coordinates, with which a very similar analogue of Botero's formalism can be deduced, is the stereographic projection, due to its nature and the obtained results. However, the spherical analogue of the studied planar three-body problem was demonstrated to be not obvious nor simple. We leave the proper study of this map for future work.\\
 
 }
+\clearpage  % Abstract ended, start a new page
 
+
+%% ----------------------------------------------------------------
+% The Abstract Page
+\addtotoc{Resumen}  % Add the "Abstract" page entry to the Contents
+\resumen{
+%\addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
+En este documento se reproduce un formalismo para estudiar el problema de tres cuerpos en el plano, desarrollado por Botero y Leyvraz \cite{alonso}, con el objetivo de traducirlo al caso esf\'erico. Deducimos que un an\'alogo directo no es trivial al intentar esta traducci\'on en coordenadas cartesianas, esf\'ericas y estereogr\'aficas. En cada caso expusimos las ventajas y las falencias de cada sistema de coordenadas en t\'eminos de viabilidad de esta traducci\'on. Deducimos que si buscamos un mapeo de dicho formalismo, que no cambie mucho su esencia, el mejor sistema de coordenadas para estudiar el problema es la proyecci\'on estereogr\'afica, dada su naturaleza y los resultados obtenidos. De todas maneras, como el problema demostr\'o no ser obvio ni simple, dejamos el estudio de la apropiada traducci\'on del formalismo como trabajo futuro.
+
+}
 \clearpage  % Abstract ended, start a new page
 
 %% ----------------------------------------------------------------
@@ -76,7 +84,7 @@ Espa\~nol: En este documento se reproduce un formalismo elegante para estudiar e
 \acknowledgements{
 \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
 
-I am grateful with my mother and brother who encouraged me to work hard and cheered me up in difficult moments. I am also very thankful with my advisor Alonso Botero for his patient guidance trough the development of this document and all the things that he taught me. For me, this was truly a very fruitful semester in terms of learning. I express my gratitude to my dad, without whom, my Physics career would not have been possible.\ldots
+I am grateful with my mother and brother who encouraged me to work hard and cheered me up in difficult moments. I am also very thankful with my advisor Alonso Botero for his patient guidance trough the development of this document and all the things that he taught me. For me, this was truly a very fruitful semester in terms of learning. I express my gratitude to my dad, without whom my Physics career would not have been possible.\ldots
 
 }
 \clearpage  % End of the Acknowledgements
@@ -110,9 +118,9 @@ I am grateful with my mother and brother who encouraged me to work hard and chee
 %% ----------------------------------------------------------------
 % Now begin the Appendices, including them as separate files
 
-\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+%\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
 
-\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+%\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
 
 %\input{Appendices/AppendixA}	% Appendix Title
 
@@ -120,8 +128,8 @@ I am grateful with my mother and brother who encouraged me to work hard and chee
 
 %\input{Appendices/AppendixC} % Appendix Title
 
-\addtocontents{toc}{\vspace{2em}}  % Add a gap in the Contents, for aesthetics
-\backmatter
+%\addtocontents{toc}{\vspace{2em}}  % Add a gap in the Contents, for aesthetics
+%\backmatter
 
 %% ----------------------------------------------------------------
 \bibliographystyle{unsrt}  % Use the "unsrtnat" BibTeX style for formatting the Bibliography
